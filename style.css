@@ -473,3 +473,32 @@ dialog > form > button {
 .hint {
   text-align: left;
 }
+
+
+/* ===== 2026-09-06 display area expansion v7 ===== */
+
+/* 説明用ヒントは表示しない */
+.hint {
+  display: none !important;
+}
+
+/* 問題・答えの表示領域を上下に広げる */
+#studyScreen.active {
+  padding-top: max(2px, env(safe-area-inset-top));
+  padding-bottom: max(2px, env(safe-area-inset-bottom));
+}
+
+.study-header {
+  min-height: 34px;
+}
+
+.card {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.action-bar {
+  padding-top: 2px;
+}
