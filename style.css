@@ -545,3 +545,63 @@ dialog > form > button {
     min-height: 50px;
   }
 }
+
+/* ===== 2026-09-06 display area expansion v9 ===== */
+/* ヘッダーと下部ボタンをさらに画面端へ寄せ、本文領域を最大化 */
+#studyScreen.active {
+  padding-top: 0;
+  padding-bottom: 0;
+  grid-template-rows: 20px minmax(0, 1fr) 48px;
+}
+
+.study-header {
+  min-height: 20px;
+  height: 20px;
+  padding: 0;
+  align-items: flex-start;
+}
+
+.progress {
+  line-height: 20px;
+}
+
+.card {
+  margin: 0 auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.action-bar {
+  height: 48px;
+  min-height: 48px;
+  margin: 0 auto;
+  padding: 0;
+  align-self: end;
+}
+
+.icon-button {
+  min-height: 48px;
+  height: 48px;
+}
+
+@media (max-width: 420px) {
+  #studyScreen.active {
+    grid-template-rows: 18px minmax(0, 1fr) 46px;
+  }
+
+  .study-header {
+    min-height: 18px;
+    height: 18px;
+  }
+
+  .progress {
+    line-height: 18px;
+    font-size: 12px;
+  }
+
+  .action-bar,
+  .icon-button {
+    min-height: 46px;
+    height: 46px;
+  }
+}
