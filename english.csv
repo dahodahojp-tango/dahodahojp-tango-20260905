@@ -1,6 +1,55 @@
 ﻿ID,問題,答え
-2,"#2  
-point of contact
+1,"bounty の意味は
+","bounty の意味は、主に次のとおりです。
+
+気前のよさ、寛大さ
+報奨金、懸賞金
+豊富さ、恵み
+
+英語では文脈によって、
+・government bounty なら「奨励金」
+・a bounty on his head なら「彼に懸けられた賞金」
+のようになります。
+
+語源
+bounty は、古フランス語 bounte から来ています。
+さらにさかのぼると、ラテン語 bonus
+（ボヌス、「良い」）に由来します。
+
+流れとしては、だいたい次のような形です。
+
+Latin: bonus（ボヌス）＝良い
+→ Old French: bonte / bounte（ボンテ／ブンテ）＝善良さ、気前のよさ
+→ English: bounty ＝寛大さ、恵み、報奨金
+
+もともとは「よいこと」「善意」「気前のよさ」という意味でした。
+そこから、
+「与えられる恵み」
+「気前よく与えられる金」
+という方向に意味が広がって、
+今の「報奨金」「懸賞金」という意味も生まれました。
+
+同じ語源の英語
+bonus
+bonity
+bon
+bonnie
+good は同語源ではありませんが、意味上は近い語です
+
+特に重要なのは bonus です。
+bonus もラテン語 bonus（ボヌス）から来ています。
+
+覚え方
+bounty は、もともと
+「よいものを気前よく与えること」
+という感覚です。
+そこから
+「恵み」
+「たくさん与えられたもの」
+「報奨金」
+になったと考えると分かりやすいです。
+"
+2,"point of contact
 ","point of contact
 意味
 「連絡窓口」「担当者」「接点」という意味です。
@@ -20,7 +69,7 @@ point はラテン語 pungere プンゲレ 「刺す」が語源です。
 そこから punctum プンクトゥム 「刺した跡、点」が生まれ、英語 point になりました。
 もともとは「先のとがった所」「一点」という感覚です。
 
-of は古英語 of オヴ 「?の、?から」。
+of は古英語 of オヴ 「〜の、〜から」。
 
 contact はラテン語 contingere コンティンゲレ 「触れる、接する」が語源です。
 con- コン 「共に」＋ tangere タンゲレ 「触れる」からできています。
@@ -61,18 +110,15 @@ single point of contact
 という形が非常によく使われます。
 意味は「一本化された窓口」「唯一の担当連絡先」です。
 "
-3,"#3  
-mess with 
+3,"mess with 
 ","mess with は口語表現で「いじる」「干渉する」から転じて「けんかを売る、ちょっかいを出す」の意味です。
 "
-4,"#4  
-address
+4,"address
 attend to 
 ","address a problem ＝ 問題を解決しようとして対処する
 attend to a problem ＝ その問題に注意を向けて対応する
 "
-5,"#5  
-have yet to ～
+5,"have yet to ～
 ","have yet to ～
 
 意味：
@@ -125,13 +171,11 @@ The manager has yet to approve the request.
 誤：
 The manager has yet to approved the request.
 "
-6,"#6  
-at the request of ～
+6,"at the request of ～
 ","at the request of ～ は「～の要請で」「～の依頼により」という意味です。少し硬い表現です。
 
 "
-7,"#7  
-keep A from ～ing
+7,"keep A from ～ing
 ","keep A from ～ing
 
 意味：
@@ -169,7 +213,7 @@ stop は普通。
 keep は「その状態に保つ」「させない状態にしておく」という感じです。
 
 語源：
-keep は古英語 c?pan（ケーパン）「つかむ、保つ、注意する」から来ています。
+keep は古英語 cēpan（ケーパン）「つかむ、保つ、注意する」から来ています。
 from は古英語 fram（フラム）「～から、離れて」。
 keep A from ～ing は「Aを～することから離れた状態に保つ」→「Aが～するのを防ぐ」という意味です。
 
@@ -180,16 +224,13 @@ keeping：保持、管理
 keepsake：記念品
 from：～から、～を離れて
 "
-8,"#8  
-adhere to
-","adhere to は「?に従う」「?を守る」「?にくっつく」という意味です。TOEICでは特に「規則・方針・手順を守る」でよく出ます。
+8,"adhere to
+","adhere to は「〜に従う」「〜を守る」「〜にくっつく」という意味です。TOEICでは特に「規則・方針・手順を守る」でよく出ます。
 "
-9,"#9  
-誘いを断る
+9,"誘いを断る
 ","「誘いを断る」は英語で decline an invitation が一番きれいです。
 "
-10,"#10  
-on the premises
+10,"on the premises
 ","on the premises
 
 意味：
@@ -229,8 +270,7 @@ transmit：送信する
 permit：許可する
 admit：認める、入場を許す
 "
-11,"#11  
-It is selling quickly during this holiday season.
+11,"It is selling quickly during this holiday season.
 ","It is selling quickly during this holiday season.
 
 意味：それはこのホリデーシーズン中、よく売れている／急速に売れている。
@@ -245,8 +285,7 @@ sell は「売る」だけでなく、「売れる」という意味でも使い
 この本はよく売れる。
 
 "
-12,"#12  
-thatの省略
+12,"thatの省略
 ","関係代名詞 that を省略できるのは、that が関係詞節の「目的語」のときです。
 This is the book that I bought.
 この that は bought の目的語です。I bought the book. なので、that は省略可能。
@@ -259,8 +298,7 @@ that が accommodates の主語なので、省略不可です。
 目的語の that は省略できる：the book that I bought → the book I bought
 主語の that は省略できない：a shelf that accommodates them → a shelf accommodates them は不可
 "
-13,"#13  
-It causes minimal traffic problems.
+13,"It causes minimal traffic problems.
 
 このミニマルの代わりにミニマムは使えるか。
 ","普通は使いません。この文では minimal が自然です。
@@ -285,8 +323,7 @@ minimum amount＝最低量
 minimum age＝最低年齢
 この文では minimal が正解です。
 "
-14,"#14  
-fast-paced environment
+14,"fast-paced environment
 ","fast-paced environment
 
 意味：展開が速い職場・状況、忙しくて変化の速い環境。求人やTOEICでよく出ます。
@@ -300,7 +337,7 @@ We are looking for someone who can work in a fast-paced environment.
 変化が速く忙しい職場で働ける人を探しています。
 
 語源：
-fast は古英語 f?st（フェスト）「しっかりした、固定された」から。そこから「速い」の意味も発達しました。
+fast は古英語 fæst（フェスト）「しっかりした、固定された」から。そこから「速い」の意味も発達しました。
 pace はラテン語 passus（パッスス）「歩み、一歩」から、古フランス語 pas（パ）を通じて英語へ。
 environment はフランス語 environ（アンヴィロン）「周囲に」から。en-（アン）「中に」＋ viron（ヴィロン）「回り、円」に関係します。
 
@@ -309,8 +346,7 @@ fast と同系：fasten「固定する」、steadfast「不動の、確固とし
 pace と同系：pass「通る」、passage「通路、通過」、passenger「乗客」
 environment と同系：environ「取り囲む」、environmental「環境の」、environs「周辺地域」
 "
-15,"#15  
-The new albums by Tom Brown were piled on the display table while 〇〇 of his works were placed on the shelves.
+15,"The new albums by Tom Brown were piled on the display table while 〇〇 of his works were placed on the shelves.
 
 a. others
 b. ones 
@@ -342,14 +378,13 @@ all of his works だと「彼の作品すべて」になります。しかし前
 
 覚え方：
 some / others
-あるものは?、他のものは?
+あるものは〜、他のものは〜
 
 例：
 Some products are displayed near the entrance, while others are kept in the storage room.
 いくつかの商品は入口近くに展示されており、一方で他の商品は倉庫に保管されている。
 "
-16,"#16  
-as with（アズ・ウィズ）
+16,"as with（アズ・ウィズ）
 ","意味：
 「～の場合と同様に」「～と同じように」「～についても同様に」
 
@@ -357,8 +392,7 @@ as with（アズ・ウィズ）
 As with A, B ...
 ＝Aの場合と同様に、Bも...
 "
-17,"#17  
-Now that ...
+17,"Now that ...
 ","Now that ...（ナウ・ザット）
 
 意味：
@@ -389,8 +423,7 @@ now that は「今そういう状態になったから」という感じです�
 
 語源：
 "
-18,"#18  
-in that
+18,"in that
 ","in that（イン・ザット）
 
 意味：
@@ -402,8 +435,7 @@ because に少し近いですが、in that は「理由全部」ではなく、�
 This plan is useful in that it saves time.
 この計画は、時間を節約できるという点で有用です。
 "
-19,"#19  
-despite と although
+19,"despite と although
 ","despite と although の違いは、「品詞」と「後ろに来る形」です。
 
 despite（ディスパイト）
@@ -417,31 +449,28 @@ although（オールゾウ）
 後ろ：主語＋動詞の文
 
 "
-20,"#20  
-on behalf of
+20,"on behalf of
 ","on behalf of
 
-意味：?を代表して、?の代理で、?のために。
+意味：〜を代表して、〜の代理で、〜のために。
 
 主な使い方は2つあります。
 
-?を代表して
+〜を代表して
 例：On behalf of the company, I would like to apologize.
 会社を代表して、おわび申し上げます。
-?のために、?の利益のために
+〜のために、〜の利益のために
 例：She spoke on behalf of the children.
 彼女は子どもたちのために発言した。
 
 語源：behalf は、中英語の bihalve / behalf（ビハルヴ／ビハーフ＝側、味方、利益）から来ています。be-（ビ＝近くに、そばに）＋ half（ハーフ＝側、半分）で、「誰かの側に立って」という感じです。
 "
-21,"#21  
-with expertise in ～
+21,"with expertise in ～
 ","with expertise in ～
 
 意味：～に専門知識・専門能力を持つ、～を専門とする
 "
-22,"#22  
-intact
+22,"intact
 ","intact（インタクト）
 
 意味：無傷の、壊れていない、完全なままの、手つかずの。
@@ -462,8 +491,7 @@ contagious「接触でうつる、伝染性の」
 tactile「触覚の」
 tact「機転、如才なさ」
 "
-23,"#23  
-in correspondence with ～
+23,"in correspondence with ～
 ","in correspondence with ～
 
 意味：～と一致して、～に対応して、～と連絡を取り合って
@@ -472,12 +500,10 @@ in correspondence with ～
 correspondence（コレスポンデンス）は correspond（コレスポンド）から来ています。
 correspond はラテン語 correspondere（コレスポンデーレ）＝互いに応答する、対応する、に由来し
 "
-24,"#24  
-strive to + 動詞の原形
+24,"strive to + 動詞の原形
 ","意味：～しようと懸命に努力する、～するよう努める
 "
-25,"#25  
-Given + 名詞
+25,"Given + 名詞
 
 Given that + 文
 ","Given + 名詞
@@ -486,17 +512,15 @@ Given that + 文
 Given that + 文
 意味：～ということを考えると、～であることを前提にすると
 "
-26,"#26  
-other と the other 
+26,"other と the other 
 ","３つ以上、２つ
 "
-27,"#27  
-have yet to + 動詞の原形
+27,"have yet to + 動詞の原形
 ","have yet to + 動詞の原形
 
 意味：
-まだ?していない。
-まだ?するに至っていない。
+まだ〜していない。
+まだ〜するに至っていない。
 
 例：
 We have yet to receive the report.
@@ -539,13 +563,13 @@ have yet to be finalized
 まだ確定されていない
 
 語源：
-yet は古英語 g?et / g?t（イェート）「まだ、これまでに」から来ています。
+yet は古英語 gīet / gēt（イェート）「まだ、これまでに」から来ています。
 
 have yet to do は、
 have「持っている」
 ＋ yet「まだ」
 ＋ to do「すること」
-という形で、「まだこれからすることを残している」→「まだ?していない」という意味になります。
+という形で、「まだこれからすることを残している」→「まだ〜していない」という意味になります。
 
 注意：
 have yet to の後ろは必ず動詞の原形です。
@@ -557,12 +581,10 @@ The manager has yet to approve the request.
 The manager has yet approved the request.
 この形は不可です。
 "
-28,"#28  
-in monthly installments
+28,"in monthly installments
 ","意味：月賦で、毎月分割払いで
 "
-29,"#29  
-inaugural
+29,"inaugural
 ","意味：初の、最初の、就任の、開始を記念する。
 
 in（イン）＝中へ、～に向けて
@@ -577,8 +599,7 @@ inaugural「就任の、初の」
 augur「占う、予兆となる」
 augury「前兆、占い」
 "
-30,"#30  
-in terms of ～
+30,"in terms of ～
 ","in terms of ～
 
 意味：
@@ -635,8 +656,7 @@ interminable：終わりのない
 terminology：専門用語
 midterm：中間の、中間試験
 "
-31,"#31  
-comparable to ～
+31,"comparable to ～
 ","comparable to ～
 
 意味：
@@ -683,8 +703,7 @@ prepare：準備する
 repair：修理する、整える
 separate：分ける
 "
-32,"#32  
-be reliant on
+32,"be reliant on
 ","意味：～に依存している、～を頼りにしている、～に頼っている。
 
 語源：
@@ -702,8 +721,7 @@ ligament「靭帯」
 oblige「義務づける」
 obligation「義務」
 "
-33,"#33  
-online purchase/online purchases
+33,"online purchase/online purchases
 ","冠詞がない場合は、普通は online purchases のように複数形にします。
 
 an online purchase
@@ -715,8 +733,7 @@ the online purchase
 online purchases
 オンライン購入、ネット購入全般
 "
-34,"#34  
-連結動詞 linking verb / copular verb
+34,"連結動詞 linking verb / copular verb
 ","remain, stay, keep, seem, appear, look, sound, feel, become, get, grow, turn, fall, prove
 
 ほかによく出るもの：
@@ -764,8 +781,7 @@ sit idle「何もしないでいる」など。
 
 hold
 "
-35,"#35  
-xmeet with ～
+35,"xmeet with ～
 ","はい。meet with ～ の後ろには基本的に名詞が来ます。
 
 形：
@@ -802,8 +818,7 @@ The proposal met with to oppose.
 The proposal met with opposition.
 その提案は反対に遭った。
 "
-36,"#36  
-The property manager of Murphy Heights apologized that the repainting work on the building's exterior had 〇〇　 apartment residents.
+36,"The property manager of Murphy Heights apologized that the repainting work on the building's exterior had 〇〇　 apartment residents.
 
 a. inconvenience 
 b. inconveniently 
@@ -818,8 +833,7 @@ had + 過去分詞
 had inconvenienced
 迷惑をかけていた正解は d. inconvenienced です。
 "
-37,"#37  
-形容詞句による後置修飾
+37,"形容詞句による後置修飾
 名詞 + 形容詞 + 前置詞 + 名詞
 ","TOEICで特によく出る「名詞 + 形容詞 + 前置詞 + 名詞」は、この10個です。
 
@@ -846,8 +860,7 @@ related to＝～に関係した
 associated with＝～に関連した
 capable of＝～できる能力がある
 "
-38,"#38  
-複合名詞で、TOEICの試験によく出るやつを、前の名詞だけ挙げて、一覧を書け。
+38,"複合名詞で、TOEICの試験によく出るやつを、前の名詞だけ挙げて、一覧を書け。
 ","TOEICで特に出やすい複合名詞だけに絞ると、まずこの20個です。
 
 customer service＝顧客サービス
@@ -873,8 +886,7 @@ maintenance schedule＝保守日程
 
 覚えるポイント：前の名詞は基本的に単数形です。customer service、sales representative、office supplies のように使います。
 "
-39,"#39  
-deem
+39,"deem
 ","意味：～だと考える、～だと見なす、判断する。やや硬い表現で、法律・規則・ビジネス文書・TOEICでよく出ます。
 
 形：
@@ -887,8 +899,7 @@ AをBであると見なす
 be deemed + 形容詞 / 名詞
 ～と見なされる
 "
-40,"#40  
-「副詞 + 副詞」の形はTOEICでもよく出ます。前の副詞が、後ろの副詞を強めたり、程度を説明したりします。
+40,"「副詞 + 副詞」の形はTOEICでもよく出ます。前の副詞が、後ろの副詞を強めたり、程度を説明したりします。
 
 基本形：
 副詞 + 副詞
@@ -916,8 +927,7 @@ entirely separately
 fully automatically
 mostly remotely
 "
-41,"#41  
-Disappointingly, few of the customers  〇〇 showed interest in the proposed furniture rental service.
+41,"Disappointingly, few of the customers  〇〇 showed interest in the proposed furniture rental service.
 
 a. survey 
 b. surveys 
@@ -929,8 +939,7 @@ d. surveyed
 注意点：
 複合名詞では、前の名詞は普通単数形です。だから customers survey ではなく、customer survey が普通です。
 "
-42,"#42  
-The presentation of the major photography awards 〇〇 the speeches by the past winners.
+42,"The presentation of the major photography awards 〇〇 the speeches by the past winners.
 
 A. have followed
 B. following
@@ -951,8 +960,7 @@ The award presentation has followed the speeches.
 
 
 "
-43,"#43  
-The outstanding sales results achieved by TJ Electronics 〇〇 to collaborative efforts of the marketing team.
+43,"The outstanding sales results achieved by TJ Electronics 〇〇 to collaborative efforts of the marketing team.
 
 A. attributed 
 B. have attributed 
@@ -977,8 +985,7 @@ AをBに帰する
 AはBが原因だと考える
 AはBのおかげだとする
 "
-44,"#44  
-It is + 形容詞 + that + 主語 + 動詞の原形
+44,"It is + 形容詞 + that + 主語 + 動詞の原形
 
 これは文法的には「仮定法現在」または「mandative subjunctive」と呼ばれる形です。形は次です。
 ","TOEICでは特に、
@@ -989,8 +996,7 @@ It is recommended that ～ be updated
 It is important that ～ be reviewed
 あたりがよく出ます。覚えるなら「必要・重要・提案・要求系の形容詞 + that節では、動詞は原形。受け身は be + 過去分詞」です。
 "
-45,"#45  
-A new remuneration system was initiated last year, 〇〇 in striking improvement in employee morale.
+45,"A new remuneration system was initiated last year, 〇〇 in striking improvement in employee morale.
 
 a. resulted, 
 b. resulting, 
@@ -1005,8 +1011,7 @@ C has resulted も不可。これも主語がありません。which has resulte
 
 D will result も不可。これも主語がありません。さらに「昨年導入され、これから結果をもたらす」という意味なら文脈次第で可能ですが、この文では in striking improvement とすでに結果を述べているので不自然です。
 "
-46,"#46  
-Orders for office stationery 〇〇 after the Accounting Department has received a copy of the purchase requisition form.
+46,"Orders for office stationery 〇〇 after the Accounting Department has received a copy of the purchase requisition form.
 
 a. were placed, 
 b. placed, 
@@ -1024,8 +1029,7 @@ B. placed
 D. have placed
 能動形。「注文が何かを出した」となり不自然。正しくは have been placed なら受け身。
 "
-47,"#47  
-All residents are cordially invited to attend the forthcoming meeting of the Ravenford Neighborhood Association, which 〇〇 on April 17th.
+47,"All residents are cordially invited to attend the forthcoming meeting of the Ravenford Neighborhood Association, which 〇〇 on April 17th.
 
 a) was held. 
 b) will be holding. 
@@ -1048,8 +1052,7 @@ forthcoming = これから来る、今度の
 meeting は「開催される」側なので、受け身 be held が必要。
 予定表現として is to be held が合う。
 "
-48,"#48  
-Not until last week had Ms. Witz 〇〇  that the firm was relocating to the outskirts of the city.
+48,"Not until last week had Ms. Witz 〇〇  that the firm was relocating to the outskirts of the city.
 
 a. realizing
 b. realized
@@ -1065,8 +1068,7 @@ Not until last week had Ms. Witz realized that ...
 
 つまり、had + 主語 + 過去分詞 の形になります。だから realized が正しいです。
 "
-49,"#49  
-The architect from Maxwell Design is expected to bring a scale model to the meeting to show how the proposed shopping mall 〇〇.
+49,"The architect from Maxwell Design is expected to bring a scale model to the meeting to show how the proposed shopping mall 〇〇.
 
 a. would look
 b. was looked
@@ -1083,16 +1085,14 @@ c. to look
 d. will be looked
 不可。受け身で不自然。look at なら be looked at「見られる」は可能だが、この文では「見える」という意味なので不可。
 "
-50,"#50  
-The highly anticipated documentary The Winner was finally released last weekend, 〇〇 delighted many film enthusiasts.
+50,"The highly anticipated documentary The Winner was finally released last weekend, 〇〇 delighted many film enthusiasts.
 
  a. which, b. when, c. what, d. who
 ","正解は a. which です。
 
 この文型のパターンも覚えること。
 "
-51,"#51  
-The affordability of the product offered by TechMart is 〇〇 appealed to customers most.
+51,"The affordability of the product offered by TechMart is 〇〇 appealed to customers most.
 
 A. what
 B. that
@@ -1115,8 +1115,7 @@ C. which は不可。which appealed to customers most だけでも疑問節の�
 
 D. who は人を表すので不可です。
 "
-52,"#52  
-Although winners of the annual drawing are notified by mail, many people failed to claim prizes to 〇〇 they are entitled.
+52,"Although winners of the annual drawing are notified by mail, many people failed to claim prizes to 〇〇 they are entitled.
 
 A. how
 B. what
@@ -1130,8 +1129,7 @@ D. that
 前置詞 + which はOKです。
 前置詞 + that は不可です。
 "
-53,"#53  
-The course curriculum was designed by professors from various colleges, each of 〇〇 provided a unique perspective on language acquisition.
+53,"The course curriculum was designed by professors from various colleges, each of 〇〇 provided a unique perspective on language acquisition.
 
 A. that 
 B. who 
@@ -1156,8 +1154,7 @@ The company released three products, each of which has new features.
 注意：
 each of who は不可です。前置詞 of の後ろなので、目的格 whom を使います。口語では who を使う人もいますが、TOEICでは each of whom が正解です。
 "
-54,"#54  
-thus far
+54,"thus far
 ","thus far
 
 意味：
@@ -1180,7 +1177,7 @@ thus far
 これまでのところ。ややフォーマル。
 
 語源：
-thus は古英語 ?us（スース）「このように、こうして」から来ています。
+thus は古英語 þus（スース）「このように、こうして」から来ています。
 far は古英語 feorr（フェオル）「遠くに、遠い」から来ています。
 
 thus far は直訳すると「このように遠くまで」→「ここまでのところ」→「これまでのところ」という意味です。
@@ -1194,8 +1191,7 @@ so far：これまでのところ
 faraway：遠く離れた
 far-reaching：広範囲に及ぶ
 "
-55,"#55  
-We are particularly interested in other options, such as opinions about our customer service, but 〇〇feedback is welcome as well.
+55,"We are particularly interested in other options, such as opinions about our customer service, but 〇〇feedback is welcome as well.
 
 a. another, 
 b. these, 
@@ -1210,8 +1206,7 @@ b. these feedback は不可。these は複数名詞につく。these comments �
 c. each feedback は不可。each は単数可算名詞につく。each piece of feedback なら可。
 d. other feedback が正しい。「その他のフィードバック」という意味で、不可算名詞にも使える。
 "
-56,"#56  
-during の後ろには普通、動名詞 doing は置きません。
+56,"during の後ろには普通、動名詞 doing は置きません。
 
 during は前置詞ですが、後ろには「名詞」または「名詞句」を置きます。
 ","不自然・不可：
@@ -1223,13 +1218,11 @@ during discussing the issue
 while discussing the issue
 その問題を議論している間に
 "
-57,"#57  
-among + 最上級 + 複数名詞、という形はあります。
+57,"among + 最上級 + 複数名詞、という形はあります。
 ","= one of the most + 複数名詞
 = 最も～なものの一つ、～の中でも特に～なものの一つ
 "
-58,"#58  
-〇〇 a few technical problems experienced on the first day of the exposition, the event went rather smoothly.
+58,"〇〇 a few technical problems experienced on the first day of the exposition, the event went rather smoothly.
 
 a. however, 
 b. apart from, 
@@ -1253,8 +1246,7 @@ d. so as to は「～するために」で、後ろに動詞の原形が必要�
 正：so as to avoid a few technical problems
 
 "
-59,"#59  
-Warehouse personnel at Jetson Freight are urged to exercise extreme caution 〇〇 packaging glass products.
+59,"Warehouse personnel at Jetson Freight are urged to exercise extreme caution 〇〇 packaging glass products.
 
 A and 
 B because 
@@ -1273,8 +1265,7 @@ B. because は because packaging... だけでは不自然です。because they a
 
 D. in order to は後ろに動詞の原形が必要です。in order to package なら形は可能ですが、「梱包するために注意する」となり、ここでは意味がずれます。packaging とはつながりません。
 "
-60,"#60  
-〇〇 the proximity to the office, Shapier is the logical choice for the year-end and reception.
+60,"〇〇 the proximity to the office, Shapier is the logical choice for the year-end and reception.
 
 A、including、
 B、given、
@@ -1289,8 +1280,7 @@ given the proximity to the office
 = オフィスへの近さを考えると
 
 "
-61,"#61  
-as though
+61,"as though
 ","as though ＝ as if で、「まるで～のように」という意味です。
 
 例：
@@ -1300,8 +1290,7 @@ He looked as though he was tired.
 
 違いは小さいですが、as if の方が日常的でよく使われます。as though は少し硬め、文語的に感じることがあります。
 "
-62,"#62  
-whether X or Y
+62,"whether X or Y
 ","whether X or Y は「XであろうとYであろうと」「XかYかにかかわらず」という意味です。
 
 例：
@@ -1309,8 +1298,7 @@ Whether rain or shine, the event will be held.
 
 はい、whether は接続詞です。意味は「～かどうか」「～であろうと」です。
 "
-63,"#63  
-as with
+63,"as with
 ","as with は「～と同様に」「～の場合と同じように」という意味です。
 
 形：
@@ -1329,8 +1317,7 @@ This device is the same as the previous model.
 
 
 "
-64,"#64  
-As stipulated in the employee handbook, the office staff may not enter laboratories unless permitted to do so by their respective supervisors.
+64,"As stipulated in the employee handbook, the office staff may not enter laboratories unless permitted to do so by their respective supervisors.
 
 この場合のunlessは、接続詞か?
 ","unless permitted は「unless + 過去分詞」の省略形です。
@@ -1350,8 +1337,7 @@ unless otherwise stated
 = unless it is otherwise stated
 別段の記載がない限り
 "
-65,"#65  
-〇〇 the 5% increase in the admission charge, visitors of Glendale Center Arts remained satisfied with the theater.
+65,"〇〇 the 5% increase in the admission charge, visitors of Glendale Center Arts remained satisfied with the theater.
 
 a. nevertheless 
 b. while 
@@ -1375,8 +1361,7 @@ d. inasmuch as は接続詞。「～なので」「～の限りでは」。後�
 
 
 "
-66,"#66  
-〇〇  the effort to reduce electricity consumption, the company has replaced all the light bulbs with more energy-efficient ones.
+66,"〇〇  the effort to reduce electricity consumption, the company has replaced all the light bulbs with more energy-efficient ones.
 
 A、in keeping with 
 B、on behalf of 
@@ -1394,8 +1379,7 @@ D. along with ～ ＝「～と一緒に」「～に加えて」
 → 「取り組みと一緒に会社が交換した」では意味が不自然。
 
 "
-67,"#67  
-all the venues for this year's comedy festival have been selected, the marketing team can start to produce promotional materials.
+67,"all the venues for this year's comedy festival have been selected, the marketing team can start to produce promotional materials.
 
 A. Now that 
 B. Of 
@@ -1406,8 +1390,7 @@ D. Besides.
 Now that ～ は接続詞的に使い、「今や～なので」「～した以上は」という意味です。理由・前提を表します。
 
 "
-68,"#68  
-〇〇 the Frampton Museum of History suspended its online ticketing service left many of its patrons disgruntled.
+68,"〇〇 the Frampton Museum of History suspended its online ticketing service left many of its patrons disgruntled.
 
 a weather 
 b because 
@@ -1436,8 +1419,7 @@ b. because は副詞節を作りますが、because節だけでは文の主語�
 d. indeed は副詞「実際に」で、文頭に置いても主語を作れません。
 
 "
-69,"#69  
-After Mr. Sharma mediated the stalled negotiations, the parties in the labor dispute reached a 〇〇 beneficial agreement. 
+69,"After Mr. Sharma mediated the stalled negotiations, the parties in the labor dispute reached a 〇〇 beneficial agreement. 
 
 A. Preferably 
 B. Respectively 
@@ -1453,8 +1435,7 @@ D. Numerically
 mutually beneficial agreement は決まり表現で、「双方に有益な合意」「互恵的な合意」という意味です。
 
 "
-70,"#70  
-assume
+70,"assume
 ","assume
 
 意味：1. 仮定する、当然そうだと思う。例：I assume he is busy.＝彼は忙しいのだと思う。2. 引き受ける、負う。例：assume responsibility＝責任を負う。3. ある態度・役割・表情を取る。例：assume office＝就任する。
@@ -1473,8 +1454,7 @@ assumption＝仮定、思い込み
 presumption＝推定、思い上がり
 sumptuous＝豪華な
 "
-71,"#71  
-preliminary
+71,"preliminary
 ","preliminary
 
 意味：予備の、準備段階の、仮の、本格的なものの前の。名詞では「予選、予備試験、準備段階」という意味もあります。
@@ -1497,8 +1477,7 @@ limit＝限界
 eliminate＝取り除く
 subliminal＝潜在意識の、意識のしきい下の
 "
-72,"#72  
-advise against doing
+72,"advise against doing
 ","advise against doing は「～しないように忠告する」「～するのはやめた方がよいと勧める」という意味です。
 
 形：
@@ -1512,8 +1491,7 @@ discourage someone from doing
 dissuade someone from doing
 talk someone out of doing
 "
-73,"#73  
-provisions
+73,"provisions
 ","provisions
 
 意味：1. 規定、条項、取り決め。契約書・法律・規則などの中の「定め」。例：under the provisions of the contract＝契約の規定に基づいて。2. 供給品、食料、備蓄品。旅行・災害・軍隊などで使う「必要物資」。
@@ -1537,8 +1515,7 @@ visible＝見える
 video＝映像
 evidence＝証拠
 "
-74,"#74  
-副詞＋副詞＋形容詞の例：
+74,"副詞＋副詞＋形容詞の例：
 ","副詞＋副詞＋形容詞の例：
 
 considerably more comfortable
@@ -1599,8 +1576,7 @@ slightly more 形容詞
 
 です。意味は全部、「どのくらい more なのか」を前の副詞が説明しています。
 "
-75,"#75  
-Construction of Havertown Sports Arena is nearly complete, and it is 〇〇 to open at the beginning of November.
+75,"Construction of Havertown Sports Arena is nearly complete, and it is 〇〇 to open at the beginning of November.
 
 a. dedicated 
 b. slated 
@@ -1616,8 +1592,7 @@ slated to do は「～する予定である」「～することになってい�
 slate は古フランス語 esclate（エスクラート）「割れた破片、薄い板」に由来し、さらに古ゲルマン系の「割る、裂く」に関係するとされます。もともとは「薄く割れる石板」の意味でした。昔は石板に予定や名前を書いたので、そこから「予定表」「候補者名簿」、さらに be slated to do「～する予定である」という意味になりました。
 
 "
-76,"#76  
-The board of directors at South Fork Manufacturing has enthusiastically 〇〇 a plan to construct a production facility in Thailand.
+76,"The board of directors at South Fork Manufacturing has enthusiastically 〇〇 a plan to construct a production facility in Thailand.
 
 A. Endorsed 
 B. Comprised 
@@ -1644,8 +1619,7 @@ endorsement（エンドースメント）＝支持、推薦、承認、裏書き
 endorser（エンドーサー）＝支持者、推薦者、裏書人
 
 "
-77,"#77  
-readily
+77,"readily
 
 ","readily
 
@@ -1672,12 +1646,12 @@ She readily agreed to help.
 語源：
 readily は ready + -ly です。
 
-ready は古英語 r?de（レーデ）「用意ができた、準備された」から来ています。
--ly は古英語 -lice（リチェ）「?のように」という副詞を作る語尾です。
+ready は古英語 ræde（レーデ）「用意ができた、準備された」から来ています。
+-ly は古英語 -lice（リチェ）「〜のように」という副詞を作る語尾です。
 
 つまり、
 ready「準備ができた」
-＋ -ly「?のように」
+＋ -ly「〜のように」
 ＝ readily「準備ができている状態で」→「すぐに、容易に、快く」
 
 同じ語源の英語：
@@ -1695,8 +1669,7 @@ readily understood
 すぐに理解される
 の形で覚えるとよいです。
 "
-78,"#78  
-address
+78,"address
 ","address（アドレス）は、動詞では主に次の意味があります。
 
 対処する、取り組む
@@ -1725,8 +1698,7 @@ erect（直立した）
 rectangle（長方形）
 right（まっすぐな、正しい）※遠い関連語です。
 "
-79,"#79  
-improbable
+79,"improbable
 ","improbable
 
 意味：ありそうにない、起こりそうにない、見込みが薄い。TOEICでは「It is improbable that ～」で「～である可能性は低い」という形でよく出ます。
@@ -1749,8 +1721,7 @@ proof＝証拠
 approve＝承認する
 disapprove＝承認しない、反対する
 "
-80,"#80  
-adhere to X
+80,"adhere to X
 ","adhere to X は「Xを守る」「Xに従う」「Xに固執する」「Xにくっつく」という意味です。
 
 TOEICで多い意味：
@@ -1760,8 +1731,7 @@ adhere to rules
 adhere to guidelines
 指針に従う
 "
-81,"#81  
-pertain to X
+81,"pertain to X
 ","pertain to X は「Xに関係する」「Xに属する」「Xに該当する」という意味です。
 
 TOEICで多い形：
@@ -1774,8 +1744,7 @@ rules pertaining to employee conduct
 information pertaining to the project
 そのプロジェクトに関する情報
 "
-82,"#82  
-be held responsible for X
+82,"be held responsible for X
 be held liable for X
 be held accountable for X
 ","be held responsible for X
@@ -1790,8 +1759,7 @@ be held accountable for X
 ＝Xについて説明責任・結果責任を負う
 
 "
-83,"#83  
-rigorously
+83,"rigorously
 inadvertently
 correspondingly
 expressly
@@ -1820,12 +1788,11 @@ expressly（イクスプレスリー）
 語源：express はラテン語 ex-（エクス、「外へ」）＋ premere（プレメレ、「押す」）から。元は「押し出す」→「言葉や形にして外へ出す」→「表現する、明示する」。同じ語源：express「表現する、明示する」、expression「表現」、press「押す」、pressure「圧力」、impress「印象づける」、suppress「抑える」、compress「圧縮する」。
 
 "
-84,"#84  
-for the duration of
+84,"for the duration of
 ","for the duration of
 
 意味：
-「?の間ずっと」「?の期間中」
+「〜の間ずっと」「〜の期間中」
 
 例：
 for the duration of the meeting
@@ -1845,23 +1812,21 @@ Please keep your phone turned off for the duration of the flight.
 duration は、ラテン語 durare（ドゥラーレ）「続く、持続する」から来ています。durare は durus（ドゥールス）「硬い、堅い」に由来し、「硬く保たれる」→「長く続く」という意味になりました。
 
 同じ語源の英語：
-during：?の間
+during：〜の間
 durable：耐久性のある
 endure：耐える、持続する
 endurance：忍耐、持久力
 duration：継続期間
 durability：耐久性
 "
-85,"#85  
-業者が出す正式な見積書・見積り額
+85,"業者が出す正式な見積書・見積り額
 ","quotation / quote：業者が出す正式な見積書・見積り額
 例：We received a quote for $5,000.
 5,000ドルの見積りを受け取りました。
 
 TOEICでは、estimate は「見積り額」「見積もる」の両方でよく出ます。業者からの正式な金額なら quote / quotation、一般的な予想額なら estimate / estimated cost が自然です。
 "
-86,"#86  
-Grand Garufia's, the nation's leading company in electronics, has cut spending 〇〇 the board by 5%.
+86,"Grand Garufia's, the nation's leading company in electronics, has cut spending 〇〇 the board by 5%.
 
 A. across 
 B. from 
@@ -1875,8 +1840,7 @@ Grand Garufia'sは、国内有数の電子機器会社で、全体的に支出�
 across the board は熟語で、「全面的に」「全体にわたって」という意味です。
 
 "
-87,"#87  
-Should any questions regarding the product 〇〇, please contact customer service at 123.
+87,"Should any questions regarding the product 〇〇, please contact customer service at 123.
 
 a. arises 
 b. arise 
@@ -1898,8 +1862,7 @@ Should any questions regarding the product arise, please contact customer servic
 
 arise は「発生する、生じる」という意味の自動詞です。ここでは questions が主語なので、「質問が生じる」という意味です。
 "
-88,"#88  
-This confidential database may be accessed and used 〇〇 you comply with all terms and conditions listed below.
+88,"This confidential database may be accessed and used 〇〇 you comply with all terms and conditions listed below.
 
 a) so that, 
 b) provided that, 
@@ -1931,8 +1894,7 @@ d) due to：～が原因で
 may be accessed and used provided that you comply...
 = 規約を守ることを条件として、アクセス・使用できる。
 "
-89,"#89  
-proceeds
+89,"proceeds
 ","proceeds
 
 意味：
@@ -1978,8 +1940,7 @@ exceed：超える
 concede：譲歩する
 access：接近、利用権
 "
-90,"#90  
-waive と exempt の違い：
+90,"waive と exempt の違い：
 ","waive は「本来は請求・適用できるが、あえて放棄する」。
 exempt は「規則・義務などの対象外にする／対象外である」。
 
@@ -1991,8 +1952,7 @@ waiver：権利放棄、免除
 waive：放棄する、免除する
 waived：放棄された、免除された
 "
-91,"#91  
-endorse
+91,"endorse
 ","endorse
 
 意味：支持する、承認する、推薦する。文書・小切手などに「裏書きする」という意味もあります。
@@ -2018,8 +1978,7 @@ dorsum：背、背面
 endorsement：支持、承認、推薦、裏書き
 endorser：推薦者、裏書人
 "
-92,"#92  
-whereas
+92,"whereas
 ","whereas
 
 意味：一方で、ところが、～であるのに対して。2つの事柄を対比するときに使う接続詞です。
@@ -2044,8 +2003,7 @@ whereas は接続詞なので、後ろには主語＋動詞が来ます。
 正：whereas the second model is affordable
 誤：whereas affordable
 "
-93,"#93  
-be adaptable for
+93,"be adaptable for
 ","be adaptable for ～
 
 意味：
@@ -2094,8 +2052,7 @@ apt：適した、～しがちな
 aptitude：適性、才能
 aptly：適切に
 "
-94,"#94  
-credentials
+94,"credentials
 ","credentials
 
 意味：
@@ -2144,8 +2101,7 @@ incredible：信じられない
 accredit：認定する
 credentials：資格証明、認証情報
 "
-95,"#95  
-Resort areas in Los Angeles are popular holiday destinations,  〇〇 in tourists from all over the world.
+95,"Resort areas in Los Angeles are popular holiday destinations,  〇〇 in tourists from all over the world.
 
 A. abundance
 B. abundant
@@ -2153,8 +2109,7 @@ C. abound
 D. abounds
 ","この文には述語動詞がないので、空所には動詞が必要です。動詞である C と D のうち、主語の Resort areas in Los Angeles は複数形なので、C の abound を選びます。abound in ～ は「～であふれている」という意味です。
 "
-96,"#96  
-元に戻った、以前の状態に戻された
+96,"元に戻った、以前の状態に戻された
 
 嫌がっている、反対している、気が進まない。
 
@@ -2167,8 +2122,7 @@ averse
 be averse to ～
 ＝～を嫌がる、～に反対である、～する気がない
 "
-97,"#97  
-booking access
+97,"booking access
 ","booking access
 
 これは文脈によりますが、そのままなら「予約へのアクセス」「予約機能へのアクセス」「予約できる権限」という意味です。
@@ -2209,9 +2163,9 @@ priority booking access
 優先予約権
 
 語源：
-booking は book から来ています。book は古英語 b?c（ボーク）「本、書物」。昔は予約や記録を帳簿に書き込んだため、book が「予約する」という動詞になりました。
+booking は book から来ています。book は古英語 bōc（ボーク）「本、書物」。昔は予約や記録を帳簿に書き込んだため、book が「予約する」という動詞になりました。
 
-access はラテン語 accessus（アクセッスス）「近づくこと」から来ています。元は accedere（アッケーデレ）「近づく」。ad-（アド）「?へ」＋ cedere（ケーデレ）「行く、進む」です。
+access はラテン語 accessus（アクセッスス）「近づくこと」から来ています。元は accedere（アッケーデレ）「近づく」。ad-（アド）「〜へ」＋ cedere（ケーデレ）「行く、進む」です。
 
 同じ語源の英語：
 book：本、予約する
@@ -2225,8 +2179,7 @@ proceed：進む
 precede：先行する
 exceed：超える
 "
-98,"#98  
-affluent
+98,"affluent
 ","affluent
 
 意味：
@@ -2249,8 +2202,8 @@ The company targets affluent consumers.
 その会社は富裕層の消費者を対象にしている。
 
 語源：
-affluent はラテン語 affluere（アッフルエレ）「?へ流れ込む」から来ています。
-ad-（アド）「?へ」＋ fluere（フルエレ）「流れる」です。
+affluent はラテン語 affluere（アッフルエレ）「〜へ流れ込む」から来ています。
+ad-（アド）「〜へ」＋ fluere（フルエレ）「流れる」です。
 
 もともとは「水や物が豊かに流れ込む」→「富が流れ込む」→「裕福な、豊かな」という意味になりました。
 
@@ -2264,8 +2217,7 @@ effluent：排水、流出物
 superfluous：余分な
 fluency：流暢さ
 "
-99,"#99  
-in case 
+99,"in case 
 ","はい、in case は「～するといけないから」「万一～の場合に備えて」という意味で使えます。
 
 例：
@@ -2288,8 +2240,7 @@ Take an umbrella in case it rains.
 雨が降るといけないから傘を持っていきなさい。
 → 雨が降る前から備えて持つ。
 "
-100,"#100  
-comply
+100,"comply
 ","comply
 
 意味：従う、応じる、守る。
@@ -2327,8 +2278,7 @@ replete：満ちた
 plenty：たくさん
 plenary：全員出席の、完全な
 "
-101,"#101  
-For decades, Lococo Ada has been dependent on foreign factories to manufacture its petroleum products.
+101,"For decades, Lococo Ada has been dependent on foreign factories to manufacture its petroleum products.
 
 A. dependent
 B. depend
@@ -2356,12 +2306,11 @@ D. dependence
 foreign factory は、普通は foreign factories と複数形にするのが自然です。
 to manufacturer は誤りで、正しくは to manufacture です。
 "
-102,"#102  
-deem
+102,"deem
 ","deem
 
 意味：
-?だと考える、?だと判断する、?とみなす。
+〜だと考える、〜だと判断する、〜とみなす。
 
 普通の think よりも、かなり硬い表現です。法律・規則・会社文書・公式説明でよく出ます。
 
@@ -2383,14 +2332,14 @@ The committee deemed the plan feasible.
 委員会はその計画を実行可能だと判断した。
 
 be deemed + 形容詞 / 名詞
-?とみなされる
+〜とみなされる
 
 This information is deemed confidential.
 この情報は機密とみなされます。
 
 語源：
-deem は古英語 d?man（デーマン）「判断する、裁く」から来ています。
-さらに d?m（ドーム）「判断、判決、運命」に関係します。
+deem は古英語 dēman（デーマン）「判断する、裁く」から来ています。
+さらに dōm（ドーム）「判断、判決、運命」に関係します。
 
 同じ語源の英語：
 doom：破滅、運命、判決を下す
@@ -2399,8 +2348,7 @@ deem：判断する、みなす
 
 TOEICでは、deem は「公式に判断する」「みなす」という意味で、受け身の be deemed が特に出やすいです。
 "
-103,"#103  
-wrap up
+103,"wrap up
 ","wrap up
 
 意味：
@@ -2436,8 +2384,7 @@ unwrap：包みを開ける
 wraparound：巻き付く形の
 wrap-up：まとめ、総括、締めくくり
 "
-104,"#104  
-artifact / artefact 
+104,"artifact / artefact 
 ","artifact / artefact
 
 意味：
@@ -2491,8 +2438,7 @@ benefactor：恩人
 effect：効果
 defect：欠陥
 "
-105,"#105  
-affiliation　★
+105,"affiliation　★
 affiliated
 affiliate ★
 affiliating
@@ -2507,8 +2453,7 @@ affiliating：affiliate の現在分詞・動名詞。「提携しているこ�
 
 語源：affiliate はラテン語 affiliare（アッフィリアーレ）＝養子にする、子として迎える、に由来します。ad-（アド）＝～へ、filius（フィリウス）＝息子。つまり元は「子として結びつける」から「所属させる、提携させる」の意味になりました。同語源：filial＝子の、filiate＝親子関係を定める、filiation＝親子関係・由来。
 "
-106,"#106  
-The revenue office will thoroughly inquire 〇〇 the company's financial dealings of the previous year.
+106,"The revenue office will thoroughly inquire 〇〇 the company's financial dealings of the previous year.
 
 A. of
 B. for
@@ -2539,52 +2484,51 @@ C. inquire into ～
 
 D. inquire from は普通この文では使いません。
 "
-107,"#107  
-TOEICでintoを後ろに取る動詞
+107,"TOEICでintoを後ろに取る動詞
 ","TOEICで「動詞 + into」がよく出る形は、主に「変化」「入る」「調査」「分割」「説得」の5系統です。
 
 turn into
-?に変わる
+〜に変わる
 The old factory was turned into a museum.
 その古い工場は博物館に変えられた。
 
 change into
-?に変わる、着替える
+〜に変わる、着替える
 The room was changed into a conference area.
 その部屋は会議スペースに変えられた。
 
 convert into
-?に変換する
+〜に変換する
 The warehouse was converted into offices.
 倉庫はオフィスに改装された。
 
 transform into
-?に変える、?に変わる
+〜に変える、〜に変わる
 The project transformed into a major success.
 そのプロジェクトは大成功に変わった。
 
 develop into
-?に発展する
+〜に発展する
 The small event developed into an annual festival.
 その小さなイベントは年中行事へ発展した。
 
 grow into
-?に成長する
+〜に成長する
 The company grew into a global brand.
 その会社は世界的ブランドに成長した。
 
 look into
-?を調査する
+〜を調査する
 We will look into the matter.
 その件を調査します。
 
 go into
-?に入る、詳しく述べる
+〜に入る、詳しく述べる
 The report goes into detail about the problem.
 その報告書はその問題を詳しく説明している。
 
 get into
-?に入る、?の状態になる
+〜に入る、〜の状態になる
 Please get into the vehicle.
 車に乗ってください。
 
@@ -2594,12 +2538,12 @@ The two companies entered into an agreement.
 その2社は契約を結んだ。
 
 divide into
-?に分ける
+〜に分ける
 The participants were divided into three groups.
 参加者は3つのグループに分けられた。
 
 separate into
-?に分ける
+〜に分ける
 The materials were separated into categories.
 資料はカテゴリごとに分けられた。
 
@@ -2614,19 +2558,18 @@ We ran into several problems.
 いくつかの問題に直面した。
 
 talk 人 into doing
-人を説得して?させる
+人を説得して〜させる
 She talked him into joining the project.
 彼女は彼を説得してプロジェクトに参加させた。
 
 persuade 人 into doing
-人を説得して?させる
+人を説得して〜させる
 The manager persuaded the staff into working overtime.
 部長はスタッフを説得して残業させた。
 
-TOEICで特に重要なのは、look into「調査する」、enter into an agreement「契約を結ぶ」、divide into「分ける」、turn/convert/change into「?に変える」、run into problems「問題に遭遇する」です。
+TOEICで特に重要なのは、look into「調査する」、enter into an agreement「契約を結ぶ」、divide into「分ける」、turn/convert/change into「〜に変える」、run into problems「問題に遭遇する」です。
 "
-108,"#108  
-Meganal Place announced the release of a limited edition shopper’s card enabling customers to redeem up to two coupons per visit.
+108,"Meganal Place announced the release of a limited edition shopper’s card enabling customers to redeem up to two coupons per visit.
 
 A. enable
 B. enabled
@@ -2659,8 +2602,7 @@ a shopper’s card enables customers...
 Meganal Place announced the release of ...
 という述語動詞 announced がすでにありま
 "
-109,"#109  
-We hope to archieve a sustainable society to providing 〇〇 alternative to petroleum-fueled vehicles. 
+109,"We hope to archieve a sustainable society to providing 〇〇 alternative to petroleum-fueled vehicles. 
 
 A. viable
 B. viability
@@ -2678,8 +2620,7 @@ c. viably：副詞。「実行可能な形で」。名詞 alternative を直接�
 d. vibrancy：名詞。「活気、鮮やかさ」。意味が合わない。
 
 "
-110,"#110  
-The leaders of each team requires 〇〇 evaluation sheet by their members at the end of every month
+110,"The leaders of each team requires 〇〇 evaluation sheet by their members at the end of every month
 
 A. Submit
 B. Submitting
@@ -2721,8 +2662,7 @@ submitted evaluation sheets
 
 今回の空所は evaluation sheets を修飾する位置なので、to submit ではなく submitted が最適です。
 "
-111,"#111  
-adjacent
+111,"adjacent
 ","adjacent
 
 意味：隣接した、すぐ近くの、隣の。
@@ -2753,8 +2693,7 @@ eject：排出する
 interject：口を挟む
 trajectory：軌道
 "
-112,"#112  
-be inclusive of ～
+112,"be inclusive of ～
 ","be inclusive of ～
 
 意味：～を含んでいる、～込みである、～を包含している。
@@ -2792,8 +2731,7 @@ conclude：結論づける
 preclude：妨げる
 closure：閉鎖、終結
 "
-113,"#113  
-dilute
+113,"dilute
 ","dilute
 
 意味：薄める、希釈する。形容詞では「薄められた、希釈された」という意味です。
@@ -2818,8 +2756,7 @@ diluted：薄められた
 deluge：大洪水、大量に押し寄せるもの
 antediluvian：大洪水以前の、非常に古い
 "
-114,"#114  
-article
+114,"article
 ","はい、article には「記事」だけでなく、「品物、物品、製品」という意味もあります。
 
 article の主な意味：
@@ -2838,8 +2775,7 @@ household articles
 personal articles
 身の回り品、所持品
 "
-115,"#115  
-take a part in 
+115,"take a part in 
 ","take a part in は普通は誤りです。正しくは take part in です。
 
 take part in ～
@@ -2864,8 +2800,7 @@ take a part in a play
 この場合の part は「役」です。
 でも「イベントに参加する」は take part in です。
 "
-116,"#116  
-The sales of Natural and Study Corporation have been growing 〇〇 exponentially in recent years due to the growth of the logistics marketplace.
+116,"The sales of Natural and Study Corporation have been growing 〇〇 exponentially in recent years due to the growth of the logistics marketplace.
 
 正解は a. exponentially です。
 
@@ -2875,8 +2810,7 @@ B. heavily
 
 heavily は「重く、大量に、かなり」という意味ですが、普通は grow heavily とはあまり言いません。heavily は rain heavily「激しく雨が降る」、invest heavily「多額を投資する」、rely heavily on「大きく依存する」などで使います。
 "
-117,"#117  
-incur
+117,"incur
 ","incur
 
 意味：負う、被る、招く。特に「費用・損失・負債・罰則などを負う」という意味です。
@@ -2911,8 +2845,7 @@ excursion：遠足、短い旅行
 cursor：カーソル
 cursive：筆記体の
 "
-118,"#118  
- 〇〇 Johnny Liu appreciated her former workplace's offer, she declined the opportunity because she was already running her own business.
+118," 〇〇 Johnny Liu appreciated her former workplace's offer, she declined the opportunity because she was already running her own business.
 
 A. while
 B. when
@@ -2933,8 +2866,7 @@ D. in spite of
 「～にもかかわらず」ですが、後ろには名詞・動名詞が来ます。
 in spite of Johnny Liu appreciated ... とは言えません。
 "
-119,"#119  
-意味：短縮された、要約された、省略版の。
+119,"意味：短縮された、要約された、省略版の。
 ","abridged
 
 意味：短縮された、要約された、省略版の。
@@ -2966,8 +2898,7 @@ abbreviation：略語、省略
 abridge：短縮する
 abridged：短縮された
 "
-120,"#120  
-so の前のカンマ
+120,"so の前のカンマ
 ","Our customer service line responds 24 hours a day, so you can be at ease...
 
 のように so の前にコンマを置くのが標準的です。
@@ -2985,8 +2916,7 @@ so の前のカンマ
 厳密にはコンマありが望ましい。
 ただし、参考書のコンマなしも、TOEIC英文としては間違いとは断定できません。
 "
-121,"#121  
-意味：近所、周辺、近辺、付近。
+121,"意味：近所、周辺、近辺、付近。
 ","vicinity
 
 意味：近所、周辺、近辺、付近。
@@ -3014,8 +2944,7 @@ vicinal：近隣の、隣接した
 vicinity：近辺、周辺
 village：村 ※同系統とされることがあります。
 "
-122,"#122  
-The manager showed his appreciation for the company’s employees by delivering his  〇〇  address at Jolito Electronics’ anniversary ceremony.
+122,"The manager showed his appreciation for the company’s employees by delivering his  〇〇  address at Jolito Electronics’ anniversary ceremony.
 
 A. feasible
 B. upcoming
@@ -3056,14 +2985,12 @@ rectify = 正す
 
 つまり address は「相手に向ける」という中心イメージなので、「住所」も「演説」も同じ語から来ている。
 "
-123,"#123  
-離職率、入れ替わり率、回転率
+123,"離職率、入れ替わり率、回転率
 ","turnover rate（ターンオーバー・レート）は、文脈で意味が変わるが、TOEICやビジネスでは主に「離職率」という意味で出ることが多い。
 
 turnover rate = 離職率、入れ替わり率、回転率
 "
-124,"#124  
-全会一致の投票、満場一致の採決
+124,"全会一致の投票、満場一致の採決
 ","意味：
 unanimous vote = 全会一致の投票、満場一致の採決
 
@@ -3099,8 +3026,7 @@ votive = 奉納の、誓願の
 devote = 捧げる、専念する
 devotion = 献身、信仰心
 "
-125,"#125  
-To view the list of companies  〇〇  into Electricity Vista Cooperative, click on the link below.
+125,"To view the list of companies  〇〇  into Electricity Vista Cooperative, click on the link below.
 
 A. consolidated
 B. consolidation
@@ -3135,8 +3061,7 @@ companies consolidated into Electricity Vista Cooperative
 
 consolidated は過去分詞で、「統合された」という意味になります。
 "
-126,"#126  
-commensurate
+126,"commensurate
 ","たぶん commensurate（コメンシュレイト / コメンサレイト） のことだと思います。TOEICではよく出ます。
 
 commensurate = 釣り合った、相応の、比例した
@@ -3163,8 +3088,7 @@ mensuration = 測定、測量
 commensurable = 同じ尺度で測れる
 
 "
-127,"#127  
-outreach
+127,"outreach
 ","outreach（アウトリーチ）
 
 意味：
@@ -3205,8 +3129,7 @@ unreachable = 到達不能な
 overreach = やり過ぎる、背伸びしすぎる
 outreach = 外へ働きかける、支援活動
 "
-128,"#128  
-intact（インタクト）
+128,"intact（インタクト）
 ","intact（インタクト）
 
 意味：
@@ -3237,8 +3160,7 @@ contagion = 接触感染
 tact = 機転、気配り
 tactics = 戦術
 "
-129,"#129  
-in observance of
+129,"in observance of
 
 ","in observance of（イン・オブザーバンス・オブ）
 
@@ -3277,8 +3199,7 @@ preserve = 保存する、保護する
 reserve = 予約する、取っておく
 conservation = 保護、保存
 "
-130,"#130  
-retreat
+130,"retreat
 ","退く、後退する、撤退する
 避難する、引きこもる
 ★静養、★研修合宿、隠れ家
@@ -3310,8 +3231,7 @@ tractor = トラクター、牽引車
 
 まとめると、retreat は「後ろへ引く」が基本で、そこから「撤退する」「日常から離れて静養・研修する場所や活動」という意味になりました。
 "
-131,"#131  
-Made of water 〇〇 materials, hiking pants are suitable for any outdoor occasion.
+131,"Made of water 〇〇 materials, hiking pants are suitable for any outdoor occasion.
 
 A. repel
 B. repelled
@@ -3353,8 +3273,7 @@ repulsive = 不快な、反発を感じさせる
 
 TOEICでは water-repellent materials = 撥水性の素材 として覚えるとよいです。
 "
-132,"#132  
-管理人、用務員、守衛
+132,"管理人、用務員、守衛
 保管者、管理責任者
 資産・書類などを預かる機関、保管会社
 ","custodians（カストーディアンズ）
@@ -3386,8 +3305,7 @@ custodian = 管理人、保管者
 注意：
 janitor も「用務員、清掃員」ですが、custodian は少し広く「建物や物を管理・保管する人」という感じです。
 "
-133,"#133  
-owing to 
+133,"owing to 
 ","owing to（オウイング・トゥ）
 
 意味：
@@ -3423,8 +3341,7 @@ own = 自分自身の、所有する
 owing = 未払いの、原因で
 IOU = 借用証。「I owe you」の略です。
 "
-134,"#134  
-「銘板」「記念板」「額板」という意味です。
+134,"「銘板」「記念板」「額板」という意味です。
 ","commemorative plaque の plaque は「銘板」「記念板」「額板」という意味です。
 
 commemorative plaque
@@ -3448,8 +3365,7 @@ plaster（プラスター）＝しっくい、ばんそうこう、塗って貼�
 plate（プレート）＝皿、板、金属板
 plaque は医学では「歯垢」「動脈のプラーク」という意味もあります。これも「表面に付着した板状・膜状のもの」という感覚です。
 "
-135,"#135  
-The considerable number of citizens 〇〇 participate in the Repulse Bay beach cleanup every year.
+135,"The considerable number of citizens 〇〇 participate in the Repulse Bay beach cleanup every year.
 
 A. concerningly
 B. concern
@@ -3504,8 +3420,7 @@ citizens concerned about the environment
 
 したがって、この問題では B. concern ではなく、C. concerned が正しいです。
 "
-136,"#136  
-Packets of materials for the marketing seminar were handed out to 〇〇 of the participants at the reception.
+136,"Packets of materials for the marketing seminar were handed out to 〇〇 of the participants at the reception.
 
 A. each
 B. every
@@ -3529,8 +3444,7 @@ to other participants
 
 という形は文法的に可能です。
 "
-137,"#137  
-G Farm ●● to consider a relocation to another site because its building is aging.
+137,"G Farm ●● to consider a relocation to another site because its building is aging.
 
 A. has made
 B. making
@@ -3555,8 +3469,7 @@ A. has made はダメです。
 G Farm has made to consider ...
 とは言いません。make の後ろに to不定詞を直接つけて「～することにした」とはできません。
 "
-138,"#138  
-AをBに割り当てる
+138,"AをBに割り当てる
 ","allocate A to B
 AをBに割り当てる
 
@@ -3567,8 +3480,7 @@ The manager allocated critical work to the recruits.
 The recruits were allocated critical work.
 新入社員は重要な仕事を割り当てられた。
 "
-139,"#139  
-exemplary
+139,"exemplary
 ","exemplary（エグゼンプラリー）
 
 意味：模範的な、手本となる、非常に優れた
@@ -3586,8 +3498,7 @@ ex-（エクス）＝「外へ」
 emere（エメレ）＝「取る、選び取る」
 つまり「取り出された例」→「手本・見本」→ exemplary「模範的な」とな
 "
-140,"#140  
-put up
+140,"put up
 
 strive for ～
 
@@ -3600,8 +3511,7 @@ strive for ～
 strive for ～
 意味：～を得ようと努力する、～を目指して励む
 "
-141,"#141  
-bolster
+141,"bolster
 ","bolster（ボルスター）
 
 意味：支える、強化する、後押しする
@@ -3632,8 +3542,7 @@ bolster support「支持を強める」
 bolster security「警備を強化する」
 の形で出やすいです。
 "
-142,"#142  
-distract
+142,"distract
 ","distract（ディストラクト）
 
 意味：気を散らす、注意をそらす、集中を妨げる。
@@ -3671,8 +3580,7 @@ subtract「差し引く」
 traction「牽引、引く力」
 tractor「トラクター、引くもの」
 "
-143,"#143  
-Lily's antique market has attracted 〇〇 collectors both within and outside of the town.
+143,"Lily's antique market has attracted 〇〇 collectors both within and outside of the town.
 
 a. avid
 b. obscure
@@ -3700,8 +3608,7 @@ avaricious「強欲な」
 
 TOEICでは、avid reader「熱心な読者」、avid collector「熱心な収集家」、avid supporter「熱心な支持者」の形でよく出ます。
 "
-144,"#144  
-discretion
+144,"discretion
 ","discretion（ディスクリエーション）
 
 意味：裁量、自由に判断する権限、慎重さ、分別
@@ -3735,8 +3642,7 @@ discrete「別々の、分離した」
 discreet「慎重な、口が堅い」
 discernment「識別力、判断力」
 "
-145,"#145  
-affiliated store
+145,"affiliated store
 ","affiliated store（アフィリエイテッド・ストア）
 
 意味：提携店、系列店、加盟店
@@ -3764,8 +3670,7 @@ filicide「子殺し」
 affiliate「提携する、加盟する」
 affiliation「提携、所属、加盟」
 "
-146,"#146  
-superb
+146,"superb
 
 ","superb（スパーブ）
 
@@ -3796,8 +3701,7 @@ superbity＝高慢、尊大さ（まれな語）
 注意：
 superb は good や great より少し上品で、「見事な」「文句なくすばらしい」という感じです。TOEICでは performance, service, quality, view, meal などと一緒に出やすいです。
 "
-147,"#147  
-culminate
+147,"culminate
 ","culminate（カルミネイト）
 
 意味：
@@ -3826,8 +3730,7 @@ colonel＝大佐 ※column と関係する語源経路を持つ語
 
 TOEIC的には、culminate in an agreement / success / a decision / a ceremony のように、「長い過程の最後に、ある結果になる」という文脈で出やすいです。
 "
-148,"#148  
-All employees were reminded 〇〇 the meeting to attend the ceremony to mark the company's 20th anniversary.
+148,"All employees were reminded 〇〇 the meeting to attend the ceremony to mark the company's 20th anniversary.
 
 a. of
 b. when
@@ -3845,8 +3748,7 @@ of がだめな理由は、remind 人 of 名詞 なら「人に～を思い出�
 
 when は「～するとき」、though は「～だけれども」なので、この位置には合いません。
 "
-149,"#149  
-garments
+149,"garments
 ","garments
 
 意味：衣服、衣類。clothes より少し硬い語で、店・製造・法律・説明文などでよく使います。単数 garment は「衣服1点」、複数 garments は「衣類」です。
@@ -3857,8 +3759,7 @@ garments
 
 同じ系統の英語：garnish、garniture、garner、garment。
 "
-150,"#150  
-render
+150,"render
 ","render
 
 意味：文脈で意味がかなり変わります。主な意味は「～にする」「与える」「提出する」「表現する」「翻訳する」「描画・生成する」です。
@@ -3883,8 +3784,7 @@ render into Japanese：日本語に訳す
 
 同じ語源の英語：return「戻る」、rent「賃貸料」、surrender「降伏する、引き渡す」、rendition「演奏、翻訳、表現」、rendering「描画、翻訳、表現」、date「日付」※ dare「与える」と遠い関係。
 "
-151,"#151  
-susceptible
+151,"susceptible
 ","susceptible
 
 意味：影響を受けやすい、感染しやすい、傷つきやすい、～に陥りやすい。
@@ -3904,8 +3804,7 @@ susceptible
 
 同じ語源の英語：receive、recipient、capture、capacity、capable、accept、except、concept、perceive、susceptibility。
 "
-152,"#152  
-The Gurun restaurant decided 〇〇 dishes will be on the recommendation menu based on the homegrown vegetables available each day.
+152,"The Gurun restaurant decided 〇〇 dishes will be on the recommendation menu based on the homegrown vegetables available each day.
 
 A. those
 B. its
@@ -3935,8 +3834,7 @@ The Gurun restaurant decided those dishes which will be on the recommendation me
 decided what dishes will be on the recommendation menu
 どの料理が推薦メニューに載るかを決めた
 "
-153,"#153  
-palatable 　
+153,"palatable 　
 Tenacious　
 Fruitful　
 Discrete　
@@ -3945,8 +3843,7 @@ Tenacious　粘り強い、しつこく離れない。
 Fruitful　実りの多い、有益な、成果のある。
 Discrete　別々の、個別の、分離した。
 "
-154,"#154  
-A couple of weeks 〇〇 the busiest season of the year
+154,"A couple of weeks 〇〇 the busiest season of the year
 ","正解は A. into です。
 
 意味は、「一年で最も忙しい時期に入って数週間して」「繁忙期が始まってから数週間後」です。
@@ -4005,8 +3902,7 @@ on a busy day
 
 結論：season は長さのある期間なので、「その中に入って何週間」という意味では on ではなく into を使います。
 "
-155,"#155  
-from within 
+155,"from within 
 ","from within は「内部から」「内側から」という意味です。TOEICで超頻出というほどではありませんが、ビジネス文書・会社組織・施設・建物・システムの文脈では出てもおかしくない表現です。
 
 from within the company
@@ -4029,8 +3925,7 @@ The company prefers to promote from within.
 
 from within は、from inside とほぼ同じ意味ですが、from within の方が少し硬く、文書・ビジネス英語っぽいです。TOEICでは「組織の内部から」「建物の中から」「システム内部から」くらいで理解できれば十分です。
 "
-156,"#156  
-have access to
+156,"have access to
 ","have access to
 
 意味：～を利用できる、～にアクセスできる、～に入れる、～を見る権限がある。
@@ -4058,8 +3953,7 @@ have access to using the system は普通は不自然です。普通は have acc
 
 同じ語源の英語：accede「同意する、加入する」、exceed「超える」、proceed「進む」、precede「先行する」、recede「後退する」、concede「認める、譲歩する」、succeed「成功する、後に続く」、procession「行列」。
 "
-157,"#157  
-even out
+157,"even out
 ","even out
 
 意味：平らにする、均一にする、差をなくす、平均化する、安定する。
@@ -4080,8 +3974,7 @@ Prices tend to even out over time.
 
 同じ語源の英語：evening「夕方」※昼と夜が釣り合う時、evenly「均等に」、uneven「でこぼこの」、evenness「均一性」、outcome「結果」、outlook「見通し」、output「出力」。
 "
-158,"#158  
-The keynote speaker for the conference 〇〇 at the airport by 11 a.m. will be picked up by the event organizer Maeda.
+158,"The keynote speaker for the conference 〇〇 at the airport by 11 a.m. will be picked up by the event organizer Maeda.
 
 A. will arrive
 B. arrived
@@ -4116,12 +4009,10 @@ C. have arrived は主語が speaker 単数なので、本来 has arrived です
 
 D. arriving は分詞なので、動詞ではなく「説明語句」として使えます。だから正解です。ちなみに by the 11 a.m. ではなく、普通は by 11 a.m. です。
 "
-159,"#159  
-moving business
+159,"moving business
 ","意味：引っ越し業、引っ越し会社、運送業者の事業。
 "
-160,"#160  
-seek advice / sought advice
+160,"seek advice / sought advice
 ","seek advice / sought advice
 
 意味：助言を求める、相談する。
@@ -4147,8 +4038,7 @@ TOEICでは、seek advice from ～「～に助言を求める」、seek approval
 
 同じ語源の英語：sake「目的、理由」、forsake「見捨てる」。sought は seek の不規則変化で、seek - sought - sought です。
 "
-161,"#161  
-absent oneself from
+161,"absent oneself from
 ","absent oneself from
 
 意味：
@@ -4178,8 +4068,7 @@ presence＝存在、出席
 essential＝本質的な、不可欠な
 essence＝本質
 "
-162,"#162  
-Company M 〇〇 a new scheme, seeing that the previous plan was not providing desirable results.
+162,"Company M 〇〇 a new scheme, seeing that the previous plan was not providing desirable results.
 
 a. devised
 b. valid
@@ -4211,8 +4100,7 @@ devise と device は似ていますが、品詞が違います。
 devise は動詞で「考案する」。
 device は名詞で「装置、機器、工夫」です。
 "
-163,"#163  
-resistant to ～
+163,"resistant to ～
 ","resistant to ～
 
 意味：
@@ -4248,8 +4136,7 @@ exist＝存在する
 insist＝主張する
 assist＝助ける
 "
-164,"#164  
-to correspond
+164,"to correspond
 ","to correspond
 
 意味：
@@ -4293,8 +4180,7 @@ correspondent＝通信員、文通相手
 sponsor＝保証人、スポンサー
 spouse＝配偶者 ※元は「約束された相手」系統です。
 "
-165,"#165  
-There is no way ～ 
+165,"There is no way ～ 
 ","There is no way ～ は、主に2つあります。
 
 There is no way + 文
@@ -4307,8 +4193,7 @@ There is no way をオフィシャルな場・論文発表の場で言い換え�
 → It is extremely unlikely that ～
 → It is improbable that ～
 "
-166,"#166  
-marginally
+166,"marginally
 ","marginally（マージナリー）
 
 意味：
@@ -4344,8 +4229,7 @@ decrease marginally＝わずかに減少する
 marginal improvement＝わずかな改善
 のように出やすいです。
 "
-167,"#167  
-be entitled to ～
+167,"be entitled to ～
 ","be entitled to ～
 
 意味：
@@ -4361,8 +4245,7 @@ entitled の後ろは、普通 to が来ます。
 be entitled to + 名詞
 be entitled to + 動詞の原形
 "
-168,"#168  
-outreach
+168,"outreach
 ","outreach（アウトリーチ）
 
 意味：
@@ -4403,8 +4286,7 @@ customer outreach
 public outreach
 の形で出やすいです。
 "
-169,"#169  
-Thompson has an 〇〇 workshop focusing on the goals of the event to ensure volunteer participation.
+169,"Thompson has an 〇〇 workshop focusing on the goals of the event to ensure volunteer participation.
 
 A. introduce
 B. introducing
@@ -4444,8 +4326,7 @@ introduce a workshop
 
 この問題では、名詞 workshop の前で使える自然な形容詞が必要なので、C. introductory です。
 "
-170,"#170  
-be compared to
+170,"be compared to
 ","be compared to
 
 意味：
@@ -4478,8 +4359,7 @@ separate 分ける
 apparatus 装置
 pare 削る、切り詰める
 "
-171,"#171  
-purveyor
+171,"purveyor
 ","purveyor（パーベイヤー）
 
 意味：
@@ -4509,8 +4389,7 @@ vision　視覚、ビジョン
 evident　明白な
 revise　見直す
 "
-172,"#172  
-transferring
+172,"transferring
 
 expediting
 
@@ -4529,8 +4408,7 @@ expedite の現在分詞・動名詞。
 We are expediting the delivery.
 私たちは配送を急がせています。
 "
-173,"#173  
-stand out
+173,"stand out
 ","stand out（スタンドアウト）
 
 get by（ゲットバイ）
@@ -4555,8 +4433,7 @@ Excuse me, can I get by?
 The car couldn’t get by the truck.
 その車はトラックの横を通れなかった。
 "
-174,"#174  
-conspicuous
+174,"conspicuous
 ","conspicuous（コンスピキュアス）
 意味：目立つ、はっきり見える、明白な。「わかりやすい」よりも「目立っていて明らか」という意味です。
 語源：ラテン語 conspicere（コンスピケレ）＝よく見る、見渡す。con-（コン）＝一緒に、完全に、specere（スペケレ）＝見る。
@@ -4575,8 +4452,7 @@ reciprocal（レシプロカル）
 re-（レ）＝後ろへ、戻って、pro-（プロ）＝前へ、の要素が関係するとされます。
 同じ語源：reciprocate 報いる、返礼する、reciprocity 相互関係、相互主義。
 "
-175,"#175  
-Among the three speakers, questions 〇〇 to Mr. Parker were the largest in number.
+175,"Among the three speakers, questions 〇〇 to Mr. Parker were the largest in number.
 
 C. addressing
 D. addressable
@@ -4596,8 +4472,7 @@ questions addressed to Mr. Parker
 
 になります。
 "
-176,"#176  
-in order of
+176,"in order of
 ","in order of
 
 意味：
@@ -4646,8 +4521,7 @@ subordinate　従属する、部下の
 coordinate　調整する、座標
 ordination　任命、叙階
 "
-177,"#177  
-in close proximity to
+177,"in close proximity to
 ","in close proximity to
 
 意味：
@@ -4687,8 +4561,7 @@ proximal　近位の、中心に近い
 in close proximity to は「～のすぐ近くに」。
 硬い言い方で、near や close to とほぼ同じ意味です。
 "
-178,"#178  
-That's how ～ 
+178,"That's how ～ 
 ","That's how ～ は、「それが～する方法だ」「そうやって～するのだ」「だから～なのだ」という意味です。
 
 基本形：
@@ -4711,8 +4584,7 @@ That's because ～　それは～だからだ
 That's where ～　そこが～する場所だ
 That's when ～　その時が～した時だ
 "
-179,"#179  
-Mr. M finally 〇〇 to become the branch manager.
+179,"Mr. M finally 〇〇 to become the branch manager.
 ","文脈だけなら、自然なのは次です。
 
 Mr. M finally managed to become the branch manager.
@@ -4727,8 +4599,7 @@ M氏はついに支店長になることに成功した。
 
 ただし空欄の後ろが to become なら managed が最も自然です。succeeded を使うなら succeeded in becoming になります。
 "
-180,"#180  
-anticipated
+180,"anticipated
 ","anticipated
 意味：予想された、期待された、待ち望まれた
 
@@ -4761,8 +4632,7 @@ receive 受け取る
 concept 概念
 participate 参加する
 "
-181,"#181  
-accompanied by
+181,"accompanied by
 ","accompanied by
 意味：～を伴って、～に付き添われて、～と一緒に
 
@@ -4792,8 +4662,7 @@ companionable 親しみやすい
 pantry 食料庫
 panettone パネットーネ、パン菓子
 "
-182,"#182  
-oneself
+182,"oneself
 ","はい。oneself は再帰代名詞で、「自分自身」という意味です。働きは大きく2つあります。
 
 1つ目は、目的語として使う形です。
@@ -4808,8 +4677,7 @@ He said so himself.
 彼自身がそう言った。
 この himself は「ほかの人ではなく、彼本人が」という強調です。
 "
-183,"#183  
-Feel free to ask questions whenever you have one.
+183,"Feel free to ask questions whenever you have one.
 
 ここのwhenの代わりに、whicheverを使ったら、whateverを使うことができるか。
 ","この文では whenever が正しいです。
@@ -4848,8 +4716,7 @@ Feel free to ask any questions you have.
 Feel free to ask questions whenever you have any.
 です。
 "
-184,"#184  
-stress
+184,"stress
 ","意味：強調する、力点を置く、重視する
 
 例：
@@ -4882,8 +4749,7 @@ strangle 絞め殺す
 constrain 強制する
 constrict 締めつける
 "
-185,"#185  
-There were not as many complaints regarding the new holiday guideline 〇〇the managers had anticipated.
+185,"There were not as many complaints regarding the new holiday guideline 〇〇the managers had anticipated.
 
 A that
 B as
@@ -4905,8 +4771,7 @@ A that は不可です。as many ～ that という比較の形にはなりま�
 C than は、more complaints than ～ なら使えますが、as many ～ than とは言いません。
 D but も比較の接続には使えません。
 "
-186,"#186  
-The Human Resources department plans to 〇〇 transfer opportunities to the entire staff in a memo later this week.
+186,"The Human Resources department plans to 〇〇 transfer opportunities to the entire staff in a memo later this week.
 ","正解は D. announce です。
 
 The Human Resources department plans to announce transfer opportunities to the entire staff in a memo later this week.
@@ -4931,8 +4796,7 @@ inform the entire staff of transfer opportunities
 A encourage は「励ます、促す」なので、encourage 人 to do の形が普通です。
 C express は「感情・意見を表す」で、transfer opportunities を express するとは言いにくいです。
 "
-187,"#187  
-be critical of X
+187,"be critical of X
 ","be critical of X
 
 意味：Xに批判的である、Xを厳しく見る
@@ -4967,8 +4831,7 @@ crisis 危機
 crime 罪、犯罪
 discriminate 区別する、差別する
 "
-188,"#188  
-to one's dismay
+188,"to one's dismay
 ","to one's dismay
 
 例：
@@ -4989,7 +4852,7 @@ magan / may（マガン／メイ）＝力、能力
 つまり「力を奪って動揺させる」というイメージです。
 
 同じ語源・近い語源の英語：
-may　?かもしれない、可能性がある
+may　〜かもしれない、可能性がある
 might　力、可能性
 main　主な、力強い、古い意味で「力」
 dismayed　うろたえた、がっかりした
@@ -4998,8 +4861,7 @@ dismaying　落胆させるような
 TOEICでは to one's dismay は文頭に出やすく、「残念なことに」と訳すと自然です。
 
 "
-189,"#189  
-It is essential that the cause of the delay in payment 〇〇 no later than this afternoon
+189,"It is essential that the cause of the delay in payment 〇〇 no later than this afternoon
 
 a. to be ascertained
 b. will ascertain
@@ -5029,8 +4891,7 @@ d. has ascertained も「原因が確認した」になり不自然。
 
 ascertain は「確認する、突き止める」という意味です。ここでは cause が目的語側なので、受け身の be ascertained になります。
 "
-190,"#190  
-imperative
+190,"imperative
 ","imperative
 意味：必須の、極めて重要な、命令的な
 
@@ -5063,8 +4924,7 @@ prepare 準備する
 apparatus 装置
 separate 分ける
 "
-191,"#191  
-The new line of men's apparel will be available in retail outlets across the country 〇〇 October of this year.
+191,"The new line of men's apparel will be available in retail outlets across the country 〇〇 October of this year.
 ","正解は D. as early as です。
 
 その新しい紳士服ラインは、早ければ今年10月にも全国の小売店で販売される予定です。
@@ -5097,8 +4957,7 @@ as many as 100 people
 
 この as ～ as の形でよく出ます。
 "
-192,"#192  
-proximity
+192,"proximity
 ","proximity
 意味：近いこと、近接、近さ
 
@@ -5129,8 +4988,7 @@ proximal　近位の、中心に近い
 proxy　代理、代理人
 proximate　近接した、直接の
 "
-193,"#193  
-handle customer inquiries over the telephone or online
+193,"handle customer inquiries over the telephone or online
 ","はい、その理解で正しいです。
 
 handle customer inquiries over the telephone or online
@@ -5171,8 +5029,7 @@ in person or online
 
 要するに、over は telephone にだけかかっていて、online にはかかっていません。
 "
-194,"#194  
-in the event that
+194,"in the event that
 
 ","in the event that
 
@@ -5214,8 +5071,7 @@ invent 発明する
 advent 到来
 eventual 最終的な
 "
-195,"#195  
-immensely
+195,"immensely
 ","immensely
 
 意味：非常に、とても、大いに、計り知れないほど
@@ -5248,8 +5104,7 @@ immense 巨大な、莫大な
 mensuration 測定
 commensurate 相応の、釣り合った
 "
-196,"#196  
-on one's own
+196,"on one's own
 ","on one's own
 
 意味：自分一人で、自力で、独力で、誰の助けもなく
@@ -5299,8 +5154,7 @@ owner 所有者
 ownership 所有権
 own 自分自身の、所有する
 "
-197,"#197  
-purveyor
+197,"purveyor
 ","purveyor
 
 意味：供給業者、納入業者、販売業者
@@ -5334,8 +5188,7 @@ vision　視覚、構想
 visible　見える
 evidence　証拠
 "
-198,"#198  
-the remainder of X
+198,"the remainder of X
 ","the remainder of X
 
 意味：Xの残り、Xの残余、Xの残り部分
@@ -5371,8 +5224,7 @@ mansion 邸宅
 manor 荘園、屋敷
 remnant 残り物、残余
 "
-199,"#199  
-〇〇 fuel prices predicted to rise over the next few months, commuters in the city are considering making greater use of public transportation.
+199,"〇〇 fuel prices predicted to rise over the next few months, commuters in the city are considering making greater use of public transportation.
 
 A. while
 B. as
@@ -5411,8 +5263,7 @@ Since fuel prices are predicted to rise, ...
 
 この問題では、fuel prices predicted to rise という「名詞＋分詞」の形なので、前に置けるのは with です。
 "
-200,"#200  
-When putting together a supply order, the purchasing manager noticed the copy room was 〇〇 of standard-sized paper.
+200,"When putting together a supply order, the purchasing manager noticed the copy room was 〇〇 of standard-sized paper.
 ","正解は a. short です。
 
 When putting together a supply order, the purchasing manager noticed the copy room was short of standard-sized paper.
@@ -5440,8 +5291,7 @@ be short of staff
 be short of money
 お金が不足している
 "
-201,"#201  
-Feedback from leadership of AM shows that the journal is popular with novices and professionals 〇〇.
+201,"Feedback from leadership of AM shows that the journal is popular with novices and professionals 〇〇.
 ","空欄は alike です。
 
 意味：
@@ -5462,8 +5312,7 @@ popular with novices and professionals alike
 
 alike はここでは「似ている」ではなく、「両方とも同じように」という意味です。
 "
-202,"#202  
-Mr. Charles must regretfully decline the invitation to be the keynote speaker due to a prior 〇〇 on the day of the conference.
+202,"Mr. Charles must regretfully decline the invitation to be the keynote speaker due to a prior 〇〇 on the day of the conference.
 
 A. delegation
 B. conflict
@@ -5484,8 +5333,7 @@ B. conflict も「予定の衝突」という意味で使えますが、普通�
 A. delegation は「代表団、権限委譲」。
 D. commission は「委員会、手数料、任務、委託」なので、この文には合いません。
 "
-203,"#203  
-All photo submissions for the contest will be mailed back to entrants as long as self-addressed, postage-paid return envelopes have been included.
+203,"All photo submissions for the contest will be mailed back to entrants as long as self-addressed, postage-paid return envelopes have been included.
 
 A. submitted
 B. submitting
@@ -5511,8 +5359,7 @@ All photos submitted for the contest
 All photo submissions
 となり、D. submissions が正解です。
 "
-204,"#204  
-end up
+204,"end up
 
 go on
 
@@ -5547,8 +5394,7 @@ pass over
 
 同じ語源：
 "
-205,"#205  
-be devoted to doing
+205,"be devoted to doing
 
 be dedicated to doing
 
@@ -5590,8 +5436,7 @@ be dedicated to 名詞/doing
 be committed to 名詞/doing
 この3つは、to の後ろ
 "
-206,"#206  
-while doing
+206,"while doing
 
 when doing
 ","while doing
@@ -5638,8 +5483,7 @@ Please lock the door when leaving the office.
 
 TOEICでは、空所の前に while / when があり、後ろに名詞ではなく動作が続くなら、動詞のing形を選ぶことが多いです。
 "
-207,"#207  
-draw X from Y
+207,"draw X from Y
 ","draw X from Y
 
 意味：YからXを引き出す、取り出す、得る、導き出す
@@ -5683,8 +5527,7 @@ drawer：引き出し、引き出す人
 まとめ：
 draw X from Y は、「Yという元からXを引っぱり出す」というイメージです。物にも、情報にも、結論にも使えます。
 "
-208,"#208  
-〇〇 operating the registers and assisting customers, cashiers at GigaMart also are responsible for stocking the shelve
+208,"〇〇 operating the registers and assisting customers, cashiers at GigaMart also are responsible for stocking the shelve
 
 A. both
 B. in addition
@@ -5717,8 +5560,7 @@ aside from doing
 
 この4つは「～に加えて／～以外に」でよく出ます。今回の空所は直後に operating という動名詞が来ているので、前置詞として使える besides が正解です。
 "
-209,"#209  
-advance in your career
+209,"advance in your career
 ","advance in your career
 
 意味：キャリアで前進する、出世する、昇進する、仕事上で成長する
@@ -5751,8 +5593,7 @@ advanced：高度な、上級の、進んだ
 まとめ：
 advance in your career は「仕事上で前進する」という意味で、TOEICでは研修・昇進・人材育成の文脈でよく出ます。
 "
-210,"#210  
-adhere
+210,"adhere
 ","adhere（アドヒア）
 
 意味：
@@ -5794,8 +5635,7 @@ adhesive：接着剤、粘着性の
 まとめ：
 adhere to ～ は「～にくっつく」が基本イメージで、TOEICでは「規則・方針・基準を守る」という意味でよく出ます。
 "
-211,"#211  
-A portion of the fee will be paid by the client in advance, and the remainder will be due 〇〇 completion of the project
+211,"A portion of the fee will be paid by the client in advance, and the remainder will be due 〇〇 completion of the project
 
 A. under
 B. into
@@ -5828,8 +5668,7 @@ due upon completion of the project
 
 ちなみに最初の Under portion は誤りで、A portion が正しいです。a portion of the fee で「料金の一部」です。
 "
-212,"#212  
-Only those whose professional 〇〇 meet our criteria will be considered for the vacant managerial position.
+212,"Only those whose professional 〇〇 meet our criteria will be considered for the vacant managerial position.
 
 A. credentials
 B. requirements
@@ -5866,8 +5705,7 @@ vacant position
 
 なお、あなたの文の murmur は、おそらく空所を表す「〇〇」の聞き間違い・入力ミスです。ここには credentials が入ります。
 "
-213,"#213  
-Ms. Teller, the vice president of operations, 〇〇 an employee of the company for over 40 years when she retires.
+213,"Ms. Teller, the vice president of operations, 〇〇 an employee of the company for over 40 years when she retires.
 
 A. is
 B. has been
@@ -5898,8 +5736,7 @@ By the time she retires, she will have worked here for 40 years.
 When the project is completed, we will have spent six months on it.
 そのプロジェクトが完了するときには、私たちはそれに6か月費やしたことになる。
 "
-214,"#214  
-While some customers prefer to make purchases online, 〇〇 shop at our brick-and-mortar store.
+214,"While some customers prefer to make purchases online, 〇〇 shop at our brick-and-mortar store.
 
 A. both
 B. most
@@ -5935,8 +5772,7 @@ brick-and-mortar store
 実店舗、実在店舗
 オンライン店に対する「物理的な店舗」という意味です。
 "
-215,"#215  
-Mr. Tanaka assigned volunteers among the staff to help 〇〇 document the progress of the ongoing renovation project.
+215,"Mr. Tanaka assigned volunteers among the staff to help 〇〇 document the progress of the ongoing renovation project.
 ","正解：B. him
 
 文：
@@ -5960,8 +5796,7 @@ himself は「彼自身を」という再帰代名詞ですが、ここでは「
 
 なお、最初の associated はたぶん assigned の聞き間違いです。associate volunteers とは普通言わず、assign volunteers「ボランティアを割り当てる」が自然です。
 "
-216,"#216  
-〇〇frustration over recent mistakes, Mr. Kenna hired a consultant to straighten out communication problems within the department..
+216,"〇〇frustration over recent mistakes, Mr. Kenna hired a consultant to straighten out communication problems within the department..
 
 A. out of 
 
@@ -6008,8 +5843,7 @@ B. surrounding = ～をめぐる
 C. beyond = ～を越えて
 D. among = ～の間で
 "
-217,"#217  
-了解。TOEICのPart 5・Part 6では、まず「主語が単数か複数か」「動詞が単数形か複数形か」を必ず確認する。
+217,"了解。TOEICのPart 5・Part 6では、まず「主語が単数か複数か」「動詞が単数形か複数形か」を必ず確認する。
 ","例：
 The number of applicants is increasing.
 応募者の数は増えている。
@@ -6027,8 +5861,7 @@ a number of ～ → 複数
 
 今後、文法問題ではここを優先して見る。
 "
-218,"#218  
-project confidence
+218,"project confidence
 ","project confidence
 
 意味：
@@ -6074,8 +5907,7 @@ diffident = 自信のない
 まとめ：
 project confidence = 自信を外に向けて示す、自信がある印象を与える。TOEICでは、project は「計画する」だけでなく「印象を与える」という意味でも出るので注意。
 "
-219,"#219  
-The organizers owe special thanks to the volunteers. Without 〇〇, the event could not have taken place.
+219,"The organizers owe special thanks to the volunteers. Without 〇〇, the event could not have taken place.
 
 A. who’s
 B. what
@@ -6105,8 +5937,7 @@ Without whom は、without + 人の目的格です。前置詞の後ろなので
 
 また、the volunteers は複数ですが、whom 自体は単数・複数どちらにも使えます。ここでは複数の volunteers を受けています。could not have taken place は「開催されなかっただろう」という仮定法過去完了です。
 "
-220,"#220  
-unless ～ otherwise 
+220,"unless ～ otherwise 
 ","unless ～ otherwise は、「特に別の指示・事情がない限り」という意味でよく出ます。
 
 unless = ～でない限り
@@ -6140,8 +5971,7 @@ unless otherwise noted
 unless otherwise specified
 が特によく出ます。意味は「別に書いてなければ」「特に指定がなければ」です。
 "
-221,"#221  
-arguably
+221,"arguably
 ","arguably
 
 意味：
@@ -6180,8 +6010,7 @@ arguable = 議論の余地がある、主張可能な
 まとめ：
 arguably = 「おそらく～と言える」。特に arguably the best / arguably the most important の形で覚えるとよいです。
 "
-222,"#222  
-cater to
+222,"cater to
 ","cater to
 
 意味：
@@ -6222,8 +6051,7 @@ except = 除外する
 まとめ：
 cater to ～ = ～の要望に応える、～向けにサービスを提供する。to の後ろには「人・顧客層・needs」が来やすいです。
 "
-223,"#223  
-errands
+223,"errands
 ","errands
 
 意味：
@@ -6248,8 +6076,8 @@ errand は「外に出て済ませる小さな用事」の感じが強いです�
 task はもっと広く「仕事・作業」です。
 
 語源：
-errand は古英語 ?rende（エーレンデ）から来ています。
-?rende（エーレンデ）= 伝言、使命、用件
+errand は古英語 ǣrende（エーレンデ）から来ています。
+ǣrende（エーレンデ）= 伝言、使命、用件
 
 同じ語源の英語：
 直接同じ語源でよく使う単語は少ないですが、古英語系の errand 自体が「伝言を届ける用件」から「外に出て済ませる用事」になりました。
@@ -6257,8 +6085,7 @@ errand は古英語 ?rende（エーレンデ）から来ています。
 まとめ：
 errands = 用事。特に run errands = 用事を済ませる、で覚えるとTOEICでも使いやすいです。
 "
-224,"#224  
-Mr. LeBlanc will need to rent or borrow a vehicle while his is being repaired in a shop.
+224,"Mr. LeBlanc will need to rent or borrow a vehicle while his is being repaired in a shop.
 
 A. he
 B. him
@@ -6295,8 +6122,7 @@ rent or borrow の前は need to が自然です。
 正しい文：
 Mr. LeBlanc will need to rent or borrow a vehicle while his is being repaired in a shop.
 "
-225,"#225  
-well in advance
+225,"well in advance
 
 ","well in advance
 かなり前もって、十分早めに
@@ -6325,8 +6151,7 @@ notify someone well in advance
 prepare well in advance
 の形で覚えるとよいです。
 "
-226,"#226  
-expedite
+226,"expedite
 ","expedite
 
 意味：
@@ -6371,8 +6196,7 @@ expeditious = 迅速な
 
 TOEICでは expedite an order / expedite delivery / expedite the process の形でよく覚えるとよいです。
 "
-227,"#227  
-There will be a refresher course for customer service 〇〇 on the correct protocol for handling complaints.
+227,"There will be a refresher course for customer service 〇〇 on the correct protocol for handling complaints.
 ","正解は B. associates
 
 There will be a refresher course for customer service associates on the correct protocol for handling complaints.
@@ -6398,8 +6222,7 @@ refresher course = 復習講座、再教育講座
 protocol = 手順、規定、作法
 handling complaints = 苦情対応
 "
-228,"#228  
-on account of ～
+228,"on account of ～
 ","on account of ～
 
 意味：
@@ -6453,8 +6276,7 @@ discount = 割引する
 まとめ：
 on account of ～ = ～のために。後ろは名詞。TOEICでは「理由」を表す前置詞句として出やすい。
 "
-229,"#229  
-be reluctant to ～
+229,"be reluctant to ～
 ","be reluctant to ～
 
 意味：
@@ -6497,8 +6319,7 @@ struggle = もがく、奮闘する ※同系統とされることがあるが�
 まとめ：
 be reluctant to ～ = ～するのに気が進まない。TOEICでは、後ろに動詞の原形が来ることを確認する。
 "
-230,"#230  
-entail
+230,"entail
 
 ","entail
 
@@ -6542,8 +6363,7 @@ tail = 尾、しっぽ ※直接同じ語源とは別扱いされることもあ
 まとめ：
 entail = ～を伴う、～を必要とする。TOEICでは entail + 名詞 / entail + 動名詞 の形で覚える。
 "
-231,"#231  
-最上級＋yet
+231,"最上級＋yet
 ","「最上級＋yet」は、「これまでで一番～」「今までの中で最も～」という意味です。ここでの yet は「まだ」ではなく、「これまでのところ」という意味です。
 
 例：
@@ -6576,8 +6396,7 @@ the strongest performance yet
 
 注意点は、yet が文末にあるからといって、必ず「まだ」と訳さないことです。最上級と一緒に使われたら、「これまでで一番」と考えるとよいです。
 "
-232,"#232  
-「問題・危険・リスクを引き起こす、もたらす」という意味です。
+232,"「問題・危険・リスクを引き起こす、もたらす」という意味です。
 ","pose a problem / pose a danger / pose a risk は、どれも「問題・危険・リスクを引き起こす、もたらす」という意味です。
 
 pose a problem
@@ -6599,8 +6418,7 @@ pose はここでは「ポーズを取る」ではなく、「何かを提示す
 
 語源：pose はラテン語 ponere（ポネレ）「置く」が元です。そこから「置く、提示する、ある状態を生じさせる」という意味になりました。同じ語源の英語には、position「位置」、compose「構成する」、dispose「処分する・配置する」、expose「さらす」、impose「課す」、propose「提案する」、oppose「反対する」などがありま
 "
-233,"#233  
-reservation
+233,"reservation
 ","reservation は、「予約」だけでなく、「懸念」「疑念」「ためらい」という意味もあります。
 
 懸念：けんねん
@@ -6634,8 +6452,7 @@ deserve　値する
 servant　使用人
 service　サービス、奉仕
 "
-234,"#234  
-depict
+234,"depict
 ","depict
 
 意味：
@@ -6678,8 +6495,7 @@ pigment　顔料、色素
 pictorial　絵の、絵画的な
 depiction　描写、表現
 "
-235,"#235  
-facet
+235,"facet
 ","facet
 
 意味：
@@ -6710,8 +6526,7 @@ facial　顔の
 efface　消す、削除する
 perfunctory ではなく、facet は face 系の語です。
 "
-236,"#236  
-a sound plan
+236,"a sound plan
 ","しっかりした、健全な、確かな
 a sound plan
 しっかりした計画
@@ -6733,8 +6548,7 @@ TOEICでは、sound advice「確かな助言」、sound judgment「的確な判�
 
 「しっかりした・健全な」の sound は、古英語 gesund（ゲスンド）「健康な、無傷の」から来ています。ドイツ語 gesund（ゲズント）「健康な」と同系統です。意味は「壊れていない」から「健全な、確かな」になりました。
 "
-237,"#237  
-「AをBに委任する」「AをBに任せる」という意味です。Aには「仕事・権限・責任」、Bには「人・部署」が来ます。
+237,"「AをBに委任する」「AをBに任せる」という意味です。Aには「仕事・権限・責任」、Bには「人・部署」が来ます。
 ","delegate A to B は、「AをBに委任する」「AをBに任せる」という意味です。Aには「仕事・権限・責任」、Bには「人・部署」が来ます。
 
 例：
@@ -6770,15 +6584,13 @@ colleague 同僚
 
 TOEICでは delegate A to B の形で、「仕事・責任を人に割り当てる」という意味で出やすいです。
 "
-238,"#238  
-【Listning】
+238,"【Listning】
 
 He is putting on a helmet for safety.
 ","＝彼は安全のためにヘルメットをかぶっているところだ。
 ＝ヘルメットを装着する動作の途中。
 "
-239,"#239  
-podium
+239,"podium
 ","podium
 
 意味：演壇、表彰台、指揮台。人が立って話す・指揮する・賞を受けるための少し高くなった台。
@@ -6798,8 +6610,7 @@ antipode　正反対の場所
 
 TOEICでは podium は「演壇」「表彰台」として出ることがあります。give a speech at the podium なら「演壇でスピーチする」です。
 "
-240,"#240  
-【Listning】
+240,"【Listning】
 
 Some potted plants are being placed on the ground.
 ","＝いくつかの鉢植えが地面に置かれているところだ。
@@ -6807,8 +6618,7 @@ Some potted plants are being placed on the ground.
 
 ポイントは are being placed です。
 "
-241,"#241  
-【Listning】
+241,"【Listning】
 
 rest A on B
 ","rest には「置く、載せる」という意味があります。
@@ -6838,8 +6648,7 @@ restore　元に戻す
 restaurant　レストラン
 stare　立つ、じっと見る、という語根 stare（スターレ）系に関係します。
 "
-242,"#242  
-【Listning】
+242,"【Listning】
 
 The launch of our new mobile phone was a resounding success, right?
 
@@ -6853,8 +6662,7 @@ resounding はもともと「鳴り響く」という意味です。そこから
 
 resounding は「リサウンディング」ではなく、普通は「リザウンディング」に近く発音します。」という意味で覚えると。
 "
-243,"#243  
-【Listning】
+243,"【Listning】
 
 We've had crews working on it for almost eight months.
 ","We've had crews working on it for almost eight months.
@@ -6863,7 +6671,7 @@ We've had crews working on it for almost eight months.
 
 構造：
 We have had + 人 + doing
-＝人に?させてきた／人が?している状態を持ってきた
+＝人に〜させてきた／人が〜している状態を持ってきた
 
 crews
 ＝作業班、工事班、作業員チーム
@@ -6885,8 +6693,7 @@ We’ve had people waiting outside since morning.
 
 この文は現在完了なので、「8か月前から作業していて、今もまだ続いている可能性が高い」です。
 "
-244,"#244  
-【Listning】
+244,"【Listning】
 
 The deadline will pass.
 ","The deadline will pass.
@@ -6914,8 +6721,7 @@ dead line は「死んだ線」のように見えてしまいます。
 deadline = 締切、期限
 と1語で覚えてください。
 "
-245,"#245  
-【Listning】
+245,"【Listning】
 
 青天の霹靂、突然の大事件・知らせ
 ","a bolt from the blue と came out of the blue は、どちらも「青天の霹靂」「突然・予想外」という意味ですが、使い方が違います。
@@ -6963,8 +6769,7 @@ came out of the blue = 「突然起こった／突然現れた」
 
 TOEICでは、名詞として空欄に入れるなら a bolt from the blue、動詞を説明するなら out of the blue が自然です。
 "
-246,"#246  
-【Listning】
+246,"【Listning】
 
 Mention hearing this advertisement.
 ","Mention hearing this advertisement.
@@ -6987,10 +6792,9 @@ mention + 動名詞 ing
 なので、hearing this advertisement は「この広告を聞いたこと」という動名詞句です。
 
 mention to hear this advertisement は普通は不可です。
-「?したことを言う」は mention doing を使います。
+「〜したことを言う」は mention doing を使います。
 "
-247,"#247  
-【Listning】
+247,"【Listning】
 
 They are putting on suits.
 ","「今スーツを着ようとしているところ」は、
@@ -7010,8 +6814,7 @@ They are putting on suits.
 
 なお、They are wearing suit.
 "
-248,"#248  
-【Listning】
+248,"【Listning】
 
 When is the maintenance report due?
 ","When is the maintenance report due?
@@ -7053,8 +6856,7 @@ duty：義務、職務
 due：期限の、当然支払われるべき
 overdue：期限を過ぎた、延滞した
 "
-249,"#249  
-【Listning】
+249,"【Listning】
 
 How can we alleviate the traffic congestion in this area?
 ","How can we alleviate the traffic congestion in this area?
@@ -7075,7 +6877,7 @@ alleviate traffic congestion
 
 語源：
 ラテン語 alleviare（アッレウィアーレ）「軽くする、楽にする」から来ています。
-ad-（アド）「?へ」＋ levis（レウィス）「軽い」が元です。
+ad-（アド）「〜へ」＋ levis（レウィス）「軽い」が元です。
 つまり alleviate は「重いものを軽くする」というイメージです。
 
 同じ語源の英語：
@@ -7087,8 +6889,7 @@ relevant 関連がある ※元は「持ち上げる・浮かび上がらせる�
 
 TOEICでは、alleviate concerns「懸念を和らげる」、alleviate symptoms「症状を緩和する」、alleviate congestion「混雑を緩和する」のように出やすいです。
 "
-250,"#250  
-【Listning】
+250,"【Listning】
 
 Would you mind dropping by my office to talk with me?
 ","Would you mind dropping by my office to talk with me?
@@ -7113,8 +6914,7 @@ drop in：立ち寄る
 drop out：脱落する、中退する
 drop behind：遅れる
 "
-251,"#251  
-【Listning】
+251,"【Listning】
 
 report to work
 ","はい、report には「出勤する」「出頭する」「現れる」という意味があります。特に report to work / report for duty の形でよく使います。
@@ -7135,7 +6935,7 @@ All staff should report for duty at 8 a.m.
 
 ただし、普通に「毎日会社に行く」という意味なら go to work / come to work のほうが自然です。report は少し正式で、「指定された場所に現れる」「勤務開始のために出頭する」という感じです。
 
-TOEICでは、report to 人 なら「人の直属である、?に報告する」、report to 場所 / work なら「出勤する、出頭する」と見るとよいです。
+TOEICでは、report to 人 なら「人の直属である、〜に報告する」、report to 場所 / work なら「出勤する、出頭する」と見るとよいです。
 
 例：
 She reports to the sales manager.
@@ -7147,8 +6947,7 @@ Please report to the reception desk.
 Please report to work at 8:30.
 8時半に出勤してください。
 "
-252,"#252  
-【Listning】
+252,"【Listning】
 
 仕事を割り当てる、作業を配分する。
 ","allocate the work
@@ -7166,7 +6965,7 @@ BにAを割り当てる
 
 語源：
 allocate はラテン語 allocare（アロカーレ）から。
-ad-（アド）「?へ」＋ locare（ロカーレ）「置く、配置する」。
+ad-（アド）「〜へ」＋ locare（ロカーレ）「置く、配置する」。
 つまり「ある場所・人に置く」→「割り当てる、配分する」という意味になった。
 
 同じ語源の英語：
@@ -7189,8 +6988,7 @@ allocate time
 allocate the work to him は自然。
 allocate him to the work は普通は不自然。「彼をその仕事に配置する」なら assign him to the work / assign him to the project のほうが自然です。
 "
-253,"#253  
-【Listning】
+253,"【Listning】
 
 hardware store 
 ","はい、だいたい日本語では「ホームセンター」でよいです。
@@ -7216,8 +7014,7 @@ I went to a hardware store.
 
 ただ、昔ながらの小さい店なら「金物屋」「工具店」と訳した方が合うこともあります。
 "
-254,"#254  
-【Listning】
+254,"【Listning】
 
 fundraiser
 ","はい、その理解でよいです。fundraiser は「資金を集める人」または「資金集めのイベント」という意味です。株式投資の出資者からお金を集める場合にも広く使えますが、日常英語では特に「慈善活動・学校・病院・NPO・政治活動などのための寄付集め」の意味でよく使います。
@@ -7249,8 +7046,7 @@ uprising：反乱、蜂起
 注意点：
 「株式に出資する人から資金を集める」は fundraising と言えますが、投資家向けなら raise capital「資本を調達する」、raise funds「資金を調達する」、seek investment「投資を募る」の方がビジネスっぽいです。チャリティーなら fundraiser がかなり自然です。
 "
-255,"#255  
-【Listning】
+255,"【Listning】
 
 convey a message
 ","convey a message
@@ -7274,7 +7070,7 @@ via（ウィア）＝道
 つまり convey は、「道に沿って一緒に運ぶ」→「物を運ぶ」→「情報・感情・意味を伝える」と広がりました。
 
 同じ語源 via（道）を持つ英語：
-via：?を経由して
+via：〜を経由して
 viaduct：高架橋
 deviate：それる、逸脱する
 previous：前の
@@ -7293,8 +7089,7 @@ convey a sense of urgency
 
 はい、convey a message は正しい言い方で、ややフォーマルです。ただし、日常では convey よりも tell / give / send / pass on のほうが一般的です。
 "
-256,"#256  
-【Listning】
+256,"【Listning】
 
 utensil
 ","utensil
@@ -7334,24 +7129,21 @@ usable：使用可能な
 useful：役に立つ
 usage：使用、用法
 "
-257,"#257  
-【Listning】
+257,"【Listning】
 
 I wonder if I should ask you to bring your camera to the event. 
 
 「私はどちらでも大丈夫ですよ」は英語で、
 ","Either is fine with me. 
 "
-258,"#258  
-【Listning】
+258,"【Listning】
 
 ノーマン薬局はいつ開店する予定ですか?
 ","When's Norman's Pharmacy going to open for business?
 
 When's 　← これを聞き逃した
 "
-259,"#259  
-【Listning】
+259,"【Listning】
 
 tentative plan
 ","tentative plan
@@ -7378,8 +7170,7 @@ temptation：誘惑
 tentative：仮の、暫定的な
 
 "
-260,"#260  
-【Listning】
+260,"【Listning】
 
 Was it left on?
 ","Was it left on?
@@ -7403,8 +7194,7 @@ leave O C で「OをCの状態のままにしておく」。
 leave it on → それをオンのままにしておく
 it was left on → それはオンのままにされた / つけっぱなしだった。
 "
-261,"#261  
-【Listning】
+261,"【Listning】
 
 on one's behalf 
 ","on one's behalf の意味：～の代わりに、～を代表して、～のために。
@@ -7443,8 +7233,7 @@ on behalf of the manager
 on behalf of all employees
 全従業員を代表して
 "
-262,"#262  
-【Listning】
+262,"【Listning】
 
 電話番号、メールアドレス、住所などの連絡先情報。
 ","ポイント：
@@ -7463,7 +7252,7 @@ con（コン）= together「一緒に」
 tangere（タンゲレ）= touch「触れる」
 つまり contact は「互いに触れる」→「接触、連絡」。
 
-detail は French d?tail（デタイユ）「切り分けられた小部分」から来ています。
+detail は French détail（デタイユ）「切り分けられた小部分」から来ています。
 de（ドゥ）= down / away「離して」
 taille（タイユ）= cut「切る」
 つまり detail は「切り分けた小部分」→「細部、詳細」。
@@ -7473,8 +7262,7 @@ provide：provision, provident, provider
 contact：tangent, tangible, contagious, contingent
 detail：tailor, retail, entail, curtail
 "
-263,"#263  
-【Listning】
+263,"【Listning】
 
 stockroom people
 ","stockroom people は、普通は「倉庫係の人たち」「在庫室で働く人たち」という意味です。ただし、自然な英語では stockroom staff / stockroom workers / stockroom personnel の方がよく使われます。
@@ -7512,8 +7300,7 @@ stock：stockpile, livestock, stockholder, stockroom
 room：bedroom, classroom, restroom, showroom
 people：population, popular
 "
-264,"#264  
-【Listning】
+264,"【Listning】
 
 conference room と meeting room 
 ","conference room と meeting room は、どちらも「会議室」ですが、少しニュアンスが違います。
@@ -7537,8 +7324,7 @@ Let’s use a meeting room for a quick discussion.
 
 TOEICでは、conference room は「正式な会議室」としてよく出ます。meeting room は「打ち合わせ部屋」全般です。迷ったら、大人数・正式な会議なら conference room、小規模な打ち合わせなら meeting room と考えるとよいです。
 "
-265,"#265  
-【Listning】
+265,"【Listning】
 
 eatery
 ","eatery
@@ -7553,7 +7339,7 @@ There are several small eateries near the station.
 eat「食べる」＋ -ery「場所・業種・活動を表す接尾辞」
 
 eat は古英語 etan（エタン）「食べる」から来ています。
--ery は中英語 -erie（エリー）、古フランス語 -erie（エリー）に由来し、「?をする場所」「?の商売」という意味を作ります。
+-ery は中英語 -erie（エリー）、古フランス語 -erie（エリー）に由来し、「〜をする場所」「〜の商売」という意味を作ります。
 
 同じ eat 系の英語：
 eater＝食べる人
@@ -7569,15 +7355,13 @@ winery＝ワイナリー
 fishery＝漁場、漁業
 greenery＝緑、草木
 "
-266,"#266  
-【Listning】
+266,"【Listning】
 
 They're holding the papers down.
 ","They're holding the papers down.
 彼らは書類を押さえています。
 "
-267,"#267  
-【Listning】
+267,"【Listning】
 
 ID badge
 ","はい、首からぶら下げている社員証・身分証明書は badge と言えます。特に英語では ID badge が自然です。
@@ -7607,14 +7391,12 @@ A woman has an ID badge around her neck.
 女性が首から社員証を下げている。
 が自然です。
 "
-268,"#268  
-【Listning】
+268,"【Listning】
 
 He's wearing safety equipment on his face.
 ","写真をよーく見ると、安全眼鏡をかけている。本当によーく見ないと見えない。
 "
-269,"#269  
-【Listning】
+269,"【Listning】
 
 What brings you to ～?
 ","What brings you to ～? は「何の用で～に来たのですか」「どうして～に来たのですか」という意味です。
@@ -7642,8 +7424,7 @@ bring in「導入する、持ち込む」
 
 What brings you to ～? は、Why did you come to ～? より少し自然で丁寧です。店、病院、会社、イベントなどでよく使います。
 "
-270,"#270  
-【Listning】
+270,"【Listning】
 
 彼女のメールをあなたに転送します。
 ","I'll forward her email to you.
@@ -7682,8 +7463,7 @@ toward「～の方へ」
 backward「後方へ」
 upward「上方へ」
 "
-271,"#271  
-【Listning】
+271,"【Listning】
 
 I hope this interview will inspire young people.
 ","I hope this interview will inspire young people.
@@ -7724,8 +7504,7 @@ expire：期限が切れる、息を引き取る
 conspire：共謀する
 aspire：熱望する
 "
-272,"#272  
-【Listning】
+272,"【Listning】
 
 way more than ～
 ","way more than ～
@@ -7756,8 +7535,7 @@ subway：地下鉄
 pathway：小道、経路
 waypoint：経由地点
 "
-273,"#273  
-【Listning】
+273,"【Listning】
 
 自動車整備工場
 ","a garage
@@ -7784,8 +7562,7 @@ garrison：守備隊、駐屯地
 guarantee：保証する
 guard：守る、警備する
 "
-274,"#274  
-【Listning】
+274,"【Listning】
 
 time slot
 ","time slot
@@ -7812,16 +7589,14 @@ available slot：空き枠
 appointment slot：予約枠
 delivery slot：配送時間枠
 "
-275,"#275  
-【Listning】
+275,"【Listning】
 
 I’m just browsing.
 ","I’m just browsing.
 見ているだけです。
 店員に話しかけられた時によく使います。
 "
-276,"#276  
-【Listning】
+276,"【Listning】
 
 You can't afford to miss out.
 ","You can't afford to miss out.
@@ -7879,8 +7654,7 @@ unaffordable：手が届かない価格の
 forth：前へ
 forthcoming：今度の、近く起こる
 "
-277,"#277  
-【Listning】
+277,"【Listning】
 
 食器棚、戸棚、収納棚
 ","cupboard
@@ -7910,8 +7684,7 @@ keyboard：キーボード
 sideboard：食器棚、配膳台
 cardboard：厚紙、段ボール紙
 "
-278,"#278  
-【Listning】
+278,"【Listning】
 
 staircase
 ","staircase
@@ -7930,7 +7703,7 @@ stair は「階段の一段」または複数形 stairs で「階段」。
 staircase は「階段全体の構造物」です。建物の中の階段設備を指す感じです。
 
 語源：
-stair は古英語 st?ger（ステーゲル）「階段、上るもの」。
+stair は古英語 stæger（ステーゲル）「階段、上るもの」。
 case はこの場合「箱」ではなく、古フランス語 casse（カス）「枠、容器」に由来するとされます。
 staircase は「階段を含む枠・構造」→「階段全体」という意味です。
 
@@ -7944,8 +7717,7 @@ case：箱、ケース、場合
 bookcase：本棚
 showcase：陳列ケース
 "
-279,"#279  
-【Listning】
+279,"【Listning】
 
 harvest
 ","harvest
@@ -7966,7 +7738,7 @@ a poor harvest
 不作
 
 語源：
-古英語 h?rfest（ハルフェスト）
+古英語 hærfest（ハルフェスト）
 意味は「秋、収穫期」。
 昔は harvest 自体が「秋」という意味でも使われました。秋は作物を刈り取る時期なので、「秋」→「収穫期」→「収穫」という意味になりました。
 
@@ -7978,8 +7750,7 @@ harvest festival：収穫祭
 autumn：秋
 crop：作物、収穫物
 "
-280,"#280  
-【Listning】
+280,"【Listning】
 
 lorry
 ","lorry
@@ -8012,8 +7783,7 @@ truck driver：トラック運転手
 freight：貨物
 haul：運搬する
 "
-281,"#281  
-【Listning】
+281,"【Listning】
 
 What made you visit our store?
 ","What made you visit our store?
@@ -8060,8 +7830,7 @@ What brought you here?
 What made you choose our store?
 なぜ当店を選んだのですか。
 "
-282,"#282  
-【Listning】
+282,"【Listning】
 
 would you prefer meeting us in person or joining online?
 ","思考時間: 1 秒
@@ -8113,8 +7882,7 @@ transfer：移す、転送する
 infer：推測する
 differ：異なる
 "
-283,"#283  
-【Listning】
+283,"【Listning】
 
 Why is Billy concerned about leading the event for the local community?
 ","Why is Billy concerned about leading the event for the local community?
@@ -8162,8 +7930,7 @@ discern：識別する
 certain：確かな
 criterion：基準
 "
-284,"#284  
-【Listning】
+284,"【Listning】
 
 I'm going to meet some of the board members at Memorial Hospital this afternoon.
 
@@ -8190,8 +7957,7 @@ some of the board members at Memorial Hospital
 ＝普通は「Memorial Hospitalの役員数名」
 ただし文脈によっては「Memorial Hospitalで役員数名」とも読める。
 "
-285,"#285  
-【Listning】
+285,"【Listning】
 
 I might take you up on that.
 ","I might take you up on that.
@@ -8222,8 +7988,7 @@ on：onto, onward, online
 ニュアンス：
 I might take you up on that. は、すぐに「お願いします」と決めたわけではなく、「必要になったらお願いするかも」という柔らかい言い方です。
 "
-286,"#286  
-【Listning】
+286,"【Listning】
 
 apartment profile 
 ","apartment profile は、直訳すると「アパートの概要・物件情報」です。
@@ -8241,7 +8006,7 @@ The apartment profile includes rent, size, and available facilities.
 そのアパートの概要には、家賃、広さ、利用できる設備が含まれています。
 
 語源：
-apartment はイタリア語 appartamento（アッパルタメント）「分けられた場所、部屋」から来ています。さらにラテン語 ad（アド）「?へ」＋ partire（パルティーレ）「分ける」に関係します。英語の part「部分」と同じ系統です。
+apartment はイタリア語 appartamento（アッパルタメント）「分けられた場所、部屋」から来ています。さらにラテン語 ad（アド）「〜へ」＋ partire（パルティーレ）「分ける」に関係します。英語の part「部分」と同じ系統です。
 profile はイタリア語 profilo（プロフィーロ）「輪郭、横顔」から来ています。pro（プロ）「前へ」＋ filum（フィルム）「糸、線」に関係し、「輪郭線」→「特徴をまとめたもの」という意味になりました。
 
 同じ語源の英語：
@@ -8250,8 +8015,7 @@ profile と同系統：filament, filigree, file
 
 日本語では「アパートのプロフィール」と訳すより、「物件概要」「物件情報」「アパート概要」と訳すのが自然です。
 "
-287,"#287  
-【Listning】
+287,"【Listning】
 
 we should exercise caution.
 ","we should exercise caution.
@@ -8277,8 +8041,7 @@ ex-（エクス）「外へ」＋ arcere（アルケーレ）「閉じ込める�
 caution はラテン語 cautio（カウティオー）「用心、警戒」から。動詞 cavere（カウェーレ）「用心する、警戒する」が元です。
 同じ語源の英語：cautious（用心深い）、precaution（予防策）、caveat（警告、ただし書き）。
 "
-288,"#288  
-【Listning】
+288,"【Listning】
 
 It’s my fault.
 ","「責任がある」に近い表現でよく使うのは fault（フォールト）です。
@@ -8298,12 +8061,11 @@ Who is at fault?
 fault はラテン語 fallere（ファッレレ）「欺く、失敗させる」から来ています。そこから古フランス語 faute（フォート）「欠点、過失」を経て、英語 fault「過失、責任、欠点」になりました。
 同じ語源の英語：fail（失敗する）、false（偽の）、fallacy（誤った考え、誤謬）、fallible（間違いやすい）。
 "
-289,"#289  
-【Listning】
+289,"【Listning】
 
 a bunch of ...
 ","a bunch of ...
-意味：たくさんの?、一群の?、ひとまとまりの?。
+意味：たくさんの〜、一群の〜、ひとまとまりの〜。
 
 日常会話ではかなりカジュアルです。フォーマルな文書では避けて、many / a lot of / numerous / several などにした方がよいです。
 
@@ -8330,8 +8092,7 @@ a bunch of keys：鍵束
 thanks a bunch：どうもありがとう、皮肉で「ありがとよ」の意味にもなる
 the whole bunch：その一団全部、全部まとめて
 "
-290,"#290  
-【Listning】
+290,"【Listning】
 
 意味：電動工具。電気・バッテリー・圧縮空気などの動力で動く工具のことです
 ","power tool
@@ -8358,8 +8119,7 @@ toolbox：工具箱
 toolkit：道具一式、ツールキット
 toolmaker：工具製作者
 "
-291,"#291  
-【Listning】
+291,"【Listning】
 
 curator
 ","curator
@@ -8394,8 +8154,7 @@ manicure：マニキュア、手の手入れ
 ポイント：
 curator は「ただ紹介する人」よりも、「価値を見て選び、整理し、見せ方まで考える人」という感じです。
 "
-292,"#292  
-【Listning】
+292,"【Listning】
 
 subsidy
 ","subsidy
@@ -8432,8 +8191,7 @@ insidious：陰険な、知らぬ間に進む
 注意：
 subsidy は「返さなくてよい補助金」の感じが強いです。loan は「貸付金」、grant は「助成金・交付金」で、subsidy と近いですが、grant の方が研究・教育・公共目的の支援金でよく使われます。
 "
-293,"#293  
-【Listning】
+293,"【Listning】
 
 a recruiting agency
 ","a recruiting agency
@@ -8452,7 +8210,7 @@ recruiting は recruit「採用する、募集する」の動名詞・形容詞�
 agency は「代理店、仲介機関、機関」です。
 
 語源：
-recruit はフランス語 recruter（ルクリュテ）「兵を補充する」から。さらに re-（レ）「再び」＋ cro?tre（クロワートル）「成長する」が元です。つまり「再び増やす、補充する」→「兵を集める」→「人を採用する」になりました。
+recruit はフランス語 recruter（ルクリュテ）「兵を補充する」から。さらに re-（レ）「再び」＋ croître（クロワートル）「成長する」が元です。つまり「再び増やす、補充する」→「兵を集める」→「人を採用する」になりました。
 同じ語源の英語：increase、decrease、crescent、accrue、crew。
 
 agency はラテン語 agere（アゲレ）「動かす、行う」から。agent「行為者、代理人」＋ -cy「状態・性質」で、「代理して動く機関」という意味です。
@@ -8460,8 +8218,7 @@ agency はラテン語 agere（アゲレ）「動かす、行う」から。agen
 
 まとめると、a recruiting agency は「人を採用したい会社の代わりに、候補者を探して紹介する会社」です。
 "
-294,"#294  
-【Listning】
+294,"【Listning】
 
 dedicated bus lanes
 ","dedicated bus lanes
@@ -8495,12 +8252,11 @@ dictionary：辞書
 
 まとめると、dedicated bus lanes は「バス専用レーン」で正しい表現です。少し硬め・交通政策っぽい表現です。日常的には bus-only lane でも通じます。
 "
-295,"#295  
-【Listning】
+295,"【Listning】
 
 count on
 ","count on
-意味：?を頼りにする、?を当てにする、?を信頼する。
+意味：〜を頼りにする、〜を当てにする、〜を信頼する。
 
 count on 人 / 物 という形で使います。
 
@@ -8524,9 +8280,9 @@ I can count on him.
 語源：
 count はラテン語 computare（コンプターレ）「計算する、数える」から来ています。
 com-（コン）「一緒に」＋ putare（プターレ）「考える、清算する、計算する」が元です。
-on は古英語 on（オン）「上に、接して、?に基づいて」からです。
+on は古英語 on（オン）「上に、接して、〜に基づいて」からです。
 
-count on は直訳すると「?の上に計算を置く」ような感じで、「それを計算に入れる」→「当てにする」→「頼る」という意味になりました。
+count on は直訳すると「〜の上に計算を置く」ような感じで、「それを計算に入れる」→「当てにする」→「頼る」という意味になりました。
 
 同じ語源の英語：
 compute：計算する
@@ -8538,8 +8294,7 @@ recount：詳しく話す、再び数える
 countable：数えられる
 counter：数える人、カウンター
 "
-296,"#296  
-【Listning】
+296,"【Listning】
 
 whereby
 ","はい、whereby は「関係代名詞」というより、正確には「関係副詞」です。
@@ -8574,8 +8329,7 @@ whereby = by which で、「その契約によって」。
 注意点：
 whereby は where「場所」の意味ではありません。形は where に似ていますが、意味は「それによって」です。フォーマルな書き言葉・契約・制度説明でよく使います。
 "
-297,"#297  
-【Listning】
+297,"【Listning】
 
 inclement weather
 ","inclement weather
@@ -8599,8 +8353,7 @@ clement：穏やかな、温和な
 Clement：クレメント、人名
 inclemency：悪天候、厳しさ
 "
-298,"#298  
-Unfortunately, on this occasion, we have decided 〇
+298,"Unfortunately, on this occasion, we have decided 〇
 〇　with your application.
 ","not to proceed 
 
@@ -8631,11 +8384,10 @@ occasion はラテン語 occasio（オッカシオー）「機会、きっかけ
 proceed はラテン語 procedere（プロケーデレ）「前へ進む」から。pro-（前へ）＋ cedere（ケーデレ／退く、進む）。
 同じ語源：process（過程）、procedure（手続き）、precede（先行する）、succeed（成功する、後に続く）、concede（認める、譲歩する）
 
-application はラテン語 applicare（アプリカーレ）「貼り付ける、適用する」から。ad-（?へ）＋ plicare（プリカーレ／折る、重ねる）。
+application はラテン語 applicare（アプリカーレ）「貼り付ける、適用する」から。ad-（〜へ）＋ plicare（プリカーレ／折る、重ねる）。
 同じ語源：apply（応募する、適用する）、applicant（応募者）、appliance（器具）、imply（暗示する）、complicate（複雑にする）
 "
-299,"#299  
-郵便では、Through the mailと英語で言うが、By the mailとは言わないか。
+299,"郵便では、Through the mailと英語で言うが、By the mailとは言わないか。
 ","結論：普通は by mail または through the mail と言います。by the mail は基本的に不自然です。
 
 正しい形：
@@ -8685,14 +8437,12 @@ in the mail = 郵便で届いて、郵便物の中に入っている感じ
 
 TOEICなら、send / receive / deliver / return などと一緒に出た場合、まず by mail, by post, through the mail, in the mail を疑うとよいです。
 "
-300,"#300  
-【Listning】
+300,"【Listning】
 
 One of the women is sipping through a straw.
 ","写真は男に見える！
 "
-301,"#301  
-お勘定をお願いします。
+301,"お勘定をお願いします。
 ","Can I have the check, please?
 お会計をお願いします。
 
@@ -8713,8 +8463,7 @@ Could I have the check, please?
 
 なお、check には「小切手」という意味もありますが、レストランでは the check と言えば「伝票・勘定書」の意味になります。
 "
-302,"#302  
-私の図書館の本の返却期限はいつですか
+302,"私の図書館の本の返却期限はいつですか
 ","When will my library book be due?
 私の図書館の本の返却期限はいつですか。
 
@@ -8752,8 +8501,7 @@ duty 義務
 duly 正式に、適切に
 debit 借方、引き落とし
 "
-303,"#303  
-Mentor some students.
+303,"Mentor some students.
 ","Mentor some students. ＝ 何人かの学生を指導する、助言する、面倒を見る。
 
 mentor は名詞でも動詞でも使えます。名詞なら「指導者、助言者、メンター」。動詞なら「指導する、助言する、育成する」です。
@@ -8777,8 +8525,7 @@ mentee：指導を受ける人、メンティー
 mentorless：指導者のいない
 mentoring：指導、助言活動
 "
-304,"#304  
-A project was undertaken.
+304,"A project was undertaken.
 ","A project was undertaken.
 あるプロジェクトが着手された／実施された。
 
@@ -8820,8 +8567,7 @@ overtake：追い越す
 partake：参加する、分け合う
 undertaking：事業、仕事、引き受けたこと
 "
-305,"#305  
-Locate a video.
+305,"Locate a video.
 ","Locate a video.
 動画を探す／動画の場所を見つける。
 
@@ -8853,8 +8599,7 @@ relocate：移転する
 dislocate：脱臼させる、位置をずらす
 locus：場所、中心点
 "
-306,"#306  
-Irrigation system
+306,"Irrigation system
 ","Irrigation system
 灌漑システム、かんがい設備。
 
@@ -8889,7 +8634,7 @@ irrigator：灌漑装置、灌漑する人
 irrigable：灌漑できる
 
 system の語源：
-system はギリシャ語 syst?ma（システーマ）「組み立てられたもの、全体」から来ています。
+system はギリシャ語 systēma（システーマ）「組み立てられたもの、全体」から来ています。
 syn-（シン）「一緒に」＋ histanai（ヒスタナイ）「立てる」が元です。
 
 同じ語源：
@@ -8899,8 +8644,7 @@ ecosystem：生態系
 subsystem：下位システム
 systematize：体系化する
 "
-307,"#307  
-pottery studio
+307,"pottery studio
 ","pottery studio
 陶芸スタジオ、陶芸工房。
 
@@ -8934,8 +8678,7 @@ student：学生
 studious：勉強熱心な
 studio：スタジオ、工房
 "
-308,"#308  
-contact info
+308,"contact info
 ","書いてあるの見ればわかるば、リスニングだと戸惑う。
 
 contact info = 連絡先情報。
@@ -8946,8 +8689,7 @@ info = information の略で「情報」
 
 contact info は、電話番号、メールアドレス、住所、担当者名などの「連絡先情報」を指します
 "
-309,"#309  
-be endorsed by
+309,"be endorsed by
 ","be endorsed by
 ～によって支持される、承認される、推薦される。
 
@@ -8991,8 +8733,7 @@ endorsement：承認、支持、推薦
 endorser：推薦者、裏書人
 dorsum：背中、背面
 "
-310,"#310  
-Curator
+310,"Curator
 ","Curator
 キュレーター、管理者、学芸員、展示企画者。
 
@@ -9029,8 +8770,7 @@ secure：安全な、確保する
 curator：管理者、学芸員
 curation：選定、編集、展示企画
 "
-311,"#311  
-Complimentary
+311,"Complimentary
 ","Complimentary
 無料の、サービスの／ほめる、称賛の。
 
@@ -9080,8 +8820,7 @@ complementary：補完的な
 plenty：たくさん
 replete：満ちた
 "
-312,"#312  
-abundance of
+312,"abundance of
 ","abundance of
 豊富な～、たくさんの～。
 
@@ -9126,8 +8865,7 @@ undulate：波打つ
 inundate：水浸しにする、殺到させる
 redundant：余分な、冗長な
 "
-313,"#313  
-Also, skip naps.
+313,"Also, skip naps.
 ","Also, skip naps.
 また、昼寝はしないでください。
 
@@ -9145,15 +8883,13 @@ come はここでは不要です。come は「来る」なので、also come ski
 
 First, drink plenty of water. Staying hydrated is key to feeling good. Also, try to avoid taking naps.
 "
-314,"#314  
-clamp 
+314,"clamp 
 
 vise / vice 
 ","clamp = 一時的に挟んで固定する道具全般
 vise / vice = 作業台などに固定された強力な挟み具、万力
 "
-315,"#315  
-minutes
+315,"minutes
 ","はい、その感覚でよいです。TOEICで minutes を見たら、まず「分」ではなく「議事録」かもしれない、と疑う価値があります。
 
 特に次の形なら、ほぼ「議事録」です。
@@ -9203,8 +8939,7 @@ minutes は「細かい記録」→「議事録」。
 minute の語源はラテン語 minutus（ミヌートゥス）「小さい、細かい」です。
 細かい時間単位なら「分」、会議の細かい記録なら「議事録」です。
 "
-316,"#316  
-galvanized
+316,"galvanized
 ","galvanized（ガルバナイズド）は、主に2つの意味があります。
 
 1つ目は「亜鉛メッキされた」です。金属、特に鉄や鋼を亜鉛でコーティングして、さびにくくした状態です。建材・配管・金網などでよく出ます。
@@ -9237,8 +8972,7 @@ galvanic「電流の、電気刺激の」
 galvanism「動物電気、電気刺激作用」
 galvanization「亜鉛メッキ、刺激して行動させること」
 "
-317,"#317  
-TOEICの試験で固有名詞がたくさん出てくる問題は、時間をかけない。もうそれは捨てる。
+317,"TOEICの試験で固有名詞がたくさん出てくる問題は、時間をかけない。もうそれは捨てる。
 ","その方針はかなり現実的です。TOEICで固有名詞が多い問題は、会社名・人名・部署名・商品名が多くて、内容理解に時間を取られやすいです。特にリーディング後半では、そこで粘ると後ろの簡単な問題を落とす危険があります。
 
 ただし「完全に読まないで捨てる」よりは、まず設問だけ見て、答えの場所がすぐ見つかるかを確認するのがよいです。
@@ -9263,8 +8997,7 @@ What is suggested about ABC Company?
 結論：
 「固有名詞が多い問題は時間をかけない」は正しい。ただし、最初から完全に捨てるより、「設問→本文の該当箇所だけ探す→見つからなければ捨てる」が一番点数に残りやすいです。
 "
-318,"#318  
-Tapestry
+318,"Tapestry
 ","Tapestry（タペストリー）
 
 意味：
@@ -9295,8 +9028,7 @@ tapis「敷物、じゅうたん」
 tapisserie「タピスリー、つづれ織り」
 tapestry は「糸で絵や模様を織り込んだ布」から、「いろいろなものが複雑に織り合わさったもの」という比喩にも広がりました。
 "
-319,"#319  
-Some drums are being put away in cases.
+319,"Some drums are being put away in cases.
 ","Some drums are being put away in cases.
 いくつかのドラムがケースにしまわれているところです。　← 出すのではなくしまう。
 
@@ -9306,7 +9038,7 @@ are being put away = しまわれているところ、片付けられている�
 in cases = ケースの中に
 
 put away は「片付ける、しまう」。
-be being + 過去分詞 は「今まさに?されているところ」という受け身の進行形です。
+be being + 過去分詞 は「今まさに〜されているところ」という受け身の進行形です。
 
 put away の例：
 The tools are being put away.
@@ -9317,8 +9049,7 @@ The documents were put away in a drawer.
 
 TOEIC Part 1なら、写真で「ドラムをケースに入れている最中」または「ドラムがケースに収納されている様子」なら正解になり得ます。単にケースの近くに置いてあるだけなら、being put away は少し強すぎます。
 "
-320,"#320  
-refrain from
+320,"refrain from
 ","refrain from 〇〇 は、「〇〇を控える」「〇〇しないようにする」という意味です。
 
 形は：
@@ -9359,8 +9090,7 @@ Please avoid eating here.
 
 TOEICでは、refrain が出たら、ほぼ refrain from ～ing と見てよいです。
 "
-321,"#321  
-The firm's 〇〇 strategy is quite different from that of the competitors.
+321,"The firm's 〇〇 strategy is quite different from that of the competitors.
 
 A. hired
 B. to hire
@@ -9378,8 +9108,7 @@ B. to hire は strategy to hire employees ならあり得ますが、空欄直�
 C. hires は動詞または「新規採用者」の複数で、hires strategy とは普通言いません。
 D. hiring が正解です。
 "
-322,"#322  
-The branch office in Tokyo will be closed on Thursday and Friday, 〇〇 a national holiday.
+322,"The branch office in Tokyo will be closed on Thursday and Friday, 〇〇 a national holiday.
 
 A. at
 B. of
@@ -9411,8 +9140,7 @@ D. with は「一緒に、～を伴って」なので不可。
 
 TOEICでは、closed for maintenance / closed for renovation / closed for a holiday の形で覚えるとよいです。
 "
-323,"#323  
-Kamiko broadband service earned excellent ratings for 〇〇 on the latest consumer survey.
+323,"Kamiko broadband service earned excellent ratings for 〇〇 on the latest consumer survey.
 
 A. reliable
 B. reliability
@@ -9446,8 +9174,7 @@ reliability = 信頼性
 
 TOEICでは、前置詞の後ろは基本的に名詞です。今回は for 〇〇 なので、名詞 reliability を選びます。
 "
-324,"#324  
-〇〇　volunteered to complete the report, so Ms. Hughes assigned it to Mr. Nakamura.
+324,"〇〇　volunteered to complete the report, so Ms. Hughes assigned it to Mr. Nakamura.
 ","正解：C. no one
 
 No one volunteered to complete the report, so Ms. Hughes assigned it to Mr. Nakamura.
@@ -9456,7 +9183,7 @@ No one volunteered to complete the report, so Ms. Hughes assigned it to Mr. Naka
 ポイント：
 空欄は文の主語です。volunteered は動詞なので、その前には主語になる名詞・代名詞が必要です。
 
-C. no one = 誰も?ない
+C. no one = 誰も〜ない
 No one volunteered = 誰も志願しなかった
 
 A. have not
@@ -9473,8 +9200,7 @@ No one volunteers.
 No one volunteered.
 のように使います。
 "
-325,"#325  
-Scavenger
+325,"Scavenger
 ","Scavenger（スカベンジャー）
 
 意味：
@@ -9512,8 +9238,7 @@ oxygen scavenger「酸素除去剤」
 free-radical scavenger「フリーラジカル除去物質」
 
 "
-326,"#326  
-blue tarp
+326,"blue tarp
 ","blue tarp（ブルー・タープ）は、「青い防水シート」「ブルーシート」のことです。
 
 日本語の「ブルーシート」にかなり近いです。ただし英語では blue sheet とはあまり言わず、blue tarp または blue tarpaulin と言います。
@@ -9553,8 +9278,7 @@ tarred「タールを塗った」
 pall「覆い布、棺を覆う布」
 pallbearer「棺を担ぐ人」
 "
-327,"#327  
-Display marketing materials.
+327,"Display marketing materials.
 ","Display marketing materials.
 
 意味：
@@ -9562,15 +9286,13 @@ Display marketing materials.
 
 marketing materials = 販促資料、宣伝資料、マーケティング用資料
 "
-328,"#328  
-clearance
+328,"clearance
 ","すき間、間隔
 機械・建築・車などで、部品と部品の間の「すき間」です。
 
 例：
 "
-329,"#329  
-waive
+329,"waive
 ","waive（ウェイブ）
 
 意味：
@@ -9606,8 +9328,7 @@ waive「放棄する、免除する」
 wave「手を振る、波」※直接の区別は必要だが、語源的に近いとされることがあります。
 waver「揺れる、迷う」
 "
-330,"#330  
-What is suggested about Mr. Kemp?
+330,"What is suggested about Mr. Kemp?
 ","What is suggested about Mr. Kemp?
 ケンプさんについて何が示唆されていますか。
 ケンプさんについて何が分かりますか。
@@ -9630,8 +9351,7 @@ Mr. Kemp attended orientation last week.
 ケンプさんは先週オリエンテーションに参加した。
 のように書かれていて、そこから「最近入社した」と推測する感じです。
 "
-331,"#331  
-attire
+331,"attire
 ","attire（アタイア）
 
 意味：
@@ -9660,7 +9380,7 @@ The invitation states that formal attire is required.
 招待状には正装が必要だと書かれています。
 
 語源：
-attire は古フランス語 atirer（アティレ）「整える、準備する、装う」から英語に入りました。さらに a-「?へ」＋ tire「整える、並べる」という感覚です。もともとは「整える」→「身なりを整える」→「服装」という意味になりました。
+attire は古フランス語 atirer（アティレ）「整える、準備する、装う」から英語に入りました。さらに a-「〜へ」＋ tire「整える、並べる」という感覚です。もともとは「整える」→「身なりを整える」→「服装」という意味になりました。
 
 同じ語源・関連語：
 attired「服を着た、装った」
@@ -9675,8 +9395,7 @@ attire は不可算名詞として使うことが多いです。
 普通の会話なら clothes「服」の方が一般的です。
 attire は案内文・招待状・会社規則・イベント説明でよく使う少し硬い表現です。
 "
-332,"#332  
-agenda
+332,"agenda
 ","agenda は、会議で「何を、どの順番で話すか」を書いたものです。日本語では「議題」「議事日程」「会議の進行表」と訳せます。
 
 例：
@@ -9702,8 +9421,7 @@ prepare the agenda = 議題・進行表を作る
 take minutes = 議事録を取る
 と覚えるとよいです。
 "
-333,"#333  
-facilitator
+333,"facilitator
 ","facilitator（ファシリテイター）
 
 意味：
@@ -9736,8 +9454,7 @@ fact「事実」
 factory「工場」
 manufacture「製造する」
 "
-334,"#334  
-The facilitators have not been finalized.
+334,"The facilitators have not been finalized.
 ","The facilitators have not been finalized. は、普通は「ファシリテーターが誰になるか、まだ確定していない」という意味です。
 
 finalize は「最終決定する、確定する」なので、
@@ -9764,8 +9481,7 @@ facilitators have not been finalized = 誰がファシリテーターになる�
 facilitators’ roles have not been finalized = ファシリテーターの役割が未確定
 です。
 "
-335,"#335  
-She will not attend the meeting in person.
+335,"She will not attend the meeting in person.
 ","in person は「本人が直接」「対面で」「実際にその場に行って」という意味です。
 
 She will not attend the meeting in person.
@@ -9795,8 +9511,7 @@ personality：性格、人格
 impersonate：なりすます
 personify：擬人化する
 "
-336,"#336  
-She did not answer all of Mr. Nielsen’s questions.
+336,"She did not answer all of Mr. Nielsen’s questions.
 ","英文が She did not answer all of Mr. Nielsen’s questions. なら、意味は「ミスター・ニールセンの質問すべてに答えたわけではない」です。
 
 つまり、「いくつかは答えたが、全部には答えなかった」という意味です。
@@ -9819,11 +9534,10 @@ She did not answer any of his questions.
 彼の質問には一つも答えなかった。
 
 ポイント：
-not all は「全部が?というわけではない」。
-not any / none は「一つも?ない」。
+not all は「全部が〜というわけではない」。
+not any / none は「一つも〜ない」。
 "
-337,"#337  
-意味：蛇口、水道の栓
+337,"意味：蛇口、水道の栓
 ","faucet
 意味：蛇口、水道の栓
 例：Turn off the faucet.
@@ -9846,8 +9560,7 @@ jabuti
 jabuti はブラジル先住民系のトゥピ語系に由来するとされ、「カメ、リクガメ」を表す語です。
 同じ語源の英語は、一般的な英単語としてはほとんどありません。英語では借用語として jabuti と書かれることがあります。
 "
-338,"#338  
-A workstation is next to a window.
+338,"A workstation is next to a window.
 ","A workstation is next to a window.
 作業台／作業スペースが窓の隣にあります。
 
@@ -9867,8 +9580,7 @@ a window なら「1つの窓」。特定していない。
 TOEIC写真描写なら、A workstation is next to a window. は自然です。
 「作業スペースが窓のそばにある」という状態を説明しています。
 "
-339,"#339  
-electroplating
+339,"electroplating
 ","electroplating
 エレクトロプレーティング
 
@@ -9887,7 +9599,7 @@ The parts are treated by electroplating.
 仕組みを簡単に言うと、めっきしたい物を液体の中に入れ、電気を流して、金属イオンを表面にくっつけます。見た目をきれいにする、防錆する、摩耗に強くする、導電性を高める、などの目的があります。
 
 語源：
-electro- は electricity「電気」から来た接頭辞で、元はギリシャ語 ?lektron（エーレクトロン）「琥珀」。琥珀をこすると静電気が起きることから「電気」の意味になりました。
+electro- は electricity「電気」から来た接頭辞で、元はギリシャ語 ēlektron（エーレクトロン）「琥珀」。琥珀をこすると静電気が起きることから「電気」の意味になりました。
 plating は plate「薄い金属板、めっきする」+ -ing です。plate は古フランス語 plate（プラート）「平たい金属板」から来ています。
 
 同じ語源：
@@ -9900,12 +9612,10 @@ plated：めっきされた
 gold-plated：金めっきの
 silver-plated：銀めっきの
 "
-340,"#340  
-fact sheet
+340,"fact sheet
 ","fact sheet の意味：要点をまとめた資料、事実説明書、概要資料。
 "
-341,"#341  
-Please 〇〇 a copy of each sales report on a separate piece of paper.
+341,"Please 〇〇 a copy of each sales report on a separate piece of paper.
 
 A. pick
 B. tell
@@ -9957,8 +9667,7 @@ Please pick up one copy of each sales report.
 
 pick 単独ではなく、pick up なら「取る、拾い上げる」になります。TOEICでは、この違いが狙われやすいです。suppress 抑える
 "
-342,"#342  
-She's on leave.
+342,"She's on leave.
 ","She's on leave. の意味：彼女は休暇中です。彼女は休職中です。
 
 leave はここでは「許可された休み」という意味です。on leave は「休暇中で、職場・学校などを一時的に離れている」という表現です。
@@ -9976,7 +9685,7 @@ She is on maternity leave.
 TOEICでは、She's on leave. と出たら、普通は「彼女は今日は出勤していない」「休暇中で不在」と考えればよいです。単なる昼休みではなく、会社から認められた休暇です。
 
 語源：
-leave は古英語 l?f（レーヴ）「許可、同意」から来ています。この leave は「去る」という動詞 leave とは別系統です。on leave は「許可された休みの状態にある」という感じです。
+leave は古英語 lǣf（レーヴ）「許可、同意」から来ています。この leave は「去る」という動詞 leave とは別系統です。on leave は「許可された休みの状態にある」という感じです。
 
 同じ語源：
 by your leave　失礼します、許可を得て
@@ -9984,8 +9693,7 @@ leave of absence　休職、休暇
 without leave　無断で、許可なく
 AWOL = absent without leave　無断離隊、無断欠勤
 "
-343,"#343  
-perishabl
+343,"perishabl
 ","perishable の意味：腐りやすい、傷みやすい、長持ちしない。
 
 特に食品・生鮮品によく使います。
@@ -10005,7 +9713,7 @@ TOEICでは、shipping「配送」、storage「保管」、refrigeration「冷�
 語源：
 perishable は perish + -able です。
 perish は古フランス語 perir（ペリール）「滅びる、死ぬ」から来ています。さらにラテン語 perire（ペリーレ）「滅びる、消える」が元です。
--able は「?できる、?しやすい」という意味です。
+-able は「〜できる、〜しやすい」という意味です。
 
 つまり perishable は「滅びやすい、だめになりやすい」→「腐りやすい、傷みやすい」です。
 
@@ -10023,8 +9731,7 @@ nonperishable
 nonperishable food
 保存食品、常温で長持ちする食品
 "
-344,"#344  
-50% of the total landscaping cost is required now, and the 〇〇 is due upon completion of the project.
+344,"50% of the total landscaping cost is required now, and the 〇〇 is due upon completion of the project.
 
 A. remains
 B. remain
@@ -10081,8 +9788,7 @@ permanent 永続的な
 mansion 大邸宅
 manor 荘園、大邸宅
 "
-345,"#345  
-Until the office heating system 〇〇, employees are permitted to work from home.
+345,"Until the office heating system 〇〇, employees are permitted to work from home.
 
 A. will be fixed
 B. is being fixed
@@ -10126,8 +9832,7 @@ until the heating system has been fixed
 
 となります。
 "
-346,"#346  
-vehicular
+346,"vehicular
 ","vehicular = 車両の
 traffic = 交通、通行量
 
@@ -10157,8 +9862,7 @@ convoy 護送隊、車列
 inveigh 激しく非難する
 via ～経由で、～を通って
 "
-347,"#347  
-I have attached a brief report on the cost-benefit of 〇〇 robotic technology.
+347,"I have attached a brief report on the cost-benefit of 〇〇 robotic technology.
 
 a. used
 b. using
@@ -10180,8 +9884,7 @@ of の後ろには名詞、または動名詞 ～ing が来ます。
 c. to use は、of to use という形が基本的に不可です。
 × the cost-benefit of to use robotic technology
 "
-348,"#348  
-下4桁が8409 は英語で、
+348,"下4桁が8409 は英語で、
 ","the last four digits are 8409 
 
 または
@@ -10190,8 +9893,7 @@ ending in 8409
 
 です。
 "
-349,"#349  
-in-store credit
+349,"in-store credit
 ","in-store credit の意味：その店だけで使える返金分、店内利用クレジット、店舗専用の買い物残高。
 
 たとえば、商品を返品したときに現金では返金されず、「この店で次回の買い物に使える金額」として戻されるものです。
@@ -10220,8 +9922,7 @@ creditor 債権者
 creed 信条
 credentials 資格証明、信用を示すもの
 "
-350,"#350  
-barren
+350,"barren
 ","barren の意味：不毛の、作物が育たない、実りのない。
 
 主に「土地」「計画」「議論」「努力」などに使います。
@@ -10253,8 +9954,7 @@ barren result 実りのない結果
 
 TOEICでは、barren land「不毛の土地」、barren area「不毛地帯」、barren discussion「実りのない議論」のように出ます。
 "
-351,"#351  
-We welcome contributions from readers.
+351,"We welcome contributions from readers.
 ","We welcome contributions from readers.
 読者からの投稿・寄稿を歓迎します。
 
@@ -10286,8 +9986,7 @@ attribute ～に帰する、属性
 tribute 賛辞、貢ぎ物
 tributary 支流
 "
-352,"#352  
-room と suite の違い：
+352,"room と suite の違い：
 ","room = 部屋、客室
 suite = 複数の部屋がつながった上級客室、スイートルーム
 
@@ -10313,7 +10012,7 @@ suite の発音は sweet と同じで「スウィート」です。
 suite room という言い方は日本語英語っぽいです。英語では普通、a suite だけで「スイートルーム」の意味になります。
 
 語源：
-room は古英語 r?m（ルーム）「空間、場所」から。
+room は古英語 rūm（ルーム）「空間、場所」から。
 suite はフランス語 suite（スュイット）「続き、一続きのもの」から。さらにラテン語 sequi（セクィ）「続く、従う」が元です。
 
 同じ suite / sequi 語源：
@@ -10324,8 +10023,7 @@ consequence 結果
 subsequent その後の
 execute 実行する
 "
-353,"#353  
-TOEICで一番怖いのは
+353,"TOEICで一番怖いのは
 ","その通りです。TOEICで一番怖いのは、英語力以前に「マークする番号のズレ」です。
 
 特にリスニングでは、1問ズレると、その後も連続してズレる危険があります。だから、問題を解く力と同じくらい、次の確認が大事です。
@@ -10354,8 +10052,7 @@ TOEICでは、
 
 この意識がかなり大事です。
 "
-354,"#354  
-duty roster
+354,"duty roster
 ","duty roster
 
 意味：
@@ -10400,8 +10097,7 @@ shift schedule = シフト表
 employee roster = 従業員名簿
 staff roster = 職員名簿
 "
-355,"#355  
-I'll get in touch with vendors about concessions like food and souvenirs.このI'll get in touchはどういう意味か?
+355,"I'll get in touch with vendors about concessions like food and souvenirs.このI'll get in touchはどういう意味か?
 ","I'll get in touch with vendors about concessions like food and souvenirs.
 この I'll get in touch は「連絡を取ります」「問い合わせます」という意味です。
 
@@ -10430,8 +10126,7 @@ lose touch = 連絡が途絶える
 be out of touch = 連絡が取れていない、事情に疎い
 get back in touch = 再び連絡を取る
 "
-356,"#356  
-Mr. Noone will sign a lease for an apartment in the building at 624 Livingstone Road.
+356,"Mr. Noone will sign a lease for an apartment in the building at 624 Livingstone Road.
 
 A. of
 B. by
@@ -10443,7 +10138,7 @@ D. for
 lease for an apartment
 = アパートの賃貸契約書
 
-ここでは for が「?のための」「?に関する」という意味です。
+ここでは for が「〜のための」「〜に関する」という意味です。
 
 a lease of an apartment は「絶対に使わない」わけではありません。ただし、このTOEIC文では普通は for が正解です。
 
@@ -10480,8 +10175,7 @@ a lease of an apartment
 
 TOEICでは、sign a lease 〇〇 an apartment なら、ほぼ for を選ぶと考えてよいです。of は完全な間違いではないが、この空所補充では不自然なので不正解です。
 "
-357,"#357  
-The museum's newest acquisitions are usually exhibited in the ground gallery, 〇〇 is located on the first floor.
+357,"The museum's newest acquisitions are usually exhibited in the ground gallery, 〇〇 is located on the first floor.
 
 A. which
 B. where
@@ -10556,8 +10250,7 @@ which is located on the first floor
 〇〇 S + V
 なら、「そこで」の意味で where が可能です。
 "
-358,"#358  
-undergo
+358,"undergo
 ","undergo
 意味：経験する、受ける、耐える。
 特に「検査・手術・訓練・変化・修理・審査などを受ける」という意味で使う。
@@ -10585,7 +10278,7 @@ TOEICでは undergo renovations / undergo training / undergo inspection / underg
 語源：
 undergo は under＋go。
 under は古英語 under（アンダー）「下に」。
-go は古英語 g?n（ガーン）「行く」。
+go は古英語 gān（ガーン）「行く」。
 もともとは「下を通って行く」「耐えながら進む」という感覚から、「困難・処置・変化などを受ける」という意味になりました。
 
 同じ語源の英語：
@@ -10598,8 +10291,7 @@ gone：行ってしまった
 underwent：undergo の過去形
 undergone：undergo の過去分詞
 "
-359,"#359  
-kiosk
+359,"kiosk
 ","kiosk は「小型の売店」「案内・注文・発券などをする小型端末」という広い意味です。駅や空港で画面操作して発券する機械を ticket kiosk と言うことはあります。
 
 ただし、日本語の「自動券売機」を普通に言うなら、
@@ -10621,14 +10313,13 @@ Please buy your ticket from the ticket vending machine.
 You can print your boarding pass at the kiosk.
 キオスク端末で搭乗券を印刷できます。
 "
-360,"#360  
-decor
+360,"decor
 ","decor
 意味：装飾、内装、飾りつけ。特に「部屋・店・ホテルなどの内装や雰囲気」を指します。
 
 発音：
 デイコー / デコー に近いです。
-英語では d?cor と書くこともあります。最後の r はアメリカ英語では軽く出ることがあります。
+英語では décor と書くこともあります。最後の r はアメリカ英語では軽く出ることがあります。
 
 例：
 The restaurant has modern decor.
@@ -10651,8 +10342,7 @@ decorative：装飾的な
 decorator：装飾業者、内装業者
 decorum：礼儀正しさ、品位
 "
-361,"#361  
-occupancy
+361,"occupancy
 ","occupancy
 意味：占有、入居、使用率、稼働率。
 
@@ -10680,7 +10370,7 @@ The building is ready for occupancy.
 語源：
 occupancy は occupy「占める、占有する」＋ -ancy「状態」。
 occupy はラテン語 occupare（オックパーレ）「つかむ、占領する、先に取る」から。
-さらに ob-（オブ）「?に向かって」＋ capere（カペレ）「取る、つかむ」から来ています。
+さらに ob-（オブ）「〜に向かって」＋ capere（カペレ）「取る、つかむ」から来ています。
 
 同じ語源の英語：
 occupy：占める、占有する
@@ -10691,8 +10381,7 @@ capture：捕らえる
 captive：捕虜の
 capacity：容量、能力
 "
-362,"#362  
-aspired
+362,"aspired
 ","aspired
 意味：目指した、熱望した、志した。
 aspire の過去形・過去分詞です。
@@ -10717,8 +10406,8 @@ aspired は「ちょっと欲しい」ではなく、「高い目標を強く目
 TOEICでは aspire to become ～ / aspire to be ～ の形で出やすいです。
 
 語源：
-aspire はラテン語 aspirare（アスピラーレ）「息を吹きかける、?へ向かって息をする」から。
-ad-（アド）「?へ」＋ spirare（スピラーレ）「息をする」。
+aspire はラテン語 aspirare（アスピラーレ）「息を吹きかける、〜へ向かって息をする」から。
+ad-（アド）「〜へ」＋ spirare（スピラーレ）「息をする」。
 「上に向かって息を吹く」ような感覚から、「高い目標を目指す」という意味になりました。
 
 同じ語源の英語：
@@ -10730,8 +10419,7 @@ conspire：共謀する
 aspiration：熱望、志望
 aspirational：向上心のある、憧れのある
 "
-363,"#363  
-work for you
+363,"work for you
 ","あなたに都合がよい
 一番よく出る意味です。
 Does 3 p.m. work for you?
@@ -10740,8 +10428,7 @@ Does 3 p.m. work for you?
 Would Monday work for you?
 月曜日でご都合よろしいですか
 "
-364,"#364  
-accrued vacation leave
+364,"accrued vacation leave
 ","たまっている有給休暇
 未消化の有給休暇
 すでに権利として発生している休暇
@@ -10764,7 +10451,7 @@ Vacation days accrue every month.
 
 語源：
 accrue はラテン語 accrescere（アックレスケレ）「増える、成長する」から来ています。
-ad-（アド）「?へ」＋ crescere（クレスケレ）「成長する、増える」です。
+ad-（アド）「〜へ」＋ crescere（クレスケレ）「成長する、増える」です。
 
 同じ語源の英語：
 increase：増える、増加
@@ -10776,8 +10463,7 @@ concrete：具体的な、コンクリートの
 
 TOEICでは、accrued vacation leave は「取得済みの休暇」ではなく、「権利としてたまっている休暇」と考えるとよいです。
 "
-365,"#365  
-firsthand / first-hand
+365,"firsthand / first-hand
 ","firsthand / first-hand は、「直接の」「じかに得た」「自分で体験した」という意味です。
 
 形容詞：
@@ -10821,8 +10507,7 @@ handle：扱う
 handout：配布資料
 hand over：引き渡す
 "
-366,"#366  
-flyer / flier
+366,"flyer / flier
 ","flyer / flier は、「チラシ」「ビラ」という意味です。
 
 flyer
@@ -10845,8 +10530,8 @@ The flyer advertises a special sale.
 flyer と flier はどちらも使われますが、現在は flyer の方がよく見ます。特に「広告チラシ」は flyer が普通です。
 
 語源：
-fly は古英語 fl?ogan（フレーオガン）「飛ぶ」から来ています。
--er は「?する人・もの」を表す接尾辞です。
+fly は古英語 flēogan（フレーオガン）「飛ぶ」から来ています。
+-er は「〜する人・もの」を表す接尾辞です。
 flyer はもともと「飛ぶ人・飛ぶもの」→「空を飛ぶ紙片」→「チラシ、ビラ」という意味にもなりました。
 
 同じ語源の英語：
@@ -10857,8 +10542,7 @@ flyover：高架道路、上空通過
 butterfly：蝶
 flyer / flier：チラシ、飛ぶ人
 "
-367,"#367  
-discontinued items
+367,"discontinued items
 ","discontinued items は、「販売終了品」「製造中止品」「取扱終了商品」という意味です。
 
 discontinued
@@ -10896,8 +10580,7 @@ continuity：連続性
 discontinuous：不連続の
 discontinuation：中止、廃止
 "
-368,"#368  
-They are well attended.
+368,"They are well attended.
 ","They are well attended. は、「それらは出席者が多い」「よく人が集まる」という意味です。
 
 well attended
@@ -10923,7 +10606,7 @@ They are well attended. の they は、meetings, seminars, workshops, events な
 
 語源：
 attend はラテン語 attendere（アッテンデレ）「注意を向ける、伸ばす」から来ています。
-ad-（アド）「?へ」＋ tendere（テンデレ）「伸ばす、向ける」です。
+ad-（アド）「〜へ」＋ tendere（テンデレ）「伸ばす、向ける」です。
 
 同じ語源の英語：
 attention：注意
@@ -10934,8 +10617,7 @@ extend：延ばす
 intend：意図する
 tension：緊張
 "
-369,"#369  
-tailspin
+369,"tailspin
 ","tailspin は、「急降下」「きりもみ状態」「大混乱」「急激な悪化」という意味です。
 
 もとの意味：
@@ -10965,7 +10647,7 @@ send ～ into a tailspin
 ～を大混乱に陥れる
 
 語源：
-tail は古英語 t?gel（テゴル）「尾」。
+tail は古英語 tægel（テゴル）「尾」。
 spin は古英語 spinnan（スピンナン）「糸を紡ぐ、回転する」。
 tailspin は「尾を下にして回転する飛行状態」から、比喩で「制御不能な悪化」という意味になりました。
 
@@ -10977,8 +10659,7 @@ spinner：回るもの、紡ぐ人
 spindle：軸、紡錘
 spider：クモ ※もとは「糸を紡ぐもの」という語源です。
 "
-370,"#370  
- spiraling
+370," spiraling
 ","spiraling は、「らせん状に回っている」「ぐるぐる回りながら進む」「悪化がどんどん進む」という意味です。
 
 もとの意味：
@@ -11031,8 +10712,7 @@ spire：尖塔
 coil：巻く、巻いたもの ※意味は近いが別語源
 spiral staircase：らせん階段
 "
-371,"#371  
-In the meantime
+371,"In the meantime
 ","In the meantime は「その間に」「それまでの間に」という意味です。
 
 発音：
@@ -11054,8 +10734,8 @@ time は「時間」です。
 つまり meantime は「中間の時間」→「その間」という意味になります。
 
 語源：
-mean は古英語 gem?ne（ゲメーネ）「共通の、中間の」から来ています。
-time は古英語 t?ma（ティーマ）「時間、時期」から来ています。
+mean は古英語 gemæne（ゲメーネ）「共通の、中間の」から来ています。
+time は古英語 tīma（ティーマ）「時間、時期」から来ています。
 
 同じ語源の英語：
 mean：中間の、平均の、意味する
@@ -11069,8 +10749,7 @@ in the meantime と meanwhile はかなり近いです。
 in the meantime は「それまでの間に」という感じ。
 meanwhile は「一方で、その間に」という感じも出ます。
 "
-372,"#372  
-Migration season
+372,"Migration season
 ","Migration season
 意味：渡りの季節、移動の季節。
 
@@ -11114,8 +10793,7 @@ seasonal = 季節の
 seasonable = 季節に合った
 out of season = 季節外れの
 "
-373,"#373  
-attentive
+373,"attentive
 ","attentive
 読み：アテンティブ
 
@@ -11160,8 +10838,7 @@ pretend = ふりをする
 contend = 争う
 tension = 緊張
 "
-374,"#374  
-Place more emphasis on ～
+374,"Place more emphasis on ～
 ","Place more emphasis on ～
 
 意味：
@@ -11214,8 +10891,7 @@ phantom = 幻、幽霊
 phase = 段階、相
 phosphorus = リン、発光物質
 "
-375,"#375  
-Eventually
+375,"Eventually
 ","Eventually
 読み：イヴェンチュアリー
 
@@ -11263,8 +10939,7 @@ prevent = 防ぐ
 revenue = 収入
 avenue = 大通り、道筋
 "
-376,"#376  
-One of the new features at the gym, the rock climbing wall, is 〇〇 members use most.
+376,"One of the new features at the gym, the rock climbing wall, is 〇〇 members use most.
 
 A. close to
 B. other than
@@ -11303,8 +10978,7 @@ at the both gym は不自然です。
 
 member used most も、普通は members use most です。過去の話なら members used most です。
 "
-377,"#377  
-Before the training, Mr. Bonnie was 〇〇 unaware of recent developments in the announced delivery system.
+377,"Before the training, Mr. Bonnie was 〇〇 unaware of recent developments in the announced delivery system.
 
 A. largely
 B. closely
@@ -11343,8 +11017,7 @@ be unaware of ～
 He was unaware of the problem.
 彼はその問題に気づいていなかった。
 "
-378,"#378  
-〇〇 weeks, it was clear that the long-term sponsorship deal with basketball star Joel Littleton would be successful.
+378,"〇〇 weeks, it was clear that the long-term sponsorship deal with basketball star Joel Littleton would be successful.
 
 A. within
 B. several
@@ -11386,8 +11059,7 @@ within days = 数日以内に
 within months = 数か月以内に
 within a year = 1年以内に
 "
-379,"#379  
-depending on ～
+379,"depending on ～
 ","意味：
 ～によって
 ～次第で
@@ -11441,8 +11113,7 @@ suspension = 停止、つり下げ
 append = 付け加える
 appendix = 付録、虫垂
 "
-380,"#380  
-grain of salt
+380,"grain of salt
 ","grain of salt
 
 意味：
@@ -11485,8 +11156,7 @@ salad　サラダ ※塩を振った野菜から
 ポイント：
 grain of salt は単独より、take it with a grain of salt の形で覚えるとよいです。米英では普通の表現です。
 "
-381,"#381  
-He is weighing some fruit.
+381,"He is weighing some fruit.
 ","彼は果物の重さを量っている。
 
 weigh は「重さを量る」という動詞です。
@@ -11495,8 +11165,7 @@ weigh は「重さを量る」という動詞です。
 weigh の発音：
 ウェイ
 "
-382,"#382  
-DYE
+382,"DYE
 ","DYE
 
 意味：
@@ -11531,8 +11200,7 @@ die（ダイ）「死ぬ」と発音は同じですが、意味もつづりも�
 dye = 染める、染料
 die = 死ぬ
 "
-383,"#383  
-concession stand
+383,"concession stand
 ","concession stand
 
 意味：
@@ -11570,8 +11238,7 @@ exceed：超える
 access：接近、アクセス
 success：成功
 "
-384,"#384  
-fort と fortress の違い。
+384,"fort と fortress の違い。
 ","fort と fortress の違い。
 
 fort：
@@ -11617,8 +11284,7 @@ effort：努力
 reinforce：補強する
 forte：得意分野、強み
 "
-385,"#385  
-landscaping company
+385,"landscaping company
 ","landscaping company は「造園会社」「庭づくりの会社」「外構・植栽工事の会社」です。
 
 意味：
@@ -11650,8 +11316,7 @@ landscaping services = 造園サービス、庭の手入れサービス
 lawn care company = 芝生管理会社
 外構工事会社 = exterior construction company / landscaping and exterior company
 "
-386,"#386  
-We've had it for quite a while.
+386,"We've had it for quite a while.
 = We have had it for quite a while.
 ","意味：
 「それはかなり長い間あります」
@@ -11683,8 +11348,7 @@ a while より長い感じです。
 We've had it. だけだと「もううんざりだ」「もう限界だ」という意味になることがあります。
 ただし、We've had it for quite a while. は、ふつう「長く持っている／使っている」です。
 "
-387,"#387  
-The Stolmar Library is 〇〇  to announce its second annual International Book Fair.
+387,"The Stolmar Library is 〇〇  to announce its second annual International Book Fair.
 
 A. exciting
 B. excited
@@ -11731,8 +11395,7 @@ The library is exciting to announce...
 TOEICでは A は不正解。
 「be excited to announce」は決まり文句として覚えてよいです。
 "
-388,"#388  
-The public work office will accept a bid for the reconstruction of Bluebee Square 〇〇 August 1st.
+388,"The public work office will accept a bid for the reconstruction of Bluebee Square 〇〇 August 1st.
 
 A. inside
 B. against
@@ -11767,8 +11430,7 @@ through August 1st = 8月1日いっぱいまで、8月1日を含めて。
 
 この問題では、accept a bid through August 1st が自然です。
 "
-389,"#389  
-After Mr. Rush retired, Mr. Chuo took the 〇〇  in planning the company's social event.
+389,"After Mr. Rush retired, Mr. Chuo took the 〇〇  in planning the company's social event.
 
 A. leader
 B. leading
@@ -11794,8 +11456,7 @@ She took the lead in organizing the event.
 The marketing team took the lead in developing the campaign.
 マーケティングチームがそのキャンペーン開発を主導した。
 "
-390,"#390  
-〇〇 caterers charge an extra fee for cups and napkins.
+390,"〇〇 caterers charge an extra fee for cups and napkins.
 
 A. most
 B. almost
@@ -11821,8 +11482,7 @@ Most caterers = ほとんどのケータリング業者
 Almost all caterers = ほぼすべてのケータリング業者
 Most of the caterers = そのケータリング業者たちの大半
 "
-391,"#391  
-hold back
+391,"hold back
 ","hold back の意味：
 
 抑える、止める
@@ -11850,7 +11510,7 @@ Hold the back of the box.
 
 語源：
 hold は古英語 healdan（ヘアルダン）「保つ、持つ、支える」から。
-back は古英語 b?c（バック）「背中、後ろ」から。
+back は古英語 bæc（バック）「背中、後ろ」から。
 
 同じ語源：
 hold 系：holder, household, behold, uphold, withhold
@@ -11861,12 +11521,10 @@ hold back = 抑える、隠す、妨げる
 hold the back = 後ろ側・背中部分を持つ、押さえる
 熟語として覚えるなら hold back です。
 "
-392,"#392  
-We were able to lease a storefront.
+392,"We were able to lease a storefront.
 ","私たちは店舗物件を借りることができました。
 "
-393,"#393  
-lease
+393,"lease
 ","lease は「借りる」という意味にも、「貸す」という意味にもなります。つまり両方あります。
 
 ただし、文の主語によって意味が決まります。
@@ -11911,8 +11569,7 @@ relax：くつろぐ、緩める
 lax：厳しくない、ゆるい
 delay：遅らせる、延期する
 "
-394,"#394  
-storefront
+394,"storefront
 ","storefront は、直訳すると「店の前面」「店先」です。store は「店」そのもの、storefront は「道路に面した店の正面部分」または「路面店舗の物件」という感じです。
 
 store
@@ -11965,8 +11622,7 @@ frontier：国境、辺境
 confront：向き合う
 affront：侮辱する、面と向かって怒らせる
 "
-395,"#395  
-vetting process
+395,"vetting process
 ","vetting process
 意味：審査過程、事前審査、身元確認の手続き、選別プロセス
 
@@ -12003,8 +11659,7 @@ vet：獣医、退役軍人、審査する
 vetted：審査済みの
 vetting：審査、身元確認
 "
-396,"#396  
-Take classes in person.
+396,"Take classes in person.
 ","Take classes in person.
 意味：対面で授業を受ける。オンラインではなく、教室などに実際に行って授業を受ける、という意味です。
 
@@ -12047,8 +11702,7 @@ personal：個人の
 personality：人格
 in-person：対面の
 "
-397,"#397  
-the name of the business
+397,"the name of the business
 ","the name of the business
 その事業・会社・店の名前
 
@@ -12064,8 +11718,8 @@ What is the name of the business?
 Please enter your business name.
 事業名・会社名・店名を入力してください。
 
-The business name is Sakura Caf?.
-事業名は Sakura Caf? です。
+The business name is Sakura Café.
+事業名は Sakura Café です。
 
 違い：
 the name of the business = そのビジネスの名前
@@ -12073,8 +11727,7 @@ business name = 事業名、屋号、会社名
 
 書類や登録フォームでは business name がよく使われます。口で尋ねるなら What is the name of the business? が自然です。
 "
-398,"#398  
-orchard
+398,"orchard
 ","orchard
 意味：果樹園。リンゴ、オレンジ、桃、梨、チェリーなど、果物の木を育てている畑・園地のことです。
 
@@ -12117,8 +11770,7 @@ vineyard：ブドウ園
 churchyard：教会の墓地・境内
 backyard：裏庭
 "
-399,"#399  
-bruise
+399,"bruise
 ","bruise
 意味：打撲、あざ。または「打撲する」「あざができる」。
 
@@ -12141,7 +11793,7 @@ The fruit bruises easily.
 果物なら「傷み」「打ち傷」という意味にもなります。
 
 語源：
-bruise は古英語 bry?san（ブリューザン）「砕く、押しつぶす」に関係するとされます。中英語では brusen（ブルーゼン）「壊す、傷つける」の形で使われました。
+bruise は古英語 brȳsan（ブリューザン）「砕く、押しつぶす」に関係するとされます。中英語では brusen（ブルーゼン）「壊す、傷つける」の形で使われました。
 
 同じ語源・近い系統：
 bruised：打撲した、あざのできた
@@ -12149,8 +11801,7 @@ bruising：激しい、こたえるような
 bruise easily：あざができやすい
 black-and-blue：青あざだらけの
 "
-400,"#400  
-Attendees should bring a 〇〇 of the accounting report to Friday's meeting.
+400,"Attendees should bring a 〇〇 of the accounting report to Friday's meeting.
 
 A. number
 B. copy
@@ -12172,8 +11823,7 @@ A がダメな理由は、a number of の後ろには「複数名詞」が来る
 a number of reports
 いくつかの報告書、多数の報告書
 "
-401,"#401  
-Yamamoto's ideas have greatly improved the hiring 〇〇 for new employees at Bensoft Inc.
+401,"Yamamoto's ideas have greatly improved the hiring 〇〇 for new employees at Bensoft Inc.
 
 A. experienced
 B. to experience
@@ -12192,8 +11842,7 @@ user experience = ユーザー体験
 employee experience = 従業員体験
 hiring experience = 採用体験
 "
-402,"#402  
-on the package
+402,"on the package
 ","意味：
 「その包装・パッケージに」
 「その荷物に」
@@ -12222,8 +11871,7 @@ The label is on the package.
 The product is in the package.
 商品はパッケージの中にある。
 "
-403,"#403  
-The Mountain Ceramics of Cape Town is located 〇〇 view of its namesake peak
+403,"The Mountain Ceramics of Cape Town is located 〇〇 view of its namesake peak
 
 A. along
 B. toward
@@ -12250,8 +11898,7 @@ amid は「～の真ん中に、～に囲まれて」ですが、amid beautiful 
 
 namesake は「同じ名前のもの」「名前の由来になったもの」という意味です。ここでは its namesake peak で「その店名・施設名の由来になっている山頂」という意味です。
 "
-404,"#404  
-provided tha
+404,"provided tha
 ","provided that
 
 意味：
@@ -12301,8 +11948,7 @@ visible = 見える
 evidence = 証拠
 supervise = 監督する
 "
-405,"#405  
-in accordance with ～
+405,"in accordance with ～
 ","in accordance with ～
 
 意味：
@@ -12348,12 +11994,10 @@ record = 記録する ※もとは「心に呼び戻す」
 courage = 勇気 ※cor「心」由来
 heart = 心 ※意味は近いが語源は別系統です。
 "
-406,"#406  
-期限超過の、返却期限・提出期限を過ぎ
+406,"期限超過の、返却期限・提出期限を過ぎ
 ","overdue
 "
-407,"#407  
-exhibitors
+407,"exhibitors
 ","exhibitors
 エグジビターズ
 
@@ -12396,8 +12040,7 @@ prohibit = 禁止する
 inhibit = 抑制する
 ability = 能力 ※habere「持つ」系統から派生した語です。
 "
-408,"#408  
-take a stroll
+408,"take a stroll
 ","take a stroll
 
 意味：
@@ -12429,8 +12072,7 @@ stroll = 散歩する
 stroller = 散歩する人、ベビーカー
 strolling = 散歩している、ぶらぶら歩く
 "
-409,"#409  
-Would you care to do ～?
+409,"Would you care to do ～?
 ","Would you care to do ～?
 
 意味：
@@ -12476,8 +12118,7 @@ careless = 不注意な
 caretaker = 管理人、世話人
 healthcare = 医療、健康管理
 "
-410,"#410  
-Councilwoman
+410,"Councilwoman
 ","Councilwoman
 カウンシルウーマン
 
@@ -12520,8 +12161,7 @@ councilor / councillor = 議員、評議員
 counsel = 助言する、弁護士 ※綴りと意味は近いが、別語として区別されます
 reconcile = 和解させる、一致させる ※同じく concilium 系とされます
 "
-411,"#411  
-sanction waivers
+411,"sanction waivers
 ","sanction waivers
 
 意味：
@@ -12568,8 +12208,7 @@ waive = 放棄する、免除する
 waiver = 免除、権利放棄
 waivable = 免除可能な
 "
-412,"#412  
-objective mediator
+412,"objective mediator
 ","objective mediator
 オブジェクティブ・ミーディエイター
 
@@ -12602,8 +12241,7 @@ third-party mediator
 
 TOEIC・ビジネスでは、objective は「目的」よりも「客観的な」という意味で出ることも多いです。ここでは objective mediator = 「客観的・公平な仲介者」です。
 "
-413,"#413  
-along with
+413,"along with
 ","along with
 アロング・ウィズ
 
@@ -12649,8 +12287,7 @@ with = ～と一緒に
 within = ～の中に
 without = ～なしで
 "
-414,"#414  
-measurably
+414,"measurably
 ","measurably
 メジャラブリー
 
@@ -12693,8 +12330,7 @@ dimension = 寸法、次元
 meter = メートル、計器
 commensurate = 釣り合った、相応の
 "
-415,"#415  
-fondly
+415,"fondly
 ","fondly
 フォンドリー
 意味：愛情を込めて、懐かしく、好意的に
@@ -12738,8 +12374,7 @@ fundamental = 基本的な
 fund = 資金
 bottom/fundus 系の「底」のイメージです。
 "
-416,"#416  
-representative of ～
+416,"representative of ～
 ","representative of ～
 
 意味：
@@ -12786,8 +12421,7 @@ present = 現在の、提示する
 presence = 存在、出席
 presentation = 発表、提示
 "
-417,"#417  
-appease
+417,"appease
 ","appease
 アピーズ
 
@@ -12826,8 +12460,7 @@ pacify = 平定する、なだめる
 pacific = 平和的な、太平洋の
 pact = 協定、条約
 "
-418,"#418  
-dwindle
+418,"dwindle
 ","dwindle
 ドゥウィンドル
 
@@ -12867,8 +12500,7 @@ dwindling = 減少している、先細りの
 dwindled = 減った、衰えた
 dwindle away = だんだん消えていく
 "
-419,"#419  
-novice
+419,"novice
 ","novice
 ノヴィス
 
@@ -12908,8 +12540,7 @@ innovation = 革新
 renovate = 改修する
 novice = 初心者、新米
 "
-420,"#420  
-chick
+420,"chick
 ","chick
 チック
 
@@ -12938,8 +12569,7 @@ chick = ひよこ
 chickpea = ひよこ豆 ※形がひよこに似ていることから
 chickadee = アメリカの小鳥の名
 "
-421,"#421  
-attentive
+421,"attentive
 ","attentive
 アテンティブ
 
@@ -12982,8 +12612,7 @@ extend = 伸ばす
 intend = 意図する
 tension = 緊張
 "
-422,"#422  
-intermittent
+422,"intermittent
 ","intermittent
 インターミッテント
 
@@ -13030,8 +12659,7 @@ transmit = 送信する
 admit = 認める、入場を許す
 dismiss = 解散させる、退ける
 "
-423,"#423  
-be prepared to + 動詞の原形
+423,"be prepared to + 動詞の原形
 ","be prepared to + 動詞の原形
 
 意味：
@@ -13072,8 +12700,7 @@ preparatory = 準備の
 apparatus = 装置、器具
 repair = 修理する ※「再び整える」の意味から来ています。
 "
-424,"#424  
-coercive
+424,"coercive
 ","coercive
 コアーシブ
 
@@ -13124,8 +12751,7 @@ coercive = 強制的な
 arcane = 秘密の、難解な ※arcere 系の「閉じ込める」と関係
 ark = 箱舟、箱 ※遠い関連とされることがあります。
 "
-425,"#425  
-stymie
+425,"stymie
 ","stymie
 スタイミー
 
@@ -13158,8 +12784,7 @@ hinder = 妨げる
 impede = 妨げる
 hamper = 妨げる、制約する
 "
-426,"#426  
-ace in the hole
+426,"ace in the hole
 ","ace in the hole
 エイス・イン・ザ・ホール
 
@@ -13192,8 +12817,7 @@ secret weapon = 秘密兵器
 backup plan = 予備策
 hidden advantage = 隠れた強み
 "
-427,"#427  
-deterrent
+427,"deterrent
 ","deterrent
 ディターレント
 
@@ -13234,8 +12858,7 @@ terrify = 怖がらせる
 terrible = 恐ろしい
 terrific = すごい、恐ろしい ※元は「恐怖を起こさせる」
 "
-428,"#428  
-ramp up
+428,"ramp up
 ","ramp up
 ランプ・アップ
 
@@ -13278,9 +12901,8 @@ ramp down = 減らす、縮小する
 scale up = 拡大する
 step up = 強化する、増やす
 "
-429,"#429  
-vis-?-vis
-","vis-?-vis
+429,"vis-à-vis
+","vis-à-vis
 ヴィザヴィ／ヴィズアヴィ
 
 意味：
@@ -13292,13 +12914,13 @@ vis-?-vis
 少し硬い表現です。英語では、比較・関係を述べるときによく使います。
 
 例：
-Japan's position vis-?-vis China is complicated.
+Japan's position vis-à-vis China is complicated.
 中国に対する日本の立場は複雑です。
 
-The yen weakened vis-?-vis the dollar.
+The yen weakened vis-à-vis the dollar.
 円はドルに対して下落した。
 
-We need to consider our policy vis-?-vis Russia.
+We need to consider our policy vis-à-vis Russia.
 ロシアに対する我々の政策を考える必要がある。
 
 元の意味：
@@ -13306,9 +12928,9 @@ We need to consider our policy vis-?-vis Russia.
 「面と向かって」
 
 語源：
-フランス語 vis-?-vis（ヴィザヴィ）から来ています。
+フランス語 vis-à-vis（ヴィザヴィ）から来ています。
 vis = 顔、面
-? = ～に
+à = ～に
 vis = 顔、面
 
 つまり直訳は「顔と顔を向かい合わせて」です。
@@ -13321,8 +12943,7 @@ visit = 訪問する
 vista = 眺め
 visage = 顔、顔つき
 "
-430,"#430  
-incendiary
+430,"incendiary
 ","incendiary
 インセンディアリー
 
@@ -13365,8 +12986,7 @@ candor = 率直さ ※「白さ、明るさ」から
 candidate = 候補者 ※古代ローマで白い服を着たことから
 candid = 率直な、隠し立てしない
 "
-431,"#431  
-cocky and bold
+431,"cocky and bold
 ","cocky and bold
 コッキー・アンド・ボールド
 
@@ -13405,8 +13025,7 @@ boldly = 大胆に
 boldness = 大胆さ
 embolden = 勇気づける、強気にさせる
 "
-432,"#432  
-antithetical
+432,"antithetical
 ","たぶん antithetical です。
 アンティセティカル
 
@@ -13445,8 +13064,7 @@ hypothesis = 仮説
 synthesis = 統合、合成
 parenthesis = 括弧、挿入句
 "
-433,"#433  
-write it off
+433,"write it off
 ","write it off
 ライト・イット・オフ
 
@@ -13486,8 +13104,7 @@ write up = 詳しく書く、評価額を上げる
 write out = 書き出す
 write in = 書き込む
 "
-434,"#434  
-porcupine
+434,"porcupine
 ","porcupine
 ポーキュパイン
 
@@ -13522,8 +13139,7 @@ spine = 背骨、トゲ
 spiny = トゲのある
 spike = とがったもの、急上昇
 "
-435,"#435  
-impregnable
+435,"impregnable
 ","impregnable
 インプレグナブル
 
@@ -13565,8 +13181,7 @@ apprehend = 逮捕する、理解する
 enterprise = 事業 ※「引き受ける」系統
 surprise = 驚かせる ※不意につかむ、から。
 "
-436,"#436  
-tiptoeing away
+436,"tiptoeing away
 ","tiptoeing away
 ティップトウイング・アウェイ
 
@@ -13601,8 +13216,7 @@ on tiptoe = つま先立ちで
 sneak away = こっそり立ち去る
 creep away = 忍び足で去る
 "
-437,"#437  
-nursery
+437,"nursery
 ","nursery
 ナーサリー
 
@@ -13650,8 +13264,7 @@ nutrition = 栄養
 nutrient = 栄養素
 malnutrition = 栄養失調
 "
-438,"#438  
-books contributor
+438,"books contributor
 ","books contributor
 
 意味：
@@ -13688,8 +13301,7 @@ attribute = ～に帰する、属性
 distribute = 分配する
 retribution = 報い、報復
 "
-439,"#439  
-client directory
+439,"client directory
 ","client directory
 クライアント・ディレクトリー
 
@@ -13728,8 +13340,7 @@ direction = 方向、指示
 director = 取締役、監督
 indirect = 間接的な
 "
-440,"#440  
-banner
+440,"banner
 ","banner
 バナー
 
@@ -13771,8 +13382,7 @@ band = 帯、集団
 banneret = 旗を掲げる騎士
 standard = 旗、基準 ※意味は近いですが語源は別です。
 "
-441,"#441  
-A lot of people took advantage of the promotion.
+441,"A lot of people took advantage of the promotion.
 ","A lot of people took advantage of the promotion.
 
 意味：
@@ -13813,8 +13423,7 @@ advantage = 利点、有利
 advantageous = 有利な
 vanguard = 前衛、先頭部隊
 "
-442,"#442  
-raffle
+442,"raffle
 ","raffle
 ラッフル
 
@@ -13849,8 +13458,7 @@ draw = 抽選する
 lottery = 宝くじ、抽選
 prize draw = 景品抽選
 "
-443,"#443  
-opticians
+443,"opticians
 ","opticians
 オプティシャンズ
 
@@ -13893,8 +13501,7 @@ optics = 光学
 optometry = 検眼
 ophthalmology は「眼科」で、語源は別のギリシャ語 ophthalmos（オフタルモス）「目」です。
 "
-444,"#444  
-The survey shows that most customers find Randy Sweets packaging 〇〇.
+444,"The survey shows that most customers find Randy Sweets packaging 〇〇.
 
 A. appealed
 B. appealing
@@ -13970,8 +13577,7 @@ I found the packaging appealed.
 結論：
 find + 目的語 + 形容詞 の形自体は正しいですが、そこに入る形容詞が appealed ではない。appealing「魅力的な」が正しい、ということです。
 "
-445,"#445  
-A lot of publicity
+445,"A lot of publicity
 ","A lot of publicity
 意味：
 「多くの宣伝」「大きな注目」「かなりの報道・世間の関心」
@@ -14001,8 +13607,7 @@ publicize「宣伝する、公表する」
 republic「共和国」
 publicly「公然と、公に」
 "
-446,"#446  
-promptly at 1 o'clock
+446,"promptly at 1 o'clock
 ","promptly at 1 o'clock
 
 これが自然です。
@@ -14031,8 +13636,7 @@ prompt「迅速な、促す」
 promptness「迅速さ」
 promptitude「機敏さ、迅速さ」
 "
-447,"#447  
-convince
+447,"convince
 ","convince
 
 意味：
@@ -14068,8 +13672,7 @@ invincible「無敵の」
 evict「立ち退かせる」
 conviction「確信、有罪判決」
 "
-448,"#448  
-flaw
+448,"flaw
 ","flaw
 
 意味：
@@ -14097,8 +13700,7 @@ flake「薄片、かけら」
 flaky「薄片状の、当てにならない」
 flagstone「敷石」
 "
-449,"#449  
-cast your vote
+449,"cast your vote
 ","cast your vote
 
 意味：
@@ -14131,8 +13733,7 @@ devotion　献身
 votive　奉納の
 voter　投票者
 "
-450,"#450  
-get acquainted with ～
+450,"get acquainted with ～
 ","get acquainted with ～
 
 意味：
@@ -14174,8 +13775,7 @@ cognitive　認知の
 incognito　正体を隠した
 know　知る、とは遠い親戚関係とされます。
 "
-451,"#451  
-credential
+451,"credential
 ","credential
 
 意味：
@@ -14220,8 +13820,7 @@ discredit　信用を落とす
 accredit　認定する
 credentials　資格証明、認証情報
 "
-452,"#452  
-She secured a large order from a client.
+452,"She secured a large order from a client.
 ","だいたい get に近いです。ただし secure は単なる get よりも、「努力して獲得する」「確実に手に入れる」「取り付ける」という感じが強いです。
 
 She secured a large order from a client.
@@ -14263,8 +13862,7 @@ cure　治療する
 curious　好奇心のある ※cura「気にかける」と関係
 accurate　正確な ※直接同系ではなく別系統寄りだが、care/cure 系と説明されることがある
 "
-453,"#453  
-smear
+453,"smear
 ","smear
 
 意味：
@@ -14310,8 +13908,7 @@ smarmy　へつらう、うさんくさい
 smear campaign　中傷運動
 pap smear　子宮頸がん検査の一種
 "
-454,"#454  
-hardly
+454,"hardly
 ","hardly
 
 意味：
@@ -14357,8 +13954,7 @@ hardy　頑丈な、たくましい
 hardline　強硬路線
 hardworking　勤勉な
 "
-455,"#455  
-complimentary
+455,"complimentary
 ","complimentary
 
 意味：
@@ -14411,8 +14007,7 @@ complimentary　無料の、褒める
 plenty　たくさん
 full　満ちた
 "
-456,"#456  
-be in need of ～
+456,"be in need of ～
 ","be in need of ～
 
 意味：
@@ -14444,8 +14039,7 @@ in need off help
 
 発音は少し似ていますが、書くときは必ず of です。
 "
-457,"#457  
-DEED
+457,"DEED
 ","DEED（ディード）
 
 意味：
@@ -14468,7 +14062,7 @@ a title deed
 権利証書、不動産の所有権を示す証書
 
 語源：
-古英語 d?d（デード）「行為、行い」から来ています。さらにゲルマン祖語 *d?diz（デーディズ）「行為」にさかのぼります。
+古英語 dǣd（デード）「行為、行い」から来ています。さらにゲルマン祖語 *dēdiz（デーディズ）「行為」にさかのぼります。
 
 同じ語源の英語：
 do　する
@@ -14482,8 +14076,7 @@ deed　行為、証書
 do は「する」という動詞、deed は「されたこと・行為」という名詞です。
 つまり deed は「実際にやったこと」という感じです。
 "
-458,"#458  
-WAIVED
+458,"WAIVED
 ","WAIVED（ウェイヴド）
 
 意味：
@@ -14510,12 +14103,11 @@ waived　放棄された、免除された
 注意：
 wave（ウェイヴ）「波、手を振る」と発音は同じですが、意味も語源も別です。waived は「手を振った」ではありません。
 "
-459,"#459  
-drawing o
+459,"drawing o
 ","drawing on（ドローイング・オン）
 
 意味：
-「?を利用して」「?を活用して」「?に頼って」という意味です。特に、知識・経験・資料・資金などを引き出して使う感じです。
+「〜を利用して」「〜を活用して」「〜に頼って」という意味です。特に、知識・経験・資料・資金などを引き出して使う感じです。
 
 例：
 Drawing on his experience, he solved the problem.
@@ -14526,7 +14118,7 @@ The report draws on data from several studies.
 
 draw on ～ の基本イメージ：
 draw は「引く、引き出す」。
-draw on ～ は「?の上に線を描く」ではなく、「?から引き出して使う」という意味になります。
+draw on ～ は「〜の上に線を描く」ではなく、「〜から引き出して使う」という意味になります。
 
 使い方：
 draw on experience
@@ -14542,7 +14134,7 @@ draw on evidence
 証拠に基づく、証拠を利用する
 
 語源：
-draw は古英語 dragan（ドラガン）「引く、運ぶ」から来ています。さらにゲルマン祖語 *dragan?（ドラガナン）「引く、運ぶ」にさかのぼります。
+draw は古英語 dragan（ドラガン）「引く、運ぶ」から来ています。さらにゲルマン祖語 *draganą（ドラガナン）「引く、運ぶ」にさかのぼります。
 
 同じ語源の英語：
 draw　引く、描く、引き出す
@@ -14558,10 +14150,9 @@ drawing on は、文脈によっては「近づいている」という意味も
 Evening was drawing on.
 夕方が近づいていた。
 
-ただし、TOEICやビジネス文では、多くの場合「?を活用して」「?に基づいて」です。
+ただし、TOEICやビジネス文では、多くの場合「〜を活用して」「〜に基づいて」です。
 "
-460,"#460  
-right away
+460,"right away
 ","right away（ライト・アウェイ）
 
 意味：
@@ -14599,8 +14190,7 @@ always　いつも
 注意：
 write away という表現も形としてはありえますが、普通の熟語ではありません。たとえば write away for a brochure なら「パンフレットを求めて手紙を書く」という古い言い方です。日常で「すぐに」と言いたいなら right away です。
 "
-461,"#461  
-compromise
+461,"compromise
 ","ある。特にIT・セキュリティでは、compromise / compromised に「侵害される」「不正アクセスされる」「情報が漏えいする状態になる」という意味がある。
 
 ただし、compromise そのものが直接「漏えいする」というより、「安全性が破られる」「アカウントやシステムが乗っ取られる・侵害される」という意味。その結果として、情報漏えいが起きることが多い。
@@ -14639,8 +14229,7 @@ compromised data = 漏えいした可能性のあるデータ
 
 ITでは「漏えい」と訳して自然な場面が多い。
 "
-462,"#462  
-whole
+462,"whole
 ","whole は基本的に「一つのまとまり全体」を表すので、数えられる単数名詞を修飾することが多いです。
 
 正しい例：
@@ -14723,8 +14312,7 @@ whole は基本的に可算単数名詞につく。
 不可算名詞には普通 all を使う。
 ただし、truth, story, world, process など「まとまり」として考えられる語には whole が使える。
 "
-463,"#463  
-sales
+463,"sales
 ","sales は形としては sale の複数形です。
 
 sale（セール）＝販売、売却、特売
@@ -14769,8 +14357,7 @@ sales は形は複数形。
 意味は「売上」「販売活動」「営業部門」。
 文法上は、多くの場合、複数扱いで Sales are ～ になる。
 "
-464,"#464  
-To claim your gift
+464,"To claim your gift
 ","To claim your gift（トゥ・クレイム・ユア・ギフト）
 
 意味：
@@ -14805,8 +14392,7 @@ disclaim　否認する、権利を放棄する
 To claim your gift は、キャンペーンや抽選でよく使う表現です。
 日本語では「プレゼントを受け取るには」が一番自然です。
 "
-465,"#465  
-streamline
+465,"streamline
 ","streamline（ストリームライン）
 
 意味：
@@ -14854,8 +14440,7 @@ streamline workflow
 streamline operations
 業務を効率化する
 "
-466,"#466  
-Extended delivery date
+466,"Extended delivery date
 ","Extended delivery date
 
 意味：
@@ -14889,8 +14474,7 @@ extent　範囲
 intense　強烈な
 contend　争う、主張する
 "
-467,"#467  
-Columns are supporting a porch roof.
+467,"Columns are supporting a porch roof.
 ","Columns are supporting a porch roof.
 
 意味：
@@ -14907,8 +14491,7 @@ porch は、家の玄関前にある屋根付きの小さなスペースです�
 「柱が玄関前の屋根を支えている」
 という意味です。
 "
-468,"#468  
-run into 人
+468,"run into 人
 ","run into 人 = 人に偶然会う、ばったり会う
 
 ここでは ran into you なので、
@@ -14923,9 +14506,9 @@ I'm glad I ran into you.
 
 語源：
 run は古英語 rinnan / iernan（リンナン／イエルナン）「走る、流れる」から。
-into は in（イン）「中へ」＋ to（トゥ）「?へ」から。
+into は in（イン）「中へ」＋ to（トゥ）「〜へ」から。
 
-run into は直訳では「?の中へ走り込む」ですが、そこから「出くわす」「偶然会う」という意味になりました。
+run into は直訳では「〜の中へ走り込む」ですが、そこから「出くわす」「偶然会う」という意味になりました。
 
 同じ語源の英語：
 run　走る
@@ -14933,11 +14516,10 @@ runner　走る人
 running　走ること
 in　中に
 inside　内側に
-to　?へ
-toward　?の方へ
+to　〜へ
+toward　〜の方へ
 "
-469,"#469  
-various
+469,"various
 ","various は「さまざまな」「いろいろな」という意味なので、後ろには普通、複数名詞が来ます。
 
 正しい：
@@ -14980,8 +14562,7 @@ various sources of nutrition
 
 この違いです。だから空欄が a ●● source なら、various は入れにくく、rich が自然です。
 "
-470,"#470  
-be in favor of ～
+470,"be in favor of ～
 ","be in favor of ～ ＝「～に賛成している」「～を支持している」
 
 発音：ビー・イン・フェイヴァー・オヴ
@@ -15008,11 +14589,10 @@ favorite「お気に入りの」
 favorably「好意的に」
 unfavorable「好ましくない、不利な」
 "
-471,"#471  
-culinary
+471,"culinary
 ","意味：「料理の」「調理の」「台所の」
 
-発音：/?k?l?neri/ または /?kju?l?neri/
+発音：/ˈkʌlɪneri/ または /ˈkjuːlɪneri/
 カタカナ：カリナリー、キューリナリー
 ※アメリカ英語では「カリネリ」に近く聞こえることがあります。
 
@@ -15042,8 +14622,7 @@ culinarily「料理の観点から、調理上」
 
 なお、culinary は cook よりかなりフォーマルで、「料理文化・料理技術・美食」の文脈でよく使われます。
 "
-472,"#472  
-Should you prefer more casual fare
+472,"Should you prefer more casual fare
 ","Should you prefer more casual fare?
 ＝ If you should prefer more casual fare
 ＝ If you prefer more casual fare
@@ -15062,7 +14641,7 @@ Should you prefer ...
 
 これを「条件節の倒置」といいます。
 
-通常の疑問文の倒置と同じ語順になりますが、疑問文ではありません。文末に疑問符が付いていても、文脈上は「もし?なら」という条件を表しています。
+通常の疑問文の倒置と同じ語順になりますが、疑問文ではありません。文末に疑問符が付いていても、文脈上は「もし〜なら」という条件を表しています。
 
 構造：
 Should ＋ 主語 ＋ 動詞の原形, 主節
@@ -15077,7 +14656,7 @@ Should you have any questions, let me know.
 Should the weather worsen, the event will be canceled.
 天候が悪化した場合、イベントは中止されます。
 
-ここでの should は「?すべき」という義務ではありません。「万一?なら」「もし?であれば」という控えめな条件を表しています。
+ここでの should は「〜すべき」という義務ではありません。「万一〜なら」「もし〜であれば」という控えめな条件を表しています。
 
 If you prefer more casual fare と比べると、違いは次のようになります。
 
@@ -15099,7 +14678,7 @@ casual fare
 
 文全体が Should you prefer more casual fare? だけで終わっている場合は、広告や案内文で後半が省略されている可能性があります。完全な文なら、例えば次のようになります。
 
-Should you prefer more casual fare, our caf? is open until 10 p.m.
+Should you prefer more casual fare, our café is open until 10 p.m.
 もっと気軽な料理をご希望でしたら、当店のカフェは午後10時まで営業しています。
 
 なお、if を省略できる倒置は主に should、were、had の3種類です。
@@ -15115,8 +14694,7 @@ Had I known, ...
 
 したがって、Should you prefer ... は「if が省略され、条件節内の should が主語の前に出た倒置形」です。
 "
-473,"#473  
-develop a defect
+473,"develop a defect
 ","develop a defect ＝「欠陥が生じる」「不具合を起こす」「故障箇所ができる」
 
 ここで develop は「開発する」ではなく、「徐々に生じる」「現れる」という意味です。
@@ -15140,8 +14718,7 @@ defect
 語源：ラテン語 defectus（デフェクトゥス）「不足、欠落」← deficere（デフィケレ）「不足する、失敗する」
 同じ語源の英語：defective「欠陥のある」、deficiency「不足」、deficient「不足している」、fail「失敗する」
 "
-474,"#474  
-craft
+474,"craft
 ","craft
 
 意味：
@@ -15151,7 +14728,7 @@ craft
 船、航空機、宇宙船
 巧みに作る、念入りに作る（動詞）
 
-発音：/kr?ft/
+発音：/kræft/
 カタカナ：クラフト
 
 例：
@@ -15170,7 +14747,7 @@ a small craft
 craft は単なる make「作る」よりも、「技術や工夫を使って巧みに作る」というニュアンスがあります。
 
 語源：
-古英語 cr?ft（クラェフト）「力、技能、技術」
+古英語 cræft（クラェフト）「力、技能、技術」
 ↓
 中英語 craft「技能、職業、手仕事」
 
@@ -15185,8 +14762,7 @@ watercraft「船舶」
 
 特に重要なのは、craft が「手作り」だけではなく、「熟練した技術」というのが元の意味だという点です。
 "
-475,"#475  
-a puddle of water
+475,"a puddle of water
 ","a puddle of water
 
 意味：
@@ -15211,7 +14787,7 @@ The ground is covered with puddles.
 地面には水たまりができています。
 
 発音：
-puddle /?p?d?l/
+puddle /ˈpʌdəl/
 カタカナでは「パドル」に近い発音です（「パドゥル」のようにも聞こえます）。
 
 語源：
@@ -15225,8 +14801,7 @@ pool（プール）＝池、水たまり（puddle より大きい）
 pond（ポンド）＝池
 puddle up（パドル・アップ）＝水たまりになる、水がたまる
 "
-476,"#476  
-Codewill Computer accepts returns 〇〇products have not been removed from the packaging.
+476,"Codewill Computer accepts returns 〇〇products have not been removed from the packaging.
 
 A. in order that
 
@@ -15277,8 +14852,7 @@ You may leave early as long as you finish your work.
 We will refund your money as long as you have the receipt.
 （レシートがあれば返金します。）
 "
-477,"#477  
-well enough to + 動詞の原形
+477,"well enough to + 動詞の原形
 ","意味：
 「～するのに十分なくらい上手に」
 「～できる程度に十分よく」
@@ -15307,15 +14881,14 @@ well enough
 
 語源：
 well は古英語 wel（ウェル）「よく」に由来します。
-enough は古英語 gen?g（ゲノーグ）「十分な」に由来します。
+enough は古英語 genōg（ゲノーグ）「十分な」に由来します。
 
 同じ語源の英語：
 well-being（ウェルビーイング）＝幸福、健康
 welcome（ウェルカム）＝歓迎する
 enough には、現代英語で直接同じ語源として分かりやすい一般語はほとんどありません。
 "
-478,"#478  
-be known for ～
+478,"be known for ～
 ","be known for ～
 
 意味：
@@ -15352,7 +14925,7 @@ He is known to many people.
 
 語源：
 known は know の過去分詞です。
-know は古英語 cn?wan（クナーワン）「知る」に由来します。
+know は古英語 cnāwan（クナーワン）「知る」に由来します。
 
 同じ語源の英語：
 knowledge（ナレッジ）＝知識
@@ -15360,8 +14933,7 @@ acknowledge（アクノリッジ）＝認める
 unknown（アンノウン）＝知られていない
 well-known（ウェルノウン）＝有名な
 "
-479,"#479  
-class material
+479,"class material
 ","class material
 
 意味：
@@ -15393,8 +14965,7 @@ classic（クラシック）＝古典的な
 matter（マター）＝物質、事柄
 materialize（マテリアライズ）＝具体化する
 "
-480,"#480  
-An awning extends over a shop entrance.
+480,"An awning extends over a shop entrance.
 ","An awning extends over a shop entrance.
 
 意味：
@@ -15443,10 +15014,9 @@ extensive（エクステンシブ）＝広範囲の
 entry（エントリー）＝入口、入場
 enter（エンター）＝入る
 "
-481,"#481  
-merchandise
+481,"merchandise
 ","merchandise
-発音：/?m??t??nda?z/（マーチャンダイズ）
+発音：/ˈmɝːtʃəndaɪz/（マーチャンダイズ）
 
 意味：
 
@@ -15491,8 +15061,7 @@ market（マーケット）＝市場（同じ印欧語根に由来）
 
 TOEICでは goods と似ていますが、goods は「商品・品物」全般を指す日常的な語、merchandise は「店で販売する商品」という商業的なニュアンスが強い語です。
 "
-482,"#482  
-set aside
+482,"set aside
 ","set aside
 
 意味：
@@ -15538,8 +15107,7 @@ set aside time（時間を確保する）
 set aside money（お金を取っておく）
 set aside a product/order（商品・注文を取り置きする）
 "
-483,"#483  
-squeeze in
+483,"squeeze in
 ","squeeze in
 
 意味：
@@ -15571,8 +15139,7 @@ squeezer（スクイーザー）＝搾る器具
 squeeze out（スクイーズ・アウト）＝搾り出す、締め出す
 squeeze through（スクイーズ・スルー）＝狭い所をすり抜ける
 "
-484,"#484  
-For security purposes, only authorized personnel of JP Minds Limited may proceed 〇〇 this checkpoint.
+484,"For security purposes, only authorized personnel of JP Minds Limited may proceed 〇〇 this checkpoint.
 
 A. beyond
 B. without
@@ -15599,8 +15166,7 @@ between は通常、between A and B のように二つの対象が必要です�
 誤：JP Minds Limited, may proceed
 正：JP Minds Limited may proceed
 "
-485,"#485  
-Neither assistant will be in the office today.
+485,"Neither assistant will be in the office today.
 ","Neither assistant will be in the office today.
 
 意味：
@@ -15631,8 +15197,7 @@ Neither of the assistants will be in the office today.
 Both assistants will be out of the office today.
 2人のアシスタントは、今日はどちらも不在です。
 "
-486,"#486  
-redeem
+486,"redeem
 ","redeem（リディーム）
 
 意味：
@@ -15678,11 +15243,10 @@ premium（プレミアム） 割増金、特典
 prompt（プロンプト） 促す、即座の
 
 発音：
-/r??di?m/
+/rɪˈdiːm/
 カタカナでは「リディーム」に近いです。
 "
-487,"#487  
-Tachibana Pharmaceuticals' new method of 〇〇 chemical solutions will increase efficiency in the laboratory
+487,"Tachibana Pharmaceuticals' new method of 〇〇 chemical solutions will increase efficiency in the laboratory
 
 A. combine
 B. combinations
@@ -15718,8 +15282,7 @@ a method for combining chemical solutions
 a method of combining chemical solutions
 化学溶液を混合する方法
 "
-488,"#488  
-Senior human resources personnel need to 〇〇at least two training events this year to be eligible for a bonus.
+488,"Senior human resources personnel need to 〇〇at least two training events this year to be eligible for a bonus.
 
 A. have hosted
 B. be hosted
@@ -15759,8 +15322,7 @@ to be eligible for a bonus
 誤：
 to be eligible for bonus
 "
-489,"#489  
-deliberately
+489,"deliberately
 ","deliberately（ディリバレットリー）
 
 意味：
@@ -15789,11 +15351,10 @@ deliberative（ディリバラティヴ）　熟議の、審議の
 libra（リーブラ）　てんびん座、重量単位
 
 発音：
-/d??l?b?r?tli/
+/dɪˈlɪbərətli/
 「ディリバレットリー」に近いです。
 "
-490,"#490  
-to extend an invitation
+490,"to extend an invitation
 ","to extend an invitation（トゥ・イクステンド・アン・インヴィテーション）
 
 意味：
@@ -15827,8 +15388,7 @@ tension（テンション）　緊張
 invite（インヴァイト）　招待する
 inviting（インヴァイティング）　魅力的な、誘うような
 "
-491,"#491  
-Sales Choice marketers are 〇〇d to become familiar with the competitors' products and advertising.
+491,"Sales Choice marketers are 〇〇d to become familiar with the competitors' products and advertising.
 
 A. encourage
 B. encourages
@@ -15854,8 +15414,7 @@ are encouraging なら「奨励している」という進行形になります�
 
 なお、通常は competitors' products と複数形にする方が自然です。
 "
-492,"#492  
-Grooves Alpha Oil provides a 〇〇 priced solution for all your energy needs.
+492,"Grooves Alpha Oil provides a 〇〇 priced solution for all your energy needs.
 
 A. competitive
 B. competitively
@@ -15882,8 +15441,7 @@ C. competitive は形容詞なので、priced を直接修飾できません。
 a competitive solution
 ＝競争力のある解決策
 "
-493,"#493  
-commence
+493,"commence
 ","commence（コメンス）
 
 意味：
@@ -15925,8 +15483,7 @@ initiative（イニシアティヴ）　主導権、新しい取り組み
 
 なお、アメリカ英語の commencement は「卒業式」という意味でも非常によく使われます。
 "
-494,"#494  
-now that
+494,"now that
 ","now that（ナウ・ザット）
 
 意味：
@@ -15970,8 +15527,7 @@ somewhat（サムワット）　いくらか
 whereas（ウェアアズ）　～である一方
 given that（ギヴン・ザット）　～を考慮すると、～なので
 "
-495,"#495  
-Last year, Hammer Entertainment, Azusa, Inc., and Soho Multimedia decided that 〇〇their expertise and resources would increase profits for both organizations.
+495,"Last year, Hammer Entertainment, Azusa, Inc., and Soho Multimedia decided that 〇〇their expertise and resources would increase profits for both organizations.
 
 A. combining
 B. combined
@@ -16028,8 +15584,7 @@ their combined expertise and resources
 
 です。問題文には their が combined の前にないため、Aが正解です。
 "
-496,"#496  
-This letter serves to confirm that the Nao Kosugi Mori Marumaru 〇〇 with Tanaka Motors. 
+496,"This letter serves to confirm that the Nao Kosugi Mori Marumaru 〇〇 with Tanaka Motors. 
 
 A. had been employed
 B. will be employed
@@ -16076,13 +15631,11 @@ This letter serves to confirm that Nao Kosugi Mori had been employed with Tanaka
 過去に勤務していた：was employed
 ある過去の時点より前まで勤務していた：had been employed
 "
-497,"#497  
-is to have
+497,"is to have
 ","「～を持つことになっている」「～を受ける予定である」
 be to do の形で、予定・決定を表します。
 "
-498,"#498  
-bulk order
+498,"bulk order
 ","bulk order（バルク・オーダー）
 
 意味：
@@ -16118,8 +15671,7 @@ subordinate（サボーディネイト）　部下の、従属する
 bulk order＝数量が多い注文
 wholesale order＝卸売価格・卸売取引としての注文
 "
-499,"#499  
-testimonia
+499,"testimonia
 ","testimonial（テスティモウニアル）
 
 意味：
@@ -16161,11 +15713,10 @@ attest（アテスト） 証明する
 contest（コンテスト） 争う、競技会
 
 発音：
-/?test??mo?ni?l/
+/ˌtestɪˈmoʊniəl/
 カタカナでは「テスティモウニアル」に近いです。
 "
-500,"#500  
-promote A to B
+500,"promote A to B
 ","promote A to B（プロモート・エー・トゥー・ビー）
 
 意味：
@@ -16210,8 +15761,7 @@ motion（モーション） 動き
 remove（リムーヴ） 取り除く
 emotion（イモーション） 感情
 "
-501,"#501  
-at the same time as
+501,"at the same time as
 ","at the same time as（アット・ザ・セイム・タイム・アズ）
 
 意味：
@@ -16258,8 +15808,8 @@ meanwhile（ミーンワイル）
 
 語源：
 same（セイム）は古ノルド語 samr（サムル）「同じ」に由来します。
-time（タイム）は古英語 t?ma（ティーマ）「時、期間」に由来します。
-as（アズ）は古英語 alsw?（アルスワー）「同じように」から発達した語です。
+time（タイム）は古英語 tīma（ティーマ）「時、期間」に由来します。
+as（アズ）は古英語 alswā（アルスワー）「同じように」から発達した語です。
 
 同じ語源・関連語：
 sameness（セイムネス） 同一性
@@ -16268,8 +15818,7 @@ timely（タイムリー） 時宜を得た
 simultaneous（サイマルテイニアス） 同時の
 contemporary（コンテンポラリー） 同時代の、現代の
 "
-502,"#502  
-By the time he signs the lease, Mr. 〇〇 four months searching for a suitable office space.
+502,"By the time he signs the lease, Mr. 〇〇 four months searching for a suitable office space.
 
 A. will have spent
 B. had spent
@@ -16322,8 +15871,7 @@ spend + 時間 + doing：
 He spent four months searching for an office.
 彼はオフィスを探すのに4か月を費やしました。
 "
-503,"#503  
-an abundance o
+503,"an abundance o
 ","意味：
 「豊富な～」「たくさんの～」「大量の～」
 
@@ -16383,8 +15931,7 @@ abundantly（アバンダントリー） 豊富に
 undulate（アンジュレイト） 波打つ
 inundate（イナンデイト） 洪水にする、殺到させる
 "
-504,"#504  
-convert A into B
+504,"convert A into B
 ","convert A into B
 
 意味：
@@ -16423,8 +15970,7 @@ version　版、形を変えたもの
 conversation　会話
 controversy　論争
 "
-505,"#505  
-Uncertainty about the next term's future has increased 〇〇 rumors that the CEO intends to resign.
+505,"Uncertainty about the next term's future has increased 〇〇 rumors that the CEO intends to resign.
 
 A. amid
 B. beside
@@ -16465,8 +16011,7 @@ middle＝真ん中
 midst＝ただ中
 midway＝中間地点で
 "
-506,"#506  
-Although sales didn't meet expectations, all representatives were awarded a bonus 〇〇.
+506,"Although sales didn't meet expectations, all representatives were awarded a bonus 〇〇.
 
 A. however
 B. anyway
@@ -16501,7 +16046,7 @@ D. instead
 語源：
 anywayはany＋wayからできた語で、元の意味は「どの道を通っても」「いずれにしても」です。
 
-anyは古英語 ?nig（アーニグ）「いずれか一つの」
+anyは古英語 ænig（アーニグ）「いずれか一つの」
 wayは古英語 weg（ウェグ）「道」
 
 同じ語源・関連語：
@@ -16511,8 +16056,7 @@ anything＝何でも
 always＝いつも
 way＝道、方法
 "
-507,"#507  
-vulnerable
+507,"vulnerable
 ","vulnerable
 
 意味：
@@ -16536,7 +16080,7 @@ be vulnerable to ～
 
 発音：
 ヴァルナラブル
-/?v?ln?r?b?l/
+/ˈvʌlnərəbəl/
 
 語源：
 ラテン語 vulnus（ウルヌス）「傷」から、vulnerare（ウルネラーレ）「傷つける」を経て英語に入りました。
@@ -16548,8 +16092,7 @@ invulnerable＝傷つかない、攻撃を受けない
 vulnerably＝傷つきやすく
 vulnerableness＝脆弱さ
 "
-508,"#508  
-The design of the promotional brochure 〇〇 to have been changed without the client's authorization.
+508,"The design of the promotional brochure 〇〇 to have been changed without the client's authorization.
 
 A. formatted
 B. allowed
@@ -16592,15 +16135,14 @@ seem to do＝～するようだ
 seem to have done＝～したようだ
 
 語源：
-seemは古ノルド語 s?ma（セーマ）「ふさわしい、外見上そう見える」に由来します。
+seemは古ノルド語 sœma（セーマ）「ふさわしい、外見上そう見える」に由来します。
 
 同じ語源・関連語：
 seemingly＝一見したところ
 seemly＝適切な、上品な
 unseemly＝不適切な、見苦しい
 "
-509,"#509  
-The seminar instructor provided so much 〇〇 information that the attendees felt they had not learned much from his session.
+509,"The seminar instructor provided so much 〇〇 information that the attendees felt they had not learned much from his session.
 
 A. Accountable
 B. Impatient
@@ -16645,8 +16187,7 @@ petition＝請願、請願する
 appetite＝食欲、欲求
 compete＝競争する
 "
-510,"#510  
-premises
+510,"premises
 ","premises
 
 意味：
@@ -16680,7 +16221,7 @@ The argument is based on a false premise.
 
 発音：
 プレミスィズ
-/?prem?s?z/
+/ˈpremɪsɪz/
 
 語源：
 ラテン語 praemittere（プラエミッテレ）「前に置く、先に述べる」に由来します。
@@ -16699,8 +16240,7 @@ transmit＝伝送する
 admit＝認める
 dismiss＝解散させる、退ける
 "
-511,"#511  
-dispute
+511,"dispute
 ","dispute
 
 意味：
@@ -16743,7 +16283,7 @@ in dispute
 
 発音：
 ディスピュート
-/d??spju?t/
+/dɪˈspjuːt/
 
 語源：
 ラテン語 disputare（ディスプターレ）「詳しく検討する、議論する」に由来します。
@@ -16761,8 +16301,7 @@ depute＝代理に任命する
 deputy＝代理人、副官
 putative＝推定上の、一般に～と考えられている
 "
-512,"#512  
-written consent
+512,"written consent
 ","written consent
 ＝書面による同意、書面による承諾
 
@@ -16787,8 +16326,7 @@ We need your written consent.
 Please submit a letter of authorization.
 委任状を提出してください。
 "
-513,"#513  
-lateral move
+513,"lateral move
 ","lateral move
 
 意味：
@@ -16813,7 +16351,7 @@ lateralの意味：
 
 発音：
 ラテラル・ムーヴ
-/?l?t?r?l mu?v/
+/ˈlætərəl muːv/
 
 語源：
 lateralはラテン語 latus（ラトゥス）「側面」に由来します。
@@ -16825,8 +16363,7 @@ multilateral＝多国間の
 collateral＝担保、付随的な
 laterally＝横方向に
 "
-514,"#514  
-pros and cons
+514,"pros and cons
 ","pros and cons
 
 意味：
@@ -16847,7 +16384,7 @@ the pros and cons of ～
 
 発音：
 プローズ・アンド・コンズ
-/pr??z ?n k?nz/
+/prəʊz ən kɒnz/
 
 語源：
 prosはラテン語 pro（プロー）「～に賛成して、～のために」に由来します。
@@ -16872,13 +16409,11 @@ contradict＝反論する
 contrary＝反対の
 controversy＝論争
 "
-515,"#515  
-variable interest rate
+515,"variable interest rate
 ","意味：
 「変動金利」
 "
-516,"#516  
-The loan has been secured.
+516,"The loan has been secured.
 ","The loan has been secured.
 
 意味：
@@ -16926,8 +16461,7 @@ insecure＝不安定な
 curator＝管理者
 cure＝治療する
 "
-517,"#517  
-a flight of stairs
+517,"a flight of stairs
 ","a flight of stairs
 
 意味：
@@ -16964,8 +16498,7 @@ flee＝逃げる
 flight＝飛行、逃走、ひと続きの階段
 flying＝飛行する、空飛ぶ
 "
-518,"#518  
-windowpane / window pane
+518,"windowpane / window pane
 ","windowpane / window pane
 
 意味：
@@ -16982,7 +16515,7 @@ paneは、窓や扉にはめ込まれた「1枚の板状部分」を表します
 
 発音：
 ウィンドウ・ペイン
-/?w?ndo? pe?n/
+/ˈwɪndoʊ peɪn/
 
 語源：
 paneはラテン語 pannus（パンヌス）「布切れ、ひと区画」から古フランス語 pan（パン）を経て英語に入りました。「区切られた一部分」という意味から、窓ガラス1枚を表すようになりました。
@@ -16992,8 +16525,7 @@ panel＝区画板、操作盤
 paneled＝羽目板を張った
 impanel＝陪審員を選任する
 "
-519,"#519  
-insulation
+519,"insulation
 ","insulation
 
 意味：
@@ -17018,7 +16550,7 @@ insulation material＝断熱材、絶縁材
 
 発音：
 インサレーション
-/??ns??le???n/
+/ˌɪnsəˈleɪʃən/
 
 語源：
 ラテン語 insula（インスラ）「島」に由来します。
@@ -17031,8 +16563,7 @@ insulator＝絶縁体、断熱材
 insular＝島の、孤立した
 peninsula＝半島
 "
-520,"#520  
-redeem
+520,"redeem
 ","redeem
 
 意味：
@@ -17072,7 +16603,7 @@ redeem oneself
 
 発音：
 リディーム
-/r??di?m/
+/rɪˈdiːm/
 
 語源：
 ラテン語 redimere（レディメレ）「買い戻す」に由来します。
@@ -17089,8 +16620,7 @@ exempt＝免除された
 premium＝割増金、保険料
 prompt＝促す、即座の
 "
-521,"#521  
-cordially
+521,"cordially
 ","cordially
 
 意味：
@@ -17109,8 +16639,8 @@ cordially invited
 
 発音：
 コージャリー
-米 /?k??rd??li/
-英 /?k??di?li/
+米 /ˈkɔːrdʒəli/
+英 /ˈkɔːdiəli/
 
 語源：
 cordially は cordial＋-ly です。
@@ -17125,8 +16655,7 @@ discord＝不一致、不和
 courage＝勇気
 encourage＝勇気づける
 "
-522,"#522  
-statute
+522,"statute
 ","statute
 
 意味：
@@ -17158,7 +16687,7 @@ regulation＝法律に基づく規則・規制
 
 発音：
 スタチュート
-/?st?t?u?t/
+/ˈstætʃuːt/
 
 語源：
 ラテン語 statuere（スタトゥエレ）「立てる、定める、決定する」に由来します。
@@ -17175,8 +16704,7 @@ constitute＝構成する、制定する
 institute＝設立する
 destitute＝困窮した
 "
-523,"#523  
-proficient
+523,"proficient
 ","proficient
 
 意味：
@@ -17200,7 +16728,7 @@ a proficient user
 
 発音：
 プロフィシェント
-/pr??f???nt/
+/prəˈfɪʃənt/
 
 skilledとの違い：
 proficientは「一定以上の高い能力がある」
@@ -17223,8 +16751,7 @@ facilitate＝容易にする
 factory＝工場
 effect＝効果、もたらす
 "
-524,"#524  
-solicit
+524,"solicit
 ","solicit
 
 意味：
@@ -17257,7 +16784,7 @@ solicit business
 
 発音：
 ソリシット
-/s??l?s?t/
+/səˈlɪsɪt/
 
 語源：
 ラテン語 sollicitare（ソッリキターレ）「揺り動かす、強く促す」に由来します。
@@ -17273,8 +16800,7 @@ solicitor＝依頼を受ける人、事務弁護士
 solicitous＝気遣う、心配している
 solicitude＝気遣い、心配
 "
-525,"#525  
-meet a deadline
+525,"meet a deadline
 ","meet a deadline
 
 意味：
@@ -17314,8 +16840,7 @@ dead end＝行き止まり
 headline＝見出し
 timeline＝時間軸
 "
-526,"#526  
-forfeit
+526,"forfeit
 ","forfeit
 
 意味：
@@ -17344,7 +16869,7 @@ forfeit a game
 
 発音：
 フォーフィット
-/?f??rf?t/
+/ˈfɔːrfɪt/
 
 語源：
 中世ラテン語 forisfactum（フォーリスファクトゥム）「法に反して行われたこと」に由来します。
@@ -17361,8 +16886,7 @@ manufacture＝製造する
 effect＝効果
 defect＝欠陥
 "
-527,"#527  
-Event proceeds will benefit Long Valley Community Center.
+527,"Event proceeds will benefit Long Valley Community Center.
 ","Event proceeds will benefit Long Valley Community Center.
 
 意味：
@@ -17398,8 +16922,7 @@ precede＝先行する
 recede＝後退する
 succeed＝成功する、後を継ぐ
 "
-528,"#528  
-prop
+528,"prop
 ","prop
 
 意味：
@@ -17428,7 +16951,7 @@ The government tried to prop up the economy.
 
 発音：
 プロップ
-/pr??p/
+/prɑːp/
 
 語源：
 中世オランダ語 proppe（プロッペ）「栓、支え」に由来すると考えられています。
@@ -17438,8 +16961,7 @@ prop up＝支える
 property＝小道具、所有物
 props＝小道具類、または口語で「称賛」
 "
-529,"#529  
-resounding
+529,"resounding
 ","resounding
 ＝鳴り響くような、非常に大きな、圧倒的な、明白な
 
@@ -17470,8 +16992,7 @@ resound
 意味：
 「鳴り響く」「反響する」「響き渡る」
 "
-530,"#530  
-function
+530,"function
 ","function には「機能」「働き」のほかに、やや改まった「催し」「式典」「宴会」という意味があります。特にホテルや会場の文脈で使われます。
 
 例：
@@ -17508,8 +17029,7 @@ functionality＝機能性
 dysfunction＝機能不全
 defunct＝機能を終えた、廃止された
 "
-531,"#531  
-footage
+531,"footage
 ","footage
 
 意味：
@@ -17555,8 +17075,7 @@ footprint＝足跡
 footnote＝脚注
 underfoot＝足元に
 "
-532,"#532  
-shed
+532,"shed
 ","shed
 
 意味：
@@ -17600,7 +17119,7 @@ shed jobs
 
 発音：
 シェッド
-/?ed/
+/ʃed/
 
 語源：
 「落とす」という動詞のshedは、古英語 sceadan（シェアダン）「分ける、切り離す」に由来します。
@@ -17612,8 +17131,7 @@ bloodshed＝流血
 
 なお、「小屋」という名詞のshedは別語源で、古英語の「覆い・日よけ」を表す語に由来すると考えられています。
 "
-533,"#533  
-country fair
+533,"country fair
 ","country fair
 
 意味：
@@ -17650,8 +17168,7 @@ trade fair＝見本市
 book fair＝ブックフェア
 funfair＝移動遊園地
 "
-534,"#534  
-When is the maintenance report due?
+534,"When is the maintenance report due?
 ","リスニング。
 
 意味：
@@ -17681,8 +17198,7 @@ Yeah.
 It’s due on Friday.
 金曜日が締め切りです。
 "
-535,"#535  
-Sales representative Naoko is 〇〇y efficient at locating potential clients.
+535,"Sales representative Naoko is 〇〇y efficient at locating potential clients.
 
 A. far
 B. long
@@ -17693,8 +17209,7 @@ D. very
 Sales representative Naoko is very efficient at locating potential clients.
 「営業担当者のナオコは、見込み客を見つけることに非常に長けています。」
 "
-536,"#536  
-The date of the next annual clean energy symposium has already been 〇〇.
+536,"The date of the next annual clean energy symposium has already been 〇〇.
 
 A. finished
 B. raised
@@ -17719,8 +17234,7 @@ D. confirmed
 
 なお、annual は「毎年恒例の」、symposium は「シンポジウム、討論会」です。
 "
-537,"#537  
-Each consultant at Vector Solutions has a high level of business 〇〇 applicable in any corporate environment.
+537,"Each consultant at Vector Solutions has a high level of business 〇〇 applicable in any corporate environment.
 
 A. expert
 B. expertly
@@ -17779,8 +17293,7 @@ business が expertise を修飾
 
 つまり、expert は人、expertise はその人が持つ知識・技能です。
 "
-538,"#538  
-a high level of business expertiseこのエクスパタイズは、動詞か、動詞ではないのか。
+538,"a high level of business expertiseこのエクスパタイズは、動詞か、動詞ではないのか。
 ","expertise は動詞ではありません。名詞です。
 
 expertise
@@ -17810,14 +17323,12 @@ a high level of business expertise：has の目的語
 
 なお、expertise はつづりが -ise で終わるので動詞のように見えますが、この単語は通常、名詞として使います。発音はおおよそ「エクスパーティーズ」です。
 "
-539,"#539  
-hold A to B
+539,"hold A to B
 ","hold A to B は、文脈によって主に次の意味になります。
 
 「AにBを守らせる／AにBの責任を負わせる」
 "
-540,"#540  
-The warranty on the file cabinet expires on June 10, 〇〇which it will be too late to have the lock repaired at no cost.
+540,"The warranty on the file cabinet expires on June 10, 〇〇which it will be too late to have the lock repaired at no cost.
 
 A. then
 B. after
@@ -17870,8 +17381,7 @@ June 10, when it will be too late ...
 
 とすると、「6月10日にはすでに遅すぎる」という意味になり、元の「6月10日を過ぎると遅い」と少し意味が変わります。
 "
-541,"#541  
-put into 〇〇
+541,"put into 〇〇
 
 A. effect
 B. effective
@@ -17909,8 +17419,7 @@ into の後ろには名詞が必要なので不適切です。
 
 なお、come into effect なら「発効する」「効力を生じる」です。
 "
-542,"#542  
-Recent improvements at the plant have increased productivity, 〇〇 also lowering the frequency of accidents.
+542,"Recent improvements at the plant have increased productivity, 〇〇 also lowering the frequency of accidents.
 
 A. in case
 B. while
@@ -17965,8 +17474,7 @@ frequency of accident → 通常 frequency of accidents
 
 Recent improvements at the plant have increased productivity, while also lowering the frequency of accidents.
 "
-543,"#543  
-Documentation of business expenses is required 〇〇 claim a tax exemption.
+543,"Documentation of business expenses is required 〇〇 claim a tax exemption.
 
 A. in order to
 B. concerning
@@ -18012,8 +17520,7 @@ as far as ～
 
 なお、documentation はここでは「証明書類・記録」という不可算名詞です。
 "
-544,"#544  
-engaging
+544,"engaging
 ","魅力的な、興味を引く
 人を引きつける、感じのよい
 
@@ -18039,8 +17546,7 @@ The lecture was engaging.
 The students were engaged.
 「学生たちは熱心に聞いていた。」
 "
-545,"#545  
-for accounting〇〇
+545,"for accounting〇〇
 
 A. purposeful
 B. purposes
@@ -18070,8 +17576,7 @@ A. purposeful
 C／D. purpose
 単数形も文法的に絶対不可能ではありませんが、一般的な慣用表現は for accounting purposes です。
 "
-546,"#546  
-refrain from ～
+546,"refrain from ～
 ","refrain from ～（リフレイン・フロム）
 
 意味：～を控える、～を慎む、～しないようにする
@@ -18098,8 +17603,7 @@ unrestrained（アンリストレインド）＝抑制されていない、自�
 
 注意：名詞の refrain には「歌の繰り返し部分、反復句」という別の意味もあります。これは「～を控える」という動詞とは語源が異なります。
 "
-547,"#547  
-My efforts should pay off.
+547,"My efforts should pay off.
 ","My efforts should pay off.
 ＝私の努力は報われるはずだ。
 
@@ -18120,8 +17624,7 @@ repay（リペイ）＝返済する、恩返しする
 payable（ペイアブル）＝支払うべき
 payoff（ペイオフ）＝成果、見返り
 "
-548,"#548  
-be slated to ～
+548,"be slated to ～
 ","be slated to ～（ビー・スレイティッド・トゥー）
 
 意味：～する予定である、～することになっている
@@ -18147,8 +17650,7 @@ slate（スレイト）＝石板、予定表
 slated（スレイティッド）＝予定されている
 clean slate（クリーン・スレイト）＝白紙の状態、新たな出発
 "
-549,"#549  
-incur
+549,"incur
 ","incur（インカー）【動詞】
 
 意味：費用・損失・負債・罰・怒りなどを「被る」「招く」「負う」
@@ -18186,8 +17688,7 @@ concur（コンカー）＝同意する、同時に起こる
 
 発音は「インカー」に近く、アクセントは後半です。
 "
-550,"#550  
-〇〇 guidebooks rank Platinum Suites as the area’s top hotel, the Strait Inn has received better online reviews.
+550,"〇〇 guidebooks rank Platinum Suites as the area’s top hotel, the Strait Inn has received better online reviews.
 
 A. regardless
 B. while
@@ -18222,8 +17723,7 @@ D. alwaysは「いつも」という副詞で、二つの文を接続できま�
 
 なお、rank A as Bは「AをBと評価する・位置づける」という意味です。
 "
-551,"#551  
-Parties without reservations are not guaranteed service at our restaurant.
+551,"Parties without reservations are not guaranteed service at our restaurant.
 
 A. service
 B. are serving
@@ -18259,8 +17759,7 @@ are guaranteed to serveでは「その団体客が給仕することを保証さ
 
 なお、partyはここでは「パーティー」ではなく、「一組の客、団体客」という意味です。
 "
-552,"#552  
-Emergency 〇〇 undergo an extensive training program before they can receive certification. 
+552,"Emergency 〇〇 undergo an extensive training program before they can receive certification. 
 
 A. medics
 B. medically
@@ -18280,8 +17779,7 @@ D. medicineは「医学、薬」という名詞ですが、人を表さないた
 
 なお、前の問題のようにEmergency medical personnelなら、medicalがpersonnelを修飾するのでCになります。今回はpersonnelがないため、Aです。
 "
-553,"#553  
-in order for
+553,"in order for
 ","in order for です。
 
 意味：「～が…するために」「～が…できるように」
@@ -18317,8 +17815,7 @@ ordinal「序数の」
 coordinate「調整する」
 subordinate「従属する」
 "
-554,"#554  
-Management implemented stricter safety guidelines for machine operators, 〇〇 reducing the likelihood of an accident.
+554,"Management implemented stricter safety guidelines for machine operators, 〇〇 reducing the likelihood of an accident.
 
 A. so that
 B. thus
@@ -18349,8 +17846,7 @@ D. such asは「～のような、例えば」という例示なので意味が�
 
 なお、カンマの後ろのreducingは分詞構文で、前の文全体の結果を説明しています。
 "
-555,"#555  
-Miriam Cosmetics' new mascara line is its most popular 〇〇, and retailers are struggling to keep it in stock.
+555,"Miriam Cosmetics' new mascara line is its most popular 〇〇, and retailers are struggling to keep it in stock.
 
 A. far
 B. before
@@ -18382,8 +17878,7 @@ B. beforeは通常、現在完了などとともに「以前に」と使いま�
 
 D. wayはway more popular「はるかに人気がある」のように比較級を強めます。最上級の後ろには置けません。
 "
-556,"#556  
-commitment
+556,"commitment
 ","約束、誓約
 責任、義務
 ★献身、熱意
@@ -18414,10 +17909,9 @@ permit「許可する」
 
 commitmentは、commit「約束する、専念する」に名詞語尾-mentが付いた語です。
 "
-557,"#557  
-meet for, meet up, meet with、それぞれの意味を答えよ。
+557,"meet for, meet up, meet with、それぞれの意味を答えよ。
 ","meet for
-意味：?の目的で会う
+意味：〜の目的で会う
 We met for lunch.
 私たちは昼食のために会った。
 We met for a discussion.
@@ -18438,7 +17932,7 @@ I met with my manager.
 上司と面会した。
 ※仕事上の会議・面談など、目的のある会合に使われやすい。
 
-意味2：?を受ける、?に遭う
+意味2：〜を受ける、〜に遭う
 The proposal met with opposition.
 その提案は反対を受けた。
 The plan met with approval.
@@ -18455,20 +17949,19 @@ meet with John
 ジョンと面談・協議する
 
 語源：
-meet は古英語 m?tan（ミータン）「出会う」に由来する。
-up は古英語 ?p（ウープ）「上へ」に由来し、meet up では「一緒になる」という完了・集合のニュアンスを加える。
-with は古英語 wi?（ウィズ）「?に対して、?とともに」に由来する。
-for は古英語 for（フォル）「?のために」に由来する。
+meet は古英語 mētan（ミータン）「出会う」に由来する。
+up は古英語 ūp（ウープ）「上へ」に由来し、meet up では「一緒になる」という完了・集合のニュアンスを加える。
+with は古英語 wiþ（ウィズ）「〜に対して、〜とともに」に由来する。
+for は古英語 for（フォル）「〜のために」に由来する。
 
 同じ語源の英語：
 meeting　会議、会合
 moot　討論すべき問題
 upward　上方へ
-within　?の内側に
+within　〜の内側に
 therefore　それゆえに
 "
-558,"#558  
-The repairs to the production line 〇 delays in filling several important orders.
+558,"The repairs to the production line 〇 delays in filling several important orders.
 
 A. will cause
 B. has caused
@@ -18491,11 +17984,10 @@ Bの has caused は単数主語に使う形なので、複数主語の repairs �
 
 したがって、選択肢が has caused である以上、Bは不可です。意味上は「修理がすでに遅延を引き起こしている」なら have caused が使えます。
 "
-559,"#559  
-comment on
+559,"comment on
 ","comment on
 
-意味：?について意見を述べる、?についてコメントする、?を論評する
+意味：〜について意見を述べる、〜についてコメントする、〜を論評する
 
 例：
 The manager commented on the new policy.
@@ -18511,7 +18003,7 @@ comment about A も使えますが、comment on A のほうが一般的で、特
 
 語源：
 comment はラテン語 commentari（コンメンターリ）「熟考する、注釈を加える」に由来します。これは comminisci（コンミニスキー）「考案する、心に思い浮かべる」と関係があります。
-on は古英語 on（オン）「?の上に、?について」に由来します。
+on は古英語 on（オン）「〜の上に、〜について」に由来します。
 
 同じ語源の英語：
 comment　意見、注釈
@@ -18529,11 +18021,10 @@ Aについて意見を述べる
 His comment on the plan was helpful.
 その計画についての彼の意見は参考になった。
 "
-560,"#560  
-I have yet to do ?
-","I have yet to do ?
+560,"I have yet to do 〜
+","I have yet to do 〜
 
-意味：私はまだ?していない
+意味：私はまだ〜していない
 
 have yet to do は「今のところまだしていないが、今後する可能性・予定がある」という意味です。
 
@@ -18561,13 +18052,13 @@ I have yet to decide.
 私はまだ決めていない。
 
 yet の語源：
-古英語 g?et（イーエト）「今なお、さらに」に由来します。
+古英語 gīet（イーエト）「今なお、さらに」に由来します。
 
 同じ語源・関連語：
 yet　まだ、しかし
 still　まだ、依然として
 already　すでに
-not yet　まだ?ない
+not yet　まだ〜ない
 
 なお、I have yet to do English. は文法的には作れますが、意味がやや不自然です。「私はまだ英語の勉強をしていない」なら、次が自然です。
 
@@ -18577,8 +18068,7 @@ I have yet to study English.
 I have yet to do my English homework.
 私はまだ英語の宿題をしていない。
 "
-561,"#561  
-Dr. King kept a few minutes free to address questions from attendees 〇〇 her lecture.
+561,"Dr. King kept a few minutes free to address questions from attendees 〇〇 her lecture.
 
 A. follow
 B. followed
@@ -18643,8 +18133,7 @@ Dr. King kept a few minutes free to address questions from attendees following h
 
 という意味です。
 "
-562,"#562  
-ready
+562,"ready
 ","ready
 
 意味：
@@ -18656,9 +18145,9 @@ I’m ready.
 The report is ready.
 報告書は完成しています。
 
-すぐに?できる
+すぐに〜できる
 be ready to do
-?する準備ができている
+〜する準備ができている
 
 She is ready to leave.
 彼女は出発する準備ができている。
@@ -18667,20 +18156,20 @@ She is ready to leave.
 The room is ready for use.
 その部屋は使用可能です。
 用意する
-他動詞として「?を準備する」という意味もあります。
+他動詞として「〜を準備する」という意味もあります。
 
 They readied the equipment.
 彼らは機材を準備した。
 
 よく使う形：
 be ready for 名詞
-?の準備ができている
+〜の準備ができている
 
 Are you ready for the meeting?
 会議の準備はできていますか。
 
 be ready to do
-?する準備ができている
+〜する準備ができている
 
 Get ready.
 準備しなさい。
@@ -18689,7 +18178,7 @@ ready-made
 既製の、出来合いの
 
 語源：
-古英語 r?de（レーデ）「準備のできた、整った」に由来します。さらにゲルマン祖語 *raidijaz（ライディヤズ）「準備された」にさかのぼります。
+古英語 rǣde（レーデ）「準備のできた、整った」に由来します。さらにゲルマン祖語 *raidijaz（ライディヤズ）「準備された」にさかのぼります。
 
 同じ語源の英語：
 ready　準備のできた
@@ -18699,8 +18188,7 @@ readily　容易に、快く
 array　整列させる、配置する
 ※array はフランス語系ですが、「整える」という意味の面で関連があります。
 "
-563,"#563  
-most clientsとmost of clientsの違い。
+563,"most clientsとmost of clientsの違い。
 ","most clients
 ＝大多数の顧客、多くの顧客
 clientsの前に冠詞を付けず、一般的な顧客全体について述べます。
@@ -18730,10 +18218,9 @@ most clients
 most of the clients
 ＝特定された顧客の中の大多数
 
-なお、mostの語源は古英語m?st（メースト、「最も多い」）です。more、many、much、maximumなどと意味的に関連します。
+なお、mostの語源は古英語mǣst（メースト、「最も多い」）です。more、many、much、maximumなどと意味的に関連します。
 "
-564,"#564  
-outing
+564,"outing
 ","outing（アウティング）
 
 意味：
@@ -18755,7 +18242,7 @@ go on an outing
 out「外へ」＋ -ing
 つまり、「外へ出ること」が元の意味です。
 
-out の語源は古英語 ?te（ウーテ、「外に」）です。
+out の語源は古英語 ūte（ウーテ、「外に」）です。
 
 同じ語源の英語：
 out
@@ -18766,8 +18253,7 @@ outgoing
 
 なお、outingには「本人の同意なく性的指向などを公表すること」という意味もありますが、通常は「外出・遠足」の意味です。
 "
-565,"#565  
-The new production facility in Ottawa will be 〇〇larger than the factory in Vancouver.
+565,"The new production facility in Ottawa will be 〇〇larger than the factory in Vancouver.
 
 A. as
 B. even
@@ -18802,8 +18288,7 @@ quite large＝かなり大きい
 
 ただし、quite は quite a bit larger（かなり大きい）のように、a bit などを挟めば比較級と一緒に使えます。
 "
-566,"#566  
-in the light of
+566,"in the light of
 ","in the light of ＝「～に照らして」「～を考慮すると」「～の観点から」
 
 発音：イン・ザ・ライト・オブ
@@ -18821,7 +18306,7 @@ in light of the new information
 ＝新しい情報を考慮して
 
 語源：
-light は古英語 l?oht（レオフト）「光」に由来します。「光を当てて物事を見る」ことから、「事情や事実に照らして判断する」という比喩的な意味になりました。
+light は古英語 lēoht（レオフト）「光」に由来します。「光を当てて物事を見る」ことから、「事情や事実に照らして判断する」という比喩的な意味になりました。
 
 同じ語源の英語：
 light＝光、明かり
@@ -18836,8 +18321,7 @@ highlight＝強調する、目立たせる
 ○ in light of recent changes
 × in light of the schedule changed
 "
-567,"#567  
-in one’s capacity as
+567,"in one’s capacity as
 ","in one’s capacity as ＝「～としての立場で」「～の資格で」「～の職務上」
 
 発音：イン・ワンズ・キャパシティ・アズ
@@ -18875,8 +18359,7 @@ capacitor＝コンデンサー、蓄電器
 incapable＝能力がない
 capacious＝容量の大きい、広々とした
 "
-568,"#568  
-A panel of industry experts will need to decide 〇〇the proposed mining safety regulation should be implemented.
+568,"A panel of industry experts will need to decide 〇〇the proposed mining safety regulation should be implemented.
 
 A. unless
 B. although
@@ -18904,23 +18387,21 @@ D. while＝～する間／一方で
 
 なお、文頭は「A panel of industry experts, we need」ではなく、おそらく「A panel of industry experts will need」です。
 "
-569,"#569  
-意味：「?をはるかに超えて」「優に?以上」
+569,"意味：「〜をはるかに超えて」「優に〜以上」
 
 意味：「かなり前もって」「十分早い時期に」
 ","well over
 
 well in advance
 "
-570,"#570  
-All cancellations made less than one month before the date of your flight are 〇〇 a fee.
+570,"All cancellations made less than one month before the date of your flight are 〇〇 a fee.
 
 A. possible
 B. credited
 C. additional
 D. subject
-","be subject to ?
-「?の対象となる」「?を受ける」「?が課される」
+","be subject to 〜
+「〜の対象となる」「〜を受ける」「〜が課される」
 
 ここでは、
 cancellations are subject to a fee
@@ -18928,8 +18409,7 @@ cancellations are subject to a fee
 ＝「キャンセルには手数料がかかる」
 という意味です。
 "
-571,"#571  
-markedly
+571,"markedly
 ","発音：マーカドリー
 
 意味：
@@ -18952,7 +18432,7 @@ markedly lower
 著しく低い
 
 語源：
-marked「目立った、はっきりした」＋ -ly「?に」
+marked「目立った、はっきりした」＋ -ly「〜に」
 
 mark は古英語 mearc（メアルク）「印、境界」に由来します。
 
@@ -18965,8 +18445,7 @@ remarkable「注目すべき、著しい」
 
 marketedly ではなく、markedly が正しいスペルです。
 "
-572,"#572  
-confidence と confidentiality の違い
+572,"confidence と confidentiality の違い
 ","confidence
 発音：コンフィデンス
 意味：
@@ -18980,8 +18459,7 @@ confidentiality
 意味：
 「秘密保持」「機密性」「秘密が守られること」
 "
-573,"#573  
-viable
+573,"viable
 
 発音：ヴァイアブル
 ","viable
@@ -19029,8 +18507,7 @@ revive「生き返らせる、復活させる」
 survive「生き残る」
 vivacious「生き生きした」
 "
-574,"#574  
-英語の接続詞と副詞の違いを簡潔に説明しろ。
+574,"英語の接続詞と副詞の違いを簡潔に説明しろ。
 ","接続詞は「文と文をつなぐ語」です。後ろに主語＋動詞を置けます。
 
 例：
@@ -19051,8 +18528,7 @@ however, 主語＋動詞
 ○ It was raining; however, we went out.
 ○ It was raining, but we went out.
 "
-575,"#575  
-covet
+575,"covet
 ","発音：カヴェット
 
 意味：「他人の物を強く欲しがる」「むやみに欲しがる」
@@ -19082,8 +18558,7 @@ Cupid「ローマ神話の愛の神」
 
 want よりも「他人の物を欲しがる」「欲望が強い」という意味が強い語です。
 "
-576,"#576  
-commend
+576,"commend
 
 commend と recommend の違い：
 ","commend（コメンド）【動詞】
@@ -19115,8 +18590,7 @@ commend と recommend の違い：
 commend＝人や行為を「褒める、称賛する」
 recommend＝物や方法を「勧める、推薦する」
 "
-577,"#577  
-undergo
+577,"undergo
 ","undergo（アンダーゴウ）【動詞・他動詞】
 
 意味：
@@ -19156,16 +18630,14 @@ undergo は他動詞なので、直後に目的語を置きます。
 × undergo to surgery
 × undergo with surgery
 "
-578,"#578  
-comparably（コンパラブリー）と relatively（レラティヴリー）の違い
+578,"comparably（コンパラブリー）と relatively（レラティヴリー）の違い
 ","comparably＝同程度に、同じくらい
 二つ以上のものが、ほぼ同じ程度であることを表します。
 
 relatively＝比較的、相対的に
 何かと比べれば「わりに～だ」という意味です。比較対象を明示しないことも多いです。
 "
-579,"#579  
-A customer complained that she has not received her supplies, despite placing the order 〇〇 two weeks ago.
+579,"A customer complained that she has not received her supplies, despite placing the order 〇〇 two weeks ago.
 
 A. yet
 B. over
@@ -19204,8 +18676,7 @@ for two weeks＝2週間にわたって
 
 したがって、正解は B. over です。
 "
-580,"#580  
-be enough compensated. これの何がおかしいか。
+580,"be enough compensated. これの何がおかしいか。
 ","be enough compensated がおかしいのは、enough の位置です。
 
 compensated は過去分詞で、ここでは形容詞的に「補償されて」という状態を表します。形容詞や副詞を修飾する enough は、原則として後ろに置きます。
@@ -19213,8 +18684,7 @@ compensated は過去分詞で、ここでは形容詞的に「補償されて�
 × be enough compensated
 ○ be compensated enough
 "
-581,"#581  
-〇〇 that the menu has been finalized, the invitation for the banquet can be sent out.
+581,"〇〇 that the menu has been finalized, the invitation for the banquet can be sent out.
 
 A. so
 B. because
@@ -19252,8 +18722,7 @@ already that という接続表現はありません。
 
 したがって、now that というまとまりになる C が正解です。
 "
-582,"#582  
-The proposed movie theater is expected to 〇〇 a large number of visitors to the shopping complex.
+582,"The proposed movie theater is expected to 〇〇 a large number of visitors to the shopping complex.
 
 A. encourage
 B. appeal
@@ -19295,8 +18764,7 @@ visitors patronize the shopping complex
 
 したがって、D. draw が正解です。
 "
-583,"#583  
-vocational college
+583,"vocational college
 ","意味：
 職業訓練校、職業専門学校、専門学校
 
@@ -19329,8 +18797,7 @@ collegial（同僚間の、協調的な）
 
 日本の「専門学校」は、文脈によって vocational school または vocational college と訳します。
 "
-584,"#584  
-Because of a severe 〇〇
+584,"Because of a severe 〇〇
 
 A. malfunction
 B. malfunction
@@ -19350,12 +18817,10 @@ a severe の後ろには、単数の可算名詞が必要です。
 
 D. malfunctioning は「誤作動していること」という動名詞ですが、通常 a severe malfunctioning とは言いません。
 "
-585,"#585  
-問題分のあとに or が内科注意する
+585,"問題分のあとに or が内科注意する
 ","either or
 "
-586,"#586  
-後にtoではなくingが来るものの動詞
+586,"後にtoではなくingが来るものの動詞
 ","consider doing
 enjoy doing
 覚え方
@@ -19440,8 +18905,7 @@ We regret to inform you that...
 ChatGPT Work でさらに進める
 作業内容を、洗練されたドキュメント、スライド資料、スプレッドシート、レポート、ウェ
 "
-587,"#587  
-Given, considering, in light of, これらの三つは文のはじめにつくと、どのような意味になるか。
+587,"Given, considering, in light of, これらの三つは文のはじめにつくと、どのような意味になるか。
 ","文頭に置かれた場合、3つとも「～を考えると」「～を踏まえると」という意味になりますが、文法とニュアンスが少し違います。
 
 Given ～
@@ -19520,8 +18984,7 @@ In light of the bad weather, the game was canceled.
 
 Given と in light of は似ていますが、in light of のほうが「情報や状況を受けて判断・決定した」という、やや硬く公式な表現です。
 "
-588,"#588  
-aptitude
+588,"aptitude
 ","意味：
 
 適性、才能
@@ -19557,8 +19020,7 @@ talent＝特定分野での優れた才能
 aptitude test
 ＝適性検査
 "
-589,"#589  
-immediate supervisor
+589,"immediate supervisor
 ","immediate supervisor
 
 意味：直属の上司、直接の上司
@@ -19571,7 +19033,7 @@ Please report the problem to your immediate supervisor.
 
 語源：
 immediate はラテン語 immediatus（イメディアートゥス）「間に何もない」に由来します。
-im-「?でない」＋ medius（メディウス）「中央の、間の」
+im-「〜でない」＋ medius（メディウス）「中央の、間の」
 
 supervisor はラテン語 super（スペル）「上から」＋ videre（ウィデーレ）「見る」に由来し、「上から監督する人」という意味です。
 
@@ -19601,8 +19063,7 @@ line manager
 reporting manager
 自分が直接報告する上司。会社の組織図や人事関係で使われます。
 "
-590,"#590  
-The construction project is scheduled to begin 〇〇 early October.
+590,"The construction project is scheduled to begin 〇〇 early October.
 
 A. on
 B. at
@@ -19631,11 +19092,10 @@ in October
 on January 5
 1月5日に
 "
-591,"#591  
-provided that
+591,"provided that
 ","provided that
 
-意味：「?という条件で」「もし?ならば」「?である限り」
+意味：「〜という条件で」「もし〜ならば」「〜である限り」
 
 条件を表す接続詞で、ifよりも「条件付きで」という意味がやや強いです。
 
@@ -19646,13 +19106,13 @@ Provided that the weather is good, we will hold the event outdoors.
 天気がよければ、イベントを屋外で行います。
 
 provided that ＝ providing that ＝ on condition that
-いずれも「?という条件で」です。
+いずれも「〜という条件で」です。
 
 語源：
 provide はラテン語 providere（プロウィデーレ）「前もって見る、準備する」に由来します。
 pro（プロ）「前に」＋ videre（ウィデーレ）「見る」
 
-もともと provided that は「?という条件が用意されているなら」という感覚から、条件を表す接続詞になりました。
+もともと provided that は「〜という条件が用意されているなら」という感覚から、条件を表す接続詞になりました。
 
 同じ語源の英語：
 provide「提供する」
@@ -19663,8 +19123,7 @@ vision「視覚」
 video「映像」
 revise「見直す、修正する」
 "
-592,"#592  
-take advantage of
+592,"take advantage of
 ","take advantage of
 
 意味：
@@ -19703,8 +19162,7 @@ take advantage of a person
 take advantage of a service
 サービスを利用する
 "
-593,"#593  
-Jaffna International Airport used to be among the busiest in the region, 〇〇 more than 1,500 passengers per hour.
+593,"Jaffna International Airport used to be among the busiest in the region, 〇〇 more than 1,500 passengers per hour.
 
 A. serves
 B. serving
@@ -19722,8 +19180,7 @@ Jaffna International Airport used to be among the busiest in the region, serving
  ..., which served more than 1,500 passengers per hour.
 ★★★★しかし、関係代名詞 which が関係詞節の主語になっている場合、which は省略できません。
 "
-594,"#594  
-function
+594,"function
 ","ある。function は名詞で「行事、催し、式典、集まり」という意味があります。
 
 例：
@@ -19751,8 +19208,7 @@ functionality「機能性」
 dysfunction「機能不全」
 defunct「廃止された、機能しなくなった」
 "
-595,"#595  
-all, other, most, every。この中で、可算名詞の単数形を修飾できるのはどれか。
+595,"all, other, most, every。この中で、可算名詞の単数形を修飾できるのはどれか。
 ","可算名詞の単数形を直接修飾できるのは、other と every です。
 ただし、名詞の直前に単独で置けるという意味では、最も明確な答えは every です。
 
@@ -19777,8 +19233,7 @@ every student（すべての学生、一人一人）
 
 したがって、答えは other と every です。
 "
-596,"#596  
-alteration
+596,"alteration
 ","alteration
 意味：変更、改変、修正、手直し
 
@@ -19802,9 +19257,8 @@ alter ego（オルター・イーゴー）＝別の自分、分身
 
 なお、alternation（オルタネーション）なら「交互になること、交代」という別の単語です。
 "
-597,"#597  
-①for a ●● while　　
-?for ●● a while 
+597,"①for a ●● while　　
+⓶for ●● a while 
 
 A long
 B quite
@@ -19814,8 +19268,7 @@ B quite
 ② for quite a while
 ＝かなり長い間、しばらくの間
 "
-598,"#598  
-The Vista wristband, 〇〇, at $99.
+598,"The Vista wristband, 〇〇, at $99.
 
 A. is priced
 B. has priced
@@ -19840,8 +19293,7 @@ C. is pricing
 D. prices
 「値段を付ける」という能動態なので不適切です。
 "
-599,"#599  
-It is possible that ～.
+599,"It is possible that ～.
 ","It is possible that ～.
 ＝「～という可能性がある」
 
@@ -19858,8 +19310,7 @@ It is possible to finish the work today.
 
 つまり、「何々」に文を入れるなら that、「動詞」を続けるなら to です。
 "
-600,"#600  
-substantial
+600,"substantial
 ","かなりの、相当な
 a substantial increase
 ＝かなりの増加
@@ -19890,8 +19341,7 @@ substantiate（サブスタンシエイト）＝立証する
 stand（スタンド）＝立つ
 stable（ステイブル）＝安定した
 "
-601,"#601  
-before、prior to、after の後ろ
+601,"before、prior to、after の後ろ
 ","before、prior to、after の後ろに、to＋動詞の原形は原則として置きません。
 
 before leaving
@@ -19913,8 +19363,7 @@ after leaving
 ○ after leaving
 ＝出発した後で
 "
-602,"#602  
-versatile
+602,"versatile
 ","versatile（ヴァーサタイル／ヴァーサトル）
 
 意味：
@@ -19948,8 +19397,7 @@ diverse（ダイヴァース）＝多様な
 universe（ユニヴァース）＝宇宙
 conversation（カンヴァセーション）＝会話
 "
-603,"#603  
-〇〇 domestic employees report high levels of satisfaction, while their counterparts abroad view their jobs less positively.
+603,"〇〇 domestic employees report high levels of satisfaction, while their counterparts abroad view their jobs less positively.
 
 A. Contrary to
 B. Whereas
@@ -19960,14 +19408,14 @@ D. Even so
 Whereas domestic employees report high levels of satisfaction, while their counterparts abroad view their jobs less positively.
 ＝国内の従業員は高い満足度を示している一方で、海外の同職者は自分の仕事をそれほど肯定的に見ていない。
 
-whereas は接続詞で、「一方で」「?なのに対して」という対比を表します。後ろには主語＋動詞の文が続きます。
+whereas は接続詞で、「一方で」「〜なのに対して」という対比を表します。後ろには主語＋動詞の文が続きます。
 
 A. Contrary to
 contrary to は前置詞なので、後ろには名詞または動名詞が必要です。
 × Contrary to domestic employees report ...
 
 C. Notwithstanding
-「?にもかかわらず」という意味です。前置詞として使うなら後ろは名詞、接続詞として使う場合もこの文の単純な対比には不自然です。
+「〜にもかかわらず」という意味です。前置詞として使うなら後ろは名詞、接続詞として使う場合もこの文の単純な対比には不自然です。
 
 D. Even so
 「それでも」という接続副詞です。前の文を受けて使うため、文頭に置くなら通常はコンマの後に独立した文が続きます。この文では二者の対比を直接つなぐ whereas が最適です。
@@ -19978,8 +19426,7 @@ Whereas domestic employees report high levels of satisfaction, their counterpart
 
 Domestic employees report high levels of satisfaction, while their counterparts abroad view their jobs less positively.
 "
-604,"#604  
-accommodate your request
+604,"accommodate your request
 ","意味：
 「あなたの要望に応じる」
 「あなたの依頼に対応する」
@@ -20004,10 +19451,9 @@ accommodation（アコモデイション）＝宿泊施設、便宜、調整
 commodious（コモウディアス）＝広々とした
 commodity（コモディティ）＝商品、日用品
 "
-605,"#605  
-「?の一環として」は英語で、
-","as part of ?
-＝?の一環として
+605,"「〜の一環として」は英語で、
+","as part of 〜
+＝〜の一環として
 
 例：
 As part of the project, the company conducted a survey.
@@ -20018,15 +19464,14 @@ As part of our training program, employees attend monthly workshops.
 
 ほかに、
 
-as part of an effort to ?
-＝?する取り組みの一環として
+as part of an effort to 〜
+＝〜する取り組みの一環として
 
 例：
 As part of an effort to reduce costs, the company closed several offices.
 ＝費用を削減する取り組みの一環として、会社はいくつかの事務所を閉鎖した。
 "
-606,"#606  
-blitzkrieg
+606,"blitzkrieg
 ","blitzkrieg（ブリッツクリーク）
 
 意味：電撃戦。機甲部隊や航空機などを集中投入し、敵が態勢を整える前に短期間で突破・包囲する戦法。
@@ -20050,10 +19495,9 @@ blitzed（ブリッツト）＝激しく攻撃された／口語では泥酔し�
 blitz campaign（ブリッツ・キャンペーン）＝短期間の集中キャンペーン
 the Blitz（ザ・ブリッツ）＝第二次世界大戦中のドイツ軍によるイギリスへの大規模空襲
 
-発音：/?bl?ts.kri??/「ブリッツクリーグ」に近い。
+発音：/ˈblɪts.kriːɡ/「ブリッツクリーグ」に近い。
 "
-607,"#607  
-〇〇 to Lotus Restaurant have nearly doubled the size of the seating area.
+607,"〇〇 to Lotus Restaurant have nearly doubled the size of the seating area.
 
 A. improved
 B. improvement
@@ -20064,8 +19508,7 @@ D. improving
 A. improved を選んでしまった。to を見落とした。
 
 "
-608,"#608  
-Employees interested in 〇〇
+608,"Employees interested in 〇〇
 ","Employees interested in 〇〇
 
 この interested は過去形ではありません。過去分詞が形容詞として使われています。
@@ -20098,8 +19541,7 @@ The position is interesting.
 
 したがって、Employees interested in 〇〇 の interested は「過去形」ではなく、「興味を持っている」という状態を表す過去分詞形容詞です。
 "
-609,"#609  
-be subject to ～
+609,"be subject to ～
 ","be subject to ～
 
 意味：
@@ -20144,8 +19586,7 @@ inject「注入する」
 eject「追い出す」
 interject「口を挟む」
 "
-610,"#610  
-provided that ～
+610,"provided that ～
 ","意味：
 「～という条件で」「もし～ならば」
 
@@ -20179,8 +19620,7 @@ supervise＝監督する
 注意：
 provide that より、通常は provided that または providing that を使います。
 "
-611,"#611  
-Bone Tree Medical Group has moved to Cyber Avenue, two blocks 〇〇 the post office and the police station.
+611,"Bone Tree Medical Group has moved to Cyber Avenue, two blocks 〇〇 the post office and the police station.
 
 A. among
 B. through
@@ -20212,8 +19652,7 @@ two blocks past ～
 訳：
 Bone Tree Medical GroupはCyber Avenueへ移転しました。郵便局と警察署を通り過ぎて2ブロック先です。
 "
-612,"#612  
-whereas
+612,"whereas
 ","whereas（ウェアアズ）
 
 意味：
@@ -20240,8 +19679,7 @@ whereby＝それによって
 wherein＝その中で、その点で
 whereupon＝すると、その直後に
 "
-613,"#613  
-allの後は、複数の可算名詞、everyの後は単数の可算名詞、これは正しいか。
+613,"allの後は、複数の可算名詞、everyの後は単数の可算名詞、これは正しいか。
 ","はい、基本的には正しいです。
 
 all + 複数の可算名詞
@@ -20277,8 +19715,7 @@ every + 単数可算名詞
 Every employee is required to attend.
 ＝すべての従業員は出席する必要があります。
 "
-614,"#614  
-faculty
+614,"faculty
 ","faculty（ファカルティ）
 
 意味：
@@ -20308,8 +19745,7 @@ facilitate＝容易にする、促進する
 注意：
 「大学の教員」という意味の faculty は、特にアメリカ英語でよく使われます。
 "
-615,"#615  
-as part ofとas a part ofの違い。
+615,"as part ofとas a part ofの違い。
 ","as part of ＝ ～の一環として
 as a part of ＝ ～の一部分として
 
@@ -20317,8 +19753,7 @@ as a part of ＝ ～の一部分として
 
 TOEICでは、サービス・計画・プログラム・業務などについて「～の一環として」と言う場合、ほぼ as part of と考えてよいです。
 "
-616,"#616  
-be subject to ～
+616,"be subject to ～
 ","be subject to ～（ビー・サブジェクト・トゥ）
 
 意味：
@@ -20355,8 +19790,7 @@ inject＝注入する
 eject＝追い出す
 interject＝口を挟む
 "
-617,"#617  
-Locating in proximity to the airport, the Tomikishi Hotel is an ideal choice for business travelers. このlocatingよりlocatedの方がいいか?
+617,"Locating in proximity to the airport, the Tomikishi Hotel is an ideal choice for business travelers. このlocatingよりlocatedの方がいいか?
 ","はい。ここは locating ではなく located が正しいです。
 
 Located in proximity to the airport, the Tomikishi Hotel is an ideal choice for business travelers.
@@ -20385,8 +19819,7 @@ Locating in proximity to the airport, ...
 
 です。
 "
-618,"#618  
-Please send all resumes to the Salminen Company by email, unless a human resources representative has requested 〇〇.
+618,"Please send all resumes to the Salminen Company by email, unless a human resources representative has requested 〇〇.
 
 A. already
 B. otherwise
@@ -20422,8 +19855,7 @@ request otherwise
 
 otherwise は「別のやり方で」という意味で、前に述べた内容全体を受けています。
 "
-619,"#619  
-The city council will meet tomorrow to field questions from residents concerning the new water tower. このfieldというのはどういう意味か?
+619,"The city council will meet tomorrow to field questions from residents concerning the new water tower. このfieldというのはどういう意味か?
 ","field（フィールド）
 
 この文での field は動詞で、「質問を受けて答える」「質問に対応する」という意味です。
@@ -20446,13 +19878,12 @@ fielder＝野手
 fieldwork＝現地調査
 battlefield＝戦場
 "
-620,"#620  
-persist
+620,"persist
 ","persist（パーシスト）
 
 意味：動詞「固執する、粘り強く続ける、持続する」。
 
-発音：/p?r?s?st/（パーシスト）
+発音：/pərˈsɪst/（パーシスト）
 
 語源：ラテン語 persistere（ペルシステレ）「最後まで立ち続ける、やり通す」。
 per-（ペル＝完全に、最後まで）＋ sistere（システレ＝立つ、立ち続ける）から来ています。
@@ -20482,19 +19913,17 @@ consist（コンシスト）＝構成される
 exist（イグジスト）＝存在する
 
 特に、
-persist in doing＝「?し続ける」
+persist in doing＝「〜し続ける」
 という形は重要です。
 "
-621,"#621  
-before と　until
+621,"before と　until
 ","before ＝ ある時点より前に起こる
 until ＝ ある時点まで状態・動作が続く
 "
-622,"#622  
-The cost of building Jupiter High Towers exceeded the contractor's original estimate by over 500 pounds.
+622,"The cost of building Jupiter High Towers exceeded the contractor's original estimate by over 500 pounds.
 
  このbyはどういう意味か。
-","この by は「?だけ」「?の差で」という、差額・差の大きさを表す by です。
+","この by は「〜だけ」「〜の差で」という、差額・差の大きさを表す by です。
 
 The cost of building Jupiter High Towers exceeded the contractor's original estimate by over 500 pounds.
 ＝「Jupiter High Towers の建設費は、請負業者の当初の見積額を500ポンド以上上回った。」
@@ -20511,12 +19940,11 @@ The temperature rose by 5 degrees.
 
 この by は「どれくらい差があるか」を示しています。なお、元の文は The cost building より The cost of building が自然です。
 "
-623,"#623  
-deliberate / deliberately
+623,"deliberate / deliberately
 ","deliberate / deliberately
 
 deliberate
-発音：/d??l?b?r?t/（形容詞）「ディリバレット」に近い
+発音：/dɪˈlɪbərət/（形容詞）「ディリバレット」に近い
 
 意味：
 
@@ -20532,7 +19960,7 @@ The committee deliberated for several hours.
 ＝委員会は数時間にわたって慎重に審議した。
 
 deliberately
-発音：/d??l?b?r?tli/「ディリバレットリー」に近い
+発音：/dɪˈlɪbərətli/「ディリバレットリー」に近い
 
 意味：
 
@@ -20558,8 +19986,7 @@ deliberate ＝ 意図的な／慎重に考えた
 deliberately ＝ わざと／慎重に
 です。
 "
-624,"#624  
-The city requirement that all buildings pass an inspection does not apply to historic landmarks.
+624,"The city requirement that all buildings pass an inspection does not apply to historic landmarks.
 
 このthatは関係代名詞か?
 ","いいえ、この that は関係代名詞ではなく、同格の that です。
@@ -20607,8 +20034,7 @@ the requirement that S + V
 
 この形のthatは「同格のthat」です。
 "
-625,"#625  
-同格のthatというのは初めて聞いたのだが、これは同格というのは何だ。関係代名詞でもない、接続詞でもない、名詞でもない。なんだ、名詞かこれ、that。
+625,"同格のthatというのは初めて聞いたのだが、これは同格というのは何だ。関係代名詞でもない、接続詞でもない、名詞でもない。なんだ、名詞かこれ、that。
 ","「同格のthat」の that は、品詞としては接続詞です。名詞でも関係代名詞でもありません。
 
 「同格」というのは品詞の名前ではなく、「前の名詞とthat節が同じ内容を表している関係」のことです。
@@ -20630,7 +20056,7 @@ the requirement that all buildings pass an inspection
 requirement ＝ all buildings pass an inspection
 です。
 
-この that は「?という」という意味を作る接続詞です。
+この that は「〜という」という意味を作る接続詞です。
 
 関係代名詞thatとの違いは重要です。
 
@@ -20644,8 +20070,7 @@ the building that we inspected
 
 したがって、「同格のthat」という言い方は、正確には「同格の名詞節を導く接続詞that」と考えると分かりやすいです。
 "
-626,"#626  
-consequential
+626,"consequential
 ","consequential
 
 意味：
@@ -20677,13 +20102,12 @@ subsequent ＝ その後の
 pursue ＝ 追求する
 
 発音：
-/?k?ns??kwen??l/
+/ˌkɒnsɪˈkwenʃəl/
 「コンスィクウェンシャル」に近いです。
 
 なお、綴りは consiquential ではなく consequential です。
 "
-627,"#627  
-within view of ～
+627,"within view of ～
 ","「within view of ～」
 意味：～が見える範囲に
 例：The house is within view of the ocean.
@@ -20711,8 +20135,7 @@ video「映像」
 review「見直す、再検討する」
 provide「供給する」※語源的には「前もって見る→備える」につながります。
 "
-628,"#628  
-●● Director Miura gives his approval, we will submit the proposal tomorrow.
+628,"●● Director Miura gives his approval, we will submit the proposal tomorrow.
 
 A. as far as
 B. provided that
@@ -20723,7 +20146,7 @@ D. in addition to
 Provided that Director Miura gives his approval, we will submit the proposal tomorrow.
 「三浦部長が承認してくれれば、私たちは明日その提案書を提出します。」
 
-そこがポイントです。「as far as」を「?する限り」と訳せるので、日本語だけ見ると正しそうに見えます。ただし、この「?する限り」は「条件」の意味ではありません。
+そこがポイントです。「as far as」を「〜する限り」と訳せるので、日本語だけ見ると正しそうに見えます。ただし、この「〜する限り」は「条件」の意味ではありません。
 
 ●● Director Miura gives his approval, we will submit the proposal tomorrow.
 
@@ -20738,7 +20161,7 @@ provided that Director Miura gives his approval
 ＝「三浦部長が承認するという条件で」
 ＝「三浦部長が承認すれば」
 
-一方、as far as の「?する限り」は、「?の範囲では」という意味です。
+一方、as far as の「〜する限り」は、「〜の範囲では」という意味です。
 
 As far as I know, he is reliable.
 ＝「私が知っている限りでは、彼は信頼できる。」
@@ -20765,8 +20188,7 @@ provided that ～ ＝「～という条件で」「～なら」→ 条件
 
 したがって、この問題で A が「as long as」だったならAも意味的にはかなり近くなります。しかし「as far as」なのでBが正解です。
 "
-629,"#629  
-Until the office heating system 〇〇, employees are permitted to work from home.
+629,"Until the office heating system 〇〇, employees are permitted to work from home.
 
 A. will be fixed
 B. is being fixed
@@ -20794,8 +20216,7 @@ A. will be fixed
 未来形。until節の中なので不可。
 
 "
-630,"#630  
-、until節そのものが「未来のある時点まで」という時間関係をすでに示しているからです。
+630,"、until節そのものが「未来のある時点まで」という時間関係をすでに示しているからです。
 ","理由は、until節そのものが「未来のある時点まで」という時間関係をすでに示しているからです。
 
 英語では、when / before / after / until / as soon as などの「時を表す副詞節」では、その節の出来事が未来でも、通常は現在形または現在完了形を使います。未来であることは主節や文脈から分かるので、節の中でさらに will を付けない、という仕組みです。
@@ -20838,8 +20259,7 @@ until + 現在形 / 現在完了形
 主節 + will などの未来表現
 と覚えておけばよいです。
 "
-631,"#631  
-英語では、when / before / after / until / as soon as などの「時を表す副詞節」では、その節の出来事が未来でも、通常は現在形または現在完了形を使います。未来であることは主節や文脈から分かるので、節の中でさらに will を付けない、という仕組みです。 たとえば、これの例を書け。
+631,"英語では、when / before / after / until / as soon as などの「時を表す副詞節」では、その節の出来事が未来でも、通常は現在形または現在完了形を使います。未来であることは主節や文脈から分かるので、節の中でさらに will を付けない、という仕組みです。 たとえば、これの例を書け。
 ","たとえば、次のようになります。すべて「未来のこと」ですが、時を表す副詞節の中では will を使っていません。
 
 when
@@ -20887,8 +20307,7 @@ We will reopen the office as soon as the repairs have been completed.
 時の副詞節：現在形または現在完了形で未来を表す
 という形です。
 "
-632,"#632  
-〇〇 significant growth in the robotics industry in the next decade.
+632,"〇〇 significant growth in the robotics industry in the next decade.
 
 A. think
 B. predict
@@ -20896,7 +20315,7 @@ B. predict
 
 predict significant growth ＝「大幅な成長を予測する」です。
 
-think は普通、「?と思う」の後に that節を取ります。
+think は普通、「〜と思う」の後に that節を取ります。
 × think significant growth
 ○ think that there will be significant growth
 
@@ -20916,8 +20335,7 @@ contradict「反論する」
 indicate「示す」
 verdict「評決」
 "
-633,"#633  
-Life Statusポイント1,500
+633,"Life Statusポイント1,500
 ","in addition to の後ろには、名詞または動名詞（-ing）が来ます。動詞の原形は置けません。
 
 in addition to + 名詞
@@ -20941,8 +20359,7 @@ be accustomed to doing
 
 これらも to は前置詞なので、後ろは動名詞です。
 "
-634,"#634  
-untilを前置詞として使う場合の例を挙げよ。
+634,"untilを前置詞として使う場合の例を挙げよ。
 ","until を前置詞として使う場合は、後ろに名詞・名詞句が来ます。
 
 I worked until midnight.
@@ -20951,16 +20368,15 @@ I worked until midnight.
 The shop is open until 8 p.m.
 「その店は午後8時まで開いている。」
 "
-635,"#635  
-As far as director gives his proposal, we will submit the proposal tomorrow. この文章はどうだ、正しいか。
+635,"As far as director gives his proposal, we will submit the proposal tomorrow. この文章はどうだ、正しいか。
 ","少し不自然で、基本的には正しくありません。
 
 As far as director gives his proposal, we will submit the proposal tomorrow.
 
 問題は主に2つあります。
 
-as far as は「?する限り」という条件には普通使いません。
-条件の「?する限り」は as long as を使います。
+as far as は「〜する限り」という条件には普通使いません。
+条件の「〜する限り」は as long as を使います。
 director には冠詞が必要です。
 the director とするのが自然です。
 
@@ -20982,15 +20398,14 @@ As far as I know, he is still in Tokyo.
 のように、「知識・判断・範囲の限界」を表すときに使います。
 
 つまり、
-as far as = 「?する範囲では、?する限りでは」
-as long as = 「?である限り、?さえすれば」
+as far as = 「〜する範囲では、〜する限りでは」
+as long as = 「〜である限り、〜さえすれば」
 
 です。
 
 音声チャットを終了しました
 "
-636,"#636  
-As far as I know, he is still in Tokyo. これができるのになぜ、ディレクターが提案書を渡してくる限り、云々って、ここでas far asは使えないんだ。
+636,"As far as I know, he is still in Tokyo. これができるのになぜ、ディレクターが提案書を渡してくる限り、云々って、ここでas far asは使えないんだ。
 ","理由は、as far as が表す「限り」は、条件の限りではなく「範囲の限界」だからです。
 
 As far as I know, he is still in Tokyo.
@@ -21043,8 +20458,7 @@ as far as = 「どこまで？」
 as long as = 「どんな条件なら？」
 です。
 "
-637,"#637  
-consequential
+637,"consequential
 ","consequential（コンシクエンシャル）は、主に「重大な」「重要な結果をもたらす」という意味です。
 
 たとえば、
@@ -21087,8 +20501,7 @@ the consequent damage
 a consequential change
 ＝「重大な変化」
 "
-638,"#638  
-reinvent
+638,"reinvent
 ","reinvent（リーインヴェント）
 
 意味：
@@ -21124,8 +20537,7 @@ convene＝集まる
 intervene＝介入する
 prevent＝防ぐ
 "
-639,"#639  
-need to have + 過去分詞
+639,"need to have + 過去分詞
 ","文法のポイントは、
 need to have + 過去分詞
 ＝「～している必要がある」「～した実績が必要である」
@@ -21153,3 +20565,208 @@ need to have hosted
 
 音声チャットを終了しました
 "
+640,"Until the office heating system 〇〇, employees are permitted to work from home.
+
+A. will be fixed
+B. is being fixed
+C. has been fixed
+D. had been fixed","答え：C. has been fixed
+
+「オフィスの暖房設備が修理されるまで、従業員は在宅勤務を許可されている」という意味です。
+
+Aがダメなのは、until が「～するまで」という時を表す副詞節を作っているからです。英語では、このような時の副詞節の中では、未来のことでも普通 will を使わず、現在形や現在完了形を使います。
+
+× Until the office heating system will be fixed, ...
+○ Until the office heating system is fixed, ...
+○ Until the office heating system has been fixed, ...
+
+つまり A の will be fixed は、意味としては「修理されるだろう」ですが、until節の中なので will を使わない、という文法上の理由です。
+
+B の is being fixed は別の理由でダメです。is being fixed は現在進行形の受動態で、「今、修理されている最中だ」という意味です。"
+641,eventually,"eventually（イヴェンチュアリー）
+
+意味：
+「最終的に」「結局は」「やがて」
+
+時間がかかったり、いろいろな過程を経たあとで、最後にはそうなる、というニュアンスです。
+
+例：
+He eventually found a new job.
+彼は最終的に新しい仕事を見つけた。
+
+Eventually, the problem was solved.
+結局、その問題は解決された。
+
+語源：
+eventually ← eventual（イヴェンチュアル）＋ -ly
+eventual はラテン語 eventus（エヴェントゥス）「出来事、結果」に由来します。
+さらに eventus は evenire（エウェニーレ）「起こる、結果として生じる」から来ています。
+
+同じ語源の英語：
+event（イベント）＝出来事
+eventual（イヴェンチュアル）＝最終的な
+eventuality（イヴェンチュアリティ）＝起こり得る事態
+
+注意：
+eventually は「たぶん」「もしかすると」ではありません。
+「時間はかかったが、最終的には」という意味です。
+
+finally との違い：
+finally＝最後に、ついに
+eventually＝いろいろな経過を経て、最終的に
+
+例：
+After several attempts, he eventually succeeded.
+何度か試した末に、彼はとうとう成功した。"
+642,On toはどういう時に使うか。,"onto（オン・トゥ）は、基本的に「～の上へ」「～の上に」という移動を表します。on は「～の上にある」という位置、onto は「～の上へ移動する」という方向です。
+
+例：
+The cat jumped onto the table.
+猫がテーブルの上へ飛び乗った。
+
+She put the book onto the desk.
+彼女は本を机の上に置いた。
+
+The passengers got onto the bus.
+乗客たちはバスに乗り込んだ。
+
+また、onto には「次の段階・話題へ移る」という意味もあります。
+Let's move onto the next topic.
+次の話題に移りましょう。
+
+なお、on to と2語になる場合もあります。
+We moved on to the next question.
+私たちは次の問題へ進んだ。
+
+この場合、on は move on「先へ進む」の一部で、to が「～へ」です。つまり、
+onto＝「～の上へ」
+on to＝「先へ進んで、～へ」
+という違いがあります。
+
+語源は on + to です。on は古英語 on（オン、「上に、～に接して」）、to は古英語 tō（トー、「～へ」）に由来します。
+
+同じ語源の英語：
+on
+upon
+to
+toward
+today（もともと「to day＝この日に」）"
+643,take the lead in,"take the lead in ＝「～で先頭に立つ」「～を主導する」「～においてリードする」
+
+例：
+She took the lead in developing the new system.
+「彼女は新しいシステムの開発を主導した。」
+
+The company took the lead in introducing electric vehicles.
+「その会社は電気自動車の導入で先頭に立った。」
+
+in の後には、名詞または動名詞（-ing）が来ます。
+take the lead in + 名詞
+take the lead in + -ing
+
+語源：
+lead は古英語 lǣdan（ラーダン、「導く、連れて行く」）に由来します。「人を前へ導く」→「先頭に立つ、主導する」という意味になりました。
+
+同じ語源の英語：
+lead＝導く
+leader＝指導者
+leadership＝指導力
+leading＝主要な、先頭の
+
+なお、take the lead だけなら「先頭に立つ」「トップに出る」、take the lead in ～ なら「～の分野・活動で主導する」です。"
+644,英文の初めの alternatively カンマ。これはどういう意味で使うか。,"Alternatively,（オルターナティヴリー）は文頭で「あるいは」「別の方法として」「その代わりに」という意味で使います。
+
+例：
+You can take a taxi. Alternatively, you can take the bus.
+「タクシーに乗れます。あるいは、バスを利用することもできます。」
+
+この alternatively は、「前に述べた方法とは別の選択肢を出す」副詞です。
+
+意味の感覚は、
+alternatively = as another option
+「別の選択肢として」
+です。
+
+therefore「したがって」や however「しかし」のような接続副詞の一種として、文頭で
+Alternatively, + 文
+の形をよく取ります。
+
+語源：
+alternative（オルターナティヴ）「代わりのもの、別の選択肢」＋ -ly
+
+alternative はラテン語 alternare（アルテルナーレ）「交互にする」に由来します。
+さらに alter（アルテル）＝「もう一方の、別の」が語源です。
+
+同じ語源の英語：
+alternate＝交互の、交互にする
+alternative＝代替案、別の選択肢
+alter＝変える
+alteration＝変更
+alternately＝交互に
+
+注意：
+alternatively＝「別の選択肢として」
+alternately＝「交互に」
+で意味が違います。"
+645,ペヤング ソースやきそばピコ 80g,"be in need of（ビー・イン・ニード・オヴ）
+
+意味：
+「～を必要としている」「～が必要な状態である」
+
+例：
+The building is in need of repair.
+「その建物は修理が必要だ。」
+
+The company is in need of experienced workers.
+「その会社は経験豊富な従業員を必要としている。」
+
+need と比べると、be in need of はやや硬く、「必要な状態にある」というニュアンスです。
+
+need + 名詞
+We need more staff.
+「もっと人員が必要だ。」
+
+be in need of + 名詞
+We are in need of more staff.
+「私たちはもっと人員を必要としている。」
+
+語源：
+need は古英語 nēod（ネーオド）「必要、困窮」に由来します。さらにゲルマン祖語 *naudiz（ナウディズ）「必要、苦境」にさかのぼります。
+
+同じ語源の英語：
+need＝必要、必要とする
+needy＝貧しい、困窮した
+needless＝不必要な
+necessarily＝必然的に、必ずしも（意味上関連する語）"
+646,,
+647,「何々の代わりに」は英語で主に次を使います。,"instead of ～（インステッド・オブ）
+＝「～の代わりに」
+
+例：
+I took the train instead of driving.
+「車を運転する代わりに電車に乗った。」
+
+in place of ～（イン・プレイス・オブ）
+＝「～の代わりに」「～に代えて」
+やや硬めです。
+
+例：
+She attended the meeting in place of her manager.
+「彼女は上司の代わりに会議に出席した。」
+
+on behalf of ～（オン・ビハーフ・オブ）
+＝「～を代表して」「～に代わって」
+人の代理をする場合によく使います。
+
+例：
+I spoke on behalf of the company.
+「私は会社を代表して話した。」
+
+語源：
+instead は in stead が一語になったものです。stead（ステッド）は古英語 stede（ステデ）「場所、位置」が語源です。つまり instead of は元々「～の場所に」→「～の代わりに」という意味です。
+
+同じ語源の英語：
+stead＝場所、立場
+steadfast＝確固とした
+homestead＝家屋敷
+instead＝その代わりに"
