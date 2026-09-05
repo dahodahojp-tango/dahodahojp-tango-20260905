@@ -8,15 +8,13 @@
 
 html, body {
   margin: 0;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
   background: #fff;
   color: #111;
   font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
   -webkit-text-size-adjust: 100%;
-}
-
-body {
-  min-height: 100dvh;
 }
 
 button {
@@ -34,21 +32,31 @@ button:active {
 }
 
 #app {
-  width: min(100%, 680px);
-  margin: 0 auto;
-  min-height: 100dvh;
-  padding: max(18px, env(safe-area-inset-top)) 18px
-           max(18px, env(safe-area-inset-bottom));
+  width: 100%;
+  height: 100%;
 }
 
+/* Common screens */
 .screen {
   display: none;
 }
 
 .screen.active {
   display: flex;
+}
+
+/* TOP */
+#homeScreen.active {
+  width: min(100%, 680px);
+  height: 100%;
+  margin: 0 auto;
+  padding:
+    max(18px, env(safe-area-inset-top))
+    18px
+    max(18px, env(safe-area-inset-bottom));
   flex-direction: column;
-  min-height: calc(100dvh - 36px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 h1 {
@@ -104,61 +112,87 @@ h1 {
   font-size: 14px;
 }
 
+/* Study screen:
+   The entire study screen is fixed to the viewport.
+   Header/footer never scroll. Only the middle card scrolls. */
+#studyScreen.active {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  background: #fff;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  padding:
+    max(6px, env(safe-area-inset-top))
+    12px
+    max(6px, env(safe-area-inset-bottom));
+}
+
 .study-header {
+  grid-row: 1;
+  width: min(100%, 680px);
+  margin: 0 auto;
+  min-height: 44px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  min-height: 68px;
-}
-
-.book-title {
-  font-size: 18px;
-  font-weight: 700;
+  gap: 8px;
+  background: #fff;
+  z-index: 20;
 }
 
 .progress {
-  margin-top: 3px;
+  min-width: 0;
+  margin: 0;
   font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .font-buttons {
+  flex: 0 0 auto;
   display: flex;
-  gap: 8px;
+  gap: 5px;
 }
 
 .font-buttons button {
-  width: 48px;
-  height: 48px;
-  font-size: 26px;
+  width: 31px;
+  height: 31px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1;
+  border-radius: 8px;
 }
 
+/* ONLY this middle area scrolls */
 .card {
-  width: 100%;
-  flex: 1;
-  min-height: 420px;
-  margin: 12px 0 8px;
-  padding: 28px 22px;
+  grid-row: 2;
+  width: min(100%, 680px);
+  min-height: 0;
+  margin: 4px auto;
+  padding: 24px 18px 32px;
+  border: 1.5px solid #222;
+  border-radius: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  touch-action: pan-y;
+  justify-content: flex-start;
+  align-items: stretch;
   user-select: none;
   -webkit-user-select: none;
-}
-
-.side-label {
-  position: absolute;
-  top: 16px;
-  left: 18px;
-  font-size: 14px;
-  font-weight: 700;
+  background: #fff;
 }
 
 .card-text {
   width: 100%;
+  margin: auto 0;
   font-size: var(--font-size);
   font-weight: 600;
   line-height: 1.45;
@@ -168,46 +202,48 @@ h1 {
 }
 
 .hint {
-  position: absolute;
-  left: 12px;
-  right: 12px;
-  bottom: 14px;
-  font-size: 12px;
+  flex: 0 0 auto;
+  margin-top: 24px;
+  text-align: center;
+  font-size: 11px;
   font-weight: 400;
 }
 
+/* Bottom bar is also outside the scroll area */
 .action-bar {
+  grid-row: 3;
+  width: min(100%, 680px);
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
-  position: sticky;
-  bottom: 0;
-  padding-top: 8px;
+  padding-top: 6px;
   background: #fff;
+  z-index: 20;
 }
 
 .icon-button {
-  min-height: 70px;
-  padding: 6px;
+  min-height: 58px;
+  padding: 3px;
 }
 
 .icon {
   display: block;
-  font-size: 31px;
+  font-size: 34px;
   line-height: 1;
 }
 
-.caption {
-  display: block;
-  margin-top: 6px;
-  font-size: 12px;
+#topButton .home-icon {
+  font-size: 46px;
+  transform: translateY(-1px);
 }
 
 .correct .icon,
 .wrong .icon {
-  font-size: 36px;
+  font-size: 40px;
 }
 
+/* Dialog */
 dialog {
   width: min(calc(100% - 28px), 430px);
   border: 1.5px solid #222;
@@ -246,129 +282,12 @@ dialog > form > button {
 }
 
 @media (max-width: 420px) {
-  #app {
-    padding-left: 12px;
-    padding-right: 12px;
+  #studyScreen.active {
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
-  .card {
-    min-height: 360px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-
-
-/* ===== iPhone layout revision ===== */
-
-/* Keep the whole app within the screen; only the card body scrolls. */
-html, body {
-  height: 100%;
-  overflow: hidden;
-}
-
-#app {
-  height: 100dvh;
-  min-height: 0;
-  overflow: hidden;
-}
-
-#studyScreen.active {
-  height: 100%;
-  min-height: 0;
-  overflow: hidden;
-}
-
-.study-header {
-  flex: 0 0 auto;
-  min-height: 50px;
-  padding-bottom: 6px;
-  background: #fff;
-  z-index: 10;
-}
-
-/* Hide the book name ("英語" etc.) and the 問題/答え label. */
-.book-title,
-.side-label {
-  display: none !important;
-}
-
-/* Smaller +/- buttons. */
-.font-buttons {
-  gap: 5px;
-}
-
-.font-buttons button {
-  width: 34px;
-  height: 34px;
-  padding: 0;
-  font-size: 19px;
-  line-height: 1;
-  border-radius: 9px;
-}
-
-/* The center card is the only scrolling area. */
-.card {
-  flex: 1 1 auto;
-  min-height: 0;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  margin: 6px 0;
-  padding-top: 22px;
-  padding-bottom: 30px;
-}
-
-/* Bottom controls stay visible and show icons only. */
-.action-bar {
-  position: static;
-  flex: 0 0 auto;
-  padding: 8px 0 max(2px, env(safe-area-inset-bottom));
-  background: #fff;
-  z-index: 10;
-}
-
-.icon-button {
-  min-height: 58px;
-  padding: 4px;
-}
-
-.caption {
-  display: none !important;
-}
-
-.icon {
-  font-size: 34px;
-  line-height: 1;
-}
-
-/* Make the home icon larger than the others. */
-#topButton .icon {
-  font-size: 43px;
-}
-
-.correct .icon,
-.wrong .icon {
-  font-size: 40px;
-}
-
-/* Keep status line compact at top. */
-.progress {
-  margin-top: 0;
-  font-size: 14px;
-  white-space: nowrap;
-}
-
-@media (max-width: 420px) {
-  #app {
-    padding-top: max(8px, env(safe-area-inset-top));
-    padding-bottom: max(6px, env(safe-area-inset-bottom));
-  }
-
-  .study-header {
-    min-height: 44px;
-  }
-
-  .card {
-    min-height: 0;
+  .progress {
+    font-size: 13px;
   }
 }

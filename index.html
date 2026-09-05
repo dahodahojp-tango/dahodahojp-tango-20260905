@@ -6,13 +6,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <title>単語帳</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20260905-2">
 </head>
 <body>
   <main id="app">
     <section id="homeScreen" class="screen active">
       <h1>単語帳</h1>
-
       <div id="bookButtons" class="book-buttons"></div>
 
       <div class="home-tools">
@@ -25,36 +24,30 @@
 
     <section id="studyScreen" class="screen">
       <header class="study-header">
-        <div>
-          <div id="bookTitle" class="book-title"></div>
-          <div id="progressText" class="progress">0 / 0</div>
-        </div>
+        <div id="progressText" class="progress">0 / 0</div>
         <div class="font-buttons">
           <button id="fontDownButton" aria-label="文字を小さく">－</button>
           <button id="fontUpButton" aria-label="文字を大きく">＋</button>
         </div>
       </header>
 
-      <button id="card" class="card" type="button" aria-label="問題と答えを切り替える">
-        <div id="sideLabel" class="side-label">問題</div>
+      <div id="card" class="card" role="button" tabindex="0" aria-label="問題と答えを切り替える">
         <div id="cardText" class="card-text"></div>
         <div class="hint">タップ／左右スワイプで問題・答え切替</div>
-      </button>
-
-      <div id="studyMessage" class="message"></div>
+      </div>
 
       <nav class="action-bar">
         <button id="topButton" class="icon-button" aria-label="トップへ戻る">
-          <span class="icon">⌂</span><span class="caption">戻る</span>
+          <span class="icon home-icon">⌂</span>
         </button>
         <button id="deleteButton" class="icon-button" aria-label="この問題を削除">
-          <span class="icon">🗑</span><span class="caption">削除</span>
+          <span class="icon">🗑</span>
         </button>
         <button id="correctButton" class="icon-button correct" aria-label="正解">
-          <span class="icon">○</span><span class="caption">正解</span>
+          <span class="icon">○</span>
         </button>
         <button id="wrongButton" class="icon-button wrong" aria-label="不正解">
-          <span class="icon">×</span><span class="caption">不正解</span>
+          <span class="icon">×</span>
         </button>
       </nav>
     </section>
@@ -79,6 +72,6 @@
     </form>
   </dialog>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=20260905-2"></script>
 </body>
 </html>

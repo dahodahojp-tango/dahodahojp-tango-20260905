@@ -176,7 +176,6 @@ async function startStudy(bookKey) {
 
   $("homeScreen").classList.remove("active");
   $("studyScreen").classList.add("active");
-  $("bookTitle").textContent = currentBook.label;
   await nextCard();
 }
 
@@ -196,7 +195,6 @@ async function nextCard() {
   if (cards.length === 0) {
     currentCard = null;
     $("cardText").textContent = "問題がありません";
-    $("sideLabel").textContent = "";
     $("progressText").textContent = "0 / 0";
     return;
   }
@@ -241,7 +239,6 @@ function randomOne(arr) {
 function renderCard(total) {
   if (!currentCard) return;
 
-  $("sideLabel").textContent = showingAnswer ? "答え" : "問題";
   $("cardText").textContent = showingAnswer ? currentCard.answer : currentCard.question;
 
   const accuracy = currentCard.shownCount
