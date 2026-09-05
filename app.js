@@ -19,6 +19,8 @@ const BOOKS = [
 const DB_NAME = "WordbookDB";
 const DB_VERSION = 1;
 const STORE_NAME = "cards";
+const RATE_STORAGE_KEY = "wordbookQuestionRate";
+const DEFAULT_QUESTION_RATE = 5;
 
 let db;
 let currentBook = null;
@@ -27,11 +29,13 @@ let showingAnswer = false;
 let fontSize = 34;
 let touchStartX = null;
 let touchStartY = null;
+let questionRate = DEFAULT_QUESTION_RATE;
 
 const $ = (id) => document.getElementById(id);
 
 document.addEventListener("DOMContentLoaded", async () => {
   db = await openDB();
+  loadQuestionRate();
   buildHomeButtons();
   buildDialogButtons();
   bindEvents();
@@ -104,12 +108,25 @@ function bindEvents() {
   $("importButton").addEventListener("click", () => $("importDialog").showModal());
   $("resetButton").addEventListener("click", () => $("resetDialog").showModal());
 
+  $("questionRateSelect").addEventListener("change", (e) => {
+    questionRate = Math.max(1, Math.min(10, Number(e.target.value) || DEFAULT_QUESTION_RATE));
+    localStorage.setItem(RATE_STORAGE_KEY, String(questionRate));
+  });
+
   $("resetAllButton").addEventListener("click", async (e) => {
     e.preventDefault();
     $("resetDialog").close();
     if (confirm("全単語帳を完全に初期化しますか？\n学習履歴と削除済み記録もすべて消えます。")) {
       await resetAll();
     }
+  });
+
+  $("importantButton").addEventListener("click", async () => {
+    if (!currentCard) return;
+    currentCard.important = !currentCard.important;
+    await putCard(currentCard);
+    updateImportantButton();
+    updateImportantIndicator();
   });
 
   $("topButton").addEventListener("click", goHome);
@@ -211,15 +228,17 @@ async function nextCard() {
   3. それもなければ、正解率が低いほど出やすい重み付きランダム
 */
 function chooseCard(cards) {
-  const never = cards.filter(c => c.shownCount === 0);
-  if (never.length) return randomOne(never);
-
-  const early = cards.filter(c => c.shownCount >= 1 && c.shownCount <= 3);
-  if (early.length) return randomOne(early);
-
+  // 出題率Nとは、正解率0%の問題を正解率100%の問題のN倍出しやすくする設定。
+  // 出題3回以下、および「重要問題」は、正解率0%と同じ重みにする。
   const weights = cards.map(c => {
-    const accuracy = c.shownCount > 0 ? c.correctCount / c.shownCount : 0;
-    return Math.max(0.05, 1.05 - accuracy);
+    let effectiveAccuracy = c.shownCount > 0 ? c.correctCount / c.shownCount : 0;
+
+    if (c.shownCount <= 3 || c.important) {
+      effectiveAccuracy = 0;
+    }
+
+    // 正解率0% -> questionRate、正解率100% -> 1。途中は直線的に補間。
+    return 1 + (questionRate - 1) * (1 - effectiveAccuracy);
   });
 
   const total = weights.reduce((a, b) => a + b, 0);
@@ -247,6 +266,9 @@ function renderCard(total) {
 
   $("progressText").textContent =
     `ID ${currentCard.id}　出題 ${currentCard.shownCount}回　正解率 ${accuracy}%　全${total}問`;
+
+  updateImportantButton();
+  updateImportantIndicator();
 }
 
 function toggleSide() {
@@ -314,7 +336,8 @@ async function importCsv(bookKey) {
         answer,
         shownCount: 0,
         correctCount: 0,
-        deleted: false
+        deleted: false,
+        important: false
       });
 
       added++;
@@ -326,6 +349,33 @@ async function importCsv(bookKey) {
     console.error(err);
     setHomeMessage(`取込エラー: ${err.message}`);
   }
+}
+
+function loadQuestionRate() {
+  const saved = Number(localStorage.getItem(RATE_STORAGE_KEY));
+  questionRate = Number.isInteger(saved) && saved >= 1 && saved <= 10
+    ? saved
+    : DEFAULT_QUESTION_RATE;
+
+  const select = $("questionRateSelect");
+  if (select) select.value = String(questionRate);
+}
+
+function updateImportantButton() {
+  const button = $("importantButton");
+  if (!button) return;
+
+  const active = Boolean(currentCard && currentCard.important);
+  button.classList.toggle("active", active);
+  button.setAttribute("aria-pressed", active ? "true" : "false");
+}
+
+function updateImportantIndicator() {
+  const indicator = $("importantIndicator");
+  if (!indicator) return;
+
+  const active = Boolean(currentCard && currentCard.important);
+  indicator.hidden = !active;
 }
 
 function findColumn(header, names) {

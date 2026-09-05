@@ -291,3 +291,120 @@ dialog > form > button {
     font-size: 13px;
   }
 }
+
+
+/* ===== 2026-09-06 設計図反映 v2 ===== */
+
+#homeScreen.active {
+  padding-top: max(18px, env(safe-area-inset-top));
+}
+
+.rate-setting {
+  width: min(100%, 420px);
+  margin: 26px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  font-size: 18px;
+}
+
+.rate-setting select {
+  min-width: 82px;
+  height: 44px;
+  padding: 0 12px;
+  border: 1.5px solid #222;
+  border-radius: 10px;
+  background: #fff;
+  color: #111;
+  font: inherit;
+  text-align: center;
+}
+
+/* 上部の状態表示 */
+.study-status {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.important-indicator {
+  flex: 0 0 auto;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.important-indicator[hidden] {
+  display: none !important;
+}
+
+/* ＋／－は以前より小さく */
+.font-buttons {
+  gap: 4px;
+}
+
+.font-buttons button {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 6px;
+}
+
+/* 下部は5ボタン */
+.action-bar {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.icon-button {
+  min-width: 0;
+}
+
+#topButton .home-icon {
+  font-size: 38px;
+  transform: none;
+}
+
+.important .icon,
+.correct .icon,
+.wrong .icon {
+  font-size: 34px;
+}
+
+#importantButton.active {
+  border-width: 3px;
+  background: #f3ecff;
+}
+
+@media (max-width: 420px) {
+  .action-bar {
+    gap: 5px;
+  }
+
+  .icon-button {
+    min-height: 54px;
+    padding: 2px;
+  }
+
+  #topButton .home-icon {
+    font-size: 34px;
+  }
+
+  .important .icon,
+  .correct .icon,
+  .wrong .icon {
+    font-size: 31px;
+  }
+
+  .font-buttons button {
+    width: 22px;
+    height: 22px;
+    font-size: 13px;
+  }
+
+  .important-indicator {
+    font-size: 12px;
+  }
+}

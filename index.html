@@ -6,13 +6,28 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <title>単語帳</title>
-  <link rel="stylesheet" href="style.css?v=20260905-2">
+  <link rel="stylesheet" href="style.css?v=20260906-2">
 </head>
 <body>
   <main id="app">
     <section id="homeScreen" class="screen active">
-      <h1>単語帳</h1>
       <div id="bookButtons" class="book-buttons"></div>
+
+      <div class="rate-setting">
+        <label for="questionRateSelect">出題率</label>
+        <select id="questionRateSelect" aria-label="出題率">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5" selected>5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
 
       <div class="home-tools">
         <button id="importButton" class="secondary">データ取込</button>
@@ -24,7 +39,10 @@
 
     <section id="studyScreen" class="screen">
       <header class="study-header">
-        <div id="progressText" class="progress">0 / 0</div>
+        <div class="study-status">
+          <span id="importantIndicator" class="important-indicator" aria-label="重要問題" hidden>⚛️</span>
+          <div id="progressText" class="progress">0 / 0</div>
+        </div>
         <div class="font-buttons">
           <button id="fontDownButton" aria-label="文字を小さく">－</button>
           <button id="fontUpButton" aria-label="文字を大きく">＋</button>
@@ -37,17 +55,20 @@
       </div>
 
       <nav class="action-bar">
+        <button id="importantButton" class="icon-button important" aria-label="重要問題">
+          <span class="icon">⚛️</span>
+        </button>
         <button id="topButton" class="icon-button" aria-label="トップへ戻る">
-          <span class="icon home-icon">⌂</span>
+          <span class="icon home-icon">🔝</span>
         </button>
         <button id="deleteButton" class="icon-button" aria-label="この問題を削除">
-          <span class="icon">🗑</span>
+          <span class="icon">🗑️</span>
         </button>
         <button id="correctButton" class="icon-button correct" aria-label="正解">
-          <span class="icon">○</span>
+          <span class="icon">✅</span>
         </button>
         <button id="wrongButton" class="icon-button wrong" aria-label="不正解">
-          <span class="icon">×</span>
+          <span class="icon">❎</span>
         </button>
       </nav>
     </section>
@@ -72,6 +93,6 @@
     </form>
   </dialog>
 
-  <script src="app.js?v=20260905-2"></script>
+  <script src="app.js?v=20260906-2"></script>
 </body>
 </html>
