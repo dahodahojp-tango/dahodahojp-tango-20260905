@@ -453,3 +453,23 @@ dialog > form > button {
 .study-header .font-buttons {
   display: none !important;
 }
+
+
+/* ===== 2026-09-06 text alignment revision v6 ===== */
+
+/* 問題・答えは本の本文のように左上から表示 */
+.card {
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.card-text {
+  margin: 0;
+  text-align: left;
+  align-self: stretch;
+}
+
+/* ヒントも本文の後ろに続ける */
+.hint {
+  text-align: left;
+}
