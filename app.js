@@ -278,13 +278,16 @@ async function importCsv(bookKey) {
 
     if (rows.length < 2) throw new Error("CSVにデータがありません。");
 
-    const header = rows[0].map(s => s.trim().toLowerCase());
-    const idCol = findColumn(header, ["id", "ｉｄ"]);
-    const qCol = findColumn(header, ["問題", "question"]);
-    const aCol = findColumn(header, ["答え", "解答", "answer"]);
+    // CSVは列位置を固定して読む:
+    // A列=ID、B列=問題、C列=答え
+    // 1行目は見出しとして読み飛ばす。
+    // Excel由来のBOMや見えない文字が見出しに混ざっても影響しないようにする。
+    const idCol = 0;
+    const qCol = 1;
+    const aCol = 2;
 
-    if (idCol < 0 || qCol < 0 || aCol < 0) {
-      throw new Error("CSVの1行目を ID,問題,答え にしてください。");
+    if (!rows[0] || rows[0].length < 3) {
+      throw new Error("CSVは A列=ID、B列=問題、C列=答え の3列にしてください。");
     }
 
     let added = 0;
