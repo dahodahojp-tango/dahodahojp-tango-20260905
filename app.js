@@ -21,6 +21,7 @@ const DB_VERSION = 1;
 const STORE_NAME = "cards";
 const RATE_STORAGE_KEY = "wordbookQuestionRate";
 const DEFAULT_QUESTION_RATE = 5;
+const FONT_SIZE_STORAGE_KEY = "wordbookFontSize";
 
 let db;
 let currentBook = null;
@@ -34,6 +35,7 @@ let questionRate = DEFAULT_QUESTION_RATE;
 const $ = (id) => document.getElementById(id);
 
 document.addEventListener("DOMContentLoaded", async () => {
+  loadFontSize();
   db = await openDB();
   loadQuestionRate();
   buildHomeButtons();
@@ -277,9 +279,18 @@ function toggleSide() {
   getActiveCards(currentBook.key).then(cards => renderCard(cards.length));
 }
 
+function loadFontSize() {
+  const saved = Number(localStorage.getItem(FONT_SIZE_STORAGE_KEY));
+  if (Number.isFinite(saved) && saved >= 20 && saved <= 60) {
+    fontSize = saved;
+  }
+  document.documentElement.style.setProperty("--font-size", `${fontSize}px`);
+}
+
 function changeFont(delta) {
   fontSize = Math.max(20, Math.min(60, fontSize + delta));
   document.documentElement.style.setProperty("--font-size", `${fontSize}px`);
+  localStorage.setItem(FONT_SIZE_STORAGE_KEY, String(fontSize));
 }
 
 async function importCsv(bookKey) {
