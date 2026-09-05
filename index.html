@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <title>単語帳</title>
-  <link rel="stylesheet" href="style.css?v=20260906-2">
+  <link rel="stylesheet" href="style.css?v=20260906-4">
 </head>
 <body>
   <main id="app">
@@ -34,6 +34,12 @@
         <button id="resetButton" class="danger-outline">データ初期化</button>
       </div>
 
+      <div class="home-font-setting">
+        <span>文字サイズ</span>
+        <button id="fontDownButton" aria-label="文字を小さく">－</button>
+        <button id="fontUpButton" aria-label="文字を大きく">＋</button>
+      </div>
+
       <div id="homeMessage" class="message"></div>
     </section>
 
@@ -43,10 +49,6 @@
           <span id="importantIndicator" class="important-indicator" aria-label="重要問題" hidden>⚛️</span>
           <div id="progressText" class="progress">0 / 0</div>
         </div>
-        <div class="font-buttons">
-          <button id="fontDownButton" aria-label="文字を小さく">－</button>
-          <button id="fontUpButton" aria-label="文字を大きく">＋</button>
-        </div>
       </header>
 
       <div id="card" class="card" role="button" tabindex="0" aria-label="問題と答えを切り替える">
@@ -55,14 +57,14 @@
       </div>
 
       <nav class="action-bar">
-        <button id="importantButton" class="icon-button important" aria-label="重要問題">
-          <span class="icon">⚛️</span>
-        </button>
-        <button id="topButton" class="icon-button" aria-label="トップへ戻る">
+        <button id="topButton" class="icon-button" aria-label="ホームに戻る">
           <span class="icon home-icon">🔝</span>
         </button>
         <button id="deleteButton" class="icon-button" aria-label="この問題を削除">
           <span class="icon">🗑️</span>
+        </button>
+        <button id="importantButton" class="icon-button important" aria-label="重要問題">
+          <span class="icon">⚛️</span>
         </button>
         <button id="correctButton" class="icon-button correct" aria-label="正解">
           <span class="icon">✅</span>
@@ -93,6 +95,6 @@
     </form>
   </dialog>
 
-  <script src="app.js?v=20260906-2"></script>
+  <script src="app.js?v=20260906-4"></script>
 </body>
 </html>
