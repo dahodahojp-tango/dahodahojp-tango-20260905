@@ -417,7 +417,7 @@ dialog > form > button {
   border-left: none;
   border-right: none;
   border-top: 1.5px solid #222;
-  border-bottom: 1.5px solid #222;
+  border-bottom: none;
   border-radius: 0;
 }
 
