@@ -605,3 +605,81 @@ dialog > form > button {
     height: 46px;
   }
 }
+
+/* ===== 2026-09-06 display area expansion v10 ===== */
+/* 下部ボタンは画面最下端に固定したまま高さをさらに縮め、本文領域を広げる */
+#studyScreen.active {
+  grid-template-rows: 18px minmax(0, 1fr) 42px;
+}
+
+.study-header {
+  min-height: 18px;
+  height: 18px;
+}
+
+.progress {
+  line-height: 18px;
+  font-size: 12px;
+}
+
+.action-bar {
+  min-height: 42px;
+  height: 42px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  align-self: end;
+}
+
+.icon-button {
+  min-height: 42px;
+  height: 42px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+#topButton .home-icon {
+  font-size: 32px;
+}
+
+.important .icon,
+.correct .icon,
+.wrong .icon {
+  font-size: 30px;
+}
+
+@media (max-width: 420px) {
+  #studyScreen.active {
+    grid-template-rows: 17px minmax(0, 1fr) 40px;
+  }
+
+  .study-header {
+    min-height: 17px;
+    height: 17px;
+  }
+
+  .progress {
+    line-height: 17px;
+    font-size: 11px;
+  }
+
+  .action-bar,
+  .icon-button {
+    min-height: 40px;
+    height: 40px;
+  }
+
+  #topButton .home-icon {
+    font-size: 30px;
+  }
+
+  .icon,
+  .important .icon,
+  .correct .icon,
+  .wrong .icon {
+    font-size: 28px;
+  }
+}
