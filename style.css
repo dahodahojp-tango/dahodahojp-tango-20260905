@@ -683,3 +683,33 @@ dialog > form > button {
     font-size: 28px;
   }
 }
+
+
+/* ===== 2026-09-06 minimum-count setting v11 ===== */
+.rate-setting {
+  flex-wrap: wrap;
+  gap: 12px 18px;
+}
+
+.setting-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.setting-item label {
+  white-space: nowrap;
+}
+
+@media (max-width: 420px) {
+  .rate-setting {
+    gap: 10px 12px;
+    font-size: 16px;
+  }
+
+  .rate-setting select {
+    min-width: 68px;
+    height: 40px;
+    padding: 0 8px;
+  }
+}

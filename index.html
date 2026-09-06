@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <title>単語帳</title>
-  <link rel="stylesheet" href="style.css?v=20260906-10">
+  <link rel="stylesheet" href="style.css?v=20260906-11">
 </head>
 <body>
   <main id="app">
@@ -14,19 +14,37 @@
       <div id="bookButtons" class="book-buttons"></div>
 
       <div class="rate-setting">
-        <label for="questionRateSelect">出題率</label>
-        <select id="questionRateSelect" aria-label="出題率">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5" selected>5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
+        <div class="setting-item">
+          <label for="questionRateSelect">出題率</label>
+          <select id="questionRateSelect" aria-label="出題率">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5" selected>5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="setting-item">
+          <label for="minimumCountSelect">最低回数</label>
+          <select id="minimumCountSelect" aria-label="最低回数">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
       </div>
 
       <div class="home-tools">
@@ -94,6 +112,6 @@
     </form>
   </dialog>
 
-  <script src="app.js?v=20260906-10"></script>
+  <script src="app.js?v=20260906-11"></script>
 </body>
 </html>

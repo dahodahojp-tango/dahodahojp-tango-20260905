@@ -21,6 +21,8 @@ const DB_VERSION = 1;
 const STORE_NAME = "cards";
 const RATE_STORAGE_KEY = "wordbookQuestionRate";
 const DEFAULT_QUESTION_RATE = 5;
+const MIN_COUNT_STORAGE_KEY = "wordbookMinimumCount";
+const DEFAULT_MINIMUM_COUNT = 3;
 const FONT_SIZE_STORAGE_KEY = "wordbookFontSize";
 
 let db;
@@ -31,6 +33,7 @@ let fontSize = 34;
 let touchStartX = null;
 let touchStartY = null;
 let questionRate = DEFAULT_QUESTION_RATE;
+let minimumCount = DEFAULT_MINIMUM_COUNT;
 
 const $ = (id) => document.getElementById(id);
 
@@ -38,6 +41,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   loadFontSize();
   db = await openDB();
   loadQuestionRate();
+  loadMinimumCount();
   buildHomeButtons();
   buildDialogButtons();
   bindEvents();
@@ -113,6 +117,11 @@ function bindEvents() {
   $("questionRateSelect").addEventListener("change", (e) => {
     questionRate = Math.max(1, Math.min(10, Number(e.target.value) || DEFAULT_QUESTION_RATE));
     localStorage.setItem(RATE_STORAGE_KEY, String(questionRate));
+  });
+
+  $("minimumCountSelect").addEventListener("change", (e) => {
+    minimumCount = Math.max(0, Math.min(20, Number(e.target.value) || DEFAULT_MINIMUM_COUNT));
+    localStorage.setItem(MIN_COUNT_STORAGE_KEY, String(minimumCount));
   });
 
   $("resetAllButton").addEventListener("click", async (e) => {
@@ -231,11 +240,11 @@ async function nextCard() {
 */
 function chooseCard(cards) {
   // 出題率Nとは、正解率0%の問題を正解率100%の問題のN倍出しやすくする設定。
-  // 出題3回以下、および「重要問題」は、正解率0%と同じ重みにする。
+  // 出題回数が「最低回数」以下、および「重要問題」は、正解率0%と同じ重みにする。
   const weights = cards.map(c => {
     let effectiveAccuracy = c.shownCount > 0 ? c.correctCount / c.shownCount : 0;
 
-    if (c.shownCount <= 3 || c.important) {
+    if (c.shownCount <= minimumCount || c.important) {
       effectiveAccuracy = 0;
     }
 
@@ -370,6 +379,16 @@ function loadQuestionRate() {
 
   const select = $("questionRateSelect");
   if (select) select.value = String(questionRate);
+}
+
+function loadMinimumCount() {
+  const saved = Number(localStorage.getItem(MIN_COUNT_STORAGE_KEY));
+  minimumCount = Number.isInteger(saved) && saved >= 0 && saved <= 20
+    ? saved
+    : DEFAULT_MINIMUM_COUNT;
+
+  const select = $("minimumCountSelect");
+  if (select) select.value = String(minimumCount);
 }
 
 function updateImportantButton() {
