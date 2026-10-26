@@ -714,22 +714,11 @@ dialog > form > button {
   }
 }
 
-/* 2026-10-26: Study buttons 50 percent taller */
-#studyScreen.active {
-  grid-template-rows: 18px minmax(0, 1fr) 63px;
-}
-#studyScreen .action-bar,
-#studyScreen .icon-button {
-  height: 63px;
-  min-height: 63px;
-}
+/* 最終指定: 下部5ボタンの高さを50%拡大 */
+#studyScreen.active { grid-template-rows: 18px minmax(0, 1fr) 63px !important; }
+#studyScreen .action-bar { grid-template-columns: repeat(5, minmax(0, 1fr)); height: 63px !important; min-height: 63px !important; }
+#studyScreen .action-bar > .icon-button { height: 63px !important; min-height: 63px !important; }
 @media (max-width: 420px) {
-  #studyScreen.active {
-    grid-template-rows: 17px minmax(0, 1fr) 60px;
-  }
-  #studyScreen .action-bar,
-  #studyScreen .icon-button {
-    height: 60px;
-    min-height: 60px;
-  }
+  #studyScreen.active { grid-template-rows: 17px minmax(0, 1fr) 60px !important; }
+  #studyScreen .action-bar, #studyScreen .action-bar > .icon-button { height: 60px !important; min-height: 60px !important; }
 }
