@@ -6,32 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <title>単語帳</title>
- <link rel="stylesheet" href="style.css?v=20261026-3">
-     grid-template-rows: 18px minmax(0, 1fr) 63px !important;
-    }
-
-    #studyScreen .action-bar,
-    #studyScreen .icon-button {
-      height: 63px !important;
-      min-height: 63px !important;
-    }
-
-    @media (max-width: 420px) {
-      #studyScreen.active {
-        grid-template-rows: 17px minmax(0, 1fr) 60px !important;
-      }
-
-      #studyScreen .action-bar,
-      #studyScreen .icon-button {
-        height: 60px !important;
-        min-height: 60px !important;
-      }
-    }
-  </style>
-  
-
-
-  
+  <link rel="stylesheet" href="style.css?v=20261026-4">
 </head>
 <body>
   <main id="app">
@@ -97,27 +72,24 @@
       <div id="card" class="card" role="button" tabindex="0" aria-label="問題と答えを切り替える">
         <div id="cardText" class="card-text"></div>
       </div>
-<nav class="action-bar">
-  <button id="topButton" class="icon-button" aria-label="ホームに戻る">
-    <span class="icon home-icon">🔝</span>
-  </button>
-  <button id="deleteButton" class="icon-button" aria-label="この問題を削除">
-    <span class="icon">🗑️</span>
-  </button>
-  <button id="importantButton" class="icon-button important" aria-label="重要問題">
-    <span class="icon">⚛️</span>
-  </button>
-  <button id="wrongButton" class="icon-button wrong" aria-label="不正解">
-    <span class="icon">❎</span>
-  </button>
-  <button id="correctButton" class="icon-button correct" aria-label="正解">
-    <span class="icon">✅</span>
-  </button>
-</nav>
 
-
-    
-    
+      <nav class="action-bar">
+        <button id="topButton" class="icon-button" aria-label="ホームに戻る">
+          <span class="icon home-icon">🔝</span>
+        </button>
+        <button id="deleteButton" class="icon-button" aria-label="この問題を削除">
+          <span class="icon">🗑️</span>
+        </button>
+        <button id="importantButton" class="icon-button important" aria-label="重要問題">
+          <span class="icon">⚛️</span>
+        </button>
+        <button id="wrongButton" class="icon-button wrong" aria-label="不正解">
+          <span class="icon">❎</span>
+        </button>
+        <button id="correctButton" class="icon-button correct" aria-label="正解">
+          <span class="icon">✅</span>
+        </button>
+      </nav>
     </section>
   </main>
 
