@@ -283,14 +283,17 @@ dialog > form > button {
 
 @media (max-width: 420px) {
   #studyScreen.active {
-    padding-left: 8px;
-    padding-right: 8px;
+    grid-template-rows: 17px minmax(0, 1fr) 60px;
   }
 
-  .progress {
-    font-size: 13px;
+  .action-bar,
+  .icon-button {
+    height: 60px;
+    min-height: 60px;
   }
 }
+
+
 
 
 /* ===== 2026-09-06 設計図反映 v2 ===== */
