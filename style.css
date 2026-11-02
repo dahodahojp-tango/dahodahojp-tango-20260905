@@ -195,7 +195,7 @@ h1 {
   margin: auto 0;
   font-size: var(--font-size);
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.45;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
   text-align: center;
@@ -740,4 +740,21 @@ dialog > form > button {
 @media (max-width:420px) {
   #studyScreen .study-header { min-height:25px; height:25px; }
   #studyScreen .progress { line-height:25px; }
+}
+
+/* ===== 2026-11-03 問題・答えの表示領域拡大 ===== */
+/* 画面左右の余白を8px→2px、本文左右の余白を18px→4pxに変更 */
+#studyScreen.active {
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+}
+
+#studyScreen .card {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+
+/* 問題・答えの行間を1.45→1.25に変更 */
+#studyScreen .card-text {
+  line-height: 1.25 !important;
 }
