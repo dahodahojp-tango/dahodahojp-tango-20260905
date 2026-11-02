@@ -86,7 +86,7 @@ button:active { transform: scale(.985); }
 /* 本文左右余白はここで調整: 8px を変更する */
 #studyScreen .card {
   grid-row: 2; width: min(100%, 680px); min-height: 0;
-  margin: 0 auto; padding: 8px 8px;
+  margin: 0 auto; padding: 8px 16px;
   border: none; border-top: 1.5px solid #222; border-radius: 0;
   overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch;
   touch-action: pan-y; position: relative;
