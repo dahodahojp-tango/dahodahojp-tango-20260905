@@ -61,7 +61,7 @@ button:active { transform: scale(.985); }
   position: fixed; inset: 0; display: grid;
   width: 100%; height: 100dvh; overflow: hidden; background: #fff;
   padding: 0;
-  --card-side-padding: 16px;
+  --card-side-padding: 10px;
   grid-template-rows: 25px minmax(0, 1fr) 63px;
 }
 .study-header {
