@@ -6,13 +6,13 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <title>単語帳</title>
-  <link rel="stylesheet" href="style.css?v=20261103-refresh2">
+  <link rel="stylesheet" href="style.css?v=20261103-priority-font3">
   <style>
-    #studyScreen.active { grid-template-rows: 18px minmax(0, 1fr) 63px !important; }
+    #studyScreen.active { grid-template-rows: 25px minmax(0, 1fr) 63px !important; }
     #studyScreen .action-bar { grid-template-columns: repeat(5, minmax(0, 1fr)); height: 63px !important; min-height: 63px !important; }
     #studyScreen .action-bar > .icon-button { height: 63px !important; min-height: 63px !important; }
     @media (max-width: 420px) {
-      #studyScreen.active { grid-template-rows: 17px minmax(0, 1fr) 60px !important; }
+      #studyScreen.active { grid-template-rows: 25px minmax(0, 1fr) 60px !important; }
       #studyScreen .action-bar, #studyScreen .action-bar > .icon-button { height: 60px !important; min-height: 60px !important; }
     }
   </style>
@@ -30,24 +30,10 @@
             <option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
           </select>
         </div>
-        <div class="setting-item">
-          <label for="minimumCountSelect">最低回数</label>
-          <select id="minimumCountSelect" aria-label="最低回数">
-            <option value="0">0</option><option value="1">1</option><option value="2">2</option>
-            <option value="3" selected>3</option><option value="4">4</option><option value="5">5</option>
-            <option value="6">6</option><option value="7">7</option><option value="8">8</option>
-            <option value="9">9</option><option value="10">10</option>
-          </select>
-        </div>
       </div>
       <div class="home-tools">
         <button id="importButton" class="secondary">データ取込</button>
         <button id="refreshButton" class="secondary" type="button">画面更新 ↻</button>
-      </div>
-      <div class="home-font-setting">
-        <span>文字サイズ</span>
-        <button id="fontDownButton" aria-label="文字を小さく">－</button>
-        <button id="fontUpButton" aria-label="文字を大きく">＋</button>
       </div>
       <div id="homeMessage" class="message"></div>
     </section>
@@ -56,6 +42,10 @@
         <div class="study-status">
           <span id="importantIndicator" class="important-indicator" aria-label="重要問題" hidden>⚛️</span>
           <div id="progressText" class="progress">0 / 0</div>
+        </div>
+        <div class="study-font-controls" aria-label="文字サイズ変更">
+          <button id="fontDownButton" type="button" aria-label="文字を小さく">－</button>
+          <button id="fontUpButton" type="button" aria-label="文字を大きく">＋</button>
         </div>
       </header>
       <div id="card" class="card" role="button" tabindex="0" aria-label="問題と答えを切り替える">
@@ -87,6 +77,6 @@
       <button type="button" class="secondary" onclick="document.getElementById('csvExportDialog').close()">閉じる</button>
     </div>
   </dialog>
-  <script src="app.js?v=20261103-refresh2"></script>
+  <script src="app.js?v=20261103-priority-font3"></script>
 </body>
 </html>

@@ -731,3 +731,13 @@ dialog > form > button {
 
 /* 5列CSV版：ホーム画面は取込ボタンのみ */
 .home-tools { grid-template-columns: 1fr; }
+
+/* 問題画面上端にコンパクトな文字サイズ調整ボタンを表示 */
+#studyScreen .study-header { justify-content: space-between; min-height: 25px; height: 25px; align-items: center; }
+#studyScreen .progress { line-height: 25px; }
+#studyScreen .study-font-controls { flex: 0 0 auto; display: flex !important; align-items: center; gap: 4px; }
+#studyScreen .study-font-controls button { width: 27px; height: 23px; padding: 0; font-size: 15px; line-height: 1; border-radius: 5px; }
+@media (max-width:420px) {
+  #studyScreen .study-header { min-height:25px; height:25px; }
+  #studyScreen .progress { line-height:25px; }
+}
