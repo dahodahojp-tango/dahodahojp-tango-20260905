@@ -103,6 +103,12 @@ function buildDialogButtons() {
 
 function bindEvents() {
   $("importButton").addEventListener("click", () => $("importDialog").showModal());
+  $("refreshButton").addEventListener("click", () => {
+    // URLを変えてHTMLを取り直す。IndexedDBや学習履歴には触れない。
+    const url = new URL(window.location.href);
+    url.searchParams.set("refresh", String(Date.now()));
+    window.location.replace(url.toString());
+  });
 
   $("questionRateSelect").addEventListener("change", (e) => {
     questionRate = Math.max(1, Math.min(10, Number(e.target.value) || DEFAULT_QUESTION_RATE));

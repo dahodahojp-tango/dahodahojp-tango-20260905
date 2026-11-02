@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <title>単語帳</title>
-  <link rel="stylesheet" href="style.css?v=20261103-fivecols1">
+  <link rel="stylesheet" href="style.css?v=20261103-refresh2">
   <style>
     #studyScreen.active { grid-template-rows: 18px minmax(0, 1fr) 63px !important; }
     #studyScreen .action-bar { grid-template-columns: repeat(5, minmax(0, 1fr)); height: 63px !important; min-height: 63px !important; }
@@ -42,6 +42,7 @@
       </div>
       <div class="home-tools">
         <button id="importButton" class="secondary">データ取込</button>
+        <button id="refreshButton" class="secondary" type="button">画面更新 ↻</button>
       </div>
       <div class="home-font-setting">
         <span>文字サイズ</span>
@@ -86,6 +87,6 @@
       <button type="button" class="secondary" onclick="document.getElementById('csvExportDialog').close()">閉じる</button>
     </div>
   </dialog>
-  <script src="app.js?v=20261103-fivecols1"></script>
+  <script src="app.js?v=20261103-refresh2"></script>
 </body>
 </html>
