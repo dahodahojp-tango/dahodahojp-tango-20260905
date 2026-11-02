@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   buildHomeButtons();
   buildDialogButtons();
   bindEvents();
-  setupGithubSync();
+  setupCsvExport();
   await refreshHomeCounts();
 });
 
@@ -163,7 +163,6 @@ function bindEvents() {
     if (!confirm("この問題を削除しますか？\n再取込しても復活しません。")) return;
 
     currentCard.deleted = true;
-    currentCard.syncedDelete = false;
     await putCard(currentCard);
     await nextCard();
   });
@@ -544,186 +543,57 @@ function escapeHtml(s) {
     .replaceAll("'", "&#039;");
 }
 
-/* GitHub CSVへの削除一括反映。トークンは保存せず、同期時の入力だけで使用。 */
-const GH_SETTINGS_KEY = 'wordbookGithubSettings';
-let githubSyncRunning = false;
 
-function setupGithubSync() {
+/* CSV書出し: この端末に登録済みのカードのうち、削除フラグのないものだけを出力 */
+function setupCsvExport() {
   const tools = document.querySelector('.home-tools');
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.id = 'githubSyncButton';
-  btn.className = 'secondary';
-  btn.textContent = 'GitHubに削除を反映';
-  tools.insertAdjacentElement('afterend', btn);
-  btn.addEventListener('click', showGithubSyncDialog);
-  btn.style.cssText = 'display:block;width:min(100%,420px);min-height:52px;margin:12px auto 0;';
-
-  const dialog = document.createElement('dialog');
-  dialog.id = 'githubSyncDialog';
-  dialog.innerHTML = `
-    <form id="githubSyncForm">
-      <h2>GitHubに削除を反映</h2>
-      <p id="githubPendingText">削除待ちを確認中</p>
-      <label class="gh-label" for="ghOwner">GitHubユーザー名（Owner）</label>
-      <input id="ghOwner" type="text" autocapitalize="off" autocomplete="off" spellcheck="false" required>
-      <label class="gh-label" for="ghRepo">リポジトリ名</label>
-      <input id="ghRepo" type="text" autocapitalize="off" autocomplete="off" spellcheck="false" required>
-      <label class="gh-label" for="ghBranch">ブランチ名</label>
-      <input id="ghBranch" type="text" value="main" autocapitalize="off" autocomplete="off" spellcheck="false" required>
-      <label class="gh-label" for="ghFolder">CSVのフォルダ（ルートなら空欄）</label>
-      <input id="ghFolder" type="text" placeholder="例: data" autocapitalize="off" autocomplete="off" spellcheck="false">
-      <label class="gh-label" for="ghToken">Fine-grained personal access token</label>
-      <input id="ghToken" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" required>
-      <p>トークンは保存しません。Contents: Read and write、対象リポジトリのみを許可してください。</p>
-      <p id="ghSyncMessage" role="status" aria-live="polite"></p>
-      <button id="ghSyncSubmit" type="submit">削除を一括反映</button>
-      <button id="ghSyncCancel" class="secondary" type="button">閉じる</button>
-    </form>`;
-  document.body.appendChild(dialog);
-  const saved = JSON.parse(localStorage.getItem(GH_SETTINGS_KEY) || '{}');
-  $('ghOwner').value = saved.owner || '';
-  $('ghRepo').value = saved.repo || '';
-  $('ghBranch').value = saved.branch || 'main';
-  $('ghFolder').value = saved.folder || '';
-  $('ghSyncCancel').addEventListener('click', () => { if (!githubSyncRunning) dialog.close(); });
-  dialog.addEventListener('close', () => { $('ghToken').value = ''; });
-  $('githubSyncForm').addEventListener('submit', submitGithubSync);
-}
-
-async function pendingGithubDeletes() {
-  const pending = new Map();
+  const button = document.createElement('button');
+  button.id = 'csvExportButton';
+  button.type = 'button';
+  button.className = 'secondary';
+  button.textContent = 'CSVダウンロード';
+  tools.insertAdjacentElement('afterend', button);
+  button.addEventListener('click', () => $('csvExportDialog').showModal());
+  const choices = $('csvExportChoices');
   for (const book of BOOKS) {
-    const cards = (await getCardsByBook(book.key)).filter(c => c.deleted && c.syncedDelete !== true);
-    if (cards.length) pending.set(book.key, cards);
+    const choice = document.createElement('button');
+    choice.type = 'button';
+    choice.textContent = `${book.label}（${book.csv}）`; 
+    choice.addEventListener('click', () => exportCsv(book.key));
+    choices.appendChild(choice);
   }
-  return pending;
 }
 
-async function showGithubSyncDialog() {
-  const pending = await pendingGithubDeletes();
-  const total = [...pending.values()].reduce((n, cards) => n + cards.length, 0);
-  $('githubPendingText').textContent = `GitHubへの削除反映待ち: ${total}件（${[...pending.entries()].map(([key, cards]) => `${BOOKS.find(b => b.key === key).label} ${cards.length}件`).join('、') || 'なし'}）`;
-  $('ghSyncMessage').textContent = '';
-  $('ghSyncSubmit').disabled = total === 0;
-  $('githubSyncDialog').showModal();
+function csvCell(value) {
+  // 改行・カンマ・引用符を含む問題や答えもExcelで正しく開く
+  const s = String(value == null ? '' : value);
+  return '"' + s.replaceAll('"', '""') + '"';
 }
 
-function encodeGithubContent(text) {
-  const bytes = new TextEncoder().encode(text);
-  let binary = '';
-  for (let i = 0; i < bytes.length; i += 8192) {
-    binary += String.fromCharCode(...bytes.subarray(i, i + 8192));
-  }
-  return btoa(binary);
-}
-
-function decodeGithubContent(base64) {
-  const binary = atob(base64.replace(/\s/g, ''));
-  const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
-  return new TextDecoder('utf-8', { fatal: true }).decode(bytes);
-}
-
-function stringifyCsv(rows) {
-  return rows.map(row => row.map(cell => {
-    const v = String(cell ?? '');
-    return /[",\r\n]/.test(v) ? `"${v.replaceAll('"', '""')}"` : v;
-  }).join(',')).join('\r\n') + '\r\n';
-}
-
-async function githubRequest(url, token, method = 'GET', body) {
-  const result = await fetch(url, {
-    method,
-    headers: {
-      'Accept': 'application/vnd.github+json',
-      'Authorization': `Bearer ${token}`,
-      'X-GitHub-Api-Version': '2022-11-28',
-      ...(body ? { 'Content-Type': 'application/json' } : {})
-    },
-    ...(body ? { body: JSON.stringify(body) } : {}),
-    cache: 'no-store'
-  });
-  if (!result.ok) {
-    let error = '';
-    try { error = (await result.json()).message || ''; } catch (_) {}
-    throw new Error(`GitHub API ${result.status}: ${error || result.statusText}`);
-  }
-  return result.json();
-}
-
-async function submitGithubSync(event) {
-  event.preventDefault();
-  if (githubSyncRunning) return;
-  const owner = $('ghOwner').value.trim();
-  const repo = $('ghRepo').value.trim();
-  const branch = $('ghBranch').value.trim();
-  const folder = $('ghFolder').value.trim().replace(/^\/+|\/+$/g, '');
-  const token = $('ghToken').value.trim();
-  if (!owner || !repo || !branch || !token) return;
-  if (![owner, repo, branch].every(s => !/[\/?#]/.test(s)) || folder.split('/').includes('..')) {
-    $('ghSyncMessage').textContent = 'ユーザー名、リポジトリ名、ブランチ名またはフォルダを確認してください。';
-    return;
-  }
-  const pending = await pendingGithubDeletes();
-  if (!pending.size) { $('ghSyncMessage').textContent = '反映待ちの問題はありません。'; return; }
-  localStorage.setItem(GH_SETTINGS_KEY, JSON.stringify({owner, repo, branch, folder}));
-  if (!confirm(`GitHubの${repo}（${branch}）にあるCSVから削除済み問題を反映します。続けますか？`)) return;
-  githubSyncRunning = true;
-  $('ghSyncSubmit').disabled = true;
-  $('ghSyncCancel').disabled = true;
-  let done = 0;
-  let changedFiles = 0;
+async function exportCsv(bookKey) {
+  const book = BOOKS.find(b => b.key === bookKey);
+  if (!book) return;
+  const status = $('csvExportMessage');
+  status.textContent = 'CSVを作成しています…';
   try {
-    for (const [bookKey, cards] of pending) {
-      const book = BOOKS.find(b => b.key === bookKey);
-      $('ghSyncMessage').textContent = `${book.label}を処理中...（${done}件完了）`;
-      const path = [folder, book.csv].filter(Boolean).join('/');
-      const pathPart = path.split('/').map(encodeURIComponent).join('/');
-      const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/contents/${pathPart}`;
-      // 毎回GitHubの最新CSVとshaを取得し、当該IDの行だけ除去する。
-      const current = await githubRequest(`${url}?ref=${encodeURIComponent(branch)}`, token);
-      if (current.type !== 'file' || typeof current.content !== 'string') {
-        throw new Error(`${path}: ファイル内容を取得できません（1MBを超えるファイルなど）。`);
-      }
-      const original = decodeGithubContent(current.content);
-      const rows = parseCsv(original);
-      if (!rows.length || rows[0].length < 3 || rows[0][0].replace(/^\uFEFF/, '').trim() !== 'ID') {
-        throw new Error(`${path}: CSVの先頭列がIDではありません。更新を中止しました。`);
-      }
-      const ids = new Set(cards.map(c => String(c.id).trim()));
-      const remain = [rows[0], ...rows.slice(1).filter(row => !ids.has(String(row[0] ?? '').trim()))];
-      const removed = rows.length - remain.length;
-      if (removed) {
-        const updated = stringifyCsv(remain);
-        await githubRequest(url, token, 'PUT', {
-          message: `wordbook: remove ${removed} deleted card(s) from ${book.csv}`,
-          content: encodeGithubContent(updated),
-          sha: current.sha,
-          branch
-        });
-        changedFiles++;
-      }
-      // GitHub更新成功時（または既にIDが存在しない場合）のみ処理済みにする。
-      for (const card of cards) {
-        const latest = await getCard(card.key);
-        if (latest && latest.deleted) {
-          latest.syncedDelete = true;
-          await putCard(latest);
-        }
-      }
-      done += cards.length;
-    }
-    $('ghSyncMessage').textContent = `完了: ${done}件を確認、${changedFiles}個のCSVを更新しました。`;
-    await refreshHomeCounts();
-  } catch (err) {
-    console.error('GitHub同期エラー:', err);
-    $('ghSyncMessage').textContent = `中断: ${err.message}（完了 ${done}件）。未反映分は残っています。`;
-  } finally {
-    $('ghToken').value = '';
-    $('ghSyncCancel').disabled = false;
-    githubSyncRunning = false;
-    $('ghSyncSubmit').disabled = false;
-    const remaining = await pendingGithubDeletes();
-    if (!remaining.size) $('ghSyncSubmit').disabled = true;
+    const all = await getCardsByBook(bookKey);
+    if (!all.length) throw new Error('この端末にはデータがありません。先にデータ取込をしてください。');
+    const active = all.filter(card => !card.deleted);
+    const deleted = all.length - active.length;
+    const lines = ['ID,問題,答え', ...active.map(card => [card.id,card.question,card.answer].map(csvCell).join(','))];
+    // BOM付きUTF-8で、日本語や複数行の答えをExcelに読み込みやすくする
+    const blob = new Blob(['\uFEFF', lines.join('\r\n') + '\r\n'], { type:'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = book.csv;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+    status.textContent = `${book.label}: ${active.length}件を書き出しました（削除済み${deleted}件を除外）。`;
+  } catch (error) {
+    console.error(error);
+    status.textContent = `書出しエラー: ${error.message}`;
   }
 }

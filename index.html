@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <title>単語帳</title>
-  <link rel="stylesheet" href="style.css?v=20261103-sync1">
+  <link rel="stylesheet" href="style.css?v=20261103-export1">
   <style>
     #studyScreen.active { grid-template-rows: 18px minmax(0, 1fr) 63px !important; }
     #studyScreen .action-bar { grid-template-columns: repeat(5, minmax(0, 1fr)); height: 63px !important; min-height: 63px !important; }
@@ -87,6 +87,15 @@
       <button value="cancel" class="secondary">キャンセル</button>
     </form>
   </dialog>
-  <script src="app.js?v=20261103-sync1"></script>
+  <dialog id="csvExportDialog">
+    <div>
+      <h2>CSVダウンロード</h2>
+      <p>このスマホに取り込んだ問題から、削除済みの問題をまとめて除いてCSVを保存します。GitHubへのアップロードは後で手動で行ってください。</p>
+      <div id="csvExportChoices" class="dialog-buttons"></div>
+      <p id="csvExportMessage" role="status" aria-live="polite"></p>
+      <button type="button" class="secondary" onclick="document.getElementById('csvExportDialog').close()">閉じる</button>
+    </div>
+  </dialog>
+  <script src="app.js?v=20261103-export1"></script>
 </body>
 </html>
