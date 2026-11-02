@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <title>単語帳</title>
-  <link rel="stylesheet" href="style.css?v=20261103-export1">
+  <link rel="stylesheet" href="style.css?v=20261103-fivecols1">
   <style>
     #studyScreen.active { grid-template-rows: 18px minmax(0, 1fr) 63px !important; }
     #studyScreen .action-bar { grid-template-columns: repeat(5, minmax(0, 1fr)); height: 63px !important; min-height: 63px !important; }
@@ -42,7 +42,6 @@
       </div>
       <div class="home-tools">
         <button id="importButton" class="secondary">データ取込</button>
-        <button id="resetButton" class="danger-outline">データ初期化</button>
       </div>
       <div class="home-font-setting">
         <span>文字サイズ</span>
@@ -73,17 +72,8 @@
   <dialog id="importDialog">
     <form method="dialog">
       <h2>データ取込</h2>
-      <p>GitHub上のCSVから、新しいIDだけをiPhoneに追加します。</p>
+      <p>GitHub上の5列CSVを読み込み、選んだ単語帳のデータをすべて入れ替えます。学習履歴もCSVから復元します。</p>
       <div id="importChoices" class="dialog-buttons"></div>
-      <button value="cancel" class="secondary">キャンセル</button>
-    </form>
-  </dialog>
-  <dialog id="resetDialog">
-    <form method="dialog">
-      <h2>データ初期化</h2>
-      <p>選んだ単語帳の問題、学習回数、正解回数、削除済み記録をすべて消します。</p>
-      <div id="resetChoices" class="dialog-buttons"></div>
-      <button id="resetAllButton" value="all" class="danger">全部初期化</button>
       <button value="cancel" class="secondary">キャンセル</button>
     </form>
   </dialog>
@@ -96,6 +86,6 @@
       <button type="button" class="secondary" onclick="document.getElementById('csvExportDialog').close()">閉じる</button>
     </div>
   </dialog>
-  <script src="app.js?v=20261103-export1"></script>
+  <script src="app.js?v=20261103-fivecols1"></script>
 </body>
 </html>

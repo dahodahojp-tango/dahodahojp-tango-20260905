@@ -7,7 +7,7 @@
   infotech.csv
 
   各CSVの1行目:
-  ID,問題,答え
+  問題,答え,出題回数,正解回数,重要フラグ
 */
 
 const BOOKS = [
@@ -86,7 +86,6 @@ function buildHomeButtons() {
 
 function buildDialogButtons() {
   $("importChoices").innerHTML = "";
-  $("resetChoices").innerHTML = "";
 
   for (const book of BOOKS) {
     const importBtn = document.createElement("button");
@@ -98,22 +97,12 @@ function buildDialogButtons() {
     });
     $("importChoices").appendChild(importBtn);
 
-    const resetBtn = document.createElement("button");
-    resetBtn.type = "button";
-    resetBtn.textContent = `${book.label}を初期化`;
-    resetBtn.addEventListener("click", async () => {
-      $("resetDialog").close();
-      if (confirm(`${book.label}を完全に初期化しますか？\n学習履歴と削除済み記録も消えます。`)) {
-        await resetBook(book.key);
-      }
-    });
-    $("resetChoices").appendChild(resetBtn);
+
   }
 }
 
 function bindEvents() {
   $("importButton").addEventListener("click", () => $("importDialog").showModal());
-  $("resetButton").addEventListener("click", () => $("resetDialog").showModal());
 
   $("questionRateSelect").addEventListener("change", (e) => {
     questionRate = Math.max(1, Math.min(10, Number(e.target.value) || DEFAULT_QUESTION_RATE));
@@ -123,14 +112,6 @@ function bindEvents() {
   $("minimumCountSelect").addEventListener("change", (e) => {
     minimumCount = Math.max(0, Math.min(20, Number(e.target.value) || DEFAULT_MINIMUM_COUNT));
     localStorage.setItem(MIN_COUNT_STORAGE_KEY, String(minimumCount));
-  });
-
-  $("resetAllButton").addEventListener("click", async (e) => {
-    e.preventDefault();
-    $("resetDialog").close();
-    if (confirm("全単語帳を完全に初期化しますか？\n学習履歴と削除済み記録もすべて消えます。")) {
-      await resetAll();
-    }
   });
 
   $("importantButton").addEventListener("click", async () => {
@@ -277,7 +258,7 @@ function renderCard(total) {
     : 0;
 
   $("progressText").textContent =
-    `ID ${currentCard.id}　出題 ${currentCard.shownCount}回　正解率 ${accuracy}%　全${total}問`;
+    `出題 ${currentCard.shownCount}回　正解率 ${accuracy}%　全${total}問`;
 
   updateImportantButton();
   updateImportantIndicator();
@@ -306,66 +287,51 @@ function changeFont(delta) {
 async function importCsv(bookKey) {
   const book = BOOKS.find(b => b.key === bookKey);
   if (!book) return;
-
   try {
-    setHomeMessage(`${book.label}を読み込んでいます…`);
-
+    setHomeMessage(`${book.label}のCSVを読み込んでいます…`);
     const response = await fetch(`${book.csv}?v=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`CSV取得失敗: ${response.status}`);
-
-    const text = await response.text();
-    const rows = parseCsv(text);
-
-    if (rows.length < 2) throw new Error("CSVにデータがありません。");
-
-    // CSVは列位置を固定して読む:
-    // A列=ID、B列=問題、C列=答え
-    // 1行目は見出しとして読み飛ばす。
-    // Excel由来のBOMや見えない文字が見出しに混ざっても影響しないようにする。
-    const idCol = 0;
-    const qCol = 1;
-    const aCol = 2;
-
-    if (!rows[0] || rows[0].length < 3) {
-      throw new Error("CSVは A列=ID、B列=問題、C列=答え の3列にしてください。");
+    const rows = parseCsv(await response.text());
+    // 不正なCSVで既存データを失わないよう、読み込み・検証を全て終えてから一括更新する。
+    if (!rows.length || rows[0].map(s => s.trim().replace(/^\uFEFF/, '')).slice(0, 5).join(',') !== '問題,答え,出題回数,正解回数,重要フラグ') {
+      throw new Error('CSVの見出しは「問題,答え,出題回数,正解回数,重要フラグ」の5列にしてください。旧3列CSVは取り込めません。');
     }
-
-    let added = 0;
-    let skipped = 0;
-
+    const cards = [];
     for (let i = 1; i < rows.length; i++) {
       const row = rows[i];
-      const id = (row[idCol] ?? "").trim();
-      const question = (row[qCol] ?? "").trim();
-      const answer = (row[aCol] ?? "").trim();
-
-      if (!id || (!question && !answer)) continue;
-
-      const key = makeKey(bookKey, id);
-      const existing = await getCard(key);
-
-      if (existing) {
-        skipped++;
-        continue;
+      if (row.every(v => !String(v).trim())) continue;
+      if (row.length !== 5) throw new Error(`${i + 1}行目の列数が5ではありません。`);
+      const [question, answer, shown, correct, important] = row.map(s => String(s).trim());
+      if (!question && !answer) throw new Error(`${i + 1}行目の問題と答えが空欄です。`);
+      if (!/^(0|[1-9]\d*)$/.test(shown) || !/^(0|[1-9]\d*)$/.test(correct) || !['0','1'].includes(important)) {
+        throw new Error(`${i + 1}行目の学習履歴が不正です。回数は0以上の整数、重要は0か1です。`);
       }
-
-      await putCard({
-        key,
-        book: bookKey,
-        id,
-        question,
-        answer,
-        shownCount: 0,
-        correctCount: 0,
-        deleted: false,
-        important: false
-      });
-
-      added++;
+      const shownCount = Number(shown), correctCount = Number(correct);
+      if (!Number.isSafeInteger(shownCount) || !Number.isSafeInteger(correctCount) || correctCount > shownCount) {
+        throw new Error(`${i + 1}行目の正解回数が出題回数を超えているか、数値が大きすぎます。`);
+      }
+      // 内部の管理キーは取込ごとに自動生成。CSVにIDは不要。
+      const internalId = String(cards.length + 1);
+      cards.push({ key: makeKey(bookKey, internalId), book: bookKey, id: internalId,
+        question, answer, shownCount, correctCount, important: important === '1', deleted: false });
     }
-
+    if (!cards.length) throw new Error('問題がありません。既存の単語帳は変更しませんでした。');
+    const oldCards = await getCardsByBook(bookKey);
+    if (!confirm(`${book.label}の既存データ（削除済みを含む${oldCards.length}件）を消し、CSVの${cards.length}件に入れ替えます。\nCSVに含まれない最新の学習履歴は失われます。続行しますか？`)) {
+      setHomeMessage(`${book.label}の取込を取り消しました。`); return;
+    }
+    // 同じIndexedDBトランザクション内で旧データ削除→新データ登録。
+    await new Promise((resolve, reject) => {
+      const tx = db.transaction(STORE_NAME, 'readwrite');
+      const store = tx.objectStore(STORE_NAME);
+      for (const c of oldCards) store.delete(c.key);
+      for (const c of cards) store.put(c);
+      tx.oncomplete = () => resolve();
+      tx.onerror = () => reject(tx.error);
+      tx.onabort = () => reject(tx.error || new Error('取込中に中断されました'));
+    });
     await refreshHomeCounts();
-    setHomeMessage(`${book.label}: ${added}件追加、${skipped}件スキップしました。`);
+    setHomeMessage(`${book.label}: ${cards.length}問を学習履歴付きで入れ替えました。`);
   } catch (err) {
     console.error(err);
     setHomeMessage(`取込エラー: ${err.message}`);
@@ -491,35 +457,6 @@ async function getActiveCards(bookKey) {
   return cards.filter(c => !c.deleted);
 }
 
-async function resetBook(bookKey) {
-  const cards = await getCardsByBook(bookKey);
-
-  await new Promise((resolve, reject) => {
-    const tx = db.transaction(STORE_NAME, "readwrite");
-    const store = tx.objectStore(STORE_NAME);
-    for (const card of cards) store.delete(card.key);
-    tx.oncomplete = resolve;
-    tx.onerror = () => reject(tx.error);
-  });
-
-  await refreshHomeCounts();
-
-  const book = BOOKS.find(b => b.key === bookKey);
-  setHomeMessage(`${book.label}を初期化しました。`);
-}
-
-async function resetAll() {
-  await new Promise((resolve, reject) => {
-    const tx = db.transaction(STORE_NAME, "readwrite");
-    tx.objectStore(STORE_NAME).clear();
-    tx.oncomplete = resolve;
-    tx.onerror = () => reject(tx.error);
-  });
-
-  await refreshHomeCounts();
-  setHomeMessage("全単語帳を初期化しました。");
-}
-
 async function refreshHomeCounts() {
   if (!db) return;
 
@@ -580,7 +517,7 @@ async function exportCsv(bookKey) {
     if (!all.length) throw new Error('この端末にはデータがありません。先にデータ取込をしてください。');
     const active = all.filter(card => !card.deleted);
     const deleted = all.length - active.length;
-    const lines = ['ID,問題,答え', ...active.map(card => [card.id,card.question,card.answer].map(csvCell).join(','))];
+    const lines = ['問題,答え,出題回数,正解回数,重要フラグ', ...active.map(card => [card.question,card.answer,card.shownCount || 0,card.correctCount || 0,card.important ? 1 : 0].map(csvCell).join(','))];
     // BOM付きUTF-8で、日本語や複数行の答えをExcelに読み込みやすくする
     const blob = new Blob(['\uFEFF', lines.join('\r\n') + '\r\n'], { type:'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);

@@ -728,3 +728,6 @@ dialog > form > button {
 #csvExportDialog { max-height:90dvh; overflow-y:auto; }
 #csvExportDialog > div > button { width:100%; min-height:50px; }
 #csvExportMessage { font-size:14px; white-space:pre-wrap; }
+
+/* 5列CSV版：ホーム画面は取込ボタンのみ */
+.home-tools { grid-template-columns: 1fr; }
