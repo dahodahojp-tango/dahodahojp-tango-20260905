@@ -1,5 +1,5 @@
 /* 単語帳 CSS 整理版 2026-11-03
-   問題と答え: 左右余白8px、行間1.25
+   問題と答え: 左右余白4px（画面全体の左右余白0px）、行間1.25
    同じ指定を後ろで上書きする旧ルールは削除済み */
 :root { --font-size: 34px; }
 * { box-sizing: border-box; }
@@ -60,7 +60,7 @@ button:active { transform: scale(.985); }
 #studyScreen.active {
   position: fixed; inset: 0; display: grid;
   width: 100%; height: 100dvh; overflow: hidden; background: #fff;
-  padding: 0 2px;
+  padding: 0;
   grid-template-rows: 25px minmax(0, 1fr) 63px;
 }
 .study-header {
@@ -83,10 +83,10 @@ button:active { transform: scale(.985); }
   font-size: 15px; line-height: 1; border-radius: 5px;
 }
 
-/* 本文左右余白はここで調整: 8px を変更する */
+/* 本文の左右余白はここだけで管理する（左右4px） */
 #studyScreen .card {
   grid-row: 2; width: min(100%, 680px); min-height: 0;
-  margin: 0 auto; padding: 8px 16px;
+  margin: 0 auto; padding: 8px 4px;
   border: none; border-top: 1.5px solid #222; border-radius: 0;
   overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch;
   touch-action: pan-y; position: relative;
