@@ -1,0 +1,23 @@
+GitHub削除一括反映機能（2026-11-03）
+
+1. GitHubの単語帳公開リポジトリの index.html、app.js、style.css を、このZIPに入っている同名ファイルで置き換える。
+   ※既存のenglish.csv、guide.csv、infotech.csvは変更しない。
+2. GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token。
+   Repository access は「Only select repositories」を選び、単語帳のリポジトリだけを選ぶ。
+   Repository permissions の Contents を「Read and write」にする。
+   トークンの有効期限を設定する（期限切れなら更新する）。
+3. スマホで単語帳を開く。ホーム画面に「GitHubに削除を反映」が増える。
+4. このボタンを押し、Owner（GitHubのユーザー名）、Repository（CSVがあるリポジトリ名）、Branch（通常 main）、Folder（CSVがルートなら空欄）、Tokenを入力する。
+5. 「削除を一括反映」で確認ダイアログを承認する。
+6. 完了メッセージを確認する。同期に失敗したIDは引き続き反映待ちとなる。
+
+【重要】
+・リポジトリ名はGitHub PagesのURLではなく、GitHub上のリポジトリ名を入力する。
+・トークンはHTML/JavaScriptやCSVへ貼り付けない。入力欄から使い、処理後は破棄する。設定情報（Owner/Repo/Branch/Folder）のみ端末に保存する。
+・GitHub PagesのJavaScriptからトークンを入力する方式は、悪意あるコード改変やブラウザ拡張等から認証情報を守れる方式ではない。必要最小限のリポジトリ権限と短い有効期限を推奨する。
+・初回同期は過去に削除した問題も対象となる。GitHub CSVを必ずバックアップしてから実行する。
+・CSVの列は ID,問題,答え。改行を含むセルはCSVとして再出力される。
+・同期処理でGitHubのCSVはコミットされる。コミットの履歴から以前のデータを復元可能。
+・スマホの「データ初期化」を押すと、同期前の削除記録も消えるので注意。
+・同じIDを違う問題に使い回さない。
+・既存の学習記録はDB初期化をしない限り維持する。

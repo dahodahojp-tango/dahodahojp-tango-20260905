@@ -6,9 +6,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <title>単語帳</title>
-  <link rel="stylesheet" href="style.css?v=20261026-final2">
+  <link rel="stylesheet" href="style.css?v=20261103-sync1">
   <style>
-    /* 下部5ボタン: 40px -> 60px (スマホ)、42px -> 63px (PC) */
     #studyScreen.active { grid-template-rows: 18px minmax(0, 1fr) 63px !important; }
     #studyScreen .action-bar { grid-template-columns: repeat(5, minmax(0, 1fr)); height: 63px !important; min-height: 63px !important; }
     #studyScreen .action-bar > .icon-button { height: 63px !important; min-height: 63px !important; }
@@ -22,55 +21,36 @@
   <main id="app">
     <section id="homeScreen" class="screen active">
       <div id="bookButtons" class="book-buttons"></div>
-
       <div class="rate-setting">
         <div class="setting-item">
           <label for="questionRateSelect">出題率</label>
           <select id="questionRateSelect" aria-label="出題率">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5" selected>5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
+            <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+            <option value="4">4</option><option value="5" selected>5</option><option value="6">6</option>
+            <option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
           </select>
         </div>
         <div class="setting-item">
           <label for="minimumCountSelect">最低回数</label>
           <select id="minimumCountSelect" aria-label="最低回数">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3" selected>3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
+            <option value="0">0</option><option value="1">1</option><option value="2">2</option>
+            <option value="3" selected>3</option><option value="4">4</option><option value="5">5</option>
+            <option value="6">6</option><option value="7">7</option><option value="8">8</option>
+            <option value="9">9</option><option value="10">10</option>
           </select>
         </div>
       </div>
-
       <div class="home-tools">
         <button id="importButton" class="secondary">データ取込</button>
         <button id="resetButton" class="danger-outline">データ初期化</button>
       </div>
-
       <div class="home-font-setting">
         <span>文字サイズ</span>
         <button id="fontDownButton" aria-label="文字を小さく">－</button>
         <button id="fontUpButton" aria-label="文字を大きく">＋</button>
       </div>
-
       <div id="homeMessage" class="message"></div>
     </section>
-
     <section id="studyScreen" class="screen">
       <header class="study-header">
         <div class="study-status">
@@ -78,31 +58,18 @@
           <div id="progressText" class="progress">0 / 0</div>
         </div>
       </header>
-
       <div id="card" class="card" role="button" tabindex="0" aria-label="問題と答えを切り替える">
         <div id="cardText" class="card-text"></div>
       </div>
-
       <nav class="action-bar">
-        <button id="topButton" class="icon-button" aria-label="ホームに戻る">
-          <span class="icon home-icon">🔝</span>
-        </button>
-        <button id="deleteButton" class="icon-button" aria-label="この問題を削除">
-          <span class="icon">🗑️</span>
-        </button>
-        <button id="importantButton" class="icon-button important" aria-label="重要問題">
-          <span class="icon">⚛️</span>
-        </button>
-        <button id="wrongButton" class="icon-button wrong" aria-label="不正解">
-          <span class="icon">❎</span>
-        </button>
-        <button id="correctButton" class="icon-button correct" aria-label="正解">
-          <span class="icon">✅</span>
-        </button>
+        <button id="topButton" class="icon-button" aria-label="ホームに戻る"><span class="icon home-icon">🔝</span></button>
+        <button id="deleteButton" class="icon-button" aria-label="この問題を削除"><span class="icon">🗑️</span></button>
+        <button id="importantButton" class="icon-button important" aria-label="重要問題"><span class="icon">⚛️</span></button>
+        <button id="wrongButton" class="icon-button wrong" aria-label="不正解"><span class="icon">❎</span></button>
+        <button id="correctButton" class="icon-button correct" aria-label="正解"><span class="icon">✅</span></button>
       </nav>
     </section>
   </main>
-
   <dialog id="importDialog">
     <form method="dialog">
       <h2>データ取込</h2>
@@ -111,7 +78,6 @@
       <button value="cancel" class="secondary">キャンセル</button>
     </form>
   </dialog>
-
   <dialog id="resetDialog">
     <form method="dialog">
       <h2>データ初期化</h2>
@@ -121,7 +87,6 @@
       <button value="cancel" class="secondary">キャンセル</button>
     </form>
   </dialog>
-
-  <script src="app.js?v=20260906-11"></script>
+  <script src="app.js?v=20261103-sync1"></script>
 </body>
 </html>

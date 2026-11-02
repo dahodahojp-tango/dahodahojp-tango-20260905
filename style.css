@@ -722,3 +722,8 @@ dialog > form > button {
   #studyScreen.active { grid-template-rows: 17px minmax(0, 1fr) 60px !important; }
   #studyScreen .action-bar, #studyScreen .action-bar > .icon-button { height: 60px !important; min-height: 60px !important; }
 }
+/* GitHub sync dialog */
+#githubSyncDialog .gh-label { display:block; margin:12px 0 4px; font-size:14px; }
+#githubSyncDialog input { display:block; width:100%; min-height:42px; font:inherit; font-size:16px; padding:8px; border:1px solid #999; border-radius:7px; }
+#githubSyncDialog #ghSyncMessage { white-space:pre-wrap; overflow-wrap:anywhere; }
+#githubSyncDialog { max-height:90dvh; overflow-y:auto; }
