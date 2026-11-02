@@ -1,5 +1,5 @@
 /* 単語帳 CSS 整理版 2026-11-03
-   問題と答え: 左右余白4px（画面全体の左右余白0px）、行間1.25
+   問題と答え: 縦向き左右5px／横向き左右3px（画面全体の左右余白0px）、行間1.35
    同じ指定を後ろで上書きする旧ルールは削除済み */
 :root { --font-size: 34px; }
 * { box-sizing: border-box; }
@@ -61,6 +61,7 @@ button:active { transform: scale(.985); }
   position: fixed; inset: 0; display: grid;
   width: 100%; height: 100dvh; overflow: hidden; background: #fff;
   padding: 0;
+  --card-side-padding: 5px;
   grid-template-rows: 25px minmax(0, 1fr) 63px;
 }
 .study-header {
@@ -83,10 +84,10 @@ button:active { transform: scale(.985); }
   font-size: 15px; line-height: 1; border-radius: 5px;
 }
 
-/* 本文の左右余白はここだけで管理する（左右4px） */
+/* 本文の左右余白は変数で管理（縦5px／横3px） */
 #studyScreen .card {
   grid-row: 2; width: min(100%, 680px); min-height: 0;
-  margin: 0 auto; padding: 8px 4px;
+  margin: 0 auto; padding: 8px var(--card-side-padding);
   border: none; border-top: 1.5px solid #222; border-radius: 0;
   overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch;
   touch-action: pan-y; position: relative;
@@ -96,7 +97,7 @@ button:active { transform: scale(.985); }
 .card-text {
   width: 100%; margin: 0; align-self: stretch;
   font-size: var(--font-size); font-weight: 600;
-  line-height: 1.25; white-space: pre-wrap; overflow-wrap: anywhere;
+  line-height: 1.35; white-space: pre-wrap; overflow-wrap: anywhere;
   text-align: left;
 }
 .hint { display: none; }
@@ -139,4 +140,9 @@ dialog p { line-height: 1.55; font-size: 14px; }
   .icon-button { height: 60px; min-height: 60px; }
   #topButton .home-icon { font-size: 30px; }
   .icon, .important .icon, .correct .icon, .wrong .icon { font-size: 28px; }
+}
+
+/* 横向きだけ左右の余白を3pxにする */
+@media (orientation: landscape) {
+  #studyScreen.active { --card-side-padding: 3px; }
 }
