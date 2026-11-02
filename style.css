@@ -753,7 +753,24 @@ dialog > form > button {
   padding-left: 4px !important;
   padding-right: 4px !important;
 }
+/* 画面の横幅を最大限使う */
+#studyScreen.active {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 
+#studyScreen .card {
+    width: 100% !important;
+    max-width: none !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+#studyScreen .card-text {
+    width: 100% !important;
+    max-width: none !important;
+    line-height: 1.25 !important;
+}
 /* 問題・答えの行間を1.45→1.25に変更 */
 #studyScreen .card-text {
   line-height: 1.25 !important;
