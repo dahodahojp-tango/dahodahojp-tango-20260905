@@ -1,5 +1,5 @@
-/* 単語帳 CSS 整理版 2026-11-03
-   問題と答え: 縦向き左右5px／横向き左右3px（画面全体の左右余白0px）、行間1.35
+/* 単語帳 CSS 整理版 2026-11-03（等幅フォント対応）
+   問題と答え: 縦向き左右6px／横向き左右3px（画面全体の左右余白0px）、行間1.35
    同じ指定を後ろで上書きする旧ルールは削除済み */
 :root { --font-size: 34px; }
 * { box-sizing: border-box; }
@@ -61,7 +61,7 @@ button:active { transform: scale(.985); }
   position: fixed; inset: 0; display: grid;
   width: 100%; height: 100dvh; overflow: hidden; background: #fff;
   padding: 0;
-  --card-side-padding: 10px;
+  --card-side-padding: 6px;
   grid-template-rows: 25px minmax(0, 1fr) 63px;
 }
 .study-header {
@@ -84,7 +84,7 @@ button:active { transform: scale(.985); }
   font-size: 15px; line-height: 1; border-radius: 5px;
 }
 
-/* 本文の左右余白は変数で管理（縦5px／横3px） */
+/* 本文の左右余白は変数で管理（縦6px／横3px） */
 #studyScreen .card {
   grid-row: 2; width: min(100%, 680px); min-height: 0;
   margin: 0 auto; padding: 8px var(--card-side-padding);
@@ -97,6 +97,7 @@ button:active { transform: scale(.985); }
 .card-text {
   width: 100%; margin: 0; align-self: stretch;
   font-size: var(--font-size); font-weight: 600;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   line-height: 1.35; white-space: pre-wrap; overflow-wrap: anywhere;
   text-align: left;
 }

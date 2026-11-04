@@ -3,8 +3,8 @@
 
   GitHubに置くCSV:
   english.csv
-  guide.csv
   infotech.csv
+  other.csv
 
   各CSVの1行目:
   問題,答え,出題回数,正解回数,重要フラグ
@@ -12,8 +12,8 @@
 
 const BOOKS = [
   { key: "english", label: "英語", csv: "english.csv" },
-  { key: "guide", label: "案内人", csv: "guide.csv" },
-  { key: "infotech", label: "情報", csv: "infotech.csv" }
+  { key: "infotech", label: "情報", csv: "infotech.csv" },
+  { key: "guide", label: "その他", csv: "other.csv" }
 ];
 
 const DB_NAME = "WordbookDB";
@@ -281,8 +281,12 @@ async function importCsv(bookKey) {
   if (!book) return;
   try {
     setHomeMessage(`${book.label}のCSVを読み込んでいます…`);
-    const response = await fetch(`${book.csv}?v=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(`CSV取得失敗: ${response.status}`);
+    let response = await fetch(`${book.csv}?v=${Date.now()}`, { cache: "no-store" });
+    // 従来のguide.csvだけが存在する場合は互換性のため読み込めるようにする。
+    if (!response.ok && book.key === "guide") {
+      response = await fetch(`guide.csv?v=${Date.now()}`, { cache: "no-store" });
+    }
+    if (!response.ok) throw new Error(`CSV取得失敗: ${response.status}（${book.csv}を確認してください）`);
     const rows = parseCsv(await response.text());
     // 不正なCSVで既存データを失わないよう、読み込み・検証を全て終えてから一括更新する。
     if (!rows.length || rows[0].map(s => s.trim().replace(/^\uFEFF/, '')).slice(0, 5).join(',') !== '問題,答え,出題回数,正解回数,重要フラグ') {
