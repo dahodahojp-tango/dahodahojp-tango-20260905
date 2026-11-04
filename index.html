@@ -6,7 +6,15 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <title>単語帳</title>
- <link rel="stylesheet" href="style.css?v=20261104-1">
+  <!-- 起動するたびにCSSを新しいURLで取得する（古いキャッシュを回避） -->
+  <script>
+    (function () {
+      const css = document.createElement('link');
+      css.rel = 'stylesheet';
+      css.href = 'style.css?v=' + Date.now();
+      document.head.appendChild(css);
+    })();
+  </script>
   <style>
     #studyScreen.active { grid-template-rows: 25px minmax(0, 1fr) 63px !important; }
     #studyScreen .action-bar { grid-template-columns: repeat(5, minmax(0, 1fr)); height: 63px !important; min-height: 63px !important; }
@@ -77,6 +85,17 @@
       <button type="button" class="secondary" onclick="document.getElementById('csvExportDialog').close()">閉じる</button>
     </div>
   </dialog>
-  <script src="app.js?v=20261104-1"></script>
+  <!-- JavaScriptも起動ごとに新しいURLで読み込む。DOMContentLoaded後でも初期化可能。 -->
+  <script>
+    (function () {
+      const script = document.createElement('script');
+      script.src = 'app.js?v=' + Date.now();
+      script.onerror = function () {
+        document.getElementById('homeMessage').textContent =
+          'アプリの読み込みに失敗しました。通信状態を確認して再度開いてください。';
+      };
+      document.body.appendChild(script);
+    })();
+  </script>
 </body>
 </html>

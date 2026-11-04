@@ -34,7 +34,7 @@ let questionRate = DEFAULT_QUESTION_RATE;
 
 const $ = (id) => document.getElementById(id);
 
-document.addEventListener("DOMContentLoaded", async () => {
+async function initializeApp() {
   loadFontSize();
   db = await openDB();
   loadQuestionRate();
@@ -43,7 +43,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   bindEvents();
   setupCsvExport();
   await refreshHomeCounts();
-});
+}
+
+// JavaScriptを動的にロードしても必ず初期化する。
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeApp, { once: true });
+} else {
+  initializeApp();
+}
 
 function openDB() {
   return new Promise((resolve, reject) => {
@@ -99,12 +106,7 @@ function buildDialogButtons() {
 
 function bindEvents() {
   $("importButton").addEventListener("click", () => $("importDialog").showModal());
-  $("refreshButton").addEventListener("click", () => {
-    // URLを変えてHTMLを取り直す。IndexedDBや学習履歴には触れない。
-    const url = new URL(window.location.href);
-    url.searchParams.set("refresh", String(Date.now()));
-    window.location.replace(url.toString());
-  });
+  $("refreshButton").addEventListener("click", refreshAppFromServer);
 
   $("questionRateSelect").addEventListener("change", (e) => {
     questionRate = Math.max(1, Math.min(10, Number(e.target.value) || DEFAULT_QUESTION_RATE));
@@ -169,6 +171,49 @@ function bindEvents() {
     touchStartX = null;
     touchStartY = null;
   }, { passive: false });
+}
+
+
+// GitHub PagesからHTMLを再取得し、古いService Worker/CacheStorageを整理する。
+// IndexedDBとlocalStorage（単語・学習履歴・設定）は一切消さない。
+async function refreshAppFromServer() {
+  const button = $("refreshButton");
+  button.disabled = true;
+  setHomeMessage("最新の画面を確認しています…");
+  try {
+    const url = new URL(window.location.href);
+    url.searchParams.set("refresh", String(Date.now()));
+    // ネット未接続や404のまま画面を更新してしまわないよう先に確認。
+    const response = await fetch(url.toString(), { cache: "no-store" });
+    if (!response.ok) throw new Error(`画面取得失敗（HTTP ${response.status}）`);
+    const html = await response.text();
+    if (!html.includes('id="homeScreen"') || !html.includes('app.js')) {
+      throw new Error('取得したページが単語帳ではありません');
+    }
+
+    if ("serviceWorker" in navigator) {
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      for (const registration of registrations) {
+        // この単語帳のディレクトリが管理対象の登録のみ解除する。
+        if (new URL(registration.scope).pathname === new URL('./', location.href).pathname) {
+          await registration.unregister();
+        }
+      }
+    }
+    if ("caches" in window) {
+      const names = await caches.keys();
+      // 他のWebアプリのキャッシュには触れない。
+      for (const name of names) {
+        if (/wordbook|tango/i.test(name)) await caches.delete(name);
+      }
+    }
+    setHomeMessage("最新版を読み込みます…");
+    window.location.replace(url.toString());
+  } catch (error) {
+    console.error(error);
+    setHomeMessage(`更新できませんでした: ${error.message}。通信状態を確認してください。`);
+    button.disabled = false;
+  }
 }
 
 async function startStudy(bookKey) {
