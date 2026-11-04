@@ -30,6 +30,8 @@ let showingAnswer = false;
 let fontSize = 34;
 let touchStartX = null;
 let touchStartY = null;
+let touchStartTime = 0;
+let ignoreNextCardClick = false;
 let questionRate = DEFAULT_QUESTION_RATE;
 
 const $ = (id) => document.getElementById(id);
@@ -150,27 +152,64 @@ function bindEvents() {
   $("fontUpButton").addEventListener("click", () => changeFont(2));
   $("fontDownButton").addEventListener("click", () => changeFont(-2));
 
-  $("card").addEventListener("click", () => toggleSide());
+  // 短いタップは裏返す。長押しは標準の文字選択／コピーに渡す。
+  // iPhoneで選択メニューを出すため、長押し時のpreventDefaultは禁止。
+  const card = $("card");
+  card.addEventListener("click", () => {
+    if (ignoreNextCardClick) {
+      ignoreNextCardClick = false;
+      return;
+    }
+    const selection = window.getSelection();
+    if (selection && !selection.isCollapsed && selection.toString().length > 0) return;
+    if (touchStartTime && Date.now() - touchStartTime >= 450) return;
+    toggleSide();
+  });
 
-  $("card").addEventListener("touchstart", (e) => {
-    const t = e.changedTouches[0];
-    touchStartX = t.clientX;
-    touchStartY = t.clientY;
+  card.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      toggleSide();
+    }
+  });
+
+  card.addEventListener("touchstart", (event) => {
+    if (event.touches.length !== 1) return;
+    const touch = event.touches[0];
+    touchStartX = touch.clientX;
+    touchStartY = touch.clientY;
+    touchStartTime = Date.now();
+    ignoreNextCardClick = false;
   }, { passive: true });
 
-  $("card").addEventListener("touchend", (e) => {
-    if (touchStartX === null) return;
-    const t = e.changedTouches[0];
-    const dx = t.clientX - touchStartX;
-    const dy = t.clientY - touchStartY;
+  card.addEventListener("touchend", (event) => {
+    if (touchStartX === null || !event.changedTouches.length) return;
+    const touch = event.changedTouches[0];
+    const dx = touch.clientX - touchStartX;
+    const dy = touch.clientY - touchStartY;
+    const duration = Date.now() - touchStartTime;
+    const selection = window.getSelection();
+    const isSelecting = Boolean(selection && !selection.isCollapsed && selection.toString());
 
-    if (Math.abs(dx) > 55 && Math.abs(dx) > Math.abs(dy)) {
-      e.preventDefault();
+    if (duration >= 450 || isSelecting) {
+      // 長押しはコピー操作。タップ扱いで答えが切り替わらないようにする。
+      ignoreNextCardClick = true;
+    } else if (Math.abs(dx) > 55 && Math.abs(dx) > Math.abs(dy) * 1.3) {
+      // すばやい横スワイプは従来どおり問題・答えを切り替える。
+      ignoreNextCardClick = true;
+      event.preventDefault();
       toggleSide();
     }
     touchStartX = null;
     touchStartY = null;
   }, { passive: false });
+
+  card.addEventListener("touchcancel", () => {
+    touchStartX = null;
+    touchStartY = null;
+    ignoreNextCardClick = true;
+  }, { passive: true });
+
 }
 
 

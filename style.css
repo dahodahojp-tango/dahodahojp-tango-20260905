@@ -92,7 +92,7 @@ button:active { transform: scale(.985); }
   overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch;
   touch-action: pan-y; position: relative;
   display: flex; flex-direction: column; justify-content: flex-start; align-items: stretch;
-  user-select: none; -webkit-user-select: none; background: #fff;
+  user-select: text; -webkit-user-select: text; background: #fff;
 }
 .card-text {
   width: 100%; margin: 0; align-self: stretch;
@@ -100,6 +100,8 @@ button:active { transform: scale(.985); }
   font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   line-height: 1.35; white-space: pre-wrap; overflow-wrap: anywhere;
   text-align: left;
+  user-select: text; -webkit-user-select: text;
+  -webkit-touch-callout: default;
 }
 .hint { display: none; }
 .action-bar {
