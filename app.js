@@ -342,7 +342,7 @@ async function nextCard() {
     : chooseSequentialCard(cards, studyMode, lastSequentialId);
   if (studyMode !== "random") lastSequentialId = Number(currentCard.id);
   showingAnswer = false;
-  renderCard(cards.length);
+  renderCard(cards);
 }
 
 /* 出題回数による最低優先枠は設けず、正解率と重要フラグで重み付けする。 */
@@ -374,7 +374,7 @@ function randomOne(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function renderCard(total) {
+function renderCard(cards) {
   if (!currentCard) return;
 
   $("cardText").textContent = showingAnswer ? currentCard.answer : currentCard.question;
@@ -383,8 +383,10 @@ function renderCard(total) {
     ? Math.round((currentCard.correctCount / currentCard.shownCount) * 100)
     : 0;
 
+  const total = cards.length;
+  const position = sortByCsvOrder(cards).findIndex(c => c.key === currentCard.key) + 1;
   $("progressText").textContent =
-    `出題 ${currentCard.shownCount}回　正解率 ${accuracy}%　全${total}問`;
+    `${position} / ${total}　出題 ${currentCard.shownCount}回　正解率 ${accuracy}%`;
 
   updateImportantButton();
   updateImportantIndicator();
@@ -393,7 +395,7 @@ function renderCard(total) {
 function toggleSide() {
   if (!currentCard) return;
   showingAnswer = !showingAnswer;
-  getActiveCards(currentBook.key).then(cards => renderCard(cards.length));
+  getActiveCards(currentBook.key).then(cards => renderCard(cards));
 }
 
 function loadFontSize() {
