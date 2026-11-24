@@ -29,6 +29,11 @@
   <main id="app">
     <section id="homeScreen" class="screen active">
       <div id="bookButtons" class="book-buttons"></div>
+      <div class="mode-buttons" role="group" aria-label="出題モード">
+        <button type="button" data-mode="forward" aria-pressed="false">昇順</button>
+        <button type="button" data-mode="reverse" aria-pressed="false">降順</button>
+        <button type="button" data-mode="random" aria-pressed="true">ランダム</button>
+      </div>
       <div class="rate-setting">
         <div class="setting-item">
           <label for="questionRateSelect">出題率</label>

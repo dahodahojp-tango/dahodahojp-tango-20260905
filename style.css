@@ -149,3 +149,12 @@ dialog p { line-height: 1.55; font-size: 14px; }
 @media (orientation: landscape) {
   #studyScreen.active { --card-side-padding: 3px; }
 }
+
+/* 出題モード：スマートフォンでも横一列 */
+.mode-buttons {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px; width: min(100%, 420px); margin: 20px auto 0;
+}
+.mode-buttons button { min-width: 0; min-height: 48px; padding: 4px 0; font-size: 16px; white-space: nowrap; }
+.mode-buttons button[aria-pressed="true"] { background: #222; color: #fff; font-weight: 700; }
+#questionRateSelect:disabled { opacity: .45; }

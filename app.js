@@ -33,6 +33,42 @@ let touchStartY = null;
 let touchStartTime = 0;
 let ignoreNextCardClick = false;
 let questionRate = DEFAULT_QUESTION_RATE;
+const MODE_STORAGE_KEY = "wordbookStudyMode";
+let studyMode = "random";
+let lastSequentialId = null;
+let advancing = false;
+
+function updateModeButtons() {
+  document.querySelectorAll(".mode-buttons button").forEach(button => {
+    button.setAttribute("aria-pressed", String(button.dataset.mode === studyMode));
+  });
+  $("questionRateSelect").disabled = studyMode !== "random";
+}
+
+function setupStudyModes() {
+  const saved = localStorage.getItem(MODE_STORAGE_KEY);
+  if (["forward", "reverse", "random"].includes(saved)) studyMode = saved;
+  document.querySelectorAll(".mode-buttons button").forEach(button => {
+    button.addEventListener("click", () => {
+      studyMode = button.dataset.mode;
+      localStorage.setItem(MODE_STORAGE_KEY, studyMode);
+      updateModeButtons();
+    });
+  });
+  updateModeButtons();
+}
+
+function sortByCsvOrder(cards) {
+  return [...cards].sort((a, b) => Number(a.id) - Number(b.id));
+}
+
+function chooseSequentialCard(cards, mode, previousId) {
+  const ordered = sortByCsvOrder(cards);
+  if (mode === "reverse") ordered.reverse();
+  if (previousId === null) return ordered[0];
+  return ordered.find(c => mode === "reverse"
+    ? Number(c.id) < previousId : Number(c.id) > previousId) || ordered[0];
+}
 
 const $ = (id) => document.getElementById(id);
 
@@ -40,6 +76,7 @@ async function initializeApp() {
   loadFontSize();
   db = await openDB();
   loadQuestionRate();
+  setupStudyModes();
   buildHomeButtons();
   buildDialogButtons();
   bindEvents();
@@ -126,27 +163,36 @@ function bindEvents() {
   $("topButton").addEventListener("click", goHome);
 
   $("correctButton").addEventListener("click", async () => {
-    if (!currentCard) return;
-    currentCard.shownCount += 1;
-    currentCard.correctCount += 1;
-    await putCard(currentCard);
-    await nextCard();
+    if (!currentCard || advancing) return;
+    advancing = true;
+    try {
+      currentCard.shownCount += 1;
+      currentCard.correctCount += 1;
+      await putCard(currentCard);
+      await nextCard();
+    } finally { advancing = false; }
   });
 
   $("wrongButton").addEventListener("click", async () => {
-    if (!currentCard) return;
-    currentCard.shownCount += 1;
-    await putCard(currentCard);
-    await nextCard();
+    if (!currentCard || advancing) return;
+    advancing = true;
+    try {
+      currentCard.shownCount += 1;
+      await putCard(currentCard);
+      await nextCard();
+    } finally { advancing = false; }
   });
 
   $("deleteButton").addEventListener("click", async () => {
-    if (!currentCard) return;
+    if (!currentCard || advancing) return;
     if (!confirm("この問題を削除しますか？\n再取込しても復活しません。")) return;
 
-    currentCard.deleted = true;
-    await putCard(currentCard);
-    await nextCard();
+    advancing = true;
+    try {
+      currentCard.deleted = true;
+      await putCard(currentCard);
+      await nextCard();
+    } finally { advancing = false; }
   });
 
   $("fontUpButton").addEventListener("click", () => changeFont(2));
@@ -256,6 +302,7 @@ async function refreshAppFromServer() {
 }
 
 async function startStudy(bookKey) {
+  lastSequentialId = null;
   currentBook = BOOKS.find(b => b.key === bookKey);
   if (!currentBook) return;
 
@@ -290,7 +337,10 @@ async function nextCard() {
     return;
   }
 
-  currentCard = chooseCard(cards);
+  currentCard = studyMode === "random"
+    ? chooseCard(cards)
+    : chooseSequentialCard(cards, studyMode, lastSequentialId);
+  if (studyMode !== "random") lastSequentialId = Number(currentCard.id);
   showingAnswer = false;
   renderCard(cards.length);
 }
@@ -585,7 +635,7 @@ async function exportCsv(bookKey) {
   try {
     const all = await getCardsByBook(bookKey);
     if (!all.length) throw new Error('この端末にはデータがありません。先にデータ取込をしてください。');
-    const active = all.filter(card => !card.deleted);
+    const active = sortByCsvOrder(all.filter(card => !card.deleted));
     const deleted = all.length - active.length;
     const lines = ['問題,答え,出題回数,正解回数,重要フラグ', ...active.map(card => [card.question,card.answer,card.shownCount || 0,card.correctCount || 0,card.important ? 1 : 0].map(csvCell).join(','))];
     // BOM付きUTF-8で、日本語や複数行の答えをExcelに読み込みやすくする
