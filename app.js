@@ -120,7 +120,7 @@ function buildHomeButtons() {
     const btn = document.createElement("button");
     btn.className = "book-button";
     btn.dataset.book = book.key;
-    btn.innerHTML = `${escapeHtml(book.label)}<small id="count-${book.key}">0問</small>`;
+    btn.innerHTML = `<span class="book-label">${escapeHtml(book.label)}</span><small id="count-${book.key}">0問</small>`;
     btn.addEventListener("click", () => startStudy(book.key));
     box.appendChild(btn);
   }
