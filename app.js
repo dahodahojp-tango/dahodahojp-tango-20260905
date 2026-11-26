@@ -27,6 +27,9 @@ let db;
 let currentBook = null;
 let currentCard = null;
 let showingAnswer = false;
+// 同じ問題の表・裏それぞれのスクロール位置を保持する。
+let questionScrollTop = 0;
+let answerScrollTop = 0;
 let fontSize = 34;
 let touchStartX = null;
 let touchStartY = null;
@@ -342,7 +345,10 @@ async function nextCard() {
     : chooseSequentialCard(cards, studyMode, lastSequentialId);
   if (studyMode !== "random") lastSequentialId = Number(currentCard.id);
   showingAnswer = false;
+  questionScrollTop = 0;
+  answerScrollTop = 0;
   renderCard(cards);
+  $("card").scrollTop = 0;
 }
 
 /* 出題回数による最低優先枠は設けず、正解率と重要フラグで重み付けする。 */
@@ -393,9 +399,19 @@ function renderCard(cards) {
 }
 
 function toggleSide() {
-  if (!currentCard) return;
+  if (!currentCard || advancing) return;
+  const card = $("card");
+  // 本文を書き換える前に、現在の面の読みかけ位置を保存する。
+  if (showingAnswer) answerScrollTop = Math.max(0, card.scrollTop);
+  else questionScrollTop = Math.max(0, card.scrollTop);
+
   showingAnswer = !showingAnswer;
-  getActiveCards(currentBook.key).then(cards => renderCard(cards));
+  // 非同期DB読込みを挟まず、本文とスクロール位置を同時に切り替える。
+  $("cardText").textContent = showingAnswer ? currentCard.answer : currentCard.question;
+  const target = showingAnswer ? answerScrollTop : questionScrollTop;
+  // 新しい本文の高さを確定してから位置を復元する。
+  const maxScroll = Math.max(0, card.scrollHeight - card.clientHeight);
+  card.scrollTop = Math.min(target, maxScroll);
 }
 
 function loadFontSize() {

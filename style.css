@@ -29,7 +29,7 @@ button:active { transform: scale(.985); }
 .book-buttons {
   display: grid; gap: 5px; width: min(100%, 420px); margin: 0 auto;
 }
-.book-button { display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 38px; padding: 3px 8px; font-size: 18px; font-weight: 700; border-radius: 8px; }
+.book-button { display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 57px; padding: 3px 8px; font-size: 18px; font-weight: 700; border-radius: 8px; }
 .book-button small {
   display: inline; margin: 0; font-size: 14px; font-weight: 400; white-space: nowrap;
 }
@@ -48,12 +48,12 @@ button:active { transform: scale(.985); }
   display: grid; grid-template-columns: 1fr; gap: 5px;
   width: min(100%, 420px); margin: 6px auto 0;
 }
-.home-tools button { min-height: 36px; padding: 3px 8px; font-size: 16px; border-radius: 8px; }
+.home-tools button { min-height: 54px; padding: 3px 8px; font-size: 16px; border-radius: 8px; }
 .secondary { background: #f5f5f5; }
 .danger-outline { border-style: dashed; }
 .message { min-height: 0; margin-top: 5px; text-align: center; font-size: 14px; }
 #csvExportButton {
-  display: block; width: min(100%, 420px); margin: 5px auto 0; min-height: 36px; padding: 3px 8px; font-size: 16px; border-radius: 8px;
+  display: block; width: min(100%, 420px); margin: 5px auto 0; min-height: 54px; padding: 3px 8px; font-size: 16px; border-radius: 8px;
 }
 
 /* 学習画面: 上部の状態表示、中央の問題、下部5ボタン */
@@ -90,12 +90,12 @@ button:active { transform: scale(.985); }
   margin: 0 auto; padding: 8px var(--card-side-padding);
   border: none; border-top: 1.5px solid #222; border-radius: 0;
   overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch;
-  touch-action: pan-y; position: relative;
+  touch-action: pan-y; position: relative; overflow-anchor: none; scroll-behavior: auto;
   display: flex; flex-direction: column; justify-content: flex-start; align-items: stretch;
   user-select: text; -webkit-user-select: text; background: #fff;
 }
 .card-text {
-  width: 100%; margin: 0; align-self: stretch;
+  width: 100%; margin: 0; align-self: stretch; flex-shrink: 0;
   font-size: var(--font-size); font-weight: 600;
   font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   line-height: 1.35; white-space: pre-wrap; overflow-wrap: anywhere;
@@ -155,7 +155,7 @@ dialog p { line-height: 1.55; font-size: 14px; }
   display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 5px; width: min(100%, 420px); margin: 6px auto 0;
 }
-.mode-buttons button { min-width: 0; min-height: 36px; padding: 3px 0; font-size: 16px; white-space: nowrap; }
+.mode-buttons button { min-width: 0; min-height: 54px; padding: 3px 0; font-size: 16px; white-space: nowrap; }
 .mode-buttons button[aria-pressed="true"] { background: #222; color: #fff; font-weight: 700; }
 #questionRateSelect:disabled { opacity: .45; }
 
