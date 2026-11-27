@@ -46,6 +46,7 @@ function updateModeButtons() {
     button.setAttribute("aria-pressed", String(button.dataset.mode === studyMode));
   });
   $("questionRateSelect").disabled = studyMode !== "random";
+  $("jumpButton").disabled = studyMode === "random" || !currentCard;
 }
 
 function setupStudyModes() {
@@ -198,6 +199,21 @@ function bindEvents() {
     } finally { advancing = false; }
   });
 
+  $("jumpButton").addEventListener("click", openJumpDialog);
+  $("jumpForm").addEventListener("submit", jumpToNumber);
+  $("jumpKeypad").addEventListener("click", event => {
+    const button = event.target.closest("button[data-key]");
+    if (!button) return;
+    const input = $("jumpNumber");
+    const key = button.dataset.key;
+    if (key === "clear") input.value = "";
+    else if (key === "back") input.value = input.value.slice(0, -1);
+    else if (/^[0-9]$/.test(key) && input.value.length < String(jumpCards.length).length) {
+      input.value = (input.value + key).replace(/^0+(?=\d)/, "");
+    }
+    $("jumpError").textContent = "";
+  });
+  $("jumpCancel").addEventListener("click", () => $("jumpDialog").close());
   $("fontUpButton").addEventListener("click", () => changeFont(2));
   $("fontDownButton").addEventListener("click", () => changeFont(-2));
 
@@ -321,8 +337,10 @@ async function startStudy(bookKey) {
 }
 
 function goHome() {
+  if (advancing) return;
   currentBook = null;
   currentCard = null;
+  $("jumpButton").disabled = true;
   showingAnswer = false;
   $("studyScreen").classList.remove("active");
   $("homeScreen").classList.add("active");
@@ -335,6 +353,7 @@ async function nextCard() {
   const cards = await getActiveCards(currentBook.key);
   if (cards.length === 0) {
     currentCard = null;
+    $("jumpButton").disabled = true;
     $("cardText").textContent = "問題がありません";
     $("progressText").textContent = "0 / 0";
     return;
@@ -343,12 +362,55 @@ async function nextCard() {
   currentCard = studyMode === "random"
     ? chooseCard(cards)
     : chooseSequentialCard(cards, studyMode, lastSequentialId);
+  displayNewCard(currentCard, cards);
+}
+
+function displayNewCard(selectedCard, cards) {
+  currentCard = selectedCard;
   if (studyMode !== "random") lastSequentialId = Number(currentCard.id);
+  $("jumpButton").disabled = studyMode === "random";
   showingAnswer = false;
   questionScrollTop = 0;
   answerScrollTop = 0;
   renderCard(cards);
   $("card").scrollTop = 0;
+}
+
+// 表示中の番号（削除済みを除くCSV昇順の位置）を指定する。
+let jumpCards = [];
+async function openJumpDialog() {
+  if (!currentBook || !currentCard || advancing || studyMode === "random") return;
+  advancing = true;
+  try {
+    jumpCards = sortByCsvOrder(await getActiveCards(currentBook.key));
+    if (!jumpCards.length) return;
+    const input = $("jumpNumber");
+    input.value = "";
+    $("jumpRange").textContent = `問題番号（1～${jumpCards.length}）`;
+    $("jumpError").textContent = "";
+    $("jumpDialog").showModal();
+    $("jumpKeypad").querySelector("button").focus();
+  } catch (error) {
+    alert(`問題番号を取得できませんでした: ${error.message}`);
+  } finally { advancing = false; }
+}
+
+async function jumpToNumber(event) {
+  event.preventDefault();
+  if (!currentBook || advancing || studyMode === "random") return;
+  const number = Number($("jumpNumber").value);
+  advancing = true;
+  try {
+    const cards = sortByCsvOrder(await getActiveCards(currentBook.key));
+    if (!Number.isSafeInteger(number) || number < 1 || number > cards.length) {
+      $("jumpError").textContent = `1～${cards.length}の整数を入力してください。`;
+      return;
+    }
+    displayNewCard(cards[number - 1], cards);
+    $("jumpDialog").close();
+  } catch (error) {
+    $("jumpError").textContent = `移動できませんでした: ${error.message}`;
+  } finally { advancing = false; }
 }
 
 /* 出題回数による最低優先枠は設けず、正解率と重要フラグで重み付けする。 */

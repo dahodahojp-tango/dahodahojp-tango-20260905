@@ -56,7 +56,8 @@
           <span id="importantIndicator" class="important-indicator" aria-label="重要問題" hidden>⚛️</span>
           <div id="progressText" class="progress">0 / 0</div>
         </div>
-        <div class="study-font-controls" aria-label="文字サイズ変更">
+        <div class="study-font-controls" aria-label="問題番号と文字サイズ変更">
+          <button id="jumpButton" type="button" aria-label="問題番号を指定" disabled>番号</button>
           <button id="fontDownButton" type="button" aria-label="文字を小さく">－</button>
           <button id="fontUpButton" type="button" aria-label="文字を大きく">＋</button>
         </div>
@@ -73,6 +74,30 @@
       </nav>
     </section>
   </main>
+  <dialog id="jumpDialog" aria-labelledby="jumpTitle">
+    <form id="jumpForm" method="dialog">
+      <h2 id="jumpTitle">問題番号を指定</h2>
+      <label for="jumpNumber" id="jumpRange">問題番号</label>
+      <input id="jumpNumber" type="text" inputmode="none" readonly aria-label="入力した問題番号">
+      <div id="jumpKeypad" role="group" aria-label="数字入力">
+        <button type="button" data-key="1">1</button>
+        <button type="button" data-key="2">2</button>
+        <button type="button" data-key="3">3</button>
+        <button type="button" data-key="4">4</button>
+        <button type="button" data-key="5">5</button>
+        <button type="button" data-key="6">6</button>
+        <button type="button" data-key="7">7</button>
+        <button type="button" data-key="8">8</button>
+        <button type="button" data-key="9">9</button>
+        <button type="button" data-key="clear">クリア</button>
+        <button type="button" data-key="0">0</button>
+        <button type="button" data-key="back">⌫</button>
+      </div>
+      <p id="jumpError" role="alert"></p>
+      <button type="submit" id="jumpConfirm">移動して閉じる</button>
+      <button type="button" id="jumpCancel" class="secondary">キャンセル</button>
+    </form>
+  </dialog>
   <dialog id="importDialog">
     <form method="dialog">
       <h2>データ取込</h2>

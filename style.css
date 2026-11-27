@@ -161,3 +161,20 @@ dialog p { line-height: 1.55; font-size: 14px; }
 
 /* トップ画面の各行を縮ませず、短い画面では必要時のみスクロール */
 #homeScreen > * { flex-shrink: 0; }
+
+/* 問題番号ジャンプ */
+.study-font-controls #jumpButton { width: 48px; font-size: 12px; white-space: nowrap; }
+#jumpButton:disabled { opacity: .35; cursor: default; }
+#jumpNumber { display: block; width: 100%; margin: 10px 0; padding: 10px; font: inherit; font-size: 22px; border: 1.5px solid #222; border-radius: 8px; }
+#jumpError { color: #a00; margin: 4px 0; }
+#jumpDialog { max-height: 90dvh; overflow-y: auto; }
+
+/* 問題番号専用テンキー */
+#jumpNumber { text-align: right; font-size: 28px; font-weight: 700; background: #fff; color: #111; }
+#jumpKeypad { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+#jumpKeypad button { min-height: 48px; padding: 4px; font-size: 24px; border-radius: 8px; touch-action: manipulation; }
+#jumpKeypad button[data-key="clear"] { font-size: 15px; }
+#jumpDialog { padding: 14px; }
+#jumpDialog h2 { margin: 0 0 8px; font-size: 20px; }
+#jumpDialog > form > button { min-height: 42px; margin-top: 6px; }
+#jumpError:empty { display: none; }
