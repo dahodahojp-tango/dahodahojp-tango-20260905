@@ -41,6 +41,24 @@ const MODE_STORAGE_KEY = "wordbookStudyMode";
 let studyMode = "random";
 let lastSequentialId = null;
 let advancing = false;
+const RESUME_PREFIX = "wordbookResume:v1:";
+function resumeKey(bookKey, mode) { return RESUME_PREFIX + bookKey + ":" + mode; }
+function saveResume() {
+  if (!currentBook || !currentCard || currentCard.deleted) return;
+  try { localStorage.setItem(resumeKey(currentBook.key, studyMode), String(currentCard.id)); }
+  catch (error) { console.warn("問題位置を保存できませんでした", error); }
+}
+function restoreResume(bookKey, cards) {
+  try {
+    const id = localStorage.getItem(resumeKey(bookKey, studyMode));
+    if (id === null) return null;
+    return cards.find(c => String(c.id) === id) || (studyMode === "random" ? null : chooseSequentialCard(cards, studyMode, Number(id)));
+  } catch (error) { return null; }
+}
+function clearResume(bookKey) {
+  try { for (const mode of ["forward", "reverse", "random"]) localStorage.removeItem(resumeKey(bookKey, mode)); }
+  catch (error) { console.warn(error); }
+}
 
 function updateModeButtons() {
   document.querySelectorAll(".mode-buttons button").forEach(button => {
@@ -339,11 +357,14 @@ async function startStudy(bookKey) {
 
   $("homeScreen").classList.remove("active");
   $("studyScreen").classList.add("active");
-  await nextCard();
+  const restored = restoreResume(bookKey, active);
+  if (restored) displayNewCard(restored, active);
+  else await nextCard();
 }
 
 function goHome() {
   if (advancing) return;
+  saveResume();
   currentBook = null;
   currentCard = null;
   $("jumpButton").disabled = true;
@@ -380,6 +401,7 @@ function displayNewCard(selectedCard, cards) {
   answerScrollTop = 0;
   renderCard(cards);
   $("card").scrollTop = 0;
+  saveResume();
 }
 
 // 表示中の番号（削除済みを除くCSV昇順の位置）を指定する。
@@ -546,6 +568,7 @@ async function importCsv(bookKey) {
       tx.onerror = () => reject(tx.error);
       tx.onabort = () => reject(tx.error || new Error('取込中に中断されました'));
     });
+    clearResume(bookKey);
     await refreshHomeCounts();
     setHomeMessage(`${book.label}: ${cards.length}問を学習履歴付きで入れ替えました。`);
   } catch (err) {
