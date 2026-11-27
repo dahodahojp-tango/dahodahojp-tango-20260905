@@ -65,7 +65,7 @@ function updateModeButtons() {
     button.setAttribute("aria-pressed", String(button.dataset.mode === studyMode));
   });
   $("questionRateSelect").disabled = studyMode !== "random";
-  $("jumpButton").disabled = studyMode === "random" || !currentCard;
+  $("jumpButton").disabled = !currentCard;
 }
 
 function setupStudyModes() {
@@ -395,7 +395,7 @@ async function nextCard() {
 function displayNewCard(selectedCard, cards) {
   currentCard = selectedCard;
   if (studyMode !== "random") lastSequentialId = Number(currentCard.id);
-  $("jumpButton").disabled = studyMode === "random";
+  $("jumpButton").disabled = false;
   showingAnswer = false;
   questionScrollTop = 0;
   answerScrollTop = 0;
@@ -407,7 +407,7 @@ function displayNewCard(selectedCard, cards) {
 // 表示中の番号（削除済みを除くCSV昇順の位置）を指定する。
 let jumpCards = [];
 async function openJumpDialog() {
-  if (!currentBook || !currentCard || advancing || studyMode === "random") return;
+  if (!currentBook || !currentCard || advancing) return;
   advancing = true;
   try {
     jumpCards = sortByCsvOrder(await getActiveCards(currentBook.key));
@@ -425,7 +425,7 @@ async function openJumpDialog() {
 
 async function jumpToNumber(event) {
   event.preventDefault();
-  if (!currentBook || advancing || studyMode === "random") return;
+  if (!currentBook || advancing) return;
   const number = Number($("jumpNumber").value);
   advancing = true;
   try {
