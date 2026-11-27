@@ -23,7 +23,9 @@ button:active { transform: scale(.985); }
 /* トップ画面 */
 #homeScreen.active {
   width: min(100%, 680px); height: 100%; margin: 0 auto;
-  padding: max(6px, env(safe-area-inset-top)) 10px max(6px, env(safe-area-inset-bottom));
+  /* iPhoneの上部セーフエリアからさらに16px離す */
+  padding: 22px 10px 6px;
+  padding: calc(max(6px, env(safe-area-inset-top)) + 16px) 10px max(6px, env(safe-area-inset-bottom));
   flex-direction: column; overflow-y: auto; -webkit-overflow-scrolling: touch;
 }
 .book-buttons {
