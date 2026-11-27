@@ -28,7 +28,11 @@
 <body>
   <main id="app">
     <section id="homeScreen" class="screen active">
-      <div id="bookButtons" class="book-buttons"></div>
+      <div id="bookButtons" class="book-buttons">
+        <button type="button" class="book-button" data-book="english"><span class="book-label">英語</span><small id="count-english">読込中</small></button>
+        <button type="button" class="book-button" data-book="infotech"><span class="book-label">情報</span><small id="count-infotech">読込中</small></button>
+        <button type="button" class="book-button" data-book="guide"><span class="book-label">その他</span><small id="count-guide">読込中</small></button>
+      </div>
       <div class="mode-buttons" role="group" aria-label="出題モード">
         <button type="button" data-mode="forward" aria-pressed="false">昇順</button>
         <button type="button" data-mode="reverse" aria-pressed="false">降順</button>
@@ -48,7 +52,7 @@
         <button id="importButton" class="secondary">データ取込</button>
         <button id="refreshButton" class="secondary" type="button">画面更新 ↻</button>
       </div>
-      <div id="homeMessage" class="message"></div>
+      <div id="homeMessage" class="message" role="status">アプリを読み込んでいます…</div>
     </section>
     <section id="studyScreen" class="screen">
       <header class="study-header">
@@ -124,6 +128,13 @@
         document.getElementById('homeMessage').textContent =
           'アプリの読み込みに失敗しました。通信状態を確認して再度開いてください。';
       };
+      document.getElementById('refreshButton').addEventListener('click', function () {
+        if (typeof refreshAppFromServer !== 'function') {
+          const url = new URL(location.href);
+          url.searchParams.set('refresh', Date.now());
+          location.replace(url.href);
+        }
+      });
       document.body.appendChild(script);
     })();
   </script>

@@ -178,3 +178,7 @@ dialog p { line-height: 1.55; font-size: 14px; }
 #jumpDialog h2 { margin: 0 0 8px; font-size: 20px; }
 #jumpDialog > form > button { min-height: 42px; margin-top: 6px; }
 #jumpError:empty { display: none; }
+
+/* 単語帳選択ボタンは初期化前も表示する */
+#bookButtons { display: grid; }
+#bookButtons > .book-button { display: flex; }

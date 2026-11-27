@@ -24,6 +24,7 @@ const DEFAULT_QUESTION_RATE = 5;
 const FONT_SIZE_STORAGE_KEY = "wordbookFontSize";
 
 let db;
+let appReady = false;
 let currentBook = null;
 let currentCard = null;
 let showingAnswer = false;
@@ -77,15 +78,22 @@ function chooseSequentialCard(cards, mode, previousId) {
 const $ = (id) => document.getElementById(id);
 
 async function initializeApp() {
-  loadFontSize();
-  db = await openDB();
-  loadQuestionRate();
-  setupStudyModes();
-  buildHomeButtons();
-  buildDialogButtons();
-  bindEvents();
-  setupCsvExport();
-  await refreshHomeCounts();
+  try {
+    buildHomeButtons();
+    buildDialogButtons();
+    bindEvents();
+    setupCsvExport();
+    loadFontSize();
+    loadQuestionRate();
+    setupStudyModes();
+    db = await openDB();
+    await refreshHomeCounts();
+    appReady = true;
+    setHomeMessage("");
+  } catch (error) {
+    console.error(error);
+    setHomeMessage(`初期化できませんでした: ${error.message || error}。「画面更新」を押してください。`);
+  }
 }
 
 // JavaScriptを動的にロードしても必ず初期化する。
@@ -117,16 +125,14 @@ function makeKey(book, id) {
 }
 
 function buildHomeButtons() {
-  const box = $("bookButtons");
-  box.innerHTML = "";
-
   for (const book of BOOKS) {
-    const btn = document.createElement("button");
-    btn.className = "book-button";
-    btn.dataset.book = book.key;
-    btn.innerHTML = `<span class="book-label">${escapeHtml(book.label)}</span><small id="count-${book.key}">0問</small>`;
-    btn.addEventListener("click", () => startStudy(book.key));
-    box.appendChild(btn);
+    const btn = document.querySelector(`#bookButtons button[data-book="${book.key}"]`);
+    if (!btn) throw new Error(`${book.label}ボタンが見つかりません`);
+    btn.addEventListener("click", async () => {
+      if (!appReady) { setHomeMessage("初期化が完了していません。画面更新をお試しください。"); return; }
+      try { await startStudy(book.key); }
+      catch (error) { setHomeMessage(`問題を開けませんでした: ${error.message}`); }
+    });
   }
 }
 
@@ -148,7 +154,7 @@ function buildDialogButtons() {
 }
 
 function bindEvents() {
-  $("importButton").addEventListener("click", () => $("importDialog").showModal());
+  $("importButton").addEventListener("click", () => { if (appReady) $("importDialog").showModal(); else setHomeMessage("初期化が完了していません。"); });
   $("refreshButton").addEventListener("click", refreshAppFromServer);
 
   $("questionRateSelect").addEventListener("change", (e) => {
